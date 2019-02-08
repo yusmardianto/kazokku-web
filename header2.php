@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Krub:400,700" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#myScrollspy">
 
 <div id="wrapper">
         <div class="overlay"></div>
@@ -50,7 +50,10 @@
         <!-- Page Content -->
         <div id="page-content-wrapper" class="header-two-1">
             <div class="container">
-                <a href="index.php"><img src="assets/img/home/kazokku.png" class="logo-s" id="logos"></a>
+                <a href="index.php">
+                    <div class="line-top"></div>
+                    <img src="assets/img/home/kazokku.png" class="logo-s logo-fixed" id="logos">
+                </a>
                 <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
                     <span class="hamb-top"></span>
                     <span class="hamb-middle"></span>
@@ -59,25 +62,25 @@
                 </button>
             </div>
             <div class="container-fluid">
-                <div class="custom-2">
+                <div class="custom-2 pinned">
                     <div class="row">
                         <div class="col-md-5">
-                            <div class="border-menu">
-                                <ul style="list-style-type:none;">
-                                    <li><a href="index.php" class="_ON">Home</a></li>
-                                    <li><a href="about.php">Tentang KAZOKKU</a></li>
-                                    <li><a href="services.php">Pelayanan</a></li>
-                                    <li><a href="#kontak">Kontak Kami</a></li>
+                            <nav class="border-menu" id="myScrollspy">
+                                <ul class="getidmenu">
+                                    <li><a href="#wrapper" class="scrollTo">Home</a></li>
+                                    <li><a href="#tentang" class="scrollTo">Tentang KAZOKKU</a></li>
+                                    <li><a href="#palayanan" class="scrollTo">Pelayanan</a></li>
+                                    <li><a href="#footer" class="scrollTo">Kontak Kami</a></li>
                                 </ul>
-                            </div>
+                            </nav>
                         </div>
                         <div class="col-md-6">
-                            <h1 class="text-left">Kami Membantu Perusahaan Developers dan Para Pembuat Konten Tumbuh dan Kembangkan Kemampuan Anda</h1>
-                            <h4 class="cutom-shadows">Agensi pengembangan web yang menghubungkan para developer terbaik di indonesia dengan para klien</h4>
+                            <h1 class="text-left margin-top-4em">Kami Membantu Perusahaan Developers dan Para Pembuat Konten Untuk Tumbuh dan Mengembangkan Kemampuan Anda</h1>
+                            <h4 class="cutom-shadows font-21">Agensi pengembangan web yang menghubungkan para developers terbaik di Indonesia dengan para klien</h4>
                         </div>
                     </div>
                 </div>
-                <div class="arrow-1"><a href="#tentang" class="scrollTo"><img src="assets/img/about/arrow.png"></a></div>
+                <div class="arrow-1"><a href="#tentang" class="scrollTo"><img src="assets/img/about/arrow.png" style="height:14px;"></a></div>
             </div>
         </div>
         <!-- /#page-content-wrapper -->

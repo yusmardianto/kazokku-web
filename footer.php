@@ -1,4 +1,4 @@
-  <div class="style1">
+  <div class="style1" id="footer">
     <div class="container">
         <section>
           <div class="row">
@@ -12,7 +12,7 @@
                     <img src="assets/img/about/2.png" class="layanan-img">
                   </div>
                   <div class="col-xs-4 col-md-4">
-                    <img src="assets/img/about/3_.png" style="filter: invert(70%);" class="layanan-img">
+                    <img src="assets/img/about/3_.png" class="layanan-img">
                   </div>
                   <div class="col-xs-4 col-md-4">
                     <img src="assets/img/about/4.png" class="layanan-img">
@@ -47,7 +47,7 @@
            </div>
         </div>
         <div class="col-md-7">
-            <p class="colorBasic line-h-2">LOGIQUE adalah Web Developer di Jakarta yang menyediakan aneka jasa pembuatan website termasuk desain web, pembuatan aplikasi, pemasaran digital, pengembangan sistem berbasis web, dan jasa SEO. Kami memberikan dukungan pembuatan website atau sistem berbasis web serta pengelolaannya di Jakarta, Indonesia dan di mancanegara seperti di Jepang. Selain jasa yang berhubungan dengan website, kami juga menyediakan layanan desain dan percetakan</p>
+            <p class="colorBasic line-h-2"><b>Kazokku</b> merupakan agensi pengembangan web yang berlokasi di Jakarta. Mempunyai mimpi untuk membentuk komunitas web developer terbesar di Indonesia, Kazokku berkomitmen untuk mendukung dunia pengembangan web di Indonesia serta mendukung seluruh perusahaan web developer dan para web developer profesional di Tanah Air untuk terus tumbuh dan berkembang dengan sukses.      </p>
         </div>
       </div>
     </section>
@@ -73,6 +73,34 @@
         scrollTop: ($(target).offset().top)
       }, 1200);
     });
+
+    if ( $(window).width() > 1600) {
+
+        window.onscroll = function() {myFunction()};
+        function myFunction() {
+        // 2720
+        if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500 ) {
+            document.getElementById("myScrollspy").style.display = "none";
+        } else {
+            document.getElementById("myScrollspy").style.display = "block";
+        }}
+
+    } else if ( $(window).width() < 767 ) {
+        
+        document.getElementById("myScrollspy").style.display = "none";
+
+    } else {
+
+        window.onscroll = function() {myFunction()};
+        function myFunction() {
+        // 2720
+        if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1550) {
+            document.getElementById("myScrollspy").style.display = "none";
+        } else {
+            document.getElementById("myScrollspy").style.display = "block";
+        }}
+
+    }
     </script>
 </body>
 

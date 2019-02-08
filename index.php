@@ -9,16 +9,7 @@ include "header2.php";
   <div class="container-fluid">
       <div class="custom-2">
           <div class="row">
-              <div class="col-md-5">
-                  <div class="border-menu">
-                      <ul style="list-style-type:none;">
-                          <li><a href="index.php">Home</a></li>
-                          <li><a href="about.php" class="_ON">Tentang KAZOKKU</a></li>
-                          <li><a href="services.php">Pelayanan</a></li>
-                          <li><a href="#kontak">Kontak Kami</a></li>
-                      </ul>
-                  </div>
-              </div>
+              <div class="col-md-5"></div>
               <div class="col-md-6">
                   <div class="row">
                     <div class="col-md-6">
@@ -36,23 +27,14 @@ include "header2.php";
               </div>
           </div>
       </div>
-      <div class="arrow-2"><a href="#palayanan" class="scrollTo"><img src="assets/img/about/arrow.png"></a></div>
+      <div class="arrow-2"><a href="#palayanan" class="scrollTo"><img src="assets/img/about/arrow.png" style="height:14px;"></a></div>
   </div>
 </section>
 <section class="header-two-3" id="palayanan">  
   <div class="container-fluid">
-      <div class="custom-2">
+      <div class="custom-2 block-one">
           <div class="row">
-              <div class="col-md-5">
-                  <div class="border-menu">
-                      <ul style="list-style-type:none;">
-                          <li><a href="index.php">Home</a></li>
-                          <li><a href="about.php">Tentang KAZOKKU</a></li>
-                          <li><a href="services.php" class="_ON">Pelayanan</a></li>
-                          <li><a href="#kontak">Kontak Kami</a></li>
-                      </ul>
-                  </div>
-              </div>
+              <div class="col-md-5"></div>
               <div class="col-md-6">
                   <div class="row">
                     <div class="col-md-12">
