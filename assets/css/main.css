@@ -383,7 +383,6 @@ footer {
     .profil{padding: 0 1em 2em!important;}
     .profil img {
       padding: 16px 0 16px 0!important;
-      margin-left: -16px;
     }
     .kotak {width: 100%!important;margin: 16px 0!important;}
     .margin-top-4em {margin-top: 4em!important;}
@@ -410,7 +409,7 @@ footer {
     .header-two-1 {height: auto!important;background-size: 62% !important;}
     .custom-2 {margin-top: 16em!important;margin-bottom: 27em;}
     .img-tentang {width: 50%!important;}
-    .border-menu {background-size:30%!important;font-size: 42px!important;padding: 5em 0 1em 2em!important;}
+    .border-menu {background-size:30%!important;font-size: 33px!important;padding: 6.6em 0 1em 2em!important;}
     .getidmenu {width: 450px!important;}
     .block-one {margin-bottom: auto!important;margin-top: 5em!important;}
     .custom-2 h3, h2, h1 {margin-left: 2em;}
