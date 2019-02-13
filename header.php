@@ -16,6 +16,15 @@
     <script src="assets/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Krub:400,700" rel="stylesheet">
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89630965-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-89630965-1');
+    </script>
 </head>
 
 <body>
