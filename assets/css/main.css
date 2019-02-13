@@ -415,6 +415,8 @@ footer {
     .block-one {margin-bottom: auto!important;margin-top: 5em!important;}
     .custom-2 h3, h2, h1 {margin-left: 2em;}
     .custom-2 h4 {margin-left: 3.5em;}
+    .bg-services {margin-top: 3.8em!important;}
+    .full {margin: 54px auto 0!important;}
 }
 
 /*-------------------------------*/
@@ -564,7 +566,7 @@ h1.h1-services:after {
 /*---Banner---*/
 .full {
   padding: 0 !important;
-  margin: 42px auto 0!important;
+  margin: 42px auto 0;
   background-size: cover;
   overflow: hidden;
 }

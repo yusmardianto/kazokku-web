@@ -5,6 +5,31 @@ $keywords = "Kazokku";
 include "header2.php"; 
 ?> 
 
+<style type="text/css">
+
+.fadein {
+  -webkit-animation-name: fadein; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.2s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: fadein;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+}
+.fadeout {
+  -webkit-animation-name: fadeout; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: fadeout;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadein { from {opacity: 0;left: -15%;} to {opacity: 1;left: 0;} }
+@keyframes fadein { from {opacity: 0;left: -15%;} to {opacity: 1;left: 0;} }
+@-webkit-keyframes fadeout { from {opacity: 1;left:0;} to {opacity: 0;left:-15%;} }
+@keyframes fadeout { from {opacity: 1;left:0;} to {opacity: 0;left:-15%;} }
+
+</style>
 <section class="header-two-2" id="tentang">  
   <div class="container-fluid">
       <div class="custom-2">

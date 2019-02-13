@@ -80,9 +80,11 @@
         function myFunction() {
         // 2720
         if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500 ) {
-            document.getElementById("myScrollspy").style.display = "none";
+            document.getElementById("myScrollspy").classList.remove("fadein");
+            document.getElementById("myScrollspy").classList.add("fadeout");
         } else {
-            document.getElementById("myScrollspy").style.display = "block";
+            document.getElementById("myScrollspy").classList.add("fadein");
+            document.getElementById("myScrollspy").classList.remove("fadeout");
         }}
 
     } else if ( $(window).width() < 767 ) {
@@ -95,9 +97,11 @@
         function myFunction() {
         // 2720
         if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1550) {
-            document.getElementById("myScrollspy").style.display = "none";
+            document.getElementById("myScrollspy").classList.remove("fadein");
+            document.getElementById("myScrollspy").classList.add("fadeout");
         } else {
-            document.getElementById("myScrollspy").style.display = "block";
+            document.getElementById("myScrollspy").classList.add("fadein");
+            document.getElementById("myScrollspy").classList.remove("fadeout");
         }}
 
     }
