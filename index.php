@@ -29,22 +29,6 @@ include "header2.php";
 @-webkit-keyframes fadeout { from {opacity: 1;left:0;} to {opacity: 0;left:-15%;} }
 @keyframes fadeout { from {opacity: 1;left:0;} to {opacity: 0;left:-15%;} }
 
-.about-wdi + a {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.check-wdi {
-  text-align: center;
-}
-
-@media (min-width: 768px) {
-  .check-wdi {
-    text-align: right;
-  }
-}
-
 </style>
 <section class="header-two-2" id="tentang">
   <div class="container-fluid">

@@ -393,6 +393,12 @@ footer {
 /*            Custom Screen            */
 /*-------------------------------*/
 
+@media (min-width: 768px) {
+  .check-wdi {
+    text-align: right!important;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1350px) {
     .custom-2 h3, h2, h1 {color: #eee!important;text-align: justify!important;}
     .custom-2 {margin-top: 60px!important;margin-bottom: 120px;}
@@ -640,4 +646,19 @@ ul.getidmenu li.active a {
   background: rgba(244, 148, 55, 0.3);
   padding: 2em 1.8em;
   border-radius: 5em;
+}
+
+/*============================================*/
+/*Update 19 Feb 2019*/
+/*============================================*/
+.link-layanan-img {
+  display: inline-block;
+}
+.about-wdi + a {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.check-wdi {
+  text-align: center;
 }

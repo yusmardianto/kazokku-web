@@ -1,8 +1,3 @@
-  <style>
-    .link-layanan-img {
-      display: inline-block;
-    }
-  </style>
   <div class="style1" id="footer">
     <div class="container">
         <section>
