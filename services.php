@@ -1,11 +1,11 @@
-<?php 
+<?php
 $title = "Kazokku | Homepage";
 $description = "Sebagai agen pengembangan web, Kazokku berkomitmen untuk berkontribusi dalam dunia pengembangan Web di indonesia. Kami juga berkomitmen untuk menghubungkan para developers Web dengan para klien yang membutuhkan solusi permasalahan Web. Selain itu, Kazokku juga berkomitmen membantu menghubungkan antara perusahaan developers dengan para web developer yang sedang mencari pekerjaan.";
 $keywords = "Kazokku";
-include "header.php"; 
-?> 
+include "header.php";
+?>
 
-<section class="bg-services">  
+<section class="bg-services">
   <div class="container">
       <div class="row">
           <div class="col-md-offset-1 col-md-10">
@@ -16,7 +16,7 @@ include "header.php";
   </div>
 </section>
 
-<section class="bg-services-2">  
+<section class="bg-services-2">
   <div class="container">
       <div class="row">
           <div class="col-md-offset-1 col-md-10">
@@ -26,7 +26,7 @@ include "header.php";
       </div>
   </div>
 </section>
-<section class="bg-services-3">  
+<section class="bg-services-3">
   <div class="container">
       <div class="row">
           <div class="col-md-6">
@@ -41,12 +41,12 @@ include "header.php";
       <br><br>
       <div class="row">
           <div class="col-md-12 text-center">
-            <a href="" class="btn btn-kazokku" style=" letter-spacing: 2px; padding: 8px 2em;background-color: #2689f8;">Cek WDI Sekarang</a>
+            <a href="https://webdev-id.com" class="btn btn-kazokku" style=" letter-spacing: 2px; padding: 8px 2em;background-color: #2689f8;">Cek WDI Sekarang</a>
           </div>
       </div>
   </div>
 </section>
-<section class="bg-services-2">  
+<section class="bg-services-2">
   <div class="container">
       <div class="row">
           <div class="col-md-6">
@@ -66,7 +66,7 @@ include "header.php";
       </div>
   </div>
 </section>
-<section class="bg-services-4">  
+<section class="bg-services-4">
   <div class="container">
       <div class="row">
           <div class="col-md-6">
@@ -81,7 +81,7 @@ include "header.php";
       <br><br>
       <div class="row">
           <div class="col-md-12 text-center">
-            <a href="" class="btn btn-kazokku" style=" letter-spacing: 2px; padding: 8px 2em;background-color: #2689f8;">Cek JualBeliWEB Sekarang</a>
+            <a href="https://jualbeliweb.id" class="btn btn-kazokku" style=" letter-spacing: 2px; padding: 8px 2em;background-color: #2689f8;">Cek JualBeliWEB Sekarang</a>
           </div>
       </div>
   </div>

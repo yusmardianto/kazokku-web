@@ -1,3 +1,8 @@
+  <style>
+    .link-layanan-img {
+      display: inline-block;
+    }
+  </style>
   <div class="style1" id="footer">
     <div class="container">
         <section>
@@ -9,13 +14,19 @@
                 <h3 class="colorPutih layanan-kami">Layanan Kami Lainnya</h3>
                 <div class="row">
                   <div class="col-xs-4 col-md-4">
-                    <img src="assets/img/about/2.png" class="layanan-img">
+                    <a class="link-layanan-img" target="_blank" href="https://webdev-id.com">
+                      <img src="assets/img/about/2.png" class="layanan-img">
+                    </a>
                   </div>
                   <div class="col-xs-4 col-md-4">
-                    <img src="assets/img/about/3_.png" class="layanan-img">
+                    <a class="link-layanan-img" target="_blank" href="#">
+                      <img src="assets/img/about/3_.png" class="layanan-img">
+                    </a>
                   </div>
                   <div class="col-xs-4 col-md-4">
-                    <img src="assets/img/about/4.png" class="layanan-img">
+                    <a class="link-layanan-img" target="_blank" href="https://jualbeliweb.id">
+                      <img src="assets/img/about/4.png" class="layanan-img">
+                    </a>
                   </div>
                 </div>
             </div>
@@ -40,8 +51,8 @@
            <div class="row">
              <div class="col-md-12">
               <p class="text-footer colorBasic font16"><b>KAZOKKU (PT Karisma Zona Kreatifku)</b></p>
-              <p class="colorBasic">Ad Premier Building  19th Floor. Jalan TB. simatupang No. 5 
-                <br class="hidden-xs">Ragunan, Ps. Minggu, Jakarta Selatan, Indonesia 12550 
+              <p class="colorBasic">Ad Premier Building  19th Floor. Jalan TB. simatupang No. 5
+                <br class="hidden-xs">Ragunan, Ps. Minggu, Jakarta Selatan, Indonesia 12550
                 <br class="hidden-xs">www.kazokku.com</p>
              </div>
            </div>
@@ -53,7 +64,7 @@
     </section>
   </div>
 
-  
+
 
     <!-- /container -->
     <script src="assets/js/jquery-1.11.2.min.js"></script>
@@ -88,7 +99,7 @@
         }}
 
     } else if ( $(window).width() < 767 ) {
-        
+
         document.getElementById("myScrollspy").style.display = "none";
 
     } else {
