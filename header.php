@@ -8,7 +8,8 @@
     <meta name="keywords" content="<?= $keywords ?>">
     <meta name="author" content="PT LOGIQUE DIGITAL INDONESIA">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/img/home/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/home/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -31,7 +32,7 @@
 
 <div id="wrapper">
         <div class="overlay"></div>
-    
+
         <!-- Sidebar -->
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
@@ -47,7 +48,7 @@
                     <a href="about.php">Tentang</a>
                 </li>
                 <li>
-                    <a href="services.php">Pelayanan</a>
+                    <a href="services.php">Layanan</a>
                 </li>
                 <li>
                     <a href="index.php">Kontak Kami</a>

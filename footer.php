@@ -6,7 +6,7 @@
                 <img src="assets/img/about/1.png">
             </div>
             <div class="col-md-8">
-                <h3 class="colorPutih layanan-kami">Layanan Kami Lainnya</h3>
+                <h3 class="colorPutih layanan-kami">Layanan Kami</h3>
                 <div class="row">
                   <div class="col-xs-4 col-md-4">
                     <a class="link-layanan-img" target="_blank" href="https://webdev-id.com">
@@ -53,7 +53,7 @@
            </div>
         </div>
         <div class="col-md-7">
-            <p class="colorBasic line-h-2"><b>Kazokku</b> merupakan agensi pengembangan web yang berlokasi di Jakarta. Mempunyai mimpi untuk membentuk komunitas web developer terbesar di Indonesia, Kazokku berkomitmen untuk mendukung dunia pengembangan web di Indonesia serta mendukung seluruh perusahaan web developer dan para web developer profesional di Tanah Air untuk terus tumbuh dan berkembang dengan sukses.      </p>
+            <p class="colorBasic line-h-2"><b>KAZOKKU</b> merupakan mitra digital khususnya pengembangan web yang berlokasi di Jakarta. Mempunyai mimpi untuk membentuk komunitas Web Developer terbesar di Indonesia, KAZOKKU berkomitmen untuk mendukung seluruh perusahaan Web Developer dan para pekerja profesional dibidang digital di Tanah Air untuk terus tumbuh dan berkembang dengan sukses. </p>
         </div>
       </div>
     </section>

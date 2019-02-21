@@ -11,7 +11,6 @@ include "header.php";
           <div class="col-md-offset-1 col-md-10">
               <h1 class="h1-services">Kami Membantu Para Web Developer dan Pembuat Konten Terus Tumbuh dan Mengembangkan Kemampuannya</h1>
           </div>
-
       </div>
   </div>
 </section>
@@ -21,7 +20,11 @@ include "header.php";
       <div class="row">
           <div class="col-md-offset-1 col-md-10">
               <h1 class="text-center h5-tentang">Layanan Kazokku</h1><br>
-              <p class="p-layanan t-align-j">Sebagai perusahaan agensi pengembangan web yang profesional, KAZOKKU menawarkan berbagai layanan dalam dunia pengembangan web di Indonesia. Layanan yang kami tawarkan dapat membantu bisnis Anda untuk terus maju dan berkembang, serta turut membantu para web developer lainnya untuk mendapatkan pekerjaan dan mengembangkan dirinya agar karir mereka di dunia web developer dapat terus meningkat. Beberapa layanan kami antara lain yaitu, Web Developer Indonesia (WDI), Sugoi Evaluasi dan Jualbeli Web. </p>
+              <p class="p-layanan t-align-j">
+                Sebagai perusahaan agensi pengembangan web yang profesional, KAZOKKU menawarkan berbagai layanan dalam dunia pengembangan web di Indonesia.
+                Layanan yang kami tawarkan dapat membantu bisnis Anda untuk terus maju dan berkembang, serta turut membantu para web developer lainnya untuk mendapatkan pekerjaan dan mengembangkan dirinya agar karir mereka di dunia web developer dapat terus meningkat.
+                Beberapa layanan kami antara lain yaitu, Web Developer Indonesia (WDI), Sugoi Evaluasi dan Jualbeli Web.
+              </p>
           </div>
       </div>
   </div>
@@ -58,12 +61,12 @@ include "header.php";
               <p class="p-layanan-2">Sugoi Evaluasi</b> Sugoi evaluasi merupakan layanan pengembangan web dari Kazokku yang dibuat untuk mengukur tingkat kemampuan Anda di bidang web developer. Di dalam layanan ini, Anda dapat mengetahui level kemampuan Anda dengan mengikuti serangkain test yang kami berikan. Test yang diberikan mulai dari kemampuan dasar hingga studi kasus yang tentunya akan membuat kemampuan Anda dalam memecahkan seluruh masalah yang biasanya terjadi pada bidang kemampuan Anda meningkat.</p>
           </div>
       </div>
-      <br><br>
+      <!-- <br><br>
       <div class="row">
           <div class="col-md-12 text-center">
             <a href="" class="btn btn-kazokku" style=" letter-spacing: 2px; padding: 8px 2em;background-color: #2689f8;">Cek Sugoi Evaluasi Sekarang</a>
           </div>
-      </div>
+      </div> -->
   </div>
 </section>
 <section class="bg-services-4">

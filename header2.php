@@ -8,7 +8,8 @@
     <meta name="keywords" content="<?= $keywords ?>">
     <meta name="author" content="PT LOGIQUE DIGITAL INDONESIA">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/img/home/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/home/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -35,7 +36,7 @@
         <!-- Sidebar -->
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">  
+                <li class="sidebar-brand">
                     <a href="#">
                        Kazokku
                     </a>
@@ -47,7 +48,7 @@
                     <a href="about.php">Tentang</a>
                 </li>
                 <li>
-                    <a href="services.php">Pelayanan</a>
+                    <a href="services.php">Layanan</a>
                 </li>
                 <li>
                     <a href="#kontak">Kontak Kami</a>
@@ -78,14 +79,14 @@
                                 <ul class="getidmenu">
                                     <li><a href="#wrapper" class="scrollTo">Home</a></li>
                                     <li><a href="#tentang" class="scrollTo">Tentang KAZOKKU</a></li>
-                                    <li><a href="#palayanan" class="scrollTo">Pelayanan</a></li>
+                                    <li><a href="#layanan" class="scrollTo">Layanan</a></li>
                                     <li><a href="#footer" class="scrollTo">Kontak Kami</a></li>
                                 </ul>
                             </nav>
                         </div>
                         <div class="col-md-6">
-                            <h1 class="text-left margin-top-4em">Kami Membantu Perusahaan Developers dan Para Pembuat Konten Untuk Tumbuh dan Mengembangkan Kemampuan Anda</h1>
-                            <h4 class="cutom-shadows font-21">Agensi pengembangan web yang menghubungkan para developers terbaik di Indonesia dengan para klien</h4>
+                            <h1 class="text-left margin-top-4em">Mitra Terbaik Industri Digital Indonesia</h1>
+                            <h4 class="cutom-shadows font-21">Kami membantu Perusahaan dan Pekerja dibidang digital, Web Developer, Web Designer, Penulis Konten</h4>
                         </div>
                     </div>
                 </div>
