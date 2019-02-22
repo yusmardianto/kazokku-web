@@ -86,7 +86,7 @@
                         </div>
                         <div class="col-md-6">
                             <h1 class="text-left margin-top-4em">Mitra Terbaik Industri Digital Indonesia</h1>
-                            <h4 class="cutom-shadows font-21">Kami membantu Perusahaan dan Pekerja dibidang digital, Web Developer, Web Designer, Penulis Konten</h4>
+                            <h4 class="cutom-shadows font-21">Kami membantu Perusahaan dan Pekerja dibidang digital, Web Developer, Web Designer, Penulis Konten,  Ahli SEO dan Pemasaran Online untuk tumbuh dan berkembang, menghubungkan yang terbaik di Indonesia dengan para klien.</h4>
                         </div>
                     </div>
                 </div>
