@@ -517,7 +517,7 @@ footer {
 .img-tentang {width: 80%;}
 .h4-tentang {color: #004d84;font-weight: normal;}
 .h5-tentang {color: #004d84;font-weight: normal;}
-.about-wdi {color: #333!important;line-height: 2.3!important;font-size: 16px;margin-bottom: 1em;}
+.about-wdi {color: #333!important;font-size: 16px;margin-bottom: 1em;}
 
 ._ON {color: #004b8d!important;font-weight: bold;font-style: italic;}
 
@@ -596,7 +596,7 @@ h1.h1-services:after {
 /*---tentang---*/
 .tentang {margin:60px 0 50px 0;}
 .tentang img{padding-top: 30px;}
-.tentang p {font-size: 16px; line-height:1.5; text-align: justify; color: #363636;}
+.tentang p {font-size: 16px; line-height:1.5; text-align: left; color: #363636;}
 .btn-gradasi {
     background-image: linear-gradient(to right, #086af9, #2d8af9);
     color: aliceblue;

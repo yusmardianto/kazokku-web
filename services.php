@@ -20,7 +20,7 @@ include "header.php";
       <div class="row">
           <div class="col-md-offset-1 col-md-10">
               <h1 class="text-center h5-tentang">Layanan Kazokku</h1><br>
-              <p class="p-layanan t-align-j">
+              <p class="p-layanan">
                 Sebagai perusahaan agensi pengembangan web yang profesional, KAZOKKU menawarkan berbagai layanan dalam dunia pengembangan web di Indonesia.
                 Layanan yang kami tawarkan dapat membantu bisnis Anda untuk terus maju dan berkembang, serta turut membantu para web developer lainnya untuk mendapatkan pekerjaan dan mengembangkan dirinya agar karir mereka di dunia web developer dapat terus meningkat.
                 Beberapa layanan kami antara lain yaitu, Web Developer Indonesia (WDI), Sugoi Evaluasi dan Jualbeli Web.

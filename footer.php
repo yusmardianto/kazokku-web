@@ -9,17 +9,17 @@
                 <h3 class="colorPutih layanan-kami">Layanan Kami</h3>
                 <div class="row">
                   <div class="col-xs-4 col-md-4">
-                    <a class="link-layanan-img" target="_blank" href="https://webdev-id.com">
+                    <a class="link-layanan-img" href="https://webdev-id.com">
                       <img src="assets/img/about/2.png" class="layanan-img">
                     </a>
                   </div>
                   <div class="col-xs-4 col-md-4">
-                    <a class="link-layanan-img" target="_blank" href="#">
+                    <a class="link-layanan-img" href="#">
                       <img src="assets/img/about/3_.png" class="layanan-img">
                     </a>
                   </div>
                   <div class="col-xs-4 col-md-4">
-                    <a class="link-layanan-img" target="_blank" href="https://jualbeliweb.id">
+                    <a class="link-layanan-img" href="https://jualbeliweb.id">
                       <img src="assets/img/about/4.png" class="layanan-img">
                     </a>
                   </div>

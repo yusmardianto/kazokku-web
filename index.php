@@ -41,7 +41,7 @@ include "header2.php";
                       <h1 class="text-left h4-tentang">Tentang Kazokku</h1>
                     </div>
                     <div class="col-md-6 text-right">
-                      <a href="" class="btn btn-kazokku m-t-22">Lihat KAZOKKU Lebih Detail</a>
+                      <a href="about.php" class="btn btn-kazokku m-t-22">Lihat KAZOKKU Lebih Detail</a>
                     </div>
                   </div>
                   <div class="row">
