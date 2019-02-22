@@ -554,7 +554,7 @@ h1.h1-services:after {
   margin: 1em;
 }
 .p-layanan {font-size: 16px;line-height: 1.8;}
-.p-layanan-2 {font-size: 16px;line-height: 2.5;}
+.p-layanan-2 {font-size: 16px;line-height: 1.8;}
 .bg-services-3 {
   -webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 88%);
   clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 88%);
