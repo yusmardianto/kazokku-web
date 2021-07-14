@@ -12,7 +12,7 @@ PARTICULAR PURPOSE.
 
 @copyright html-form-guide.com 2010
 */
-require $_SERVER['DOCUMENT_ROOT'] . 'PHPMailerAutoload.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/PHPMailerAutoload.php';
 
 
 /*
@@ -43,17 +43,15 @@ class FGContactForm
         $this->form_random_key = 'HTgsjhartag';
         $this->conditional_field='';
 
-        // $this->receipent = ['info@logique.co.id']; // set custom recipient here
-        $this->receipent = ['calvin.6341@gmail.com']; // set custom recipient here
+        $this->receipent = ['info@logique.co.id']; // set custom recipient here
 
         // Setting SMTP
-        $this->smtpHost = 'smtp.mailtrap.io';                       // Set the SMTP host, eq : smtp.gmail.com
-
-        $this->smtpPort = 2525;                      // Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
-        // $this->smtpEncryption = 'tls';              // Set the encryption system to use - ssl (deprecated) or tls
+        $this->smtpHost = 'smtp.postmarkapp.com';                       // Set the SMTP host, eq : smtp.gmail.com
+        $this->smtpPort = 587;                      // Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
+        $this->smtpEncryption = 'tls';              // Set the encryption system to use - ssl (deprecated) or tls
         $this->smtpAuth = true;                     // SMTP authentication ?
-        $this->smtpUsername = "9e7d423726a295"; // Username to use for SMTP authentication - use full email address for gmail
-        $this->smtpPassword = "32863d04186f69";           // Password to use for SMTP authentication $phpmailer->isSMTP();
+        $this->smtpUsername = "0d89a28b-12f2-488d-a65f-32c2d74027ca"; // Username to use for SMTP authentication - use full email address for gmail
+        $this->smtpPassword = "0d89a28b-12f2-488d-a65f-32c2d74027ca";           // Password to use for SMTP authentication $phpmailer->isSMTP();
 
     }
 
@@ -445,6 +443,7 @@ class FGContactForm
     {
         $this->name = $this->Sanitize($_POST['name']);
         $this->email = $this->Sanitize($_POST['email']);
+        // $this->phone = $this->Sanitize($_POST['phone']);
         //$this->country = $this->Sanitize($_POST['country']);
         
         /*newline is OK in the message.*/
