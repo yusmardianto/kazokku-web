@@ -43,15 +43,15 @@ class FGContactForm
         $this->form_random_key = 'HTgsjhartag';
         $this->conditional_field='';
 
-        $this->receipent = ['info@logique.co.id']; // set custom recipient here
+        $this->receipent = ['calvin.6341@gmail.com']; // set custom recipient here
 
         // Setting SMTP
-        $this->smtpHost = 'smtp.postmarkapp.com';                       // Set the SMTP host, eq : smtp.gmail.com
-        $this->smtpPort = 587;                      // Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
+        $this->smtpHost = 'smtp.mailtrap.io';                       // Set the SMTP host, eq : smtp.gmail.com
+        $this->smtpPort = 2525;                      // Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
         $this->smtpEncryption = 'tls';              // Set the encryption system to use - ssl (deprecated) or tls
         $this->smtpAuth = true;                     // SMTP authentication ?
-        $this->smtpUsername = "0d89a28b-12f2-488d-a65f-32c2d74027ca"; // Username to use for SMTP authentication - use full email address for gmail
-        $this->smtpPassword = "0d89a28b-12f2-488d-a65f-32c2d74027ca";           // Password to use for SMTP authentication $phpmailer->isSMTP();
+        $this->smtpUsername = "9e7d423726a295"; // Username to use for SMTP authentication - use full email address for gmail
+        $this->smtpPassword = "32863d04186f69";           // Password to use for SMTP authentication $phpmailer->isSMTP();
 
     }
 
@@ -158,11 +158,11 @@ class FGContactForm
     {
         $status = array(
             'message' => array(
-                'subject' => 'Message From Logique.co.id Website',
-                'header' => 'Submission from \'contact us\' form:',
+                'subject' => 'Message From Kazokku.com Website',
+                'header' => 'Submission from \'Hubungi Kami\' form:',
             ),
             'notification' => array(
-                'subject' => 'Notification Message From Logique.co.id Website',
+                'subject' => 'Notification Message From Kazokku.com Website',
                 'header' => 'Below are the data you\'ve sent through our website:',
             ),
         );
@@ -247,18 +247,18 @@ class FGContactForm
         $ret_str='';
         foreach($_POST as $key=>$value) {
             if (!$this->IsInternalVariable($key)) {
-                if (in_array($key, array('companyname', 'name', 'phone', 'email'))) {
+                if (in_array($key, array('company_name', 'name', 'phone', 'email'))) {
                     $value = htmlentities($value,ENT_QUOTES,"UTF-8");
                     $value = nl2br($value);
                     $key = ucfirst($key);
                     $ret_str .= "<div class='label'>$key :</div><div class='value'>$value </div>\n";
                 }
 
-                if (in_array($key, array('inquiry'))) {
-                    if(isset($_POST['inquiry'])){
+                if (in_array($key, array('category'))) {
+                    if(isset($_POST['category'])){
                         $html = '';
                         $i = 0;
-                        foreach ($_POST['inquiry'] as $value) {
+                        foreach ($_POST['category'] as $value) {
                             $i++;
                             $html .= '<div style="margin-left:10px;">'.$i.". ".$value.'</div>';
                         }
@@ -443,7 +443,8 @@ class FGContactForm
     {
         $this->name = $this->Sanitize($_POST['name']);
         $this->email = $this->Sanitize($_POST['email']);
-        // $this->phone = $this->Sanitize($_POST['phone']);
+        $this->phone = $this->Sanitize($_POST['phone']);
+        $this->phone = $this->Sanitize($_POST['category']);
         //$this->country = $this->Sanitize($_POST['country']);
         
         /*newline is OK in the message.*/
