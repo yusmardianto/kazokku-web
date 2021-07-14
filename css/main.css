@@ -30,6 +30,9 @@ p{
 .mb-70px{
   margin-bottom: 70px;
 }
+.z-index-1{
+  z-index: 1;
+}
 .flip-character{
   display: inline-block; 
   transform: scale(-1, 1);

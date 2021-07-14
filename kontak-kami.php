@@ -72,7 +72,12 @@
                 </div>
               </div>
             </div>
-            <div class="text-center">
+            <?php if($_SERVER['SERVER_NAME'] == 'kazokku.co.id'):  ?>
+              <div class="g-recaptcha" data-sitekey="6LeEbicUAAAAALgHaAxPslHJOKzuppLC7IubKZO5"></div>
+            <?php else: ?>
+              <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+            <?php endif ?>
+            <div class="text-center mt-3">
               <button class="btn-orange-rounded">Hubungi Kami <img src="/images/right-arrow.png" class="img-arrow" alt="detail"></button>
             </div>
           </div>
@@ -83,6 +88,7 @@
   </div>
 </div>
 <?php include './includes/footer.php' ?>
+<script async="" defer="" src="https://www.google.com/recaptcha/api.js"></script>
 <script>
   $(function(){
     var form = document.getElementById('form-contact');
@@ -114,6 +120,13 @@
     }
 
     init();
+
+    $("#form-contact").on("submit", function(){
+      if(grecaptcha && !grecaptcha.getResponse()){
+        alert("Please tick recaptcha");
+        return false;
+      }
+    })
   })
 </script>
 <?php include './includes/footer-end.php' ?>

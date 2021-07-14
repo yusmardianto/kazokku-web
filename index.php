@@ -17,23 +17,29 @@
   <div class="container">
     <div class="row mb-70px">
       <div class="col-lg-6">
-        <picture>
-          <source srcset="/images/logique-illustration.webp" type="image/webp">
-          <img src="/images/logique-illustration.jpg" class="img-fluid rounded-10px mb-3" alt="Logique">
-        </picture>
+        <div class="images-dots-wrapper">
+          <picture>
+            <source srcset="/images/logique-illustration.webp" type="image/webp">
+            <img src="/images/logique-illustration.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="Logique">
+          </picture>
+          <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
+        </div>
       </div>
       <div class="col-lg-6">
         <h2 class="title head-title">Kazokku merupakan bagian dari Grup <span class="logique-text">LOGIQUE</span> dari Jepang yang dipimpin oleh Takashi Yoshitsugu.</h2>
         <p>Telah dipercaya banyak Perusahaan dan Profesional dibidang teknologi informasi dalam menyediakan karyawan maupun lapangan pekerjaan terkait Web Developer, Web Designer, Penulis Konten, Ahli SEO dan Pemasaran Online, serta Keamanan Digital, menghubungkan yang terbaik di Indonesia dengan para klien.</p>
-        <a href="#" class="btn btn-orange-rounded">Detail</a>
+        <a href="https://logique.co.id" target="_blank" class="btn btn-orange-rounded">Detail</a>
       </div>
     </div>
     <div class="row mb-70px">
       <div class="col-lg-4">
-        <picture>
-          <source srcset="/images/haken-service.webp" type="image/webp">
-            <img src="/images/haken-service.jpg" class="img-fluid rounded-10px mb-3" alt="haken service">
+        <div class="images-dots-wrapper">
+          <picture>
+            <source srcset="/images/haken-service.webp" type="image/webp">
+            <img src="/images/haken-service.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="haken service">
           </picture>
+          <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
+        </div>
       </div>
       <div class="col-lg-8">
         <h2 class="title">Haken Service</h2>
@@ -44,17 +50,20 @@
     </div>
     <div class="row">
       <div class="col-lg-4">
-        <picture>
-          <source srcset="/images/wdi.webp" type="image/webp">
-            <img src="/images/wdi.jpg" class="img-fluid rounded-10px mb-3" alt="haken service">
+        <div class="images-dots-wrapper">
+          <picture>
+            <source srcset="/images/wdi.webp" type="image/webp">
+            <img src="/images/wdi.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="haken service">
           </picture>
+          <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
+        </div>
       </div>
       <div class="col-lg-8">
         <h2 class="title">WDI</h2>
         <p class="mb-5">Web Developer Indonesia (WDI) merupakan situs yang dikelola dan dimiliki oleh PT. Karisma Zona Kreatifku (KAZOKKU). Situs ini berfungsi sebagai portal penyedia informasi terlengkap yang menghubungkan antara para perusahaan Web Developer dengan para klien yang membutuhkan. </p>
         <p>Selain itu, WDI juga berperan sebagai penghubung antara perusahaan Web Developer dengan para pekerja profesional dibidang digital seperti Web Developer, Web Designer, Ahli SEO dan Pemasaran Online, serta Penulis Konten yang sedang membutuhkan pekerjaan.</p>
 
-        <a href="https://webdev-id.com" class="btn btn-orange-rounded">Detail</a>
+        <a href="https://webdev-id.com" target="_blank" class="btn btn-orange-rounded">Detail</a>
       </div>
     </div>
   </div>
@@ -84,10 +93,13 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="article-item">
-            <picture>
-              <source srcset="/images/article-1.webp" type="image/webp">
-              <img src="/images/article-1.jpg" class="img-article" alt="article 1">
-            </picture>
+            <div class="images-dots-wrapper">
+              <picture>
+                <source srcset="/images/article-1.webp" type="image/webp">
+                <img src="/images/article-1.jpg" class="img-article" alt="article 1">
+              </picture>
+              <img src="/images/small-dots-pattern.png" class="img-dots-article" alt="">
+            </div>
             <h3 class="article-title">Title Artikel One</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             <a href="#" class="article-link-detail">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail"></a>
@@ -95,10 +107,13 @@
         </div>
         <div class="col-lg-4">
           <div class="article-item">
-            <picture>
-              <source srcset="/images/article-2.webp" type="image/webp">
-              <img src="/images/article-2.jpg" class="img-article" alt="article 2">
-            </picture>
+            <div class="images-dots-wrapper">
+              <picture>
+                <source srcset="/images/article-2.webp" type="image/webp">
+                <img src="/images/article-2.jpg" class="img-article" alt="article 2">
+              </picture>
+              <img src="/images/small-dots-pattern.png" class="img-dots-article" alt="">
+            </div>
             <h3 class="article-title">Title Artikel Two</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             <a href="#" class="article-link-detail">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail"></a>
@@ -106,10 +121,13 @@
         </div>
         <div class="col-lg-4">
           <div class="article-item">
-            <picture>
-              <source srcset="/images/article-3.webp" type="image/webp">
-              <img src="/images/article-3.jpg" class="img-article" alt="article 3">
-            </picture>
+            <div class="images-dots-wrapper">
+              <picture>
+                <source srcset="/images/article-3.webp" type="image/webp">
+                <img src="/images/article-3.jpg" class="img-article" alt="article 3">
+              </picture>
+              <img src="/images/small-dots-pattern.png" class="img-dots-article" alt="">
+            </div>
             <h3 class="article-title">Title Artikel Three</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             <a href="#" class="article-link-detail">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail"></a>
