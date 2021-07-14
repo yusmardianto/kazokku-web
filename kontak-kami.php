@@ -4,7 +4,7 @@
 <?php $canonical = 'https://www.kazokku.com/kontak-kami.php' ?>
 
 <?php
-// error_reporting(0);
+error_reporting(0);
 
 require_once("./form/fgcontactform.php");
 
