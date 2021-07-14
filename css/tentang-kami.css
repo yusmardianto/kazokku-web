@@ -31,6 +31,7 @@
   border-radius: 50px;
   background-color: #f7941d;
 }
+
 .about-section{
   position: relative;
   padding-top: 70px;
@@ -54,11 +55,12 @@
 }
 .profile-section .office-image-wrapper{
   position: relative;
+  display: inline-block;
 }
 .profile-section .office-image-wrapper .img-dots-office{
   position: absolute;
-  bottom: -20px;
-  left: 250px;
+  bottom: 3px;
+  right: -20px
 }
 .profile-section .company-info-wrapper{
   margin-bottom: 10px;
@@ -89,6 +91,7 @@
   border-radius: 10px;
   min-height: 200px;
   object-fit: cover;
+  width: 100%;
 }
 
 .services-list .services-list-item .service-item-text{
@@ -108,6 +111,16 @@
 .services-list .services-list-item .service-item-text .service-link .img-arrow{
   width: 16px;
 }
+.services-list .services-list-item .images-dots-wrapper{
+  position: relative;
+  display: block;
+}
+.services-list .services-list-item .images-dots-wrapper .img-dots-bottom{
+  position: absolute;
+  bottom: -20px;
+  right: -16px;
+  z-index: 0;
+}
 
 .request-list {
   display: flex;
@@ -116,6 +129,16 @@
 .request-list .request-list-item{
   position: relative;
   flex: 1 1 25%;
+}
+.request-list .request-list-item .images-dots-wrapper{
+  position: relative;
+  display: block;
+}
+.request-list .request-list-item .images-dots-wrapper .img-dots-bottom{
+  position: absolute;
+  bottom: -20px;
+  right: -16px;
+  z-index: 0;
 }
 .request-list .request-list-item:not(:last-of-type){
   margin-right: 30px;
@@ -135,6 +158,8 @@
 }
 .request-list .request-list-item .request-content p{
   padding: 0 10px;
+  line-height: 22px;
+  font-size: 16px;
 }
 .request-list .request-list-item .img-request{
   width: 100%;

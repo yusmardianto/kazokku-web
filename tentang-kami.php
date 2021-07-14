@@ -67,17 +67,29 @@
     </div>
     <div class="services-list">
       <div class="services-list-item">
-        <img src="/images/tentang-kami/haken-service-dark.jpg" class="img-fluid img-service-item" alt="Haken Service">
+        <div class="images-dots-wrapper">
+          <picture>
+            <source srcset="/images/tentang-kami/haken-service-dark.webp" type="image/webp">
+            <img src="/images/tentang-kami/haken-service-dark.jpg" class="img-fluid img-service-item" alt="Haken Service">          
+          </picture>
+          <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
+        </div>
         <div class="service-item-text">
           <h3>Haken Service</h3>
           <a href="/layanan-tenaga-ahli-it.php" class="service-link">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail"></a>
         </div>
       </div>
       <div class="services-list-item">
-        <img src="/images/tentang-kami/wdi-dark.jpg" class="img-fluid img-service-item" alt="Haken Service">
+        <div class="images-dots-wrapper">
+          <picture>
+            <source srcset="/images/tentang-kami/wdi-dark.webp" type="image/webp">
+            <img src="/images/tentang-kami/wdi-dark.jpg" class="img-fluid img-service-item" alt="WDI">       
+          </picture>
+          <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
+        </div>
         <div class="service-item-text">
           <h3>WDI</h3>
-          <a href="https://webdev-id.com" class="service-link">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail"></a>
+          <a href="https://webdev-id.com" target="_blank" class="service-link">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail"></a>
         </div>
       </div>
     </div>
@@ -86,37 +98,49 @@
       <p>Kazokku siap membantu Anda</p>
       <div class="request-list">
         <div class="request-list-item">
-          <picture>
-            <source srcset="/images/tentang-kami/contact-us-1.webp" type="image/webp">
-            <img src="/images/tentang-kami/contact-us-1.jpg" class="img-request" alt="">
-          </picture>
+          <div class="images-dots-wrapper">
+            <picture>
+              <source srcset="/images/tentang-kami/contact-us-1.webp" type="image/webp">
+              <img src="/images/tentang-kami/contact-us-1.jpg" class="img-request" alt="">
+            </picture>
+            <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
+          </div>
           <div class="request-content">
             <p>Saya kesulitan merekrut ahli untuk pembuatan website atau aplikasi</p>
           </div>
         </div>
         <div class="request-list-item">
-          <picture>
-            <source srcset="/images/tentang-kami/contact-us-2.webp" type="image/webp">
-            <img src="/images/tentang-kami/contact-us-2.jpg" class="img-request" alt="">
-          </picture>
+          <div class="images-dots-wrapper">
+            <picture>
+              <source srcset="/images/tentang-kami/contact-us-2.webp" type="image/webp">
+              <img src="/images/tentang-kami/contact-us-2.jpg" class="img-request" alt="">
+            </picture>
+            <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
+          </div>
           <div class="request-content">
             <p>Saya ingin mengoptimasi tim IT yang ada saat ini</p>
           </div>
         </div>
         <div class="request-list-item">
-          <picture>
-            <source srcset="/images/tentang-kami/contact-us-3.webp" type="image/webp">
-            <img src="/images/tentang-kami/contact-us-3.jpg" class="img-request" alt="">
-          </picture>
+          <div class="images-dots-wrapper">
+            <picture>
+              <source srcset="/images/tentang-kami/contact-us-3.webp" type="image/webp">
+              <img src="/images/tentang-kami/contact-us-3.jpg" class="img-request" alt="">
+            </picture>
+            <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
+          </div>
           <div class="request-content">
             <p>Saya ingin mengganti vendor IT yang performanya kurang baik</p>
           </div>
         </div>
         <div class="request-list-item">
-          <picture>
-            <source srcset="/images/tentang-kami/contact-us-4.webp" type="image/webp">
-            <img src="/images/tentang-kami/contact-us-4.jpg" class="img-request" alt="">
-          </picture>
+          <div class="images-dots-wrapper">
+            <picture>
+              <source srcset="/images/tentang-kami/contact-us-4.webp" type="image/webp">
+              <img src="/images/tentang-kami/contact-us-4.jpg" class="img-request" alt="">
+            </picture>
+            <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
+          </div>
           <div class="request-content">
             <p>Saya membutuhkan teknis namun perlu bantuan terkait administrasi dan pajak</p>
           </div>

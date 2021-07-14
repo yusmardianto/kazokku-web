@@ -186,7 +186,7 @@
         <div class="cara-kerja-img-wrapper">
           <picture>
             <source srcset="/images/layanan-haken/cara-kerja-illustration.webp" type="image/webp">
-            <img src="/images/layanan-haken/cara-kerja-illustration.jpg" class="img-fluid rounded-10px mb-3" alt="cara kerja">
+            <img src="/images/layanan-haken/cara-kerja-illustration.jpg" class="img-fluid rounded-10px mb-3 w-100" alt="cara kerja">
           </picture>
           <img src="/images/small-dots-pattern.png" class="img-dots-cara-kerja" alt="">
         </div>

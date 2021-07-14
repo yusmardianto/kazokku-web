@@ -60,7 +60,7 @@
 .professional-it-section .professional-it-img-wrapper .img-dots-professional{
   position: absolute;
   bottom: -20px;
-  right: -10px;
+  right: -17px;
 }
 .professional-it-section .stack-list{
   display: flex;
@@ -115,8 +115,8 @@
 }
 .cara-kerja-img-wrapper .img-dots-cara-kerja{
   position: absolute;
-  bottom: -20px;
-  right: -10px;
+  bottom: -5px;
+  right: -16px;
 }
 @media(max-width: 1199px){
   .img-main-visual{
