@@ -4,16 +4,13 @@
 <?php $canonical = 'https://www.kazokku.com/kontak-kami.php' ?>
 
 <?php
-error_reporting(0);
-
 require_once("./form/fgcontactform.php");
 
 $formproc = new FGContactForm();
 
 //1. Add your email address here.
 //You can add more than one receipients.
-// $formproc->AddRecipient(['info@logique.co.id']); //<<---Put your email address here
-$formproc->AddRecipient(['calvin.6341@gmail.com']); //<<---Put your email address here
+$formproc->AddRecipient(['info@logique.co.id']); //<<---Put your email address here
 
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
 // and put it here
@@ -24,9 +21,9 @@ $formproc->SetFormRandomKey('HG9hPBpn9Bn26yg');
 if (isset($_POST['submitted'])) {
     if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
         // $secret = '6LcuHywUAAAAAEfJ-sZem8CzGVYIUMcxoT0jRhtW';
-        $secret = '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe'; 
+        $secret = '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe';
         $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
-        // print_r($verifyResponse); exit;  
+        // print_r($verifyResponse); exit;
         $responseData = json_decode($verifyResponse);
         if ($responseData->success) {
             if ($formproc->ProcessForm()) {
@@ -41,6 +38,7 @@ if (isset($_POST['submitted'])) {
 }
 
 ?>
+
 
 <?php include './includes/header.php' ?>
 <div class="main-visual-section">
