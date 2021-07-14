@@ -123,7 +123,7 @@
         </div>
       </div>
       <div class="text-center">
-        <a href="/hubungi-kami.php" class="btn-orange-rounded">Hubungi Kami <img src="/images/right-arrow.png" class="img-arrow" alt="detail"></a>
+        <a href="/kontak-kami.php" class="btn-orange-rounded">Hubungi Kami <img src="/images/right-arrow.png" class="img-arrow" alt="detail"></a>
       </div>
     </div>
   </div>

@@ -90,7 +90,7 @@
               <a class="nav-link" href="/layanan-tenaga-ahli-it.php">Layanan Haken</a>
             </li>
             <li class="nav-item  <?php active('hubungi-kami') ?>">
-              <a class="nav-link" href="/hubungi-kami.php">Hubungi Kami</a>
+              <a class="nav-link" href="/kontak-kami.php">Hubungi Kami</a>
             </li>
           </ul>
         </div>

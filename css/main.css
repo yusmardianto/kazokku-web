@@ -121,10 +121,15 @@ p{
 .btn-orange-rounded:hover{
   background-color: #da841c;
   color: white;
+  text-decoration: none;
 }
 .btn-orange-rounded .img-arrow{
   margin-left: 5px;
   width: 16px;
+  transition: transform .3s;
+}
+.btn-orange-rounded:hover .img-arrow{
+  transform: translateX(5px);
 }
 /* banner */
 .banner-section{
@@ -226,8 +231,11 @@ footer .copyright{
   padding: 9px 0;
 }
 @media(max-width: 991px){
+  .navbar .navbar-nav .nav-item .nav-link{
+    padding: 10px 0;
+  }
   .navbar .navbar-nav .nav-item.active .nav-link:before{
-    left: 30px;
+    left: 0px;
     transform: translateX(0%);
   }
 }

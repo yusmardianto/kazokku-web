@@ -33,7 +33,7 @@
                 <a href="/layanan-tenaga-ahli-it.php" class="footer-menu-link">Layanan Haken</a>
               </li>
               <li class="footer-menu-item">
-                <a href="/hubungi-kami.php" class="footer-menu-link">Hubungi Kami</a>
+                <a href="/kontak-kami.php" class="footer-menu-link">Hubungi Kami</a>
               </li>
             </ul>
             <ul class="social-media-list">

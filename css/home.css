@@ -112,8 +112,11 @@
 }
 .article-item .article-link-detail .img-arrow{
   width: 16px;
+  transition: transform .3s;
 }
-
+.article-item .article-link-detail:hover .img-arrow{
+  transform: translateX(10px);
+}
 @media(max-width: 768px){
   .main-visual-text-wrapper .main-visual-text{
     font-size: 36px;
