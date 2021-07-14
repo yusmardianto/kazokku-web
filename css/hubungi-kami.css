@@ -1,0 +1,74 @@
+.main-visual-section {
+  position: relative;
+}
+.img-main-visual {
+  max-height: 700px;
+  width: 100%;
+}
+.main-visual-text-wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+.main-visual-text-wrapper .main-visual-text {
+  color: white;
+  text-align: center;
+  font-family: "BodoniSvtyTwo", serif;
+  font-weight: bold;
+  font-size: 48px;
+  padding-bottom: 21px;
+  margin-bottom: 48px;
+  position: relative;
+}
+.main-visual-text-wrapper .main-visual-text:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #f7941d;
+}
+.hubungi-kami-section {
+  position: relative;
+  padding: 70px 0;
+}
+.form-container {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+  padding: 51px;
+}
+.form-container .form-control{
+  margin-bottom: 32px;
+}
+.custom-control .custom-control-label{
+  line-height: 1.2;
+  cursor: pointer;
+}
+.custom-checkbox .custom-control-label::before{
+  border-radius: 0px;
+}
+.custom-checkbox .custom-control-label::after{
+  cursor: pointer;
+}
+.custom-control-input{
+}
+.custom-control-input:checked~.custom-control-label::before{
+  border-color: #004a80;
+  background-color: #004a80;
+}
+@media (max-width: 768px) {
+  .main-visual-text-wrapper .main-visual-text {
+    font-size: 36px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .main-visual-text-wrapper .main-visual-text {
+    font-size: 24px;
+  }
+}
