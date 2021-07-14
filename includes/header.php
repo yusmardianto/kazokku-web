@@ -1,3 +1,21 @@
+<?php 
+  function active($current_page) {
+    $url_array =  explode('/', $_SERVER['REQUEST_URI']) ;
+    $url_temporary = end($url_array);
+    if (strpos($url_temporary, '.php')) {
+        $url_temporary_array = explode('.', $url_temporary);
+        $url = current($url_temporary_array);
+    } else {
+        $url = $url_temporary;
+    }  
+    // $url_previous = prev($url_array);  
+    if($current_page == $url){
+        echo 'active'; 
+    }
+  } 
+  
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,18 +26,17 @@
       name="keywords"
       content="web, mobile apps, digital, internet, kazokku"
     />
-    <meta
-      name="description"
-      content="Kazokku can help you improving or transforming your business from traditional into digital. We are a customer and service oriented Indonesian local company that strive to deliver our best for our clients."
-    />
+    <meta name="title" content="<?= $title ?>"/>
+    <meta name="description" content="<?= $description ?>"/>
     <meta name="author" content="Kazokku Indonesia" />
-    <title>Your Digital and Mobile Solution Partner | Kazokku</title>
+    <meta name="canonical" content="<?= $canonical ?>" />
+    <title><?= $title ?></title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet" />
     <link href="/css/<?= $css; ?>.css" rel="stylesheet" />
@@ -63,17 +80,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar-menu">
           <ul class="navbar-nav mr-0 ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item <?php active('') ?>">
               <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?php active('tentang-kami') ?>">
               <a class="nav-link" href="/tentang-kami.php">Tentang Kazok<span class="flip-character">k</span>u</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Layanan Haken</a>
+            <li class="nav-item <?php active('layanan-tenaga-ahli-it') ?>">
+              <a class="nav-link" href="/layanan-tenaga-ahli-it.php">Layanan Haken</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Hubungi Kami</a>
+            <li class="nav-item  <?php active('hubungi-kami') ?>">
+              <a class="nav-link" href="/hubungi-kami.php">Hubungi Kami</a>
             </li>
           </ul>
         </div>

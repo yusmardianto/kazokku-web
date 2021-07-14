@@ -1,4 +1,7 @@
 <?php $css = 'tentang-kami' ?>
+<?php $title = 'Perusahaan Pengembang Sistem Web | Kazokku' ?>
+<?php $description = 'Kazokku merupakan perusahaan pengembang sistem web yang membuka layanan IT profesional dengan sistem kerja outsourcing sehingga menguntungkan perusahaan Anda.' ?>
+<?php $canonical = 'https://www.kazokku.com/tentang-kami.php' ?>
 <?php include './includes/header.php' ?>
 <div class="main-visual-section">
   <picture>
@@ -67,14 +70,14 @@
         <img src="/images/tentang-kami/haken-service-dark.jpg" class="img-fluid img-service-item" alt="Haken Service">
         <div class="service-item-text">
           <h3>Haken Service</h3>
-          <a href="#" class="service-link">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail"></a>
+          <a href="/layanan-tenaga-ahli-it.php" class="service-link">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail"></a>
         </div>
       </div>
       <div class="services-list-item">
         <img src="/images/tentang-kami/wdi-dark.jpg" class="img-fluid img-service-item" alt="Haken Service">
         <div class="service-item-text">
           <h3>WDI</h3>
-          <a href="#" class="service-link">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail"></a>
+          <a href="https://webdev-id.com" class="service-link">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail"></a>
         </div>
       </div>
     </div>
@@ -102,8 +105,8 @@
         </div>
         <div class="request-list-item">
           <picture>
-            <source srcset="/images/tentang-kami/contact-us-2.webp" type="image/webp">
-            <img src="/images/tentang-kami/contact-us-2.jpg" class="img-request" alt="">
+            <source srcset="/images/tentang-kami/contact-us-3.webp" type="image/webp">
+            <img src="/images/tentang-kami/contact-us-3.jpg" class="img-request" alt="">
           </picture>
           <div class="request-content">
             <p>Saya ingin mengganti vendor IT yang performanya kurang baik</p>
@@ -111,8 +114,8 @@
         </div>
         <div class="request-list-item">
           <picture>
-            <source srcset="/images/tentang-kami/contact-us-2.webp" type="image/webp">
-            <img src="/images/tentang-kami/contact-us-2.jpg" class="img-request" alt="">
+            <source srcset="/images/tentang-kami/contact-us-4.webp" type="image/webp">
+            <img src="/images/tentang-kami/contact-us-4.jpg" class="img-request" alt="">
           </picture>
           <div class="request-content">
             <p>Saya membutuhkan teknis namun perlu bantuan terkait administrasi dan pajak</p>
@@ -120,9 +123,10 @@
         </div>
       </div>
       <div class="text-center">
-        <a href="#" class="btn-orange-rounded">Hubungi Kami <img src="/images/right-arrow.png" class="img-arrow" alt="detail"></a>
+        <a href="/hubungi-kami.php" class="btn-orange-rounded">Hubungi Kami <img src="/images/right-arrow.png" class="img-arrow" alt="detail"></a>
       </div>
     </div>
   </div>
 </div>
 <?php include './includes/footer.php' ?>
+<?php include './includes/footer-end.php' ?>

@@ -58,7 +58,7 @@
 .profile-section .office-image-wrapper .img-dots-office{
   position: absolute;
   bottom: -20px;
-  right: -10px;
+  left: 250px;
 }
 .profile-section .company-info-wrapper{
   margin-bottom: 10px;
@@ -143,10 +143,7 @@
   object-fit: cover;
   border-radius: 10px;
 }
-.btn-orange-rounded .img-arrow{
-  margin-left: 5px;
-  width: 16px;
-}
+
 @media(max-width: 991px){
   .request-list {
     flex-wrap: wrap;

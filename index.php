@@ -1,4 +1,7 @@
 <?php $css = 'home' ?>
+<?php $title = 'Layanan IT Profesional | Outsourcing | Kazokku' ?>
+<?php $description = 'Menyediakan layanan IT Profesional mulai dari web developer, web designer, digital marketing, hingga keamanan digital, serta layanan outsource karyawan bagi perusahaan yang membutuhkan tenaga IT profesional.' ?>
+<?php $canonical = 'https://www.kazokku.com/' ?>
 <?php include './includes/header.php' ?>
 <div class="main-visual-section">
   <picture>
@@ -36,7 +39,7 @@
         <h2 class="title">Haken Service</h2>
         <p class="mb-5">Menanggapi kebutuhan profesional di bidang IT yang semakin dinamis, Kazokku mengembangkan bisnis dari yang awalnya hanya berupa outsourcing IT konvensional berbasis proyek menjadi sebuah layanan Haken atau yang dikenal sebagai dispatching business di Jepang.</p>
         <p>Dengan adanya layanan Haken, kebutuhan klien akan profesional yang kuat dibidangnya dan mampu mengikuti kebutuhan transformasi digital yang dinamis dapat terpenuhi dengan baik.</p>
-        <a href="#" class="btn btn-orange-rounded">Detail</a>
+        <a href="/layanan-tenaga-ahli-it.php" class="btn btn-orange-rounded">Detail</a>
       </div>
     </div>
     <div class="row">
@@ -51,7 +54,7 @@
         <p class="mb-5">Web Developer Indonesia (WDI) merupakan situs yang dikelola dan dimiliki oleh PT. Karisma Zona Kreatifku (KAZOKKU). Situs ini berfungsi sebagai portal penyedia informasi terlengkap yang menghubungkan antara para perusahaan Web Developer dengan para klien yang membutuhkan. </p>
         <p>Selain itu, WDI juga berperan sebagai penghubung antara perusahaan Web Developer dengan para pekerja profesional dibidang digital seperti Web Developer, Web Designer, Ahli SEO dan Pemasaran Online, serta Penulis Konten yang sedang membutuhkan pekerjaan.</p>
 
-        <a href="#" class="btn btn-orange-rounded">Detail</a>
+        <a href="https://webdev-id.com" class="btn btn-orange-rounded">Detail</a>
       </div>
     </div>
   </div>
@@ -114,16 +117,8 @@
         </div>
       </div>
     </div>
-    <div class="banner-section">
-      <div class="row w-100">
-        <div class="col-lg-8 d-flex align-items-center">
-          <p class="banner-text">Hubungi Kami Sekarang! <br/> Untuk berkonsultasi dengan Konsultan Rekrutment kami</p>
-        </div>
-        <div class="col-lg-4 d-flex align-items-center justify-content-lg-end">
-          <a href="#" class="btn-orange-rounded mt-3 mt-lg-0 mr-4">Hubungi Kami <img src="/images/right-arrow.png" class="img-arrow" alt="detail"></a>
-        </div>
-      </div>
-    </div>
+    <?php include './includes/banner-contact.php' ?>
   </div>
 </div>
 <?php include './includes/footer.php' ?>
+<?php include './includes/footer-end.php' ?>

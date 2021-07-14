@@ -113,33 +113,6 @@
 .article-item .article-link-detail .img-arrow{
   width: 16px;
 }
-.banner-section{
-  background: url(../images/bg-banner.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 120px;
-  padding-left: 200px;
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 70px;
-  display: flex;
-  align-items: center;
-}
-.banner-section .banner-text{
-  font-size: 24px;
-  margin-bottom: 0px;
-}
-.banner-section .btn-orange-rounded {
-  width: 16px;
-  text-align: center;
-  color: white;
-}
-.banner-section .btn-orange-rounded .img-arrow{
-  margin-left: 5px;
-  width: 16px;
-}
 
 @media(max-width: 768px){
   .main-visual-text-wrapper .main-visual-text{
