@@ -2,6 +2,44 @@
 <?php $title = 'Kontak Kami | Perusahaan Outsource Tenaga Ahli IT Profesional' ?>
 <?php $description = 'Cari tenaga ahli IT profesional untuk menyelesaikan permasalahan pada website bisnis atau usaha Anda, kontak Kazokku sekarang juga!' ?>
 <?php $canonical = 'https://www.kazokku.com/kontak-kami.php' ?>
+
+<?php
+require_once("./form/fgcontactform.php");
+
+$formproc = new FGContactForm();
+
+//1. Add your email address here.
+//You can add more than one receipients.
+$formproc->AddRecipient(['info@logique.co.id']); //<<---Put your email address here
+
+//2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
+// and put it here
+$formproc->SetFormRandomKey('HG9hPBpn9Bn26yg');
+
+//$formproc->AddFileUploadField('photo','jpg,jpeg,pdf,doc,docx',40960);
+
+if (isset($_POST['submitted'])) {
+    if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
+        // tambah if else setelah dapat secret key. dan untuk skrg keynya masih sample
+        $secret = '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe'; 
+        $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
+        // print_r($verifyResponse); exit;
+        $responseData = json_decode($verifyResponse);
+        if ($responseData->success) {
+            if ($formproc->ProcessForm()) {
+                $msg = "<div class='alert alert-success' id='msg' role='alert'>Thank you for sending us inquiry!</div>";
+            }
+        } else {
+            $msg = "<div class='alert alert-warning' id='msg' role='alert'>reCAPTCHA verification failed, please try again.</div>";
+        }
+    } else {
+        $msg = "<div class='alert alert-warning' id='msg' role='alert'>Please click the reCAPTCHA box.</div>";
+    }
+}
+
+?>
+
+
 <?php include './includes/header.php' ?>
 <div class="main-visual-section">
   <picture>
@@ -19,7 +57,16 @@
       <div class="offset-lg-2 col-lg-8">
         <p>Jika Anda ingin mendapatkan informasi lebih lanjut tentang layanan kami, seperti layanan Haken atau WDI untuk kebutuhan IT / transformasi digital perusahaan Anda, silakan menghubungi dan bertanya apapun kepada kami dengan mengisi formulir di bawah ini.</p>
         <!-- change url -->
-        <form action="https://formspree.io/f/mknkvrrk" method="POST" id="form-contact">
+        <?php 
+          if (isset($msg)) {
+            echo $msg;
+          }
+        ?>
+
+        <form action="<?php echo $formproc->GetSelfScript(); ?>" method="POST" id="form-contact">
+        <input type='hidden' name='submitted' id='submitted' value='1' />
+        <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>' />
+        <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
           <div class="form-container">
             <div class="form-group">
               <input type="text" name="company_name" class="form-control" placeholder="Nama Perusahaan" required>
@@ -28,7 +75,7 @@
               <input type="text" name="name" class="form-control" placeholder="Nama" required>
             </div>
             <div class="form-group">
-              <input type="number" name="phone_number" class="form-control" placeholder="Nomor Telepon" required>
+              <input type="number" name="phone" class="form-control" placeholder="Nomor Telepon" required>
             </div>
             <div class="form-group">
               <input type="email" name="email" class="form-control" placeholder="Email" required>
@@ -42,38 +89,40 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="mt-3 custom-control custom-checkbox">
-                    <input type="checkbox" name="category" class="custom-control-input" id="category-1" value="Mengembangkan Website">
+                    <input type="checkbox" name="category[]" class="custom-control-input" id="category-1" value="Mengembangkan Website">
                     <label class="custom-control-label" for="category-1">Mengembangkan Website</label>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="mt-3 custom-control custom-checkbox">
-                    <input type="checkbox" name="category" class="custom-control-input" id="category-2" value="Mengembangkan sistem web / maintenance">
+                    <input type="checkbox" name="category[]" class="custom-control-input" id="category-2" value="Mengembangkan sistem web / maintenance">
                     <label class="custom-control-label" for="category-2">Mengembangkan sistem web / maintenance</label>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="mt-3 custom-control custom-checkbox">
-                    <input type="checkbox" name="category" class="custom-control-input" id="category-3" value="Memasarkan Web / SEO">
+                    <input type="checkbox" name="category[]" class="custom-control-input" id="category-3" value="Memasarkan Web / SEO">
                     <label class="custom-control-label" for="category-3">Memasarkan Web / SEO</label>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="mt-3 custom-control custom-checkbox">
-                    <input type="checkbox" name="category" class="custom-control-input" id="category-4" value="Memasang atau mengoperasikan iklan di Internet">
+                    <input type="checkbox" name="category[]" class="custom-control-input" id="category-4" value="Memasang atau mengoperasikan iklan di Internet">
                     <label class="custom-control-label" for="category-4">Memasang atau mengoperasikan iklan di Internet</label>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="mt-3 mt-lg-0 custom-control custom-checkbox">
-                    <input type="checkbox" name="category" class="custom-control-input" id="category-5" value="Mendesain profil perusahaan atau hasil cetakan lainnya untuk pameran">
+                    <input type="checkbox" name="category[]" class="custom-control-input" id="category-5" value="Mendesain profil perusahaan atau hasil cetakan lainnya untuk pameran">
                     <label class="custom-control-label" for="category-5">Mendesain profil perusahaan atau hasil cetakan lainnya untuk pameran</label>
                   </div>
                 </div>
               </div>
             </div>
             <?php if($_SERVER['SERVER_NAME'] == 'kazokku.co.id'):  ?>
-              <div class="g-recaptcha" data-sitekey="6LeEbicUAAAAALgHaAxPslHJOKzuppLC7IubKZO5"></div>
+              <!-- <div class="g-recaptcha" data-sitekey="6LeEbicUAAAAALgHaAxPslHJOKzuppLC7IubKZO5"></div> -->
+              <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+              <!-- belum dapat secret key -->
             <?php else: ?>
               <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
             <?php endif ?>
