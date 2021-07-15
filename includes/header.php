@@ -72,7 +72,7 @@
         <a class="navbar-brand" href="/">
           <picture>
             <source srcset="/images/logo-kazokku.svg" type="image/svg+xml">
-            <img src="/images/logo-kazokku.png" alt="">
+            <img src="/images/logo-kazokku.png" id="nav-logo" alt="kazokku logo">
           </picture>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">

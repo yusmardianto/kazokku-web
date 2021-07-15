@@ -36,15 +36,15 @@
         <div class="images-dots-wrapper">
           <picture>
             <source srcset="/images/haken-service.webp" type="image/webp">
-            <img src="/images/haken-service.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="haken service">
+            <img src="/images/haken-service.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="Outsourcing IT Profesional">
           </picture>
           <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
         </div>
       </div>
       <div class="col-lg-8">
-        <h2 class="title">Haken Service</h2>
+        <h2 class="title">Outsourcing IT Profesional</h2>
         <p class="mb-5">Menanggapi kebutuhan profesional di bidang IT yang semakin dinamis, Kazokku mengembangkan bisnis dari yang awalnya hanya berupa outsourcing IT konvensional berbasis proyek menjadi sebuah layanan Haken atau yang dikenal sebagai dispatching business di Jepang.</p>
-        <p>Dengan adanya layanan Haken, kebutuhan klien akan profesional yang kuat dibidangnya dan mampu mengikuti kebutuhan transformasi digital yang dinamis dapat terpenuhi dengan baik.</p>
+        <p>Dengan adanya layanan Outsourcing IT Profesional, kebutuhan klien akan profesional yang kuat dibidangnya dan mampu mengikuti kebutuhan transformasi digital yang dinamis dapat terpenuhi dengan baik.</p>
         <a href="/layanan-tenaga-ahli-it.php" class="btn btn-orange-rounded">Detail</a>
       </div>
     </div>
@@ -53,7 +53,7 @@
         <div class="images-dots-wrapper">
           <picture>
             <source srcset="/images/wdi.webp" type="image/webp">
-            <img src="/images/wdi.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="haken service">
+            <img src="/images/wdi.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="Outsourcing IT Profesional">
           </picture>
           <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
         </div>
