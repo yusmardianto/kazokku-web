@@ -153,4 +153,6 @@
   </div>
 </div>
 <?php include './includes/footer.php' ?>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
 <?php include './includes/footer-end.php' ?>

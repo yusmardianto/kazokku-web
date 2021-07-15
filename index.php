@@ -5,8 +5,10 @@
 <?php include './includes/header.php' ?>
 <div class="main-visual-section">
   <picture>
-    <source srcset="">
-    <img src="/images/main-visual.jpg" class="img-main-visual" alt="Main Visual">
+      <source media="(min-width: 768px)" srcset="/images/main-visual.webp" type="image/webp">
+      <source media="(min-width: 768px)" srcset="/images/main-visual.jpg">
+      <source srcset="/images/main-visual-mobile.webp" type="image/webp">
+      <img src="/images/main-visual-mobile.jpg" class="img-fluid w-100" width="1000" height="500" alt="homepage main visual">
   </picture>
   <div class="main-visual-text-wrapper">
     <h1 class="main-visual-text">Mitra Terpercaya Untuk <br/> Layanan Profesional dan Outsourcing IT</h1>
@@ -20,7 +22,7 @@
         <div class="images-dots-wrapper">
           <picture>
             <source srcset="/images/logique-illustration.webp" type="image/webp">
-            <img src="/images/logique-illustration.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="Logique">
+            <img src="/images/logique-illustration.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="Logique" width="523" height="405">
           </picture>
           <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
         </div>
@@ -36,7 +38,7 @@
         <div class="images-dots-wrapper">
           <picture>
             <source srcset="/images/haken-service.webp" type="image/webp">
-            <img src="/images/haken-service.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="Outsourcing IT Profesional">
+            <img src="/images/haken-service.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="Outsourcing IT Profesional" width="330" height="348">
           </picture>
           <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
         </div>
@@ -53,7 +55,7 @@
         <div class="images-dots-wrapper">
           <picture>
             <source srcset="/images/wdi.webp" type="image/webp">
-            <img src="/images/wdi.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="Outsourcing IT Profesional">
+            <img src="/images/wdi.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="Outsourcing IT Profesional" width="330" height="348">
           </picture>
           <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
         </div>
@@ -102,7 +104,7 @@
             </div>
             <h3 class="article-title">Title Artikel One</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a href="#" class="article-link-detail">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail"></a>
+            <a href="#" class="article-link-detail">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" width="16" height="16" alt="detail"></a>
           </div>
         </div>
         <div class="col-lg-4">
@@ -116,7 +118,7 @@
             </div>
             <h3 class="article-title">Title Artikel Two</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a href="#" class="article-link-detail">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail"></a>
+            <a href="#" class="article-link-detail">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail" width="16" height="16"></a>
           </div>
         </div>
         <div class="col-lg-4">
@@ -130,7 +132,7 @@
             </div>
             <h3 class="article-title">Title Artikel Three</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a href="#" class="article-link-detail">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail"></a>
+            <a href="#" class="article-link-detail">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail" width="16" height="16"></a>
           </div>
         </div>
       </div>
