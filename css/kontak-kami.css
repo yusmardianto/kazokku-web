@@ -1,10 +1,11 @@
 .main-visual-section {
   position: relative;
 }
-.img-main-visual {
+.img-main-visual{
   min-height: 300px;
-  max-height: 700px;
+  max-height: 560px;
   width: 100%;
+  object-fit: cover;
 }
 .main-visual-text-wrapper {
   position: absolute;
@@ -35,6 +36,7 @@
 .hubungi-kami-section {
   position: relative;
   padding: 70px 0;
+  background: linear-gradient(-180deg, rgba(227,227,227,0) 70%, rgba(243,243,243,1) 100%);
 }
 .form-container {
   background: rgb(255, 255, 255);

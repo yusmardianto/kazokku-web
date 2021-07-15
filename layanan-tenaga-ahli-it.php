@@ -9,19 +9,26 @@
     <img src="/images/layanan-haken/main-visual.jpg" class="img-main-visual" alt="Main Visual">
   </picture>
   <div class="main-visual-text-wrapper">
-    <picture>
-      <source srcset="/images/layanan-haken/service-haken-graph.webp" type="image/webp">
-      <img src="/images/layanan-haken/service-haken-graph.png" class="img-fluid img-haken-graph" alt="service haken graph">
-    </picture>
-    <h1 class="main-visual-text">Layanan Haken</h1>
+    <h1 class="main-visual-text">Layanan Outsourcing IT Profesional</h1>
   </div>
 </div>
 <div class="layanan-haken-section">
   <img src="/images/bg-dots.png" class="img-dots" alt="dots">
+  <div class="first-section">
+    <div class="container">
+      <p>Layanan HAKEN merupakan layanan pengiriman tenaga profesional IT dalam jangka waktu tertentu yang disediakan oleh KAZOKKU. Layanan ini mengacu kepada konsep layanan Haken yang berasal dari Jepang, yang merupakan suatu bentuk dispatching resources yang berbeda dibandingkan dengan konsep outsource konvensional.</p>
+      <p>Dengan layanan ini, perusahaan klien tidak memiliki hubungan tenaga kerja langsung dengan karyawan yang dikirim, tetapi dapat mempekerjakan mereka berdasarkan kontrak layanan. Secara operasional, klien perlu memberikan daftar pekerjaan terhadap karyawan tersebut dan KAZOKKU tidak berhak mengatur pekerjaan yang diberikan.</p>
+      <p>Di sisi lain, KAZOKKU memiliki tanggung jawab administratif dan finansial seperti terkait penggajian dan pajak penghasilan dari karyawan tersebut. Ini dapat berfungsi sebagai keuntungan penghematan biaya dan waktu untuk perusahaan klien.</p>
+      <div class="text-center mt-4">
+        <picture>
+          <source srcset="/images/layanan-haken/service-haken-graph.webp" type="image/webp">
+          <img src="/images/layanan-haken/service-haken-graph.png" class="img-fluid img-graph" alt="service haken graph">
+        </picture>
+      </div>
+    </div>
+  </div>
   <div class="container">
-    <p>Layanan HAKEN merupakan layanan pengiriman tenaga profesional IT dalam jangka waktu tertentu yang disediakan oleh KAZOKKU. Layanan ini mengacu kepada konsep layanan Haken yang berasal dari Jepang, yang merupakan suatu bentuk dispatching resources yang berbeda dibandingkan dengan konsep outsource konvensional.</p>
-    <p>Dengan layanan ini, perusahaan klien tidak memiliki hubungan tenaga kerja langsung dengan karyawan yang dikirim, tetapi dapat mempekerjakan mereka berdasarkan kontrak layanan. Secara operasional, klien perlu memberikan daftar pekerjaan terhadap karyawan tersebut dan KAZOKKU tidak berhak mengatur pekerjaan yang diberikan.</p>
-    <p>Di sisi lain, KAZOKKU memiliki tanggung jawab administratif dan finansial seperti terkait penggajian dan pajak penghasilan dari karyawan tersebut. Ini dapat berfungsi sebagai keuntungan penghematan biaya dan waktu untuk perusahaan klien.</p>
+    
     <p>Keuntungan layanan HAKEN bagi perusahaan Anda</p>
     <p class="mb-0">a. Mengontrol biaya rekrutmen</p>
     <p >Outsourcing mengubah biaya tetap menjadi biaya variabel dan memungkinkan Anda membuat anggaran secara efektif. Dengan kata lain, hanya membayar apa yang Anda gunakan saat Anda membutuhkannya.</p>
