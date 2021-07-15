@@ -1,7 +1,7 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-4">
             <a href="/">
               <img src="/images/logo-kazokku.png" class="mb-4" alt="">
             </a>
@@ -21,7 +21,7 @@
               <a href="https://wa.me/0811870321" class="contact-link">0811-870-321</a>
             </div>
           </div>
-          <div class="col-md-7">
+          <div class="col-md-8">
             <ul class="footer-menu">
               <li class="footer-menu-item">
                 <a href="/" class="footer-menu-link">Home</a>
@@ -30,7 +30,7 @@
                 <a href="/tentang-kami.php" class="footer-menu-link">Tentang Kazok<span class="flip-character">k</span>u</a>
               </li>
               <li class="footer-menu-item">
-                <a href="/layanan-tenaga-ahli-it.php" class="footer-menu-link">Layanan Haken</a>
+                <a href="/layanan-tenaga-ahli-it.php" class="footer-menu-link">Layanan Outsourcing IT Profesional</a>
               </li>
               <li class="footer-menu-item">
                 <a href="/kontak-kami.php" class="footer-menu-link">Hubungi Kami</a>

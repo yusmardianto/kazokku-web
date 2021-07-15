@@ -1,5 +1,6 @@
 .main-visual-section {
   position: relative;
+  margin-top: 64px;
 }
 .img-main-visual {
   min-height: 300px;

@@ -56,7 +56,7 @@ if (isset($_POST['submitted'])) {
   <div class="container">
     <div class="row">
       <div class="offset-lg-2 col-lg-8">
-        <p>Jika Anda ingin mendapatkan informasi lebih lanjut tentang layanan kami, seperti layanan Haken atau WDI untuk kebutuhan IT / transformasi digital perusahaan Anda, silakan menghubungi dan bertanya apapun kepada kami dengan mengisi formulir di bawah ini.</p>
+        <p>Jika Anda ingin mendapatkan informasi lebih lanjut tentang layanan kami, seperti layanan Outsourcing IT Profesional atau WDI untuk kebutuhan IT / transformasi digital perusahaan Anda, silakan menghubungi dan bertanya apapun kepada kami dengan mengisi formulir di bawah ini.</p>
         <!-- change url -->
         <?php 
           if (isset($msg)) {

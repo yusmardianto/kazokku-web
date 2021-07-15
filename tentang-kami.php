@@ -70,12 +70,12 @@
         <div class="images-dots-wrapper">
           <picture>
             <source srcset="/images/tentang-kami/haken-service-dark.webp" type="image/webp">
-            <img src="/images/tentang-kami/haken-service-dark.jpg" class="img-fluid img-service-item" alt="Haken Service">          
+            <img src="/images/tentang-kami/haken-service-dark.jpg" class="img-fluid img-service-item" alt="Outsourcing IT Professional">          
           </picture>
           <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
         </div>
         <div class="service-item-text">
-          <h3>Haken Service</h3>
+          <h3>Outsourcing IT Professional</h3>
           <a href="/layanan-tenaga-ahli-it.php" class="service-link">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail"></a>
         </div>
       </div>
