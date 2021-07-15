@@ -46,7 +46,13 @@
 }
 .first-section{
   background: linear-gradient(-180deg, rgba(227,227,227,0) 70%, rgba(243,243,243,1) 100%);
-  padding-bottom:70px;
+  padding: 70px 0;
+}
+.content-section:first-of-type{
+  padding-top: 70px;
+}
+.content-section{
+  padding-top: 40px;
 }
 
 .professional-it-section{
