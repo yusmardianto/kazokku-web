@@ -36,11 +36,16 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+    <link rel="preload" as="font" href="/fonts/BodoniSvtyTwoITCTT-Bold.ttf" crossorigin>
+    <link rel="preload" as="font" href="/fonts/Novecentosanswide-Medium.otf" crossorigin>
+    <link rel="preload" as="style" href="/css/main.css">
+    <link rel="preload" as="style" href="/css/<?= $css; ?>.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="preload" as="style" onload="this.rel='stylesheet'">
     <link href="/css/main.css" rel="stylesheet" />
     <link href="/css/<?= $css; ?>.css" rel="stylesheet" />
-    <script src="https://www.google.com/recaptcha/api.js"></script>
     <script>
       (function (i, s, o, g, r, a, m) {
         i["GoogleAnalyticsObject"] = r;
@@ -72,7 +77,7 @@
         <a class="navbar-brand" href="/">
           <picture>
             <source srcset="/images/logo-kazokku.svg" type="image/svg+xml">
-            <img src="/images/logo-kazokku.png" id="nav-logo" alt="kazokku logo">
+            <img src="/images/logo-kazokku.png" width="169" height="30" id="nav-logo" alt="kazokku logo">
           </picture>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
