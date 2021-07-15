@@ -3,8 +3,9 @@
 }
 .img-main-visual {
   min-height: 300px;
-  max-height: 700px;
+  max-height: 560px;
   width: 100%;
+  object-fit: cover;
 }
 .main-visual-text-wrapper {
   position: absolute;

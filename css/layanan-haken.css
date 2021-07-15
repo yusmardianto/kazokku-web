@@ -3,18 +3,14 @@
 }
 .img-main-visual{
   min-height: 300px;
-  max-height: 600px;
+  max-height: 560px;
   width: 100%;
+  object-fit: cover;
 }
 .main-visual-text-wrapper{
   position: absolute;
   width: 100%;
   bottom: 0px;
-  text-align: center;
-}
-.main-visual-text-wrapper .img-haken-graph{
-  width: 70vw;
-  margin: 0 auto 20px auto;
 }
 .main-visual-text-wrapper .main-visual-text{
   color: white;
@@ -44,6 +40,21 @@
   background:white;
   background: linear-gradient(-180deg, rgba(227,227,227,0) 70%, rgba(243,243,243,1) 100%);
 }
+.img-graph{
+  width: 80%;
+  margin: 0 auto;
+}
+.first-section{
+  background: linear-gradient(-180deg, rgba(227,227,227,0) 70%, rgba(243,243,243,1) 100%);
+  padding: 70px 0;
+}
+.content-section:first-of-type{
+  padding-top: 70px;
+}
+.content-section{
+  padding-top: 40px;
+}
+
 .professional-it-section{
   position: relative;
   padding: 70px 0;

@@ -9,42 +9,60 @@
     <img src="/images/layanan-haken/main-visual.jpg" class="img-main-visual" alt="Main Visual">
   </picture>
   <div class="main-visual-text-wrapper">
-    <picture>
-      <source srcset="/images/layanan-haken/service-haken-graph.webp" type="image/webp">
-      <img src="/images/layanan-haken/service-haken-graph.png" class="img-fluid img-haken-graph" alt="service haken graph">
-    </picture>
-    <h1 class="main-visual-text">Layanan Haken</h1>
+    <h1 class="main-visual-text">Layanan Outsourcing IT Profesional</h1>
   </div>
 </div>
 <div class="layanan-haken-section">
   <img src="/images/bg-dots.png" class="img-dots" alt="dots">
+  <div class="first-section">
+    <div class="container">
+      <p>Outsourcing IT profesional yang kami sediakan merupakan layanan pengiriman tenaga profesional IT dalam jangka waktu tertentu. Layanan ini mengacu kepada konsep layanan Haken yang berasal dari Jepang, yang merupakan suatu bentuk dispatching resources yang berbeda dibandingkan dengan konsep outsource konvensional.</p>
+      <p>Dengan layanan ini, perusahaan klien tidak memiliki hubungan tenaga kerja langsung dengan karyawan yang dikirim, tetapi dapat mempekerjakan mereka berdasarkan kontrak layanan. Secara operasional, klien perlu memberikan daftar pekerjaan terhadap karyawan tersebut dan KAZOKKU tidak berhak mengatur pekerjaan yang diberikan.</p>
+      <p>Di sisi lain, KAZOKKU memiliki tanggung jawab administratif dan finansial seperti terkait penggajian dan pajak penghasilan dari karyawan tersebut. Ini dapat berfungsi sebagai keuntungan penghematan biaya dan waktu untuk perusahaan klien.</p>
+      <div class="text-center mt-4">
+        <picture>
+          <source srcset="/images/layanan-haken/service-haken-graph.webp" type="image/webp">
+          <img src="/images/layanan-haken/service-haken-graph.png" class="img-fluid img-graph" alt="service haken graph">
+        </picture>
+      </div>
+    </div>
+  </div>
   <div class="container">
-    <p>Layanan HAKEN merupakan layanan pengiriman tenaga profesional IT dalam jangka waktu tertentu yang disediakan oleh KAZOKKU. Layanan ini mengacu kepada konsep layanan Haken yang berasal dari Jepang, yang merupakan suatu bentuk dispatching resources yang berbeda dibandingkan dengan konsep outsource konvensional.</p>
-    <p>Dengan layanan ini, perusahaan klien tidak memiliki hubungan tenaga kerja langsung dengan karyawan yang dikirim, tetapi dapat mempekerjakan mereka berdasarkan kontrak layanan. Secara operasional, klien perlu memberikan daftar pekerjaan terhadap karyawan tersebut dan KAZOKKU tidak berhak mengatur pekerjaan yang diberikan.</p>
-    <p>Di sisi lain, KAZOKKU memiliki tanggung jawab administratif dan finansial seperti terkait penggajian dan pajak penghasilan dari karyawan tersebut. Ini dapat berfungsi sebagai keuntungan penghematan biaya dan waktu untuk perusahaan klien.</p>
-    <p>Keuntungan layanan HAKEN bagi perusahaan Anda</p>
-    <p class="mb-0">a. Mengontrol biaya rekrutmen</p>
-    <p >Outsourcing mengubah biaya tetap menjadi biaya variabel dan memungkinkan Anda membuat anggaran secara efektif. Dengan kata lain, hanya membayar apa yang Anda gunakan saat Anda membutuhkannya.</p>
-    <p class="mb-0">b. Mengurangi biaya tenaga kerja</p>
-    <p >Mempekerjakan dan melatih staf IT bisa sangat mahal, dan karyawan sementara tidak selalu memenuhi harapan Anda. Outsourcing memungkinkan Anda memfokuskan sumber daya manusia di tempat yang paling Anda butuhkan. Perusahaan tidak perlu repot menyediakan fasilitas, tunjangan makan, bahkan asuransi kesehatan/BPJS Kesehatan.</p>
-    <p class="mb-0">c. Tetap fokus pada bisnis Anda</p>
-    <p >Mempekerjakan dan melatih staf IT bisa sangat mahal, dan karyawan sementara tidak selalu memenuhi harapan Anda. Outsourcing memungkinkan Anda memfokuskan sumber daya manusia di tempat yang paling Anda butuhkan. Perusahaan tidak perlu repot menyediakan fasilitas, tunjangan makan, bahkan asuransi kesehatan/BPJS Kesehatan.</p>
-    <p class="mb-0">d. Mengurangi Resiko</p>
-    <p >Setiap investasi bisnis membawa sejumlah risiko tertentu seperti pasar, persaingan, peraturan pemerintah, kondisi keuangan, dan teknologi semuanya berubah dengan sangat cepat. Outsourcing menanggung dan mengelola sebagian besar risiko ini untuk Anda.</p>
-    <p class="mb-0">e. Menerapkan teknologi terbaru dengan cepat</p>
-    <p >Organisasi layanan IT outsourcing yang berkualitas akan memiliki sumber daya untuk segera memulai proyek baru. Menangani proyek yang sama secara internal mungkin memerlukan waktu berminggu-minggu atau berbulan-bulan untuk mempekerjakan orang yang tepat, melatih mereka, dan memberikan dukungan yang mereka butuhkan. Untuk sebagian besar implementasi, perusahaan IT yang berkualitas akan membawa pengalaman bertahun-tahun pada awalnya, menghemat waktu dan uang.</p>
-    
-    <p class="fs-20px">Keuntungan layanan HAKEN bagi Profesional IT</p>
-    <p>Bagi Anda para profesional di bidang IT, KAZOKKU membuka peluang yang sangat besar untuk bekerja sama dan menyediakan lapangan pekerjaan untuk Anda. Berikut adalah beberapa keuntungan layanan HAKEN bagi profesional IT: </p>
+    <div class="content-section">
+      <picture>
+        <source srcset="/images/layanan-haken/person-illustration.webp" type="image/webp">
+        <img src="/images/layanan-haken/person-illustration.jpg" class="img-fluid rounded-10px mb-40px" alt="keuntungan layanan">
+      </picture>
+      <p class="fs-20px">Keuntungan layanan outsourcing IT profesional bagi perusahaan Anda</p>
+      <p class="mb-0">a. Mengontrol biaya rekrutmen</p>
+      <p >Outsourcing mengubah biaya tetap menjadi biaya variabel dan memungkinkan Anda membuat anggaran secara efektif. Dengan kata lain, hanya membayar apa yang Anda gunakan saat Anda membutuhkannya.</p>
+      <p class="mb-0">b. Mengurangi biaya tenaga kerja</p>
+      <p >Mempekerjakan dan melatih staf IT bisa sangat mahal, dan karyawan sementara tidak selalu memenuhi harapan Anda. Outsourcing memungkinkan Anda memfokuskan sumber daya manusia di tempat yang paling Anda butuhkan. Perusahaan tidak perlu repot menyediakan fasilitas, tunjangan makan, bahkan asuransi kesehatan/BPJS Kesehatan.</p>
+      <p class="mb-0">c. Tetap fokus pada bisnis Anda</p>
+      <p >Mempekerjakan dan melatih staf IT bisa sangat mahal, dan karyawan sementara tidak selalu memenuhi harapan Anda. Outsourcing memungkinkan Anda memfokuskan sumber daya manusia di tempat yang paling Anda butuhkan. Perusahaan tidak perlu repot menyediakan fasilitas, tunjangan makan, bahkan asuransi kesehatan/BPJS Kesehatan.</p>
+      <p class="mb-0">d. Mengurangi Resiko</p>
+      <p >Setiap investasi bisnis membawa sejumlah risiko tertentu seperti pasar, persaingan, peraturan pemerintah, kondisi keuangan, dan teknologi semuanya berubah dengan sangat cepat. Outsourcing menanggung dan mengelola sebagian besar risiko ini untuk Anda.</p>
+      <p class="mb-0">e. Menerapkan teknologi terbaru dengan cepat</p>
+      <p >Organisasi layanan IT outsourcing yang berkualitas akan memiliki sumber daya untuk segera memulai proyek baru. Menangani proyek yang sama secara internal mungkin memerlukan waktu berminggu-minggu atau berbulan-bulan untuk mempekerjakan orang yang tepat, melatih mereka, dan memberikan dukungan yang mereka butuhkan. Untuk sebagian besar implementasi, perusahaan IT yang berkualitas akan membawa pengalaman bertahun-tahun pada awalnya, menghemat waktu dan uang.</p>
+    </div>
+    <div class="content-section">
+      <picture>
+        <source srcset="/images/layanan-haken/work-illustration.webp" type="image/webp">
+        <img src="/images/layanan-haken/work-illustration.jpg" class="img-fluid rounded-10px mb-40px" alt="keuntungan layanan">
+      </picture>
 
-    <p class="mb-0">a. Mudah mendapatkan pekerjaan</p>
-    <p >Memudahkan untuk mendapatkan pekerjaan dengan tidak perlu bersusah payah memasukkan lamaran pekerjaan ke banyak perusahaan karena sebagai perusahaan outsourcing, KAZOKKU akan membantu menyalurkan Anda.</p>
-    <p class="mb-0">b. Mendapatkan banyak pengalaman dan relasi</p>
-    <p >Dengan didelegasikan ke banyak perusahaan secara bergantian akan membuat relasi dan pengalaman Anda bertambah serta meningkatkan nilai diri Anda untuk karir kedepannya.</p>
-    <p class="mb-0">c. Dapat menjadi spesialis</p>
-    <p >KAZOKKU dapat membantu Anda bekerja pada perusahaan yang memang membutuhkan dan dapat membuat Anda semakin mendalami ruang lingkup atau teknologi tertentu yang memang ingin dikembangkan.</p>
-    <p class="mb-0">d. Dapat lebih berkembang</p>
-    <p >Melalui sistem outsource dari KAZOKKU, akan membuat pekerja menjadi lebih bebas dalam mengembangkan diri mereka secara lebih fleksibel sesuai dengan potensi dan keinginannya.</p>
+      <p class="fs-20px">Keuntungan layanan outsourcing bagi profesional di bidang IT</p>
+      <p>Bagi Anda para profesional di bidang IT, KAZOKKU membuka peluang yang sangat besar untuk bekerja sama dan menyediakan lapangan pekerjaan untuk Anda. Berikut adalah beberapa keuntungan layanan outsourcing bagi profesional di bidang IT: </p>
+      <p class="mb-0">a. Mudah mendapatkan pekerjaan</p>
+      <p >Memudahkan untuk mendapatkan pekerjaan dengan tidak perlu bersusah payah memasukkan lamaran pekerjaan ke banyak perusahaan karena sebagai perusahaan outsourcing, KAZOKKU akan membantu menyalurkan Anda.</p>
+      <p class="mb-0">b. Mendapatkan banyak pengalaman dan relasi</p>
+      <p >Dengan didelegasikan ke banyak perusahaan secara bergantian akan membuat relasi dan pengalaman Anda bertambah serta meningkatkan nilai diri Anda untuk karir kedepannya.</p>
+      <p class="mb-0">c. Dapat menjadi spesialis</p>
+      <p >KAZOKKU dapat membantu Anda bekerja pada perusahaan yang memang membutuhkan dan dapat membuat Anda semakin mendalami ruang lingkup atau teknologi tertentu yang memang ingin dikembangkan.</p>
+      <p class="mb-0">d. Dapat lebih berkembang</p>
+      <p >Melalui sistem outsource dari KAZOKKU, akan membuat pekerja menjadi lebih bebas dalam mengembangkan diri mereka secara lebih fleksibel sesuai dengan potensi dan keinginannya.</p>
+    </div>
+
   </div>
 </div>
 <div class="professional-it-section">
@@ -192,7 +210,7 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <h2 class="title">Cara Kerja Layanan Haken</h2>
+        <h2 class="title">Cara Kerja Layanan Outsourcing IT</h2>
         <h3 class="fs-20px mb-1">PERENCANAAN</h3>
         <p>Sebelum dimulai kami akan berdiskusi dan memberikan konsultasi terkait penyediaan profesional IT untuk perusahaan Anda</p>
         <h3 class="fs-20px mb-1">PENCOCOKAN / TALENT MAPPING</h3>
