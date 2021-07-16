@@ -92,7 +92,7 @@
               <a class="nav-link" href="/tentang-kami.php">Tentang Kazok<span class="flip-character">k</span>u</a>
             </li>
             <li class="nav-item <?php active('layanan-tenaga-ahli-it') ?>">
-              <a class="nav-link" href="/layanan-tenaga-ahli-it.php">LAYANAN OUTSOURCING IT PROFESIONAL</a>
+              <a class="nav-link" href="/layanan-tenaga-ahli-it.php">OUTSOURCING IT</a>
             </li>
             <li class="nav-item  <?php active('hubungi-kami') ?>">
               <a class="nav-link" href="/kontak-kami.php">Hubungi Kami</a>
