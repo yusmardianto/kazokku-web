@@ -4,27 +4,30 @@
 <?php $canonical = 'https://www.kazokku.com/kontak-kami.php' ?>
 
 <?php
-error_reporting(0);
+// error_reporting(0);
 require_once("./form/fgcontactform.php");
 
 $formproc = new FGContactForm();
 
 //1. Add your email address here.
 //You can add more than one receipients.
-$formproc->AddRecipient(['info@logique.co.id']); //<<---Put your email address here
+$formproc->AddRecipient(['info@kazokku.com']); //<<---Put your email address here
 
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
 // and put it here
-$formproc->SetFormRandomKey('HG9hPBpn9Bn26yg');
+$formproc->SetFormRandomKey('1aiYsAgEjUV7kdF');
 
 //$formproc->AddFileUploadField('photo','jpg,jpeg,pdf,doc,docx',40960);
 
 if (isset($_POST['submitted'])) {
     if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
-        // tambah if else setelah dapat secret key. dan untuk skrg keynya masih sample
-        $secret = '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe'; 
+        if($_SERVER['SERVER_NAME'] == 'kazokku.com'){ // prod server
+          $secret = '6LdqJpwbAAAAAHnhBc7H42NiYPc_JJncoMier27d';
+        } else {
+          $secret = '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe'; 
+        }
         $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
-        // print_r($verifyResponse); exit;
+
         $responseData = json_decode($verifyResponse);
         if ($responseData->success) {
             if ($formproc->ProcessForm()) {
@@ -120,10 +123,8 @@ if (isset($_POST['submitted'])) {
                 </div>
               </div>
             </div>
-            <?php if($_SERVER['SERVER_NAME'] == 'kazokku.co.id'):  ?>
-              <!-- <div class="g-recaptcha" data-sitekey="6LeEbicUAAAAALgHaAxPslHJOKzuppLC7IubKZO5"></div> -->
-              <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
-              <!-- belum dapat secret key -->
+            <?php if($_SERVER['SERVER_NAME'] == 'kazokku.com'):  ?>
+              <div class="g-recaptcha" data-sitekey="6LdqJpwbAAAAACvlWvCx4VKEE6GIOeEfIiq2pzgj"></div>
             <?php else: ?>
               <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
             <?php endif ?>

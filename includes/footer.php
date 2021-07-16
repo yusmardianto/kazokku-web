@@ -30,7 +30,7 @@
                 <a href="/tentang-kami.php" class="footer-menu-link">Tentang Kazok<span class="flip-character">k</span>u</a>
               </li>
               <li class="footer-menu-item">
-                <a href="/layanan-tenaga-ahli-it.php" class="footer-menu-link">Layanan Outsourcing IT Profesional</a>
+                <a href="/layanan-tenaga-ahli-it.php" class="footer-menu-link">OUTSOURCING IT</a>
               </li>
               <li class="footer-menu-item">
                 <a href="/kontak-kami.php" class="footer-menu-link">Hubungi Kami</a>
