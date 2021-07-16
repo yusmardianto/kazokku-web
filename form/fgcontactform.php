@@ -50,10 +50,8 @@ class FGContactForm
       $this->smtpPort = 587;                      // Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
       $this->smtpEncryption = 'tls';              // Set the encryption system to use - ssl (deprecated) or tls
       $this->smtpAuth = true;                     // SMTP authentication ?
-    //   $this->smtpUsername = "0d89a28b-12f2-488d-a65f-32c2d74027ca"; // Username to use for SMTP authentication - use full email address for gmail
-      $this->smtpUsername = "5720e4a8-b823-46cb-8c9b-64bb6eae2d5a"; // Username to use for SMTP authentication - use full email address for gmail
-    //   $this->smtpPassword = "0d89a28b-12f2-488d-a65f-32c2d74027ca";           // Password to use for SMTP authentication $phpmailer->isSMTP();
-      $this->smtpPassword = "5720e4a8-b823-46cb-8c9b-64bb6eae2d5a";           // Password to use for SMTP authentication $phpmailer->isSMTP();
+      $this->smtpUsername = "0d89a28b-12f2-488d-a65f-32c2d74027ca"; // Username to use for SMTP authentication - use full email address for gmail
+      $this->smtpPassword = "0d89a28b-12f2-488d-a65f-32c2d74027ca";           // Password to use for SMTP authentication $phpmailer->isSMTP();
 
 
     }
