@@ -123,6 +123,8 @@ if (isset($_POST['submitted'])) {
                 </div>
               </div>
             </div>
+            <?= $_SERVER['HTTP_HOST']; ?>
+            <?= $_SERVER['SERVER_NAME']; ?>
             <?php if($_SERVER['SERVER_NAME'] == 'kazokku.com'):  ?>
               <div class="g-recaptcha" data-sitekey="6LdqJpwbAAAAACvlWvCx4VKEE6GIOeEfIiq2pzgj"></div>
             <?php else: ?>
