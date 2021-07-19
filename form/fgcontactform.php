@@ -43,7 +43,7 @@ class FGContactForm
       $this->form_random_key = 'HTgsjhartag';
       $this->conditional_field='';
 
-      $this->receipent = ['info@kazokku.com']; // set custom recipient here
+      $this->receipent = ['calvin.6341@gmail.com']; // set custom recipient here
 
       // Setting SMTP
       $this->smtpHost = 'smtp.postmarkapp.com';                       // Set the SMTP host, eq : smtp.gmail.com
