@@ -37,7 +37,7 @@ class FGContactForm
 
     function FGContactForm()
     {
-      $this->fromName = 'Logique'; // set custom from name here, default : = $this->smtpUsername
+      $this->fromName = 'Kazokku'; // set custom from name here, default : = $this->smtpUsername
       $this->fromEmail = 'info@kazokku.com'; // set custom from name here, default : = $this->smtpUsername
       $this->errors = array();
       $this->form_random_key = 'HTgsjhartag';
@@ -168,7 +168,7 @@ class FGContactForm
             ),
         );
         foreach ($status as $key => $data) {
-            $this->mailer = new PHPMailer();
+            $this->mailer = new PHPMailer(true);
             $this->mailer->CharSet = 'utf-8';
             
             if(!empty($this->smtpHost)){
