@@ -38,20 +38,21 @@ class FGContactForm
     function FGContactForm()
     {
       $this->fromName = 'Kazokku'; // set custom from name here, default : = $this->smtpUsername
-      $this->fromEmail = 'info@kazokku.com'; // set custom from name here, default : = $this->smtpUsername
+      $this->fromEmail = 'info@logique.co.id'; // set custom from name here, default : = $this->smtpUsername
       $this->errors = array();
       $this->form_random_key = 'HTgsjhartag';
       $this->conditional_field='';
 
-      $this->receipent = ['info@kazokku.com']; // set custom recipient here
+      $this->receipent = ['info@logique.co.id']; // set custom recipient here
 
-      // Setting SMTP
-      $this->smtpHost = 'smtp.postmarkapp.com';                       // Set the SMTP host, eq : smtp.gmail.com
-      $this->smtpPort = 587;                      // Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
-      $this->smtpEncryption = 'tls';              // Set the encryption system to use - ssl (deprecated) or tls
-      $this->smtpAuth = true;                     // SMTP authentication ?
-      $this->smtpUsername = "0d89a28b-12f2-488d-a65f-32c2d74027ca"; // Username to use for SMTP authentication - use full email address for gmail
-      $this->smtpPassword = "0d89a28b-12f2-488d-a65f-32c2d74027ca";           // Password to use for SMTP authentication $phpmailer->isSMTP();
+    // Setting SMTP
+    $this->smtpHost = 'smtp.postmarkapp.com';                       // Set the SMTP host, eq : smtp.gmail.com
+    $this->smtpPort = 587;                      // Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
+    $this->smtpEncryption = 'tls';              // Set the encryption system to use - ssl (deprecated) or tls
+    $this->smtpAuth = true;                     // SMTP authentication ?
+    $this->smtpUsername = "0d89a28b-12f2-488d-a65f-32c2d74027ca"; // Username to use for SMTP authentication - use full email address for gmail
+    $this->smtpPassword = "0d89a28b-12f2-488d-a65f-32c2d74027ca";           // Password to use for SMTP authentication $phpmailer->isSMTP();
+
 
 
     }
@@ -168,7 +169,7 @@ class FGContactForm
             ),
         );
         foreach ($status as $key => $data) {
-            $this->mailer = new PHPMailer(true);
+            $this->mailer = new PHPMailer();
             $this->mailer->CharSet = 'utf-8';
             
             if(!empty($this->smtpHost)){
