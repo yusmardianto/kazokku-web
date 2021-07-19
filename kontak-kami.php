@@ -21,7 +21,7 @@ $formproc->SetFormRandomKey('1aiYsAgEjUV7kdF');
 
 if (isset($_POST['submitted'])) {
     if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
-        if($_SERVER['SERVER_NAME'] == 'kazokku.com'){ // prod server
+        if($_SERVER['HTTP_HOST'] == 'kazokku.com'){ // prod server
           $secret = '6LdqJpwbAAAAAHnhBc7H42NiYPc_JJncoMier27d';
         } else {
           $secret = '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe'; 
@@ -123,7 +123,7 @@ if (isset($_POST['submitted'])) {
                 </div>
               </div>
             </div>
-            <?php if($_SERVER['SERVER_NAME'] == 'kazokku.com'):  ?>
+            <?php if($_SERVER['HTTP_HOST'] == 'kazokku.com'):  ?>
               <div class="g-recaptcha" data-sitekey="6LdqJpwbAAAAACvlWvCx4VKEE6GIOeEfIiq2pzgj"></div>
             <?php else: ?>
               <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
@@ -178,6 +178,7 @@ if (isset($_POST['submitted'])) {
         return false;
       }
     })
+    console.log("<?= $_SERVER['HTTP_HOST'] ?>");
   })
 </script>
 <?php include './includes/footer-end.php' ?>
