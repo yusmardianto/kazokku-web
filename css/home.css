@@ -1,0 +1,164 @@
+.main-visual-section{
+  position: relative;
+  margin-top: 64px;
+}
+.img-main-visual{
+  min-height: 300px;
+  max-height: 560px;
+  width: 100%;
+  object-fit: cover;
+}
+.main-visual-text-wrapper{
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+.main-visual-text-wrapper .main-visual-text{
+  color: white;
+  text-align: center;
+  font-family: "BodoniSvtyTwo", serif;
+  font-weight: bold;
+  font-size: 48px;
+  padding-bottom: 21px;
+  margin-bottom: 48px;
+  position: relative;
+}
+.main-visual-text-wrapper .main-visual-text:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #f7941d;
+}
+
+.images-dots-wrapper{
+  position: relative;
+  display: inline-block;
+}
+.images-dots-wrapper .img-dots-bottom{
+  position: absolute;
+  bottom: -5px;
+  right: -20px;
+  z-index: 0;
+}
+.company-info-section{
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background:white;
+  background: linear-gradient(-180deg, rgba(227,227,227,0) 70%, rgba(243,243,243,1) 100%);
+}
+
+
+.other-section{
+  position: relative;
+  padding-top: 70px;
+}
+
+.portofolio-section{
+  padding-bottom: 70px;
+}
+.portofolio-list{
+  display: flex;
+}
+.portofolio-list .portofolio-list-item{
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  padding-top: 45px;
+  margin-top: 60px;
+  position: relative;
+  flex: 1 1 50%;
+  background: white;
+
+}
+.portofolio-list .portofolio-list-item:first-of-type{
+  margin-right: 30px;
+}
+.portofolio-list .portofolio-list-item .portofolio-title{
+  font-size: 17px;
+}
+
+.portofolio-list .portofolio-list-item .img-portfolio-logo{
+  position: absolute;
+  top: -25px;
+  width: 48px;
+  height: 48px;
+}
+.portofolio-list .portofolio-list-item .img-portfolio-logo.img-sinarmas{
+  background: #f01716;
+  padding: 6px;
+  border-radius: 10px;
+}
+.portofolio-list .portofolio-list-item .img-portfolio-logo.img-bank{
+  background: #008247;
+  padding: 10px;
+  border-radius: 10px;
+}
+.article-section{
+  margin-bottom: 70px;
+}
+.article-item{
+  display: block;
+  margin-bottom: 15px;
+}
+.article-item .img-article{
+  margin-bottom: 30px;
+  width: 100%;
+  height: 260px;
+  border-radius: 10px;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+.article-item .article-title{
+  display: block;
+  color: black;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.article-item .article-link-detail{
+  color: #f7941d;
+  text-decoration: none;
+}
+.article-item .article-link-detail .img-arrow{
+  width: 16px;
+  transition: transform .3s;
+}
+.article-item .article-link-detail:hover .img-arrow{
+  transform: translateX(10px);
+}
+.article-item .img-dots-article{
+  position: absolute;
+  bottom: 10px;
+  right: -20px;
+}
+@media(max-width: 768px){
+  .main-visual-text-wrapper .main-visual-text{
+    font-size: 36px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .portofolio-list{
+    flex-wrap: wrap;
+  }
+  .portofolio-list .portofolio-list-item{
+    flex: 1 1 100%;
+  }
+  .portofolio-list .portofolio-list-item:first-of-type{
+    margin-right: 0px;
+  }
+  .banner-section{
+    padding-left: 20px;
+    background-position: right;
+  }
+}
+@media (max-width: 576px){
+  .main-visual-text-wrapper .main-visual-text{
+    font-size: 24px;
+  }
+}
