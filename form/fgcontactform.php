@@ -38,7 +38,7 @@ class FGContactForm
     function FGContactForm()
     {
       $this->fromName = 'Kazokku'; // set custom from name here, default : = $this->smtpUsername
-      $this->fromEmail = 'info@kazokku.com'; // set custom from name here, default : = $this->smtpUsername
+      $this->fromEmail = 'info@logique.co.id'; // set custom from name here, default : = $this->smtpUsername
       $this->errors = array();
       $this->form_random_key = 'HTgsjhartag';
       $this->conditional_field='';
