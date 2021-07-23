@@ -40,6 +40,7 @@ p{
   display: inline-block; 
   transform: scale(-1, 1);
   direction:rtl;
+  line-height: 1px;
   /* unicode-bidi:bidi-override; */
 }
 .navbar{
