@@ -90,7 +90,7 @@
         </div>
       </div>
     </div>
-    <div class="article-section">
+    <!-- <div class="article-section">
       <h2 class="title">Artikel</h2>
       <div class="row">
         <div class="col-lg-4">
@@ -136,7 +136,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <?php include './includes/banner-contact.php' ?>
   </div>
 </div>
