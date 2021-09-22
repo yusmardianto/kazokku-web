@@ -40,7 +40,7 @@
       <ol class="pl-3">
         <li>
           <h3 class="fs-17px">Proses rekrutmen dapat dijalankan dengan biaya yang fleksibel</h3>
-          <p>Outsourcing mengubah biaya tetap menjadi biaya variabel dan memungkinkan Anda membuat anggaran secara efektif. Dengan kata lain, hanya membayar apa yang Anda gunakan saat Anda membutuhkannya.</p>
+          <p>Mempekerjakan dan melatih staff baru dapat mengeluarkan biaya yang cukup tinggi terutama untuk proyek jangka pendek. Saat Anda menggunakan layanan outsourcing IT, perusahaan dapat mengubah biaya tenaga kerja tetap menjadi biaya yang lebih fleksibel. Artinya, Anda hanya perlu membayar tenaga kerja tersebut saat perusahaan membutuhkannya. Dengan cara ini, perusahaan dapat mengelola anggaran rekrutmen menjadi lebih efektif dan efisien.</p>
         </li>
         <li>
           <h3 class="fs-17px">Biaya operasional tenaga kerja menjadi lebih terkendali</h3>
