@@ -3,12 +3,12 @@
 <?php $description = 'Menyediakan layanan IT Profesional mulai dari web developer, web designer, digital marketing, hingga keamanan digital, serta layanan outsource karyawan bagi perusahaan yang membutuhkan tenaga IT profesional.' ?>
 <?php $canonical = 'https://www.kazokku.com/' ?>
 <?php include './includes/header.php' ?>
-<div class="main-visual-section">
+<div class="position-relative mt-n7">
   <picture>
-      <source media="(min-width: 768px)" srcset="/images/main-visual.webp" type="image/webp">
-      <source media="(min-width: 768px)" srcset="/images/main-visual.jpg">
-      <source srcset="/images/main-visual-mobile.webp" type="image/webp">
-      <img src="/images/main-visual-mobile.jpg" class="img-fluid w-100" width="1000" height="500" alt="homepage main visual">
+      <!-- <source media="(min-width: 768px)" srcset="/images/main-visual.webp" type="image/webp"> -->
+      <source media="(min-width: 768px)" srcset="/images/redesign/home/bg-main.png">
+      <!-- <source srcset="/images/main-visual-mobile.webp" type="image/webp"> -->
+      <img src="/images/redesign/home/bg-main.png" class="img-fluid w-100" width="1000" height="500" alt="homepage main visual">
   </picture>
   <div class="main-visual-text-wrapper">
     <h1 class="main-visual-text">Mitra Terpercaya Untuk <br/> Layanan Profesional dan Outsourcing IT</h1>

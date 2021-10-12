@@ -33,3 +33,6 @@
 .bg-blue-dark {
     background-color: var(--common-blue-dark) !important;
 }
+.mt-n7{
+    margin-top: -7rem !important;
+}
