@@ -1,0 +1,35 @@
+
+/*  
+    Reference Material Color : 
+    https://material.io/resources/color/#!/?view.left=0&view.right=1&primary.color=045b9b&secondary.color=f7941d
+    
+*/
+
+:root{
+    --primary-main: #045b9b;
+    --primary-light: #4f88cc;
+    --primary-dark: #00326c;
+
+    --secondary-main: #f7941d;
+    --secondary-light: #ffc553;
+    --secondary-dark: #be6600;
+
+    --common-blue-dark: #bad7e9;
+    --common-blue-light: #c7e0ed;
+    
+
+}
+
+/* Reference expressive css : https://tailwindcss.com/ */
+.bg-primary-main {
+    background-color: var(--primary-main) !important;
+}
+.bg-primary-light {
+    background-color: var(--primary-light) !important;
+}
+.bg-blue-light {
+    background-color: var(--common-blue-light) !important;
+}
+.bg-blue-dark {
+    background-color: var(--common-blue-dark) !important;
+}
