@@ -1,28 +1,30 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-12 col-md-4 col-md-4 col-lg-4col-xl-4">
             <a href="/">
               <img src="/images/logo-kazokku.png" width="169" height="30" class="mb-4" alt="">
             </a>
             <address>
-              <span class="fs-17px">Ad Premiere Building 19th Floor</span>
+              <span class="fs-17px font-weight-bold">Ad Premiere Building 19th Floor</span>
               <br>
               Jalan TB Simatupang No. 5 <br>
               Ragunan, Ps. Minggu, Jakarta Selatan, <br>
               Indonesia 12550 
             </address>
             <div class="contact-number-wrapper">
-              <img src="/images/phone.png" width="12" height="9" alt="phone">
-              <a href="tel:02122708935" class="contact-link">(021) 22708935 / 36</a>
+              <img src="/images/phone.png" width="16" height="13" alt="phone">
+              <a href="tel:02122708935" class="contact-link text-lg">
+                (021) 22708935 / 36
+              </a>
             </div>
             <div class="contact-number-wrapper">
-              <img src="/images/whatsapp.png" width="12" height="12" alt="whatsapp">
-              <a href="https://wa.me/0811870321" class="contact-link">0811-870-321</a>
+              <img src="/images/whatsapp.png" width="16" height="16" alt="whatsapp">
+              <a href="https://wa.me/0811870321" class="contact-link text-lg">0811-870-321</a>
             </div>
           </div>
-          <div class="col-md-8">
-            <ul class="footer-menu">
+          <div class="col-sm-12 col-md-8 col-md-8 col-lg-8 col-xl-8">
+            <ul class="footer-menu ">
               <li class="footer-menu-item">
                 <a href="/" class="footer-menu-link">Home</a>
               </li>
@@ -73,9 +75,15 @@
           </div>
         </div>
       </div>
-      <div class="copyright">
-        © 2021 Karisma Zona Kreatifku. All Rights Reserved.
+
+      <div class="container text-left">
+        <hr />
+        <span>
+          © 2021 Karisma Zona Kreatifku. All Rights Reserved.
+        </span>  
+                      
       </div>
+    
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> -->

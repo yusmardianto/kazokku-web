@@ -99,4 +99,8 @@
     border: 1px solid var(--secondary-main)
 }
 
+.text-lg{
+    font-size: larger;
+}
+
 
