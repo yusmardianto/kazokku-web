@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>19296D81-D7D0-4B0A-A032-B610A482F9FE@1x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="60" height="60" rx="10"></rect>
+        <filter x="-7.5%" y="-7.5%" width="115.0%" height="115.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Comfortable-Themes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Outsourcing-IT-Profesional---alt" transform="translate(-125.000000, -6140.000000)">
+            <g id="Group-147" transform="translate(128.000000, 6143.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#045B9B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="pin" transform="translate(20.000000, 15.000000)" fill-rule="nonzero">
+                    <path d="M19.2526758,5.13732422 C17.4319922,1.99529297 14.1980859,0.075703125 10.6018945,0.00234375 C10.4483789,-0.0008203125 10.2938672,-0.0008203125 10.140293,0.00234375 C6.54416016,0.075703125 3.31025391,1.99529297 1.48951172,5.13732422 C-0.371542969,8.34896484 -0.422460938,12.2067773 1.35328125,15.4570312 L8.79251953,29.073457 C8.79585937,29.0794922 8.79919922,29.0855273 8.80265625,29.0915039 C9.12996094,29.6603906 9.71630859,30 10.3712109,30 C11.0260547,30 11.6124023,29.660332 11.9396484,29.0915039 C11.9431055,29.0855273 11.9464453,29.0794922 11.9497852,29.073457 L19.3890234,15.4570312 C21.1646484,12.2067773 21.1137305,8.34896484 19.2526758,5.13732422 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M10.3710938,13.59375 C8.04486328,13.59375 6.15234375,11.7012305 6.15234375,9.375 C6.15234375,7.04876953 8.04486328,5.15625 10.3710938,5.15625 C12.6973242,5.15625 14.5898438,7.04876953 14.5898438,9.375 C14.5898438,11.7012305 12.6973828,13.59375 10.3710938,13.59375 Z" id="Path" fill="#F59331"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

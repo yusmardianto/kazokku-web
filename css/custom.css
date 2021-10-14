@@ -14,11 +14,38 @@
     --secondary-light: #ffc553;
     --secondary-dark: #be6600;
 
-    --common-blue-dark: #bad7e9;
-    --common-blue-light: #c7e0ed;
     
+    --common-blue-main: #d7f0ff;
+    --common-blue-dark: #bad7e9;
+    --common-blue-light: #c7e0ed;    
+    
+    --common-orange-light : #fff6ee;        
 
 }
+
+.linear-gradient-blue{
+    background: rgb(201,232,255);
+    background: linear-gradient(347deg, rgba(238,246,254,1) 2%, rgb(250 253 255) 97%);
+}
+
+/* Ovverides bootstrap */
+.btn-secondary {    
+    font-size: 13px;
+    color: var(--light);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid var(--secondary-main);
+    border-radius: 40px;
+    background: var(--secondary-main);
+    transition: all 0.3s ease 0s;
+  }
+  
+  .btn-secondary:hover {
+    color: var(--secondary-main);
+    background: transparent;
+    border: 2px solid var(--secondary-light);
+  }
+  
 
 /* Reference expressive css : https://tailwindcss.com/ */
 .bg-primary-main {
@@ -27,12 +54,49 @@
 .bg-primary-light {
     background-color: var(--primary-light) !important;
 }
+.bg-secondary-main {
+    background-color: var(--secondary-main) !important;
+}
+.bg-secondary-light {
+    background-color: var(--secondary-light) !important;
+}
+
 .bg-blue-light {
     background-color: var(--common-blue-light) !important;
 }
 .bg-blue-dark {
     background-color: var(--common-blue-dark) !important;
 }
+
+.bg-orange-light{
+    background-color: var(--common-orange-light) !important;
+}
+
 .mt-n7{
     margin-top: -7rem !important;
 }
+.mt-n10{
+    margin-top: -10rem !important;
+}
+.mt-n24{
+    margin-top: -24rem !important;
+}
+.text-secondary-main{
+    color: var(--secondary-main);
+}
+.rounded-xl{
+    border-radius : .7rem!important;
+}
+
+.border-blue-main{
+    border: 1px solid var(--common-blue-main)
+}
+.border-blue-light{
+    border: 1px solid var(--common-blue-light)
+}
+
+.border-secondary-main{
+    border: 1px solid var(--secondary-main)
+}
+
+
