@@ -75,7 +75,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-blue-light">
-      <div class="container rounded-pill bg-blue-dark pl-5 pr-5 pt-3 pb-3" >
+      <div class="container rounded-pill bg-blue-dark bg-sm-transparent pl-5 pr-5 pt-3 pb-3" >
         <a class="navbar-brand" href="/">
           <picture>
             <source srcset="/images/logo-kazokku.svg" type="image/svg+xml">

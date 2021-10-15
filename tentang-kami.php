@@ -3,10 +3,10 @@
 <?php $description = 'Kazokku merupakan perusahaan pengembang sistem web yang membuka layanan IT profesional dengan sistem kerja outsourcing sehingga menguntungkan perusahaan Anda.' ?>
 <?php $canonical = 'https://www.kazokku.com/tentang-kami.php' ?>
 <?php include './includes/header.php' ?>
-<div class="main-visual-section">
+<div class="main-visual-section ">
   <picture>
     <source srcset="/images/tentang-kami/main-visual.webp" type="image/webp">
-    <img src="/images/tentang-kami/main-visual.jpg" class="img-main-visual" alt="Main Visual">
+    <img src="/images/tentang-kami/main-visual.jpg" class="img-main-visual mt-5" alt="Main Visual">
   </picture>
   <div class="main-visual-text-wrapper">
     <h1 class="main-visual-text">Tentang Kazokku</h1>
