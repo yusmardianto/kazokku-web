@@ -116,3 +116,31 @@
 }
 
 
+/* mobile device - sm */
+@media (max-width: 640px) {
+    .w-sm-100{
+        width: 100% !important;
+    }
+
+    .h-sm-auto{
+        height: auto !important;
+    }
+
+    .mt-sm-0{
+        margin-top: 0px !important;
+    }
+    .mb-sm-1{
+        margin-bottom: 0.25rem!important;
+    }
+    .mb-sm-3{
+        margin-bottom: 3rem!important;
+    }
+
+    .mt-sm-1{
+        margin-top: 1rem!important;
+    }
+
+    .mt-sm-n4{
+        margin-top: -4rem!important;
+    }
+}
