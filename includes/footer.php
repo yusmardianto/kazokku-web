@@ -77,7 +77,7 @@
       </div>
 
       <div class="container text-left">
-        <hr />
+        <hr class="border-top border-dark" />
         <span>
           © 2021 Karisma Zona Kreatifku. All Rights Reserved.
         </span>  

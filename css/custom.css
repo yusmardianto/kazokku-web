@@ -78,8 +78,20 @@
 .mt-n10{
     margin-top: -10rem !important;
 }
+.mt-n17{
+    margin-top: -17rem !important;
+}
 .mt-n24{
     margin-top: -24rem !important;
+}
+.mt-13{
+    margin-top: 13rem !important;
+}
+.mt-17{
+    margin-top: 17rem !important;
+}
+.mb-n8{
+    margin-bottom: -8rem !important;
 }
 .text-secondary-main{
     color: var(--secondary-main);

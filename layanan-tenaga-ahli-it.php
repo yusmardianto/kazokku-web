@@ -5,11 +5,11 @@
 <?php include './includes/header.php' ?>
 
 <!-- #1 -->
-<div class="position-relative">
   <picture>
     <source  media="(max-width: 640px)"  srcset="/images/outsourching-it/bg-main.png" >
     <img src="/images/outsourching-it/bg-main.png" class="img-main-visual" alt="Main Visual" width="100%" height="auto"/>
   </picture>  
+
   <section class="container">  
     <div class="row mt-n24">
       <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">             
@@ -17,7 +17,7 @@
             <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section.webp">
             <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section.webp">
             <img src="/images/outsourching-it/image-section.png" alt="main-image"  loading="lazy" >
-        </picture>
+        </picture>     
       </div>
       <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
         <div class="d-flex h-100">
@@ -35,20 +35,25 @@
     </div>
   </section>  
 
-    <div class="d-flex h-100">
-        <div class="justify-content-start align-self-start">
-          <picture>
-            <source srcset="/images/outsourching-it/bg-art-left.webp" type="image/webp" >
-            <img src="/images/outsourching-it/bg-art-left.png" alt="complementary" />
-          </picture>
-        </div>
+  <div class="mt-n17 ml-2">        
+    <picture>
+      <source srcset="/images/outsourching-it/bg-art-left.webp" type="image/webp" >
+      <img src="/images/outsourching-it/bg-art-left.png" alt="complementary" />
+    </picture>        
+  </div>  
+
+  <div class="position-relative"> 
+    <div class="position-absolute" style="top: 0; right: 0"> 
+      <picture>
+        <source srcset="/images/outsourching-it/image-complement-right-section-1.webp" type="image/webp" >
+        <img width="453" height="479" src="/images/outsourching-it/image-complement-right-section-1.png" alt="complementary" />
+      </picture>   
     </div>
+  </div>
 
   </div>
-</div>
-
 <!-- #2 -->
-<section class="container">
+<section class="container mt-13">
   <div class="row">
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">   
       <div class="d-flex h-100">
@@ -105,41 +110,41 @@
 </section>
 
 <!-- #4 -->
-#4
-<p>
-  Image Complement - section 4-a
-</p>
-<h3>
-  Image Complement - section 4-b
-</h3>
-  
+<div class="ml-1 mt-3 mb-n5">        
+  <picture>
+    <source srcset="/images/outsourching-it/image-complement-left-section-4.webp" type="image/webp" >
+    <img src="/images/outsourching-it/image-complement-left-section-4.png" alt="complementary" />
+  </picture>        
+</div>  
+
 <section class="container">
   <div class="row">
-    <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">
-   
+    <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">   
         <picture>
             <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-4.png">
             <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-4.png">
             <img src="/images/outsourching-it/image-section-4.svg" alt="main-image" width="100%" height="auto" loading="lazy" >
         </picture>  
-      <p class="text-left">
-        Image Complement 4-b
-      </p>
-      <p class="text-right">
-        Image Complement 4-b
-      </p>
+        <p class="text-left">
+          Image Complement 4-b
+        </p>      
+      </div>
+    </div>
+  </section>
+  
+  <div class="position-relative"> 
+    <div class="position-absolute" style="top: -24px; right: 0"> 
+      <picture>
+        <source srcset="/images/outsourching-it/image-complement-right-section-4.webp" type="image/webp" >
+        <img width="100%" height="auto" src="/images/outsourching-it/image-complement-right-section-4.png" alt="complementary" />
+      </picture>   
     </div>
   </div>
-</section>
-
-<hr />
-
 
 <!-- #5 -->
-<section class="container">
+<section class="container mt-5">
   <div class="row">
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xxl-6">
-          
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xxl-6">          
       <p>
         Secara operasional, klien akan secara langsung mengatur berbagai hal terkait tugas atau pekerjaan yang harus diselesaikan oleh tenaga IT Profesional dan KAZOKKU tidak berhak untuk mengatur pekerjaan tersebut.
       </p>
@@ -157,11 +162,8 @@
     </div>
 </section>
 
-<hr />
-
 <!-- #6 -->
-<section class="container">
-
+<section class="container mt-5">
   <div class="row text-center">
     <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">
       <h5 class="text-secondary-main text-uppercase">
@@ -294,21 +296,23 @@
                 </button>
             </figcaption>
           </figure>
-        </a>   
-        <p class="text-right">
-          Image Complement
-        </p>    
+        </a>          
       </div>
     </div>
 </section>
+<div class="d-flex justify-content-end">        
+  <picture>
+    <source srcset="/images/outsourching-it/icon-circle-section-7.png" type="image/webp" >
+    <img width="58" height="74" src="/images/outsourching-it/icon-circle-section-7.svg" alt="complementary" />
+  </picture>        
+</div>  
 
 
 <!-- #8 -->
-
-<section class="container mt-5">
-  <div class="row text-center">
+<section class="container">
+  <div class="row text-center ">
     <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">
-      <h5 class="text-secondary-main text-uppercase">
+      <h5 class="text-secondary-main text-uppercase mt-5">
         Keuntungan Layanan
       </h5>         
       <h3 class="mt-3 mb-3">
@@ -442,17 +446,22 @@
     
 </section>
 
-<p>
-  Image Complement
-</p>
-<p class='text-right'>
-  Image Complement RIght
-</p>
+<div class="d-flex justify-content-start">        
+  <picture>
+    <source srcset="/images/outsourching-it/icon-circle-section-8.png" type="image/webp" >
+    <img width="54" height="54" src="/images/outsourching-it/icon-circle-section-8.svg" alt="complementary" />
+  </picture>        
+</div>  
+<div class="d-flex justify-content-end mt-n5">        
+  <picture>
+    <source srcset="/images/outsourching-it/image-complement-right-section-8.png" type="image/webp" >
+    <img width="91" height="163" src="/images/outsourching-it/image-complement-right-section-8.svg" alt="complementary" />
+  </picture>        
+</div> 
 
-<hr />
+
 <!-- #9 -->
-
-<section class="container">
+<section class="container mt-n5">
   <div class="row">
     <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">
       <div class="d-flex h-100">
@@ -631,11 +640,8 @@
   </div>  
 </section>
 
-<hr />
-
 <!-- #10 -->
-#10
-<section class="container">
+<section class="container mt-5">
   <div class="row">
     <div class="col-sm-12 col-md-7 col-md-7 col-lg-7 col-xl-7">
       <picture>
@@ -689,7 +695,12 @@
 
 
 <!-- #11 -->
-#11
+<div class="mb-n8 mt-5">
+  <picture>
+    <source srcset="/images/outsourching-it/image-complement-left-section-11.png" type="image/webp" >
+    <img height="132" width="132" src="/images/outsourching-it/image-complement-left-section-11.svg" alt="complementary"  />
+  </picture>     
+</div>
 <section class="container">
   <div class="row">
     <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">
@@ -775,8 +786,7 @@
 </section>
 
 <!-- #12 -->
-#12
-<section class="container">
+<section class="container mt-4">
   <div class="row">
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
       <figure class="mt-3">
@@ -818,8 +828,7 @@
 </section>
 
 <!-- #13 -->
-#13
-<section class="container">
+<section class="container mt-5 mb-5">
   <div class="row">
     <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">        
       <figure class="mt-5">
@@ -848,27 +857,6 @@
     </div>
   </div>
 </section>
-
-<div class="layanan-haken-section">
-  <img src="/images/bg-dots.png" class="img-dots" alt="dots">
-  <div class="first-section">
-    <div class="container">
-      <p class="mb-5">KAZOKKU sebagai perusahaan outsourcing IT Profesional selalu mengutamakan kualitas para tenaga profesional IT yang dimilikinya untuk membantu perusahaan Anda. Layanan ini ditujukan untuk membantu perusahaan mengefektifkan waktu dan biaya selama proses rekrutmen.</p>
-      <h2>Apa Itu Layanan Outsourcing IT dari KAZOKKU ?</h2>
-      <p>Layanan outsourcing IT profesional adalah layanan pengiriman tenaga IT profesional untuk bekerja di perusahaan Anda. Tenaga IT yang nantinya akan kami kirimkan merupakan tenaga kerja profesional dengan keterampilan dan kemampuan yang sesuai dengan kebutuhan perusahaan Anda. Pada dasarnya, layanan yang kami sediakan ini mengacu kepada konsep layanan Haken yang berasal dari Jepang yaitu suatu bentuk <em>dispatching resources</em> dalam waktu tertentu dan berbeda dengan konsep outsource konvensional.</p>
-      <p>Melalui layanan Haken ini, kami dapat menyediakan Outsourcing IT profesional sehingga perusahaan klien tidak perlu memiliki hubungan secara langsung dengan tenaga kerja karyawan yang dikirim, namun di sisi lain mereka tetap dapat mempekerjakan tenaga IT Profesional sesuai kebutuhan berdasarkan kontrak layanan.</p>
-      <p>Secara operasional, klien akan secara langsung mengatur berbagai hal terkait tugas atau pekerjaan yang harus diselesaikan oleh tenaga IT Profesional dan KAZOKKU tidak berhak untuk mengatur pekerjaan tersebut.</p>
-      <p>Dalam menawarkan Layanan Outsourcing IT Profesional ini, KAZOKKU memiliki tanggung jawab untuk mengatur dan menjamin proses administratif dan finansial sesuai perjanjian, penggajian, serta pajak penghasilan dari IT Profesional tersebut. Dengan menggunakan layanan ini, perusahaan Anda akan terbantu dalam penghematan biaya dan waktu menjadi lebih efektif dan efisien.</p>
-      <div class="text-center mt-4">
-        <picture>
-          <source srcset="/images/layanan-haken/service-haken-graph.webp" type="image/webp">
-          <img src="/images/layanan-haken/service-haken-graph.png" class="img-fluid img-graph" alt="service haken graph">
-        </picture>
-      </div>
-    </div>
-  </div>
- 
-</div>
 
 <!-- <div class="container">
   <?php include './includes/banner-contact.php' ?>
