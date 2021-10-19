@@ -29,7 +29,7 @@
         <div class="d-flex h-100">
           <div class="justify-content-center align-self-center">
             <h4 class="text-secondary-main mt-sm-1">
-              Tentang Kazoku
+              Tentang KazokKu
             </h4>
             <p>
               KAZOKKU merupakan bagian dari grup <span class="logique-text">LOGIQUE</span>, yaitu salah satu pengembang sistem web terbaik di Jakarta, dipimpin oleh Takashi Yoshitsugu yang berasal dari Jepang. Secara operasional KAZOKKU mengedepankan prinsip-prinsip Jepang yang disiplin, logis, dan adil yang membuat kami mampu memberikan hasil yang memuaskan bagi para klien.
@@ -143,9 +143,8 @@
           </picture>                
         </div>
       </div>
-    </section>
-    
-  </div>  
+    </div>  
+  </section>    
   
   <div class="position-relative d-none d-sm-block d-sm-none d-md-block"> 
     <div class="position-absolute" style="top: -24px; right: 0"> 
@@ -185,68 +184,62 @@
         Keuntungan Layanan
       </h5>
       <h3 class="mt-3 mb-3">
-        Outsourching IT bagi Perusahaan
+        Outsourcing IT bagi Perusahaan
       </h3>
     </div>
 
   </div>
   <div class="row">
-    <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xxl-4">            
-          <a href="#" class="text-decoration-none">
-            <figure class=" rounded-xl text-center mt-3 mb-1 linear-gradient-blue border-blue-main h-100">
-              <picture>
-                  <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-1.png">
-                  <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-1.png">
-                  <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-1.svg" alt="main-image" loading="lazy" >
-              </picture> 
-              <figcaption class="pt-1 pl-4 pr-4 text-left">
-                  <h3 class="m-3 text-dark text-left">
-                    Proses rekrutmen dapat dijalankan dengan biaya yang fleksibel
-                  </h3>
-                  <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" >
-                    See Details
-                  </button>
-              </figcaption>
-            </figure>
-          </a>                           
+    <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xxl-4">                      
+      <figure class=" rounded-xl text-center mt-3 mb-1 linear-gradient-blue border-blue-main h-100">
+        <picture>
+            <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-1.png">
+            <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-1.png">
+            <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-1.svg" alt="main-image" loading="lazy" >
+        </picture> 
+        <figcaption class="pt-1 pl-4 pr-4 text-left">
+            <h3 class="m-3 text-dark text-left">
+              Proses rekrutmen dapat dijalankan dengan biaya yang fleksibel
+            </h3>
+            <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3"  data-toggle="modal" data-target="#modal1">
+              See Details
+            </button>
+        </figcaption>
+      </figure>                                   
     </div>
-      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">        
-          <a href="#" class="text-decoration-none">
-            <figure class=" rounded-xl text-center mt-3 mb-1 linear-gradient-blue border-blue-main h-100">
-              <picture>
-                  <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-2.png">
-                  <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-2.png">
-                  <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-2.svg" alt="main-image" loading="lazy" >
-              </picture> 
-              <figcaption class="pt-1 pl-4 pr-4 text-left">
-                  <h3 class="m-3 text-dark text-left">
-                    Biaya operasional tenaga kerja menjadi lebih terkendali
-                  </h3>
-                  <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" >
-                    See Details
-                  </button>
-              </figcaption>
-            </figure>
-          </a>                
+      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                  
+        <figure class=" rounded-xl text-center mt-3 mb-1 linear-gradient-blue border-blue-main h-100">
+          <picture>
+              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-2.png">
+              <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-2.png">
+              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-2.svg" alt="main-image" loading="lazy" >
+          </picture> 
+          <figcaption class="pt-1 pl-4 pr-4 text-left">
+              <h3 class="m-3 text-dark text-left">
+                Biaya operasional tenaga kerja menjadi lebih terkendali
+              </h3>
+              <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modal2">
+                See Details
+              </button>
+          </figcaption>
+        </figure>                      
       </div>
-      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">        
-          <a href="#" class="text-decoration-none">
-            <figure class=" rounded-xl text-center mt-3 mb-1 linear-gradient-blue border-blue-main h-100">
-              <picture>
-                  <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-3.png">
-                  <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-3.png">
-                  <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-3.svg" alt="main-image" loading="lazy" >
-              </picture> 
-              <figcaption class="pt-1 pl-4 pr-4 text-left">
-                  <h3 class="m-3 text-dark text-left">
-                    Perusahaan dapat fokus pada kegiatan bisnis
-                  </h3>
-                  <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" >
-                    See Details
-                  </button>
-              </figcaption>
-            </figure>
-          </a>            
+      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                  
+          <figure class=" rounded-xl text-center mt-3 mb-1 linear-gradient-blue border-blue-main h-100">
+            <picture>
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-3.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-3.png">
+                <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-3.svg" alt="main-image" loading="lazy" >
+            </picture> 
+            <figcaption class="pt-1 pl-4 pr-4 text-left">
+                <h3 class="m-3 text-dark text-left">
+                  Perusahaan dapat fokus pada kegiatan bisnis
+                </h3>
+                <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modal3">
+                  See Details
+                </button>
+            </figcaption>
+          </figure>             
       </div>
     </div>
 </section>
@@ -255,62 +248,56 @@
 <!-- #7 -->
 <section class="container mt-5">
   <div class="row">
-    <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">           
-        <a href="#" class="text-decoration-none">
-          <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
-            <picture>
-                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-4.png">
-                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-4.png">
-                <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-4.svg" alt="main-image" loading="lazy" >
-            </picture> 
-            <figcaption class="pt-1 pl-4 pr-4 text-left">
-                <h3 class="m-3 text-dark text-left">
-                Risiko dikelola dengan  lebih baik
-                </h3>
-                <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" >
-                  See Details
-                </button>
-            </figcaption>
-          </figure>
-        </a>        
+    <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                   
+      <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
+        <picture>
+            <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-4.png">
+            <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-4.png">
+            <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-4.svg" alt="main-image" loading="lazy" >
+        </picture> 
+        <figcaption class="pt-1 pl-4 pr-4 text-left">
+            <h3 class="m-3 text-dark text-left">
+            Risiko dikelola dengan  lebih baik
+            </h3>
+            <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modal4" >
+              See Details
+            </button>
+        </figcaption>
+      </figure>               
     </div>
-      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">        
-          <a href="#" class="text-decoration-none">
-            <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
-              <picture>
-                  <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-5.png">
-                  <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-5.png">
-                  <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-5.svg" alt="main-image" loading="lazy" >
-              </picture> 
-              <figcaption class="pt-1 pl-4 pr-4 text-left">
-                  <h3 class="m-3 text-dark text-left">
-                    Kinerja yang maksimal
-                  </h3>
-                  <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" >
-                    See Details
-                  </button>
-              </figcaption>
-            </figure>
-          </a>              
+      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                  
+        <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
+          <picture>
+              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-5.png">
+              <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-5.png">
+              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-5.svg" alt="main-image" loading="lazy" >
+          </picture> 
+          <figcaption class="pt-1 pl-4 pr-4 text-left">
+              <h3 class="m-3 text-dark text-left">
+                Kinerja yang maksimal
+              </h3>
+              <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modal5">
+                See Details
+              </button>
+          </figcaption>
+        </figure>                   
       </div>
-      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">        
-          <a href="#" class="text-decoration-none">
-            <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
-              <picture>
-                  <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-6.png">
-                  <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-6.png">
-                  <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-6.svg" alt="main-image" loading="lazy" >
-              </picture> 
-              <figcaption class="pt-1 pl-4 pr-4 text-left">
-                  <h3 class="m-3 text-dark text-left">
-                    Penerapan teknologi terbaru dengan cepat
-                  </h3>
-                  <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" >
-                    See Details
-                  </button>
-              </figcaption>
-            </figure>
-          </a>                 
+      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                  
+        <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
+          <picture>
+              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-6.png">
+              <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-6.png">
+              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-6.svg" alt="main-image" loading="lazy" >
+          </picture> 
+          <figcaption class="pt-1 pl-4 pr-4 text-left">
+              <h3 class="m-3 text-dark text-left">
+                Penerapan teknologi terbaru dengan cepat
+              </h3>
+              <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modal6">
+                See Details
+              </button>
+          </figcaption>
+        </figure>                  
       </div>
     </div>
 </section>
@@ -330,7 +317,7 @@
         Keuntungan Layanan
       </h5>         
       <h3 class="mt-3 mb-3">
-        Outsourching IT bagi Karyawan/ Tenaga Kerja
+        Outsourcing IT bagi Karyawan/ Tenaga Kerja
       </h3>           
     </div>
   </div>
@@ -355,105 +342,93 @@
 
 
   <div class="row">
-    <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xxl-4">      
-        <a href="#" class="text-decoration-none">
-            <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
-              <picture>
-                  <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-7.png">
-                  <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-7.png">
-                  <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-7.svg" alt="main-image" loading="lazy" >
-              </picture> 
-              <figcaption class="pt-1 pl-4 pr-4 text-left">
-                  <h3 class="m-3 text-dark text-left">
-                    Mudah mendapatkan pekerjaan
-                  </h3>
-                  <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" >
-                    See Details
-                  </button>
-              </figcaption>
-            </figure>
-          </a>          
+    <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xxl-4">              
+      <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
+        <picture>
+            <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-7.png">
+            <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-7.png">
+            <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-7.svg" alt="main-image" loading="lazy" >
+        </picture> 
+        <figcaption class="pt-1 pl-4 pr-4 text-left">
+            <h3 class="m-3 text-dark text-left">
+              Mudah mendapatkan pekerjaan
+            </h3>
+            <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modalEmployee1">
+              See Details
+            </button>
+        </figcaption>
+      </figure>          
     </div>
-      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">           
-          <a href="#" class="text-decoration-none">
-            <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
-              <picture>
-                  <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-8.png">
-                  <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-8.png">
-                  <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-8.svg" alt="main-image" loading="lazy" >
-              </picture> 
-              <figcaption class="pt-1 pl-4 pr-4 text-left">
-                  <h3 class="m-3 text-dark text-left">
-                    Dapat meningkatkan skill atau menjadi spesialis
-                  </h3>
-                  <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" >
-                    See Details
-                  </button>
-              </figcaption>
-            </figure>
-          </a>                               
+      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                     
+        <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
+          <picture>
+              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-8.png">
+              <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-8.png">
+              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-8.svg" alt="main-image" loading="lazy" >
+          </picture> 
+          <figcaption class="pt-1 pl-4 pr-4 text-left">
+              <h3 class="m-3 text-dark text-left">
+                Dapat meningkatkan skill atau menjadi spesialis
+              </h3>
+              <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modalEmployee2">
+                See Details
+              </button>
+          </figcaption>
+        </figure>                                        
       </div>
-      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">        
-          <a href="#" class="text-decoration-none">
-            <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
-              <picture>
-                  <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-9.png">
-                  <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-9.png">
-                  <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-9.svg" alt="main-image" loading="lazy" >
-              </picture> 
-              <figcaption class="pt-1 pl-4 pr-4 text-left">
-                  <h3 class="m-3 text-dark text-left">
-                    Mendapat banyak pengalaman dan relasi
-                  </h3>
-                  <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" >
-                    See Details
-                  </button>
-              </figcaption>
-            </figure>
-          </a>                   
+      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                  
+        <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
+          <picture>
+              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-9.png">
+              <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-9.png">
+              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-9.svg" alt="main-image" loading="lazy" >
+          </picture> 
+          <figcaption class="pt-1 pl-4 pr-4 text-left">
+              <h3 class="m-3 text-dark text-left">
+                Mendapat banyak pengalaman dan relasi
+              </h3>
+              <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modalEmployee3">
+                See Details
+              </button>
+          </figcaption>
+        </figure>                           
       </div>
     </div>
 
     <div class="row mt-3">
-      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xxl-4"> 
-                  
-          <a href="#" class="text-decoration-none">
-              <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-10.png">
-                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-10.png">
-                    <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-10.svg" alt="main-image" loading="lazy" >
-                </picture> 
-                <figcaption class="pt-1 pl-4 pr-4 text-left">
-                    <h3 class="m-3 text-dark text-left">
-                      Memilih perusahaan impian
-                    </h3>
-                    <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" >
-                      See Details
-                    </button>
-                </figcaption>
-              </figure>
-            </a>               
+      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xxl-4">                             
+        <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
+          <picture>
+              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-10.png">
+              <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-10.png">
+              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-10.svg" alt="main-image" loading="lazy" >
+          </picture> 
+          <figcaption class="pt-1 pl-4 pr-4 text-left">
+              <h3 class="m-3 text-dark text-left">
+                Memilih perusahaan impian
+              </h3>
+              <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modalEmployee4">
+                See Details
+              </button>
+          </figcaption>
+        </figure>                        
       </div>
-      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">
-          
-          <a href="#" class="text-decoration-none">
-              <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-light h-100">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-11.png">
-                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-11.png">
-                    <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-11.svg" alt="main-image" loading="lazy" >
-                </picture> 
-                <figcaption class="pt-1 pl-4 pr-4 text-left">
-                    <h3 class="m-3 text-dark text-left">
-                      Ruang untuk berkembang
-                    </h3>
-                    <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" >
-                      See Details
-                    </button>
-                </figcaption>
-              </figure>
-            </a>     
+      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                    
+          <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-light h-100">
+            <picture>
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-11.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-11.png">
+                <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-11.svg" alt="main-image" loading="lazy" >
+            </picture> 
+            <figcaption class="pt-1 pl-4 pr-4 text-left">
+                <h3 class="m-3 text-dark text-left">
+                  Ruang untuk berkembang
+                </h3>
+                <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modalEmployee5">
+                  See Details
+                </button>
+            </figcaption>
+          </figure>                
         </div>
       
       <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">              
@@ -474,7 +449,6 @@
     <img width="91" height="163" src="/images/outsourching-it/image-complement-right-section-8.svg" alt="complementary" />
   </picture>        
 </div> 
-
 
 <!-- #9 -->
 <section class="container mt-n5">
@@ -528,6 +502,13 @@
                 </figcaption>
               </figure>
             </a> 
+              <!-- <div class="dropdown">
+                <span class="nav-link cursor-pointer pl-1 pr-1" data-toggle="dropdown"  id="userMenuMobile"  >
+                    <img loading="lazy" alt="icon_user" width="auto" height="18" src="{{ assetsUrl('img/icons/Group.svg') }}" />
+                </span>                
+                <div class="dropdown-menu" aria-labelledby="userMenuMobile" style="z-index: 10000">
+                </div>
+              </div> -->
         </div>
         <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">
         <a href="#" style="text-decoration: none;">
@@ -675,7 +656,7 @@
         CARA KERJA LAYANAN
       </h4>
       <h2 class='mt-3'>
-        Outsourching IT
+        Outsourcing IT
       </h2>
       <ul class='list-unstyled mt-3'>
         <li class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1' >
@@ -695,7 +676,7 @@
         </li>
         <li class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 mt-3' >
           <h5>
-            PLACE MAPPING
+            Penempatan Talent
           </h5>
         </li>
       </ul>
@@ -885,3 +866,240 @@
 </div> -->
 <?php include './includes/footer.php' ?>
 <?php include './includes/footer-end.php' ?>
+
+
+<!-- MODALS OF Keuntungan Layanan Outsourcing IT bagi Perusahaan -->
+
+<!-- #1 -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal1Label">
+          Proses rekrutmen dapat dijalankan dengan biaya yang fleksibel
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Mempekerjakan dan melatih staff baru dapat mengeluarkan biaya yang cukup tinggi terutama untuk proyek jangka pendek. Saat Anda menggunakan layanan outsourcing IT, perusahaan dapat mengubah biaya tenaga kerja tetap menjadi biaya yang lebih fleksibel. Artinya, Anda hanya perlu membayar tenaga kerja tersebut saat perusahaan membutuhkannya. Dengan cara ini, perusahaan dapat mengelola anggaran rekrutmen menjadi lebih efektif dan efisien.
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- #2 -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal2Label">
+          Biaya operasional tenaga kerja menjadi lebih terkendali
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Tidak jarang perusahaan menemukan karyawan yang tidak bisa memenuhi harapan, sedangkan mereka harus tetap mengeluarkan biaya untuk membayar tenaga kerja tersebut. Layanan outsourcing, memungkinkan perusahaan Anda untuk bisa mengubah biaya tetap (pengeluaran konstan) menjadi biaya variabel (pengeluaran biaya sesuai kebutuhan). Perusahaan Anda juga dapat memfokuskan sumber daya manusia di tempat yang paling Anda butuhkan. Selain itu, tenaga kerja yang Anda peroleh sudah lolos kualifikasi dari perusahaan kami sehingga perusahaan Anda dapat mempekerjakan tenaga profesional.
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- #3 -->
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal3Label">
+          Perusahaan dapat fokus pada kegiatan bisnis
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Menggunakan layanan outsourcing memungkinkan perusahaan Anda untuk bisa fokus pada kegiatan bisnis. Anda tidak perlu lagi khawatir dengan pekerjaan rutin tertentu dalam sebuah proyek karena kami akan membantu mengelola pekerja outsource.
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- #4 -->
+<div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal4Label">
+          Risiko dikelola dengan lebih baik
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Setiap investasi bisnis akan membawa sejumlah risiko tertentu seperti kondisi pasar, persaingan bisnis, peraturan pemerintah, kondisi keuangan, atau teknologi yang berkembang dengan cepat. Meskipun demikian, Anda tidak perlu khawatir karena layanan outsourcing IT dari KAZOKKU dapat menanggung dan mengelola sebagian besar risiko tersebut untuk perusahaan Anda.
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- #5 -->
+<div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal5Label">
+          Kinerja yang maksimal
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Tenaga atau agen outsourcing IT kami merupakan tenaga profesional yang datang dengan pengetahuan, keahlian, dan pengalaman khusus yang sesuai dengan kebutuhan perusahaan. Tenaga kerja IT juga akan bekerja secara maksimal untuk menjalankan tugas atau task yang sudah ditentukan. Hal ini tentu menjadi keuntungan besar bagi perusahaan klien yang mempekerjakan dan memanfaatkan keterampilan mereka.
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- #6 -->
+<div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal6Label">
+          Kinerja yang maksimal
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Tenaga atau agen outsourcing IT kami merupakan tenaga profesional yang datang dengan pengetahuan, keahlian, dan pengalaman khusus yang sesuai dengan kebutuhan perusahaan. Tenaga kerja IT juga akan bekerja secara maksimal untuk menjalankan tugas atau task yang sudah ditentukan. Hal ini tentu menjadi keuntungan besar bagi perusahaan klien yang mempekerjakan dan memanfaatkan keterampilan mereka.
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+
+<!-- MODALS OF Outsourcing IT bagi Karyawan/ Tenaga Kerja -->
+
+<!-- #1 -->
+<div class="modal fade" id="modalEmployee1" tabindex="-1" aria-labelledby="modalEmployee1Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalEmployee1Label">
+          Mudah mendapatkan pekerjaan
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          KAZOKKU memudahkan para pekerja untuk bisa mendapatkan pekerjaan yang sesuai tanpa harus bersusah payah memasukkan lamaran pekerjaan ke berbagai perusahaan. Sebagai perusahaan dengan layanan outsourcing IT, kami  akan membantu menyalurkan tenaga Anda ke perusahaan-perusahaan yang membutuhkan. 
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- #2 -->
+<div class="modal fade" id="modalEmployee2" tabindex="-1" aria-labelledby="modalEmployee2Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalEmployee2Label">
+          Dapat meningkatkan skill atau menjadi spesialis
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          KAZOKKU dapat membantu pekerja outsourcing untuk bisa lebih serius dalam mendalami skill tertentu. Kami dapat  menempatkan Anda di perusahaan yang membutuhkan keterampilan Anda. Dengan cara ini, Anda akan memiliki peluang untuk bisa mendalami ruang lingkup atau teknologi tertentu yang memang ingin Anda kembangkan.
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- #3 -->
+<div class="modal fade" id="modalEmployee3" tabindex="-1" aria-labelledby="modalEmployee3Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalEmployee3Label">
+          Mendapat banyak pengalaman dan relasi
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Menjadi tenaga kerja outsource di KAZOKKU membuka kesempatan besar untuk mendapat lebih banyak pengalaman. Selain itu, tenaga Anda dapat disalurkan di berbagai perusahaan bonafide sehingga memungkinkan Anda untuk memperoleh lebih banyak relasi.
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- #4 -->
+<div class="modal fade" id="modalEmployee4" tabindex="-1" aria-labelledby="modalEmployee4Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalEmployee4Label">
+          Memilih perusahaan impian
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Tenaga kerja IT yang bergabung dengan KAZOKKU memiliki kesempatan untuk dapat bekerja di perusahaan impian mereka. Tenaga kerja dengan keahlian khusus saat ini masih jarang ditemukan sehingga cukup diminati oleh banyak perusahaan besar di Indonesia. Dengan layanan outsourcing IT, KAZOKKU akan membantu menyalurkan Anda  kepada perusahaan impian yang Anda inginkan.
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- #5 -->
+<div class="modal fade" id="modalEmployee5" tabindex="-1" aria-labelledby="modalEmployee5Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalEmployee5Label">
+          Ruang untuk berkembang
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Melalui sistem outsource dari KAZOKKU, Anda dapat bekerja tanpa harus terikat pada status kerja tetap pada sebuah perusahaan. Anda juga dapat lebih bebas dan fleksibel untuk mengembangkan diri sesuai dengan potensi dan minat yang dimiliki. 
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
