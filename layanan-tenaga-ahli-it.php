@@ -56,7 +56,7 @@
       </picture>   
     </div>
   </div>
-    
+
 <!-- #2 -->
 <div class="d-flex flex-row">
   <div class=" justify-content-center m-auto " ></div>
@@ -131,22 +131,21 @@
 </div>
 
 <!-- #4 -->
-<div class="ml-1 mt-3 mb-n5 d-none d-sm-block d-sm-none d-md-block">        
-  <picture>
-    <source srcset="/images/outsourching-it/image-complement-left-section-4.webp" type="image/webp" >
-    <img src="/images/outsourching-it/image-complement-left-section-4.png" alt="complementary" />
-  </picture>        
-</div>  
-
-
-
-
 <div class=" position-relative">        
   <div class="d-none d-sm-block d-sm-none d-md-block position-absolute" style="top: 0; left:0">    
     <picture>
       <source srcset="/images/outsourching-it/image-complement-left-section-4b.webp" type="image/webp" >
       <img  width="502" height="auto" src="/images/outsourching-it/image-complement-left-section-4b.png" alt="complementary" />
     </picture>        
+  </div>
+</div>  
+
+<div class="d-flex flex-row">
+  <div class="d-flex flex-column m-auto" >
+    <picture>
+      <source srcset="/images/outsourching-it/image-complement-left-section-4.webp" type="image/webp" >
+      <img class="d-none d-sm-block d-sm-none d-md-block mt-n7" src="/images/outsourching-it/image-complement-left-section-4.png" alt="complementary" />
+    </picture>  
   </div>
   <section class="container">
     <div class="row">
@@ -158,17 +157,14 @@
           </picture>                
         </div>
       </div>
-    </div>  
-  </section>    
-  
-  <div class="position-relative d-none d-sm-block d-sm-none d-md-block"> 
-    <div class="position-absolute" style="top: -24px; right: 0"> 
-      <picture>
-        <source srcset="/images/outsourching-it/image-complement-right-section-4.webp" type="image/webp" >
-        <img width="100%" height="auto" src="/images/outsourching-it/image-complement-right-section-4.png" alt="complementary" />
-      </picture>   
-    </div>
+  </section>   
+  <div class="d-flex flex-column justify-content-end">
+    <picture>
+      <source srcset="/images/outsourching-it/image-complement-right-section-4.webp" type="image/webp" >
+      <img class="d-none d-sm-block d-sm-none d-md-block mt-n7" width="100%" height="auto" src="/images/outsourching-it/image-complement-right-section-4.png" alt="complementary" />
+    </picture>  
   </div>
+</div>
 
   <!-- #5 -->
   <section class="container mt-5">
