@@ -163,6 +163,47 @@
       </div>      
   </div>
 </section>
+
+
+<!-- #5 -->  
+<section class="container mt-5">
+  <div class="row ">
+    <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">
+        <h4 class="text-secondary-main mt-4">
+            WHAT WE DO
+        </h4>
+        <h3 class="mt-3 mb-3">
+          Portofolio Kami
+        </h3> 
+    </div>
+  </div>
+
+  <div class="row mt-3">
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+      <h5>
+        Sinar Mas 
+      </h5>
+      <p>
+        Kami membantu Sinar Mas Land mengoptimalkan proses rekrutmen dengan menyediakan sistem dan aplikasi yang komprehensif untuk kandidat dan tim rekrutmen yang membuat semua proses berjalan otomatis secara digital.
+      </p>
+      <p>
+        Kebutuhan Teknis : .net, SAP, Active Directory
+      </p>        
+    </div>
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+      <h5>
+        Frenn Microfinance Bank Limited
+      </h5>
+      <p>
+        Kami menyediakan profesional yang memiliki kemampuan sangat baik dalam mengaplikasikan teknologi baru berbasis Go Lang dan mampu berkomunikasi dalam Bahasa Inggris dengan baik untuk berkolaborasi dengan tim internasional dari berbagai negara termasuk India.
+      </p>
+      <p>
+        Kebutuhan Teknis : Go Lang, Microservices
+      </p> 
+    </div>
+  </div>
+</section>
+
 <?php include './includes/banner-contact.php' ?>
 <?php include './includes/footer.php' ?>
 <?php include './includes/footer-end.php' ?>
