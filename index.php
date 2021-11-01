@@ -3,142 +3,166 @@
 <?php $description = 'Menyediakan layanan IT Profesional mulai dari web developer, web designer, digital marketing, hingga keamanan digital, serta layanan outsource karyawan bagi perusahaan yang membutuhkan tenaga IT profesional.' ?>
 <?php $canonical = 'https://www.kazokku.com/' ?>
 <?php include './includes/header.php' ?>
-<div class="main-visual-section">
-  <picture>
-      <source media="(min-width: 768px)" srcset="/images/main-visual.webp" type="image/webp">
-      <source media="(min-width: 768px)" srcset="/images/main-visual.jpg">
-      <source srcset="/images/main-visual-mobile.webp" type="image/webp">
-      <img src="/images/main-visual-mobile.jpg" class="img-fluid w-100 mt-5" width="1000" height="500" alt="homepage main visual">
-  </picture>
-  <div class="main-visual-text-wrapper">
-    <h1 class="main-visual-text">Mitra Terpercaya Untuk <br/> Layanan Profesional dan Outsourcing IT</h1>
-  </div>
-</div>
-<div class="company-info-section">
-  <img src="/images/bg-dots.png" class="img-dots" alt="dots">
-  <div class="container">
-    <div class="row mb-70px">
-      <div class="col-lg-6">
-        <div class="images-dots-wrapper">
-          <picture>
-            <source srcset="/images/logique-illustration.webp" type="image/webp">
-            <img src="/images/logique-illustration.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="Logique" width="523" height="405">
-          </picture>
-          <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <h2 class="title head-title">Kazokku merupakan bagian dari Grup <span class="logique-text">LOGIQUE</span> dari Jepang yang dipimpin oleh Takashi Yoshitsugu.</h2>
-        <p>Telah dipercaya banyak Perusahaan dan Profesional dibidang teknologi informasi dalam menyediakan karyawan maupun lapangan pekerjaan terkait Web Developer, Web Designer, Penulis Konten, Ahli SEO dan Pemasaran Online, serta Keamanan Digital, menghubungkan yang terbaik di Indonesia dengan para klien.</p>
-        <a href="https://logique.co.id" target="_blank" class="btn btn-orange-rounded">Detail</a>
-      </div>
-    </div>
-    <div class="row mb-70px">
-      <div class="col-lg-4">
-        <div class="images-dots-wrapper">
-          <picture>
-            <source srcset="/images/haken-service.webp" type="image/webp">
-            <img src="/images/haken-service.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="Outsourcing IT Profesional" width="330" height="348">
-          </picture>
-          <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
-        </div>
-      </div>
-      <div class="col-lg-8">
-        <h2 class="title">Outsourcing IT Profesional</h2>
-        <p class="mb-5">Menanggapi kebutuhan profesional di bidang IT yang semakin dinamis, Kazokku mengembangkan bisnis dari yang awalnya hanya berupa outsourcing IT konvensional berbasis proyek menjadi sebuah layanan Haken atau yang dikenal sebagai dispatching business di Jepang.</p>
-        <p>Dengan adanya layanan Outsourcing IT Profesional, kebutuhan klien akan profesional yang kuat dibidangnya dan mampu mengikuti kebutuhan transformasi digital yang dinamis dapat terpenuhi dengan baik.</p>
-        <a href="/layanan-tenaga-ahli-it.php" class="btn btn-orange-rounded">Detail</a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="images-dots-wrapper">
-          <picture>
-            <source srcset="/images/wdi.webp" type="image/webp">
-            <img src="/images/wdi.jpg" class="img-fluid rounded-10px mb-3 position-relative z-index-1" alt="Outsourcing IT Profesional" width="330" height="348">
-          </picture>
-          <img src="/images/small-dots-pattern.png" class="img-dots-bottom" alt="">
-        </div>
-      </div>
-      <div class="col-lg-8">
-        <h2 class="title">WDI</h2>
-        <p class="mb-5">Web Developer Indonesia (WDI) merupakan situs yang dikelola dan dimiliki oleh PT. Karisma Zona Kreatifku (KAZOKKU). Situs ini berfungsi sebagai portal penyedia informasi terlengkap yang menghubungkan antara para perusahaan Web Developer dengan para klien yang membutuhkan. </p>
-        <p>Selain itu, WDI juga berperan sebagai penghubung antara perusahaan Web Developer dengan para pekerja profesional dibidang digital seperti Web Developer, Web Designer, Ahli SEO dan Pemasaran Online, serta Penulis Konten yang sedang membutuhkan pekerjaan.</p>
 
-        <a href="https://webdev-id.com" target="_blank" class="btn btn-orange-rounded">Detail</a>
-      </div>
-    </div>
+<!-- #1 --> 
+
+<div class="position-relative d-none d-sm-block d-sm-none d-md-block"> 
+  <div class="position-absolute" style="top: 30px; left: 0;">          
+      <picture>
+        <source srcset="/images/outsourching-it/bg-art-left.webp" type="image/webp" >
+        <img class="mb-n5" src="/images/outsourching-it/bg-art-left.png" alt="complementary" />
+      </picture>            
   </div>
 </div>
-<div class="other-section">
-  <img src="/images/bg-dots.png" class="img-dots" alt="dots">
-  <div class="container">
-    <div class="portofolio-section">
-      <h2 class="title">Portofolio Kami</h2>
-      <div class="portofolio-list">
-        <div class="portofolio-list-item">
-          <img src="/images/sinarmas-logo.png" class="img-portfolio-logo img-sinarmas" alt="sinarmas">
-          <h3 class="portofolio-title">Sinar Mas Land</h3>
-          <p class="mb-2">Kami membantu Sinar Mas Land mengoptimalkan proses rekrutmen dengan menyediakan sistem dan aplikasi yang komprehensif untuk kandidat dan tim rekrutmen yang membuat semua proses berjalan otomatis secara digital.</p>
-          <p class="mb-0">Kebutuhan Teknis : .net, SAP, Active Directory</p>
-        </div>
-        <div class="portofolio-list-item">
-          <img src="/images/bank-building.png" class="img-portfolio-logo img-bank" alt="freen microfinance">
-          <h3 class="portofolio-title">Frenn Microfinance Bank Limited</h3>
-          <p class="mb-2">Kami menyediakan profesional yang memiliki kemampuan sangat baik dalam mengaplikasikan teknologi baru berbasis Go Lang dan mampu berkomunikasi dalam Bahasa Inggris dengan baik untuk berkolaborasi dengan tim internasional dari berbagai negara termasuk India.</p>
-          <p class="mb-0">Kebutuhan Teknis : Go Lang, Microservices</p>
-        </div>
+<section class="container mt-17 ">  
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 ">                 
+      <h1>
+        Mitra Terpercaya Untuk <br />
+        Layanan Profesional dan <br />
+        Outsourching IT
+      </h1>  
+      <picture>
+        <source srcset="/images/home/image-2-section-1.png" type="image/png" >
+        <img class="mt-3 " width="112" height="27" src="/images/home/image-2-section-1.svg" alt="complementary" />
+      </picture>        
+    </div>
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">     
+      <div class="mt-n7">
+        <picture>
+            <source media="(min-width: 1024px)" srcset="/images/home/image-5-section-1.png">
+            <source media="(max-width: 640px)" srcset="/images/home/image-5-section-1.png">
+            <img width="40" height="21" class="w-sm-100 " src="/images/home/image-5-section-1.svg" alt="section-1"  loading="lazy" >
+        </picture>   
+        <picture>
+            <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-1.svg">
+            <source media="(max-width: 640px)" srcset="/images/home/image-1-section-1.svg">
+            <img class="w-sm-100" src="/images/home/image-section-1.png" alt="section-1"  loading="lazy" >
+        </picture>       
+      </div>                 
+    </div>
+  </div>
+</section>  
+
+<!-- #2 -->  
+<section class="container ">  
+  <div class="row mt-5">
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">             
+      <picture>
+        <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-2.webp">
+        <source media="(max-width: 640px)" srcset="/images/home/image-1-section-2.webp">
+        <img class="w-sm-100" src="/images/home/image-1-section-2.png" alt="section-1"  loading="lazy" >
+      </picture>   
+      <div class="d-flex flex-row justify-content-end">
+        <picture>
+          <source media="(min-width: 1024px)" srcset="/images/home/image-dot-orange-section-3.png">
+          <source media="(max-width: 640px)" srcset="/images/home/image-dot-orange-section-3.png">
+          <img width="40" height="12" class="w-sm-100" src="/images/home/image-dot-orange-section-3.svg" alt="dot-orange"  loading="lazy" >
+        </picture> 
       </div>
     </div>
-    <!-- <div class="article-section">
-      <h2 class="title">Artikel</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="article-item">
-            <div class="images-dots-wrapper">
-              <picture>
-                <source srcset="/images/article-1.webp" type="image/webp">
-                <img src="/images/article-1.jpg" class="img-article" alt="article 1">
-              </picture>
-              <img src="/images/small-dots-pattern.png" class="img-dots-article" alt="">
-            </div>
-            <h3 class="article-title">Title Artikel One</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a href="#" class="article-link-detail">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" width="16" height="16" alt="detail"></a>
-          </div>
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+        <div class="d-flex flex-row justify-content-end">
+          <picture>
+            <source srcset="/images/home/image-2-section-1.png" type="image/png" >
+            <img width="112" height="27" src="/images/home/image-2-section-1.svg" alt="complementary" />
+          </picture>  
         </div>
-        <div class="col-lg-4">
-          <div class="article-item">
-            <div class="images-dots-wrapper">
-              <picture>
-                <source srcset="/images/article-2.webp" type="image/webp">
-                <img src="/images/article-2.jpg" class="img-article" alt="article 2">
-              </picture>
-              <img src="/images/small-dots-pattern.png" class="img-dots-article" alt="">
-            </div>
-            <h3 class="article-title">Title Artikel Two</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a href="#" class="article-link-detail">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail" width="16" height="16"></a>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="article-item">
-            <div class="images-dots-wrapper">
-              <picture>
-                <source srcset="/images/article-3.webp" type="image/webp">
-                <img src="/images/article-3.jpg" class="img-article" alt="article 3">
-              </picture>
-              <img src="/images/small-dots-pattern.png" class="img-dots-article" alt="">
-            </div>
-            <h3 class="article-title">Title Artikel Three</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a href="#" class="article-link-detail">Detail <img src="/images/right-arrow-orange.png" class="img-arrow" alt="detail" width="16" height="16"></a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <?php include './includes/banner-contact.php' ?>
+        <h4 class="text-secondary-main mt-2">
+            WHO WE ARE
+        </h4>
+        <h3 class="mt-3 mb-3">
+          Kazokku merupakan bagian dari Grup logique dari Jepang yang dipimpin oleh Takashi Yoshitsugu.
+        </h3> 
+        <p>
+          Telah dipercaya banyak Perusahaan dan Profesional dibidang teknologi informasi dalam menyediakan karyawan maupun lapangan pekerjaan terkait Web Developer, Web Designer, Penulis Konten, Ahli SEO dan Pemasaran Online, serta Keamanan Digital, menghubungkan yang terbaik di Indonesia dengan para klien.
+        </p>
+        <button type="button" class="btn btn-secondary btn-lg  pl-4 pr-4" >
+          <h6 class="m-0">
+            Detail
+          </h6>
+        </button>  
+    </div>
   </div>
-</div>
+</section>  
+
+<!-- #3 -->  
+<br />
+<section class="container">  
+  <div class="row mt-5 ">
+    <div class="col-sm-12 col-md-8 col-md-8 col-lg-8 col-xl-8 ">                          
+        <h4 class="text-secondary-main">
+            HOW WE CAN HELP
+        </h4>
+        <h3 class="mt-3 mb-3">
+          Outsourcing IT Profesional
+        </h3> 
+        <p>
+          Menanggapi kebutuhan profesional di bidang IT yang semakin dinamis, Kazokku mengembangkan bisnis dari yang awalnya hanya berupa outsourcing IT konvensional berbasis proyek menjadi sebuah layanan Haken atau yang dikenal sebagai dispatching business di Jepang.
+        </p>
+        <p>
+          Dengan adanya layanan Haken, kebutuhan klien akan profesional yang kuat dibidangnya dan mampu mengikuti kebutuhan transformasi digital yang dinamis dapat terpenuhi dengan baik.
+        </p>
+        <button type="button" class="btn btn-secondary btn-lg  pl-4 pr-4" >
+          <h6 class="m-0">
+            Detail
+          </h6>
+        </button> 
+      </div>
+      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4 text-right">
+        <div class="mt-n3">
+          <picture>
+            <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-3.webp">
+            <source media="(max-width: 640px)" srcset="/images/home/image-1-section-3.webp">
+            <img class="w-sm-100 mt-n5" src="/images/home/image-1-section-3.png" alt="section-1"  loading="lazy" >
+          </picture>     
+          <br /> 
+          <picture>
+            <source media="(min-width: 1024px)" srcset="/images/home/image-dot-orange-section-3.png">
+            <source media="(max-width: 640px)" srcset="/images/home/image-dot-orange-section-3.png">
+            <img width="112" height="27" class="w-sm-100 mr-4 mt-3" src="/images/home/image-dot-orange-section-3.svg" alt="dot-orange"  loading="lazy" >
+          </picture>           
+        </div>
+    </div>
+  </div>
+</section>  
+
+<!-- #4 -->  
+<section class="container mt-5">
+  <div class="row ">
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">
+        <picture>
+          <source media="(min-width: 1024px)" srcset="/images/home/image-dot-blue-section-4.png">
+          <source media="(max-width: 640px)" srcset="/images/home/image-dot-blue-section-4.png">
+          <img height="32" width="32" class="w-sm-100 mt-n5" src="/images/home/image-dot-blue-section-4.svg" alt="section-1"  loading="lazy" >
+        </picture>  
+        <picture>
+          <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-4.webp">
+          <source media="(max-width: 640px)" srcset="/images/home/image-1-section-4.webp">
+          <img class="w-sm-100" src="/images/home/image-1-section-4.png" alt="section-1"  loading="lazy" >
+        </picture>                           
+      </div>
+      <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+        <h4 class="text-secondary-main mt-4">
+            HOW WE CAN HELP
+        </h4>
+        <h3 class="mt-3 mb-3">
+          WDI - Web Developer Indonesia
+        </h3> 
+        <p>
+          Web Developer Indonesia (WDI) merupakan situs yang dikelola dan dimiliki oleh PT. Karisma Zona Kreatifku (KAZOKKU). Situs ini berfungsi sebagai portal penyedia informasi terlengkap yang menghubungkan antara para perusahaan Web Developer dengan para klien yang membutuhkan.
+        </p>
+        <p>
+            Selain itu, WDI juga berperan sebagai penghubung antara perusahaan Web Developer dengan para pekerja profesional dibidang digital seperti Web Developer, Web Designer, Ahli SEO dan Pemasaran Online, serta Penulis Konten yang sedang membutuhkan pekerjaan.        
+        </p>   
+        <button type="button" class="btn btn-secondary btn-lg  pl-5 pr-5" >
+          <h6 class="m-0">
+            Detail
+          </h6>
+        </button>                 
+      </div>      
+  </div>
+</section>
+<?php include './includes/banner-contact.php' ?>
 <?php include './includes/footer.php' ?>
 <?php include './includes/footer-end.php' ?>
