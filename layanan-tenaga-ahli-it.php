@@ -277,7 +277,7 @@
       </figure>               
     </div>
       <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                  
-        <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
+        <figure class="rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
           <picture>
               <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-5.png">
               <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-5.png">
@@ -650,17 +650,62 @@
 
 <!-- #10 -->
 <section class="container mt-5">
-  <div class="row">
+  <div class="row" id='tab'>
     <div class="col-sm-12 col-md-7 col-md-7 col-lg-7 col-xl-7">
 
-        <picture>
-            <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-10.png">
-            <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-10.png">
-            <img src="/images/outsourching-it/image-section-10.svg" alt="main-image" class="w-sm-100 h-sm-auto" width="514" height="327"  loading="lazy" >
-        </picture>      
+        <div
+          style="
+            background-image: url('/images/outsourching-it/image-section-10.svg');
+            background-repeat: no-repeat;            
+            background-position: center; 
+            height: 327px;
+          "
+        >
+          <!-- #1 PERENCANAAN -->
+          <div class="text-center content active-content" data-content='1'>
+            <br />            
+            <picture>
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-10-perencanaan.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-10-perencanaan.png">
+                <img class="ml-5" src="/images/outsourching-it/image-section-10-perencanaan.svg" alt="perencanaan" class="w-sm-100 h-sm-auto" width="306" height="265"  loading="lazy" >
+            </picture>    
+          </div>
+
+          <!-- #2 DISCUSS & CONSULTATION -->
+          <div class="text-center content" data-content='2'>
+            <br />            
+            <picture>
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-10-discuss-consultation.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-10-discuss-consultation.png">
+                <img class="ml-3 mt-5" width="394" height="247" src="/images/outsourching-it/image-section-10-discuss-consultation.svg" alt="discuss" class="w-sm-100 h-sm-auto"   loading="lazy" >
+            </picture>    
+          </div>
+
+           <!-- #3 TALENT MAPPING -->
+           <div class="text-center content" data-content='3'>
+            <br />            
+            <picture>
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-10-talent-mapping.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-10-talent-mapping.png">
+                <img class="ml-3" width="327" height="314" src="/images/outsourching-it/image-section-10-talent-mapping.svg" alt="talent-mapping" class="w-sm-100 h-sm-auto"   loading="lazy" >
+            </picture>    
+          </div>
+
+           <!-- #4 PENEMPATAN TALENT -->
+           <div class="text-center content" data-content='4'>
+            <br />            
+            <picture>
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-10-placement.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-10-placement.png">
+                <img class="ml-5 mt-4" width="327" height="285" src="/images/outsourching-it/image-section-10-placement.svg" alt="placement" class="w-sm-100 h-sm-auto"   loading="lazy" >
+            </picture>    
+          </div>
+        </div>       
+                 
       <p class='text-center mt-3'>
         Pencarian IT professional dengan melakukan seperangkat tes, & interview untuk mengetahui & memahami kecocokan dari kandidat terbaik yang sesuai dengan kebutuhan Anda 
-      </p>
+      </p>  
+
     </div>
     <div class="col-sm-12 col-md-5 col-md-5 col-lg-5 col-xl-5">
       <h4 class="text-secondary-main mt-sm-1">
@@ -670,24 +715,24 @@
         Outsourcing IT
       </h2>
       <ul class='list-unstyled mt-3'>
-        <li class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1' >
+        <li data-id='1' class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 cursor-pointer' >
             <h5>
               PERENCANAAN
             </h5>
         </li>
-        <li class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 mt-3' >
+        <li data-id='2' class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 mt-3 cursor-pointer' >
           <h5>
             DISKUSI & KONSULTASI
           </h5>
         </li>
-        <li class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 mt-3' >
+        <li data-id='3' class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 mt-3 cursor-pointer' >
           <h5>
             TALENT MAPPING
           </h5>
         </li>
-        <li class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 mt-3' >
+        <li data-id='4' class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 mt-3 cursor-pointer' >
           <h5>
-            Penempatan Talent
+            PENEMPATAN TALENT
           </h5>
         </li>
       </ul>
@@ -700,8 +745,6 @@
     </picture>        
   </div>
 </section>
-
-
 
 <!-- #11 -->
 <div class="mb-n8 mt-5">
@@ -1079,3 +1122,18 @@
     </div>
   </div>
 </div>
+
+<script>
+  $('document').ready(function(){    
+    $("#tab ul li").click(function(){
+      const id = $(this).data('id');      
+      if(!$(this).hasClass('active-content')){
+        $("#tab ul li").removeClass('active-content');
+        $(this).addClass('active-content');
+        
+        $('.content').hide();
+        $(`[data-content=${id}]`).show();
+      }
+    });
+  })
+</script>
