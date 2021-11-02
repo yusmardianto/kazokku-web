@@ -23,9 +23,18 @@
 
 }
 
+/* Custom */
 .linear-gradient-blue{
     background: rgb(201,232,255);
     background: linear-gradient(347deg, rgba(238,246,254,1) 2%, rgb(250 253 255) 97%);
+}
+
+.content {
+    display: none;
+}
+
+.active-content{
+    display: block;
 }
 
 /* Ovverides bootstrap */
@@ -117,6 +126,10 @@
 
 .text-lg{
     font-size: larger;
+}
+
+.cursor-pointer{
+    cursor: pointer;
 }
 
 

@@ -57,81 +57,95 @@
     </div>
   </div>
 
-  </div>
 <!-- #2 -->
-<section class="container mt-13">
-  <div class="row">
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">   
-      <div class="d-flex h-100">
-          <div class="justify-content-center align-self-center">            
-            <picture>
-                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-complement-1.webp">
-                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-complement-1.webp">
-                <img class="mb-3" src="/images/outsourching-it/image-complement-1.png" alt="main-image"  loading="lazy" >
-            </picture>
-            <p>
-            Sebagai mitra digital khususnya pengembangan web yang berlokasi di Jakarta, kami mempunyai mimpi untuk membentuk komunitas Web Developer terbesar
-            di Indonesia. KAZOKKU berkomitmen untuk mendukung seluruh perusahaan Web Developer dan para pekerja profesional dibidang digital di Tanah Air untuk terus tumbuh dan berkembang dengan sukses. Komitmen ini telah kami jalankan
-            dengan menghubungkan para perusahaan Web Developer dengan para klien yang membutuhkan, serta menghubungkan mereka dengan Web Developer profesional yang sedang mencari pekerjaan.
-            </p>
+<div class="d-flex flex-row">
+  <div class=" justify-content-center m-auto " ></div>
+  <div class="" style=" background-color: rgb(255,242,223);background-image: radial-gradient(circle, rgba(255,242,223,1) 0%, rgba(255,255,255,1) 100%);"> 
+    <section class="container mt-13">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">   
+          <div class="d-flex h-100">
+              <div class="justify-content-center align-self-center">            
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-complement-1.webp">
+                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-complement-1.webp">
+                    <img class="mb-3" src="/images/outsourching-it/image-complement-1.png" alt="main-image"  loading="lazy" >
+                </picture>
+                <p>
+                Sebagai mitra digital khususnya pengembangan web yang berlokasi di Jakarta, kami mempunyai mimpi untuk membentuk komunitas Web Developer terbesar
+                di Indonesia. KAZOKKU berkomitmen untuk mendukung seluruh perusahaan Web Developer dan para pekerja profesional dibidang digital di Tanah Air untuk terus tumbuh dan berkembang dengan sukses. Komitmen ini telah kami jalankan
+                dengan menghubungkan para perusahaan Web Developer dengan para klien yang membutuhkan, serta menghubungkan mereka dengan Web Developer profesional yang sedang mencari pekerjaan.
+                </p>
+              </div>
           </div>
-      </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
-        <picture>
-            <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-2.png">
-            <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-2.png">
-            <img src="/images/outsourching-it/image-section-2.svg" alt="main-image" width="100%" height="auto" loading="lazy" >
-        </picture>      
-      </div>
-    </div>
-</section>
+          </div>
+          <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+            <picture>
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-2.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-2.png">
+                <img src="/images/outsourching-it/image-section-2.svg" alt="main-image" width="100%" height="auto" loading="lazy" >
+            </picture>      
+          </div>
+        </div>
+    </section>
+  </div>
+  <div class="d-flex flex-column justify-content-center m-auto">
+    <h3 class="d-none d-sm-block d-sm-none d-md-block">      </h3>
+  </div>
+</div>
+
 
 <!-- #3 -->
-<section class="container">
-<div class="row">
-    <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xxl-12"> 
-      <h4 class="text-secondary-main">
-            APA ITU LAYANAN
-        </h4>
-        <h3 class="mt-3 mb-3">
-          Outsourcing IT dari KAZOKKU ?
-        </h3>  
+<div class="d-flex flex-row">
+  <div class="d-none d-sm-block d-sm-none d-md-block d-flex flex-column justify-content-center m-auto"></div>
+  <div>
+    <section class="container">      
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xxl-12"> 
+          <h4 class="text-secondary-main">
+                APA ITU LAYANAN
+            </h4>
+            <h3 class="mt-3 mb-3">
+              Outsourcing IT dari KAZOKKU ?
+            </h3>  
+        </div>
     </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xxl-6">            
+            
+            <p>
+            Layanan outsourcing IT profesional adalah layanan pengiriman tenaga
+          IT profesional untuk bekerja di perusahaan Anda. Tenaga IT yang nantinya akan kami kirimkan merupakan tenaga kerja profesional dengan keterampilan dan kemampuan yang sesuai dengan kebutuhan perusahaan Anda. Pada dasarnya, layanan yang kami sediakan ini mengacu kepada konsep layanan Haken yang berasal dari Jepang yaitu suatu bentuk dispatching resources dalam waktu tertentu dan berbeda dengan konsep outsource konvensional.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+            <p>
+            Melalui layanan Haken ini, kami dapat menyediakan Outsourcing IT profesional sehingga perusahaan klien tidak perlu memiliki hubungan secara langsung dengan tenaga kerja karyawan yang dikirim, namun di sisi lain mereka tetap dapat mempekerjakan tenaga IT Profesional sesuai kebutuhan berdasarkan kontrak layanan.
+            </p>       
+          </div>
+        </div>
+    </section>
+   
+  </div>
+  <div class="d-none d-sm-block d-sm-none d-md-block d-flex flex-column justify-content-center m-auto"></div>
 </div>
-  <div class="row">
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xxl-6">            
-        
-        <p>
-        Layanan outsourcing IT profesional adalah layanan pengiriman tenaga
-      IT profesional untuk bekerja di perusahaan Anda. Tenaga IT yang nantinya akan kami kirimkan merupakan tenaga kerja profesional dengan keterampilan dan kemampuan yang sesuai dengan kebutuhan perusahaan Anda. Pada dasarnya, layanan yang kami sediakan ini mengacu kepada konsep layanan Haken yang berasal dari Jepang yaitu suatu bentuk dispatching resources dalam waktu tertentu dan berbeda dengan konsep outsource konvensional.
-        </p>
-      </div>
-      <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
-        <p>
-        Melalui layanan Haken ini, kami dapat menyediakan Outsourcing IT profesional sehingga perusahaan klien tidak perlu memiliki hubungan secara langsung dengan tenaga kerja karyawan yang dikirim, namun di sisi lain mereka tetap dapat mempekerjakan tenaga IT Profesional sesuai kebutuhan berdasarkan kontrak layanan.
-        </p>       
-      </div>
-    </div>
-</section>
 
 <!-- #4 -->
-<div class="ml-1 mt-3 mb-n5 d-none d-sm-block d-sm-none d-md-block">        
-  <picture>
-    <source srcset="/images/outsourching-it/image-complement-left-section-4.webp" type="image/webp" >
-    <img src="/images/outsourching-it/image-complement-left-section-4.png" alt="complementary" />
-  </picture>        
-</div>  
-
-
-
-
 <div class=" position-relative">        
   <div class="d-none d-sm-block d-sm-none d-md-block position-absolute" style="top: 0; left:0">    
     <picture>
       <source srcset="/images/outsourching-it/image-complement-left-section-4b.webp" type="image/webp" >
       <img  width="502" height="auto" src="/images/outsourching-it/image-complement-left-section-4b.png" alt="complementary" />
     </picture>        
+  </div>
+</div>  
+
+<div class="d-flex flex-row">
+  <div class="d-flex flex-column m-auto" >
+    <picture>
+      <source srcset="/images/outsourching-it/image-complement-left-section-4.webp" type="image/webp" >
+      <img class="d-none d-sm-block d-sm-none d-md-block mt-n7" src="/images/outsourching-it/image-complement-left-section-4.png" alt="complementary" />
+    </picture>  
   </div>
   <section class="container">
     <div class="row">
@@ -143,17 +157,14 @@
           </picture>                
         </div>
       </div>
-    </div>  
-  </section>    
-  
-  <div class="position-relative d-none d-sm-block d-sm-none d-md-block"> 
-    <div class="position-absolute" style="top: -24px; right: 0"> 
-      <picture>
-        <source srcset="/images/outsourching-it/image-complement-right-section-4.webp" type="image/webp" >
-        <img width="100%" height="auto" src="/images/outsourching-it/image-complement-right-section-4.png" alt="complementary" />
-      </picture>   
-    </div>
+  </section>   
+  <div class="d-flex flex-column justify-content-end">
+    <picture>
+      <source srcset="/images/outsourching-it/image-complement-right-section-4.webp" type="image/webp" >
+      <img class="d-none d-sm-block d-sm-none d-md-block mt-n7" width="100%" height="auto" src="/images/outsourching-it/image-complement-right-section-4.png" alt="complementary" />
+    </picture>  
   </div>
+</div>
 
   <!-- #5 -->
   <section class="container mt-5">
@@ -266,7 +277,7 @@
       </figure>               
     </div>
       <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                  
-        <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
+        <figure class="rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
           <picture>
               <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-5.png">
               <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-5.png">
@@ -639,17 +650,62 @@
 
 <!-- #10 -->
 <section class="container mt-5">
-  <div class="row">
+  <div class="row" id='tab'>
     <div class="col-sm-12 col-md-7 col-md-7 col-lg-7 col-xl-7">
 
-        <picture>
-            <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-10.png">
-            <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-10.png">
-            <img src="/images/outsourching-it/image-section-10.svg" alt="main-image" class="w-sm-100 h-sm-auto" width="514" height="327"  loading="lazy" >
-        </picture>      
+        <div
+          style="
+            background-image: url('/images/outsourching-it/image-section-10.svg');
+            background-repeat: no-repeat;            
+            background-position: center; 
+            height: 327px;
+          "
+        >
+          <!-- #1 PERENCANAAN -->
+          <div class="text-center content active-content" data-content='1'>
+            <br />            
+            <picture>
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-10-perencanaan.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-10-perencanaan.png">
+                <img class="ml-5" src="/images/outsourching-it/image-section-10-perencanaan.svg" alt="perencanaan" class="w-sm-100 h-sm-auto" width="306" height="265"  loading="lazy" >
+            </picture>    
+          </div>
+
+          <!-- #2 DISCUSS & CONSULTATION -->
+          <div class="text-center content" data-content='2'>
+            <br />            
+            <picture>
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-10-discuss-consultation.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-10-discuss-consultation.png">
+                <img class="ml-3 mt-5" width="394" height="247" src="/images/outsourching-it/image-section-10-discuss-consultation.svg" alt="discuss" class="w-sm-100 h-sm-auto"   loading="lazy" >
+            </picture>    
+          </div>
+
+           <!-- #3 TALENT MAPPING -->
+           <div class="text-center content" data-content='3'>
+            <br />            
+            <picture>
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-10-talent-mapping.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-10-talent-mapping.png">
+                <img class="ml-3" width="327" height="314" src="/images/outsourching-it/image-section-10-talent-mapping.svg" alt="talent-mapping" class="w-sm-100 h-sm-auto"   loading="lazy" >
+            </picture>    
+          </div>
+
+           <!-- #4 PENEMPATAN TALENT -->
+           <div class="text-center content" data-content='4'>
+            <br />            
+            <picture>
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-10-placement.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-10-placement.png">
+                <img class="ml-5 mt-4" width="327" height="285" src="/images/outsourching-it/image-section-10-placement.svg" alt="placement" class="w-sm-100 h-sm-auto"   loading="lazy" >
+            </picture>    
+          </div>
+        </div>       
+                 
       <p class='text-center mt-3'>
         Pencarian IT professional dengan melakukan seperangkat tes, & interview untuk mengetahui & memahami kecocokan dari kandidat terbaik yang sesuai dengan kebutuhan Anda 
-      </p>
+      </p>  
+
     </div>
     <div class="col-sm-12 col-md-5 col-md-5 col-lg-5 col-xl-5">
       <h4 class="text-secondary-main mt-sm-1">
@@ -659,24 +715,24 @@
         Outsourcing IT
       </h2>
       <ul class='list-unstyled mt-3'>
-        <li class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1' >
+        <li data-id='1' class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 cursor-pointer' >
             <h5>
               PERENCANAAN
             </h5>
         </li>
-        <li class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 mt-3' >
+        <li data-id='2' class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 mt-3 cursor-pointer' >
           <h5>
             DISKUSI & KONSULTASI
           </h5>
         </li>
-        <li class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 mt-3' >
+        <li data-id='3' class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 mt-3 cursor-pointer' >
           <h5>
             TALENT MAPPING
           </h5>
         </li>
-        <li class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 mt-3' >
+        <li data-id='4' class='border-secondary-main bg-orange-light rounded-lg pl-3 pr-3 pt-2 pb-1 mt-3 cursor-pointer' >
           <h5>
-            Penempatan Talent
+            PENEMPATAN TALENT
           </h5>
         </li>
       </ul>
@@ -689,8 +745,6 @@
     </picture>        
   </div>
 </section>
-
-
 
 <!-- #11 -->
 <div class="mb-n8 mt-5">
@@ -829,44 +883,9 @@
   </div>
 </section>
 
-<!-- #13 -->
-<section class="container mt-5 mb-5">
-  <div class="row">
-    <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">        
-      <figure class="mt-5">
-          <picture>
-              <source media="(min-width: 640)" srcset="/images/outsourching-it/image-1-section-13.webp">              
-              <img class="w-sm-100" width="1110" height="auto" src="/images/outsourching-it/image-1-section-13.jpg" alt="main-image" loading="lazy" >
-          </picture> 
-          <figcaption class="ml-4 text-left flex-row jusitify-content-between">
-          <div class="row">            
-            <div class="col-sm-12 col-md-8 col-md-8 col-lg-8 col-xl-8 mx-auto">
-              <h1 class="mt-n10 mt-sm-n4 ml-5  font-weight-bold">
-                <span class=" d-none d-sm-block d-sm-none d-md-block">
-                  Hubungi kami sekarang!
-                </span>
-              </h1>  
-              <h5 class="ml-5 font-weight-normal">
-                Untuk berkonsultasi dengan Konsultan Rekrutmen kami.
-              </h5>
-              <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4 ml-5 mt-2 mt-sm-1" >
-                  <h5 class="m-0">
-                    Hubungi Kami
-                  </h5>
-                </button>                          
-            </div>
-          </figcaption>
-        </figure> 
-    </div>
-  </div>
-</section>
-
-<!-- <div class="container">
-  <?php include './includes/banner-contact.php' ?>
-</div> -->
+<?php include './includes/banner-contact.php' ?>
 <?php include './includes/footer.php' ?>
 <?php include './includes/footer-end.php' ?>
-
 
 <!-- MODALS OF Keuntungan Layanan Outsourcing IT bagi Perusahaan -->
 
@@ -1103,3 +1122,21 @@
     </div>
   </div>
 </div>
+
+<script>
+  $('document').ready(function(){    
+
+    //#
+    $("#tab ul li").click(function(){
+      const id = $(this).data('id');      
+      if(!$(this).hasClass('active-content')){
+        $("#tab ul li").removeClass('active-content');
+        $(this).addClass('active-content');
+        
+        $('.content').hide();
+        $(`[data-content=${id}]`).show();
+      }
+    });
+
+  })
+</script>
