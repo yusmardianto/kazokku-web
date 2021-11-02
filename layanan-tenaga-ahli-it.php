@@ -1125,6 +1125,8 @@
 
 <script>
   $('document').ready(function(){    
+
+    //#
     $("#tab ul li").click(function(){
       const id = $(this).data('id');      
       if(!$(this).hasClass('active-content')){
@@ -1135,5 +1137,6 @@
         $(`[data-content=${id}]`).show();
       }
     });
+
   })
 </script>

@@ -74,8 +74,8 @@
     </script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-blue-light">
-      <div class="container rounded-pill bg-blue-dark bg-sm-transparent pl-5 pr-5 pt-3 pb-3" >
+    <nav id='header' class="navbar navbar-expand-lg bg-white">
+      <div class="container rounded-pill bg-blue-dark bg-sm-transparent pl-5 pr-5 pt-2 pb-2" >
         <a class="navbar-brand" href="/">
           <picture>
             <source srcset="/images/logo-kazokku.svg" type="image/svg+xml">
