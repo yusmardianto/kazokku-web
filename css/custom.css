@@ -106,6 +106,10 @@
 .mb-n8{
     margin-bottom: -8rem !important;
 }
+.ml-n6{
+    margin-left: -6rem!important;
+}
+
 .text-secondary-main{
     color: var(--secondary-main);
 }
@@ -146,6 +150,12 @@
     .mt-sm-0{
         margin-top: 0px !important;
     }
+    .mt-sm-1{
+        margin-top: 0.25rem!important;
+    }
+    .mt-sm-4{
+        margin-top: 1rem!important;
+    }
     .mb-sm-1{
         margin-bottom: 0.25rem!important;
     }
@@ -156,9 +166,19 @@
     .mt-sm-1{
         margin-top: 1rem!important;
     }
-
+    .mt-sm-4{
+        margin-top: 4rem!important;
+    }
     .mt-sm-n4{
         margin-top: -4rem!important;
+    }
+
+    .text-sm-left{
+        text-align: left!important;
+    }
+
+    .text-sm-right{
+        text-align: right!important;
     }
 
     .bg-sm-transparent{
