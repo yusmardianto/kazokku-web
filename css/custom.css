@@ -37,6 +37,26 @@
     display: block;
 }
 
+fieldset.card-info-with-fieldset {
+    border: 1px solid #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    border-radius: 10px;
+
+}
+
+legend.card-info-with-fieldset {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width:100%;
+    padding:0 10px;
+    border-bottom:none;
+}
+legend {
+    float: none;
+}
+
 /* Ovverides bootstrap */
 .btn-secondary {    
     font-size: 13px;
@@ -106,6 +126,10 @@
 .mb-n8{
     margin-bottom: -8rem !important;
 }
+.ml-n6{
+    margin-left: -6rem!important;
+}
+
 .text-secondary-main{
     color: var(--secondary-main);
 }
@@ -146,6 +170,12 @@
     .mt-sm-0{
         margin-top: 0px !important;
     }
+    .mt-sm-1{
+        margin-top: 0.25rem!important;
+    }
+    .mt-sm-4{
+        margin-top: 1rem!important;
+    }
     .mb-sm-1{
         margin-bottom: 0.25rem!important;
     }
@@ -156,9 +186,23 @@
     .mt-sm-1{
         margin-top: 1rem!important;
     }
-
+    .mt-sm-4{
+        margin-top: 4rem!important;
+    }
     .mt-sm-n4{
         margin-top: -4rem!important;
+    }
+
+    .ml-sm-0{
+        margin-left: 0px!important;
+    }
+
+    .text-sm-left{
+        text-align: left!important;
+    }
+
+    .text-sm-right{
+        text-align: right!important;
     }
 
     .bg-sm-transparent{

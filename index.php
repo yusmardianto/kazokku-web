@@ -6,17 +6,21 @@
 
 <!-- #1 --> 
 
-<div class="position-relative d-none d-sm-block d-sm-none d-md-block"> 
+<div class="position-relative "> 
   <div class="position-absolute" style="top: 30px; left: 0;">          
       <picture>
         <source srcset="/images/outsourching-it/bg-art-left.webp" type="image/webp" >
-        <img class="mb-n5" src="/images/outsourching-it/bg-art-left.png" alt="complementary" />
+        <img class="mb-n5 d-none d-sm-block d-sm-none d-md-block" src="/images/outsourching-it/bg-art-left.png" alt="complementary" />
       </picture>            
   </div>
 </div>
 <section class="container mt-17 ">  
-  <div class="row">
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 ">                 
+  <div class="row flex-column-reverse flex-sm-row">
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 ">    
+      <picture>
+        <source srcset="/images/home/image-section-1-circle-outline.png" type="image/png" >
+        <img class="ml-n3 " width="20" height="20" src="/image-section-1-circle-outline.png" alt="complementary" />
+      </picture>                
       <h1>
         Mitra Terpercaya Untuk <br />
         Layanan Profesional dan <br />
@@ -28,119 +32,161 @@
       </picture>        
     </div>
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">     
-      <div class="mt-n7">
-        <picture>
-            <source media="(min-width: 1024px)" srcset="/images/home/image-5-section-1.png">
-            <source media="(max-width: 640px)" srcset="/images/home/image-5-section-1.png">
-            <img width="40" height="21" class="w-sm-100 " src="/images/home/image-5-section-1.svg" alt="section-1"  loading="lazy" >
-        </picture>   
-        <picture>
-            <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-1.svg">
-            <source media="(max-width: 640px)" srcset="/images/home/image-1-section-1.svg">
-            <img class="w-sm-100" src="/images/home/image-section-1.png" alt="section-1"  loading="lazy" >
-        </picture>       
+      <div class="mt-n7">                       
+          <picture>
+              <source media="(min-width: 1024px)" srcset="/images/home/image-section-1-orange-man.png">              
+              <img class="w-sm-100 mt-sm-4 " src="/images/home/image-section-1-orange-man.png" alt="section-1"  loading="lazy" >
+          </picture>  
+          <!-- <picture>
+              <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-1.svg">
+              <source media="(max-width: 640px)" srcset="/images/home/image-1-section-1.svg">
+              <img class="w-sm-100 mt-sm-4 " src="/images/home/image-section-1.png" alt="section-1"  loading="lazy" >
+          </picture>                   -->
       </div>                 
     </div>
   </div>
 </section>  
 
 <!-- #2 -->  
-<section class="container ">  
-  <div class="row mt-5">
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">             
-      <picture>
-        <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-2.webp">
-        <source media="(max-width: 640px)" srcset="/images/home/image-1-section-2.webp">
-        <img class="w-sm-100" src="/images/home/image-1-section-2.png" alt="section-1"  loading="lazy" >
-      </picture>   
-      <div class="d-flex flex-row justify-content-end">
-        <picture>
-          <source media="(min-width: 1024px)" srcset="/images/home/image-dot-orange-section-3.png">
-          <source media="(max-width: 640px)" srcset="/images/home/image-dot-orange-section-3.png">
-          <img width="40" height="12" class="w-sm-100" src="/images/home/image-dot-orange-section-3.svg" alt="dot-orange"  loading="lazy" >
-        </picture> 
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
-        <div class="d-flex flex-row justify-content-end">
-          <picture>
-            <source srcset="/images/home/image-2-section-1.png" type="image/png" >
-            <img width="112" height="27" src="/images/home/image-2-section-1.svg" alt="complementary" />
-          </picture>  
-        </div>
-        <h4 class="text-secondary-main mt-2">
-            WHO WE ARE
-        </h4>
-        <h3 class="mt-3 mb-3">
-          Kazokku merupakan bagian dari Grup logique dari Jepang yang dipimpin oleh Takashi Yoshitsugu.
-        </h3> 
-        <p>
-          Telah dipercaya banyak Perusahaan dan Profesional dibidang teknologi informasi dalam menyediakan karyawan maupun lapangan pekerjaan terkait Web Developer, Web Designer, Penulis Konten, Ahli SEO dan Pemasaran Online, serta Keamanan Digital, menghubungkan yang terbaik di Indonesia dengan para klien.
-        </p>
-        <button type="button" class="btn btn-secondary btn-lg  pl-4 pr-4" >
-          <h6 class="m-0">
-            Detail
-          </h6>
-        </button>  
-    </div>
+
+<div class="position-relative d-none d-sm-block d-sm-none d-md-block"> 
+  <div class="position-absolute" style="top: 0; right: 0"> 
+    <picture>
+        <source srcset="/images/home/image-section-2-blue-gradient-radial.png" type="image/png" >
+        <img width="350" height="550" src="/images/home/image-section-2-blue-gradient-radial.svg" alt="complementary" />
+    </picture>  
   </div>
-</section>  
+</div>
+<div class="" style=" background-color: rgb(255,242,223);background-image: radial-gradient(circle, rgba(255,242,223,1) 0%, rgba(255,255,255,1) 100%);"> 
+    <section class="container ">  
+      <div class="row mt-5">
+        <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">             
+          <picture>
+            <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-2.webp">
+            <source media="(max-width: 640px)" srcset="/images/home/image-1-section-2.webp">
+            <img class="w-sm-100 " src="/images/home/image-1-section-2.png" alt="section-1"  loading="lazy" >
+          </picture>   
+          <div class="d-flex flex-row justify-content-end">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="/images/home/image-dot-orange-section-3.png">
+              <source media="(max-width: 640px)" srcset="/images/home/image-dot-orange-section-3.png">
+              <img width="40" height="12" class="w-sm-100 d-none d-sm-block d-sm-none d-md-block" src="/images/home/image-dot-orange-section-3.svg" alt="dot-orange"  loading="lazy" >
+            </picture> 
+          </div>
+          <div class="text-left mt-n7 ml-n5 d-none d-sm-block d-sm-none d-md-block">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="/images/home/image-section-2-blue-mozaik.webp">
+              <source media="(max-width: 640px)" srcset="/images/home/image-section-2-blue-mozaik.webp">
+              <img width="152" height="152" class="w-sm-100 " src="/images/home/image-section-2-blue-mozaik.png" alt="mozaik"  loading="lazy" >
+            </picture> 
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+            <div class="d-flex flex-row justify-content-end">
+              <picture>
+                <source srcset="/images/home/image-2-section-1.png" type="image/png" >
+                <img class="mt-sm-1 mr-5" width="112" height="27" src="/images/home/image-2-section-1.svg" alt="complementary" />
+              </picture>  
+            </div>
+            <h4 class="text-secondary-main mt-2">
+                WHO WE ARE
+            </h4>        
+            <h3 class="mt-3 mb-3">
+              Kazokku merupakan bagian dari Grup logique dari Jepang yang dipimpin oleh Takashi Yoshitsugu.
+            </h3>                                         
+            <p>
+              Telah dipercaya banyak Perusahaan dan Profesional dibidang teknologi informasi dalam menyediakan karyawan maupun lapangan pekerjaan terkait Web Developer, Web Designer, Penulis Konten, Ahli SEO dan Pemasaran Online, serta Keamanan Digital, menghubungkan yang terbaik di Indonesia dengan para klien.
+            </p>
+            <button type="button" class="btn btn-secondary btn-lg  pl-4 pr-4" >
+              <h6 class="m-0">
+                Detail
+              </h6>
+            </button>  
+        </div>
+      </div>
+    </section>   
+    <br />
+    <br />
+</div>
+  
 
 <!-- #3 -->  
-<br />
-<section class="container">  
-  <div class="row mt-5 ">
-    <div class="col-sm-12 col-md-8 col-md-8 col-lg-8 col-xl-8 ">                          
-        <h4 class="text-secondary-main">
-            HOW WE CAN HELP
-        </h4>
-        <h3 class="mt-3 mb-3">
-          Outsourcing IT Profesional
-        </h3> 
-        <p>
-          Menanggapi kebutuhan profesional di bidang IT yang semakin dinamis, Kazokku mengembangkan bisnis dari yang awalnya hanya berupa outsourcing IT konvensional berbasis proyek menjadi sebuah layanan Haken atau yang dikenal sebagai dispatching business di Jepang.
-        </p>
-        <p>
-          Dengan adanya layanan Haken, kebutuhan klien akan profesional yang kuat dibidangnya dan mampu mengikuti kebutuhan transformasi digital yang dinamis dapat terpenuhi dengan baik.
-        </p>
-        <button type="button" class="btn btn-secondary btn-lg  pl-4 pr-4" >
-          <h6 class="m-0">
-            Detail
-          </h6>
-        </button> 
-      </div>
-      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4 text-right">
-        <div class="mt-n3">
-          <picture>
-            <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-3.webp">
-            <source media="(max-width: 640px)" srcset="/images/home/image-1-section-3.webp">
-            <img class="w-sm-100 mt-n5" src="/images/home/image-1-section-3.png" alt="section-1"  loading="lazy" >
-          </picture>     
-          <br /> 
-          <picture>
-            <source media="(min-width: 1024px)" srcset="/images/home/image-dot-orange-section-3.png">
-            <source media="(max-width: 640px)" srcset="/images/home/image-dot-orange-section-3.png">
-            <img width="112" height="27" class="w-sm-100 mr-4 mt-3" src="/images/home/image-dot-orange-section-3.svg" alt="dot-orange"  loading="lazy" >
-          </picture>           
+
+<div class="" style=" background-color: rgb(255,242,223);background-image: radial-gradient(circle, rgba(255,242,223,1) 0%, rgba(255,255,255,1) 100%);"> 
+  <section class="container">  
+    <div class="row  ">
+      <div class="col-sm-12 col-md-8 col-md-8 col-lg-8 col-xl-8 ">                          
+          <h4 class="text-secondary-main">
+              HOW WE CAN HELP
+          </h4>
+          <h3 class="mt-3 mb-3">
+            Outsourcing IT Profesional
+          </h3> 
+          <p>
+            Menanggapi kebutuhan profesional di bidang IT yang semakin dinamis, Kazokku mengembangkan bisnis dari yang awalnya hanya berupa outsourcing IT konvensional berbasis proyek menjadi sebuah layanan Haken atau yang dikenal sebagai dispatching business di Jepang.
+          </p>
+          <p>
+            Dengan adanya layanan Haken, kebutuhan klien akan profesional yang kuat dibidangnya dan mampu mengikuti kebutuhan transformasi digital yang dinamis dapat terpenuhi dengan baik.
+          </p>
+          <button type="button" class="btn btn-secondary btn-lg  pl-4 pr-4" >
+            <h6 class="m-0">
+              Detail
+            </h6>
+          </button> 
         </div>
+        <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4 text-center">
+          <div
+            style="
+              background-image: url('/images/home/image-section-3-orange-circle.svg');
+              background-repeat: no-repeat;            
+              background-position: top right; 
+              height: 320;
+            "
+          >                                  
+              <picture>
+                <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-3.webp">
+                <source media="(max-width: 640px)" srcset="/images/home/image-1-section-3.webp">
+                <img height="485" width="230" class="w-sm-100 h-sm-auto  mt-n5" src="/images/home/image-1-section-3.png" alt="section-1"  loading="lazy" >
+              </picture>     
+              <br /> 
+              
+              <picture>
+                <source media="(min-width: 1024px)" srcset="/images/home/image-dot-orange-section-3.png">
+                <source media="(max-width: 640px)" srcset="/images/home/image-dot-orange-section-3.png">
+                <img width="112" height="27" class=" mr-n4 mt-3" src="/images/home/image-dot-orange-section-3.svg" alt="dot-orange"  loading="lazy" >
+              </picture>                                     
+          </div>
+      </div>
     </div>
-  </div>
-</section>  
+  </section>  
+</div>
+
+
 
 <!-- #4 -->  
+<div class="position-relative d-none d-sm-block d-sm-none d-md-block"> 
+  <div class="position-absolute" style="top: 0; right: 0"> 
+    <picture>
+        <source srcset="/images/home/image-section-4-gradient-abstract.png" type="image/png" >
+        <img width="230" height="830" src="/images/home/image-section-4-gradient-abstract.svg" alt="complementary" />
+    </picture>  
+  </div>
+</div>
 <section class="container mt-5">
   <div class="row ">
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">
-        <picture>
-          <source media="(min-width: 1024px)" srcset="/images/home/image-dot-blue-section-4.png">
-          <source media="(max-width: 640px)" srcset="/images/home/image-dot-blue-section-4.png">
-          <img height="32" width="32" class="w-sm-100 mt-n5" src="/images/home/image-dot-blue-section-4.svg" alt="section-1"  loading="lazy" >
-        </picture>  
-        <picture>
-          <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-4.webp">
-          <source media="(max-width: 640px)" srcset="/images/home/image-1-section-4.webp">
-          <img class="w-sm-100" src="/images/home/image-1-section-4.png" alt="section-1"  loading="lazy" >
-        </picture>                           
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center text-sm-left">        
+          <div style=" background-color: rgb(255,242,223);background-image: radial-gradient(circle, #fff0f3 0%, rgba(255,255,255,1) 100%);">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="/images/home/image-dot-blue-section-4.png">
+              <source media="(max-width: 640px)" srcset="/images/home/image-dot-blue-section-4.png">
+              <img height="32" width="32" class=" mt-n5" src="/images/home/image-dot-blue-section-4.svg" alt="section-1"  loading="lazy" >
+            </picture> 
+            <picture>
+              <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-4.webp">
+              <source media="(max-width: 640px)" srcset="/images/home/image-1-section-4.webp">
+              <img class="w-sm-100 " src="/images/home/image-1-section-4.png" alt="section-1"  loading="lazy" >
+            </picture>                           
+        </div>
       </div>
       <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
         <h4 class="text-secondary-main mt-4">
@@ -164,6 +210,7 @@
   </div>
 </section>
 
+
 <!-- #5 -->  
 <section class="container mt-5">
   <div class="row ">
@@ -178,27 +225,41 @@
   </div>
 
   <div class="row mt-3">
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
-      <h5>
-        Sinar Mas 
-      </h5>
-      <p>
-        Kami membantu Sinar Mas Land mengoptimalkan proses rekrutmen dengan menyediakan sistem dan aplikasi yang komprehensif untuk kandidat dan tim rekrutmen yang membuat semua proses berjalan otomatis secara digital.
-      </p>
-      <p>
-        Kebutuhan Teknis : .net, SAP, Active Directory
-      </p>        
-    </div>
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
-      <h5>
-        Frenn Microfinance Bank Limited
-      </h5>
-      <p>
-        Kami menyediakan profesional yang memiliki kemampuan sangat baik dalam mengaplikasikan teknologi baru berbasis Go Lang dan mampu berkomunikasi dalam Bahasa Inggris dengan baik untuk berkolaborasi dengan tim internasional dari berbagai negara termasuk India.
-      </p>
-      <p>
-        Kebutuhan Teknis : Go Lang, Microservices
-      </p> 
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 " >      
+      <fieldset class="card-info-with-fieldset h-100" style="background-color: rgb(244 209 215); background-image:linear-gradient(162deg, rgba(225,111,132,0.10688025210084029) 21%, rgb(231 243 255) 69%);">
+          <legend class="card-info-with-fieldset" >
+              <span class="fs-6">Logo</span>
+          </legend>
+          <div class="control-group">
+              <h5 class="mt-5">
+                <b>Sinar Mas Land</b>
+              </h5>
+              <p>
+                Kami membantu Sinar Mas Land mengoptimalkan proses rekrutmen dengan menyediakan sistem dan aplikasi yang komprehensif untuk kandidat dan tim rekrutmen yang membuat semua proses berjalan otomatis secara digital.
+              </p>
+              <p>
+                Kebutuhan Teknis : .net, SAP, Active Directory
+              </p>  
+          </div>
+        </fieldset>  
+    </div>    
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 " >      
+      <fieldset class="card-info-with-fieldset h-100" style="background-color: rgb(244 209 215); background-image:linear-gradient(162deg, rgba(225,111,132,0.10688025210084029) 21%, rgb(231 243 255) 69%);">
+          <legend class="card-info-with-fieldset" >
+              <span class="fs-6">Logo</span>
+          </legend>
+          <div class="control-group">
+              <h5 class="mt-5">
+                <b>Frenn Microfinance Bank Limited</b>
+              </h5>
+              <p>
+                Kami menyediakan profesional yang memiliki kemampuan sangat baik dalam mengaplikasikan teknologi baru berbasis Go Lang dan mampu berkomunikasi dalam Bahasa Inggris dengan baik untuk berkolaborasi dengan tim internasional dari berbagai negara termasuk India.
+              </p>
+              <p>
+                Kebutuhan Teknis : Go Lang, Microservices
+              </p> 
+          </div>
+        </fieldset>  
     </div>
   </div>
 </section>
