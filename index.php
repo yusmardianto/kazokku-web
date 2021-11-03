@@ -15,8 +15,12 @@
   </div>
 </div>
 <section class="container mt-17 ">  
-  <div class="row">
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 ">                 
+  <div class="row flex-column-reverse flex-sm-row">
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 ">    
+      <picture>
+        <source srcset="/images/home/image-section-1-circle-outline.png" type="image/png" >
+        <img class="ml-n3 " width="20" height="20" src="/image-section-1-circle-outline.png" alt="complementary" />
+      </picture>                
       <h1>
         Mitra Terpercaya Untuk <br />
         Layanan Profesional dan <br />
@@ -157,6 +161,8 @@
   </section>  
 </div>
 
+
+
 <!-- #4 -->  
 <div class="position-relative d-none d-sm-block d-sm-none d-md-block"> 
   <div class="position-absolute" style="top: 0; right: 0"> 
@@ -219,27 +225,41 @@
   </div>
 
   <div class="row mt-3">
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
-      <h5>
-        Sinar Mas 
-      </h5>
-      <p>
-        Kami membantu Sinar Mas Land mengoptimalkan proses rekrutmen dengan menyediakan sistem dan aplikasi yang komprehensif untuk kandidat dan tim rekrutmen yang membuat semua proses berjalan otomatis secara digital.
-      </p>
-      <p>
-        Kebutuhan Teknis : .net, SAP, Active Directory
-      </p>        
-    </div>
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
-      <h5>
-        Frenn Microfinance Bank Limited
-      </h5>
-      <p>
-        Kami menyediakan profesional yang memiliki kemampuan sangat baik dalam mengaplikasikan teknologi baru berbasis Go Lang dan mampu berkomunikasi dalam Bahasa Inggris dengan baik untuk berkolaborasi dengan tim internasional dari berbagai negara termasuk India.
-      </p>
-      <p>
-        Kebutuhan Teknis : Go Lang, Microservices
-      </p> 
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 " >      
+      <fieldset class="card-info-with-fieldset h-100" style="background-color: rgb(244 209 215); background-image:linear-gradient(162deg, rgba(225,111,132,0.10688025210084029) 21%, rgb(231 243 255) 69%);">
+          <legend class="card-info-with-fieldset" >
+              <span class="fs-6">Logo</span>
+          </legend>
+          <div class="control-group">
+              <h5 class="mt-5">
+                <b>Sinar Mas Land</b>
+              </h5>
+              <p>
+                Kami membantu Sinar Mas Land mengoptimalkan proses rekrutmen dengan menyediakan sistem dan aplikasi yang komprehensif untuk kandidat dan tim rekrutmen yang membuat semua proses berjalan otomatis secara digital.
+              </p>
+              <p>
+                Kebutuhan Teknis : .net, SAP, Active Directory
+              </p>  
+          </div>
+        </fieldset>  
+    </div>    
+    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 " >      
+      <fieldset class="card-info-with-fieldset h-100" style="background-color: rgb(244 209 215); background-image:linear-gradient(162deg, rgba(225,111,132,0.10688025210084029) 21%, rgb(231 243 255) 69%);">
+          <legend class="card-info-with-fieldset" >
+              <span class="fs-6">Logo</span>
+          </legend>
+          <div class="control-group">
+              <h5 class="mt-5">
+                <b>Frenn Microfinance Bank Limited</b>
+              </h5>
+              <p>
+                Kami menyediakan profesional yang memiliki kemampuan sangat baik dalam mengaplikasikan teknologi baru berbasis Go Lang dan mampu berkomunikasi dalam Bahasa Inggris dengan baik untuk berkolaborasi dengan tim internasional dari berbagai negara termasuk India.
+              </p>
+              <p>
+                Kebutuhan Teknis : Go Lang, Microservices
+              </p> 
+          </div>
+        </fieldset>  
     </div>
   </div>
 </section>
