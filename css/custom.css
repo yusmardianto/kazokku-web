@@ -19,8 +19,10 @@
     --common-blue-dark: #bad7e9;
     --common-blue-light: #c7e0ed;    
     
-    --common-orange-light : #fff6ee;        
-
+    --common-orange-light : #fff6ee;   
+    
+    --gradient-home-portofolio-kami : linear-gradient(-45deg, #ffbcbc, #f7f4f4,  #74beed, #c5e0ee) ;   
+    --gradient-home-portofolio-kami-second : linear-gradient(-45deg,#fec555,#e6ffeb, #ffc967, #f7f4f4,  #bcffca ) ;   
 }
 
 /* Custom */
@@ -41,7 +43,7 @@ fieldset.card-info-with-fieldset {
     border: 1px solid #ddd !important;
     padding: 0 1.4em 1.4em 1.4em !important;
     margin: 0 0 1.5em 0 !important;
-    border-radius: 10px;
+    border-radius: 20px;
 
 }
 
@@ -56,6 +58,35 @@ legend.card-info-with-fieldset {
 legend {
     float: none;
 }
+
+
+#home-card-portofolio-kami-1 {
+    background: var(--gradient-home-portofolio-kami);
+	background-size: 400% 400%;	
+	animation: gradient 11s ease infinite;
+	/* height: 100vh; */
+}
+
+#home-card-portofolio-kami-2 {
+    background: var(--gradient-home-portofolio-kami-second);
+	background-size: 400% 400%;	
+	animation: gradient 11s ease infinite;
+	/* height: 100vh; */
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 /* Ovverides bootstrap */
 .btn-secondary {    
