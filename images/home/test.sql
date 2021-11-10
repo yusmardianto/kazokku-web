@@ -1,0 +1,1 @@
+https://mm2100.s3.amazonaws.com/uploads/files/newsletter/1635904685793_files_1.pdf
