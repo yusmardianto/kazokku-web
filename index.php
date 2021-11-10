@@ -18,8 +18,8 @@
   <div class="row flex-column-reverse flex-sm-row">
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 ">    
       <picture>
-        <source srcset="/images/home/image-section-1-circle-outline.png" type="image/png" >
-        <img class="ml-n3 " width="20" height="20" src="/images/home/image-section-1-circle-outline.png" alt="complementary" />
+        <source srcset="/images/home/image-section-1-circle-outline.PNG" type="image/png" >
+        <img class="ml-n3 " width="20" height="20" src="/images/home/image-section-1-circle-outline.PNG" alt="complementary" />
       </picture>                
       <h1>
         Mitra Terpercaya Untuk <br />
