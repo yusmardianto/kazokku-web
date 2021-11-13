@@ -110,4 +110,8 @@
       if(window.location.pathname == '/layanan-tenaga-ahli-it.php'){                
         $('#header').addClass('bg-blue-light')
       }
+
+      if(window.location.pathname == '/kontak-kami.php'){
+        $('#header').addClass('bg-transparent')
+      }
     </script>

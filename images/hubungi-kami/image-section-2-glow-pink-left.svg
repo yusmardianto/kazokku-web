@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="545px" height="835px" viewBox="0 0 545 835" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4A0B0375-094D-40EC-9AF3-A69863A99EE7@2x</title>
+    <defs>
+        <filter x="-25.6%" y="-25.6%" width="151.3%" height="151.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Comfortable-Themes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.100000001">
+        <g id="Contact-US" transform="translate(0.000000, -580.000000)" fill="#FEC555">
+            <g id="Group-156" transform="translate(-165.661290, 432.342921)">
+                <circle id="Oval" filter="url(#filter-1)" cx="293.381556" cy="565.036901" r="292.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
