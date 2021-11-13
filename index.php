@@ -5,7 +5,6 @@
 <?php include './includes/header.php' ?>
 
 <!-- #1 --> 
-
 <div class="position-relative "> 
   <div class="position-absolute" style="top: 30px; left: 0;">          
       <picture>
@@ -48,7 +47,6 @@
 </section>  
 
 <!-- #2 -->  
-
 <div class="position-relative d-none d-sm-block d-sm-none d-md-block"> 
   <div class="position-absolute" style="top: 0; right: 0"> 
     <picture>
