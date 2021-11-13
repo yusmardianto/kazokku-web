@@ -1,3 +1,20 @@
+
+/*  
+    Reference Material Color : 
+    https://material.io/resources/color/#!/?view.left=0&view.right=1&primary.color=045b9b&secondary.color=f7941d
+    
+*/
+
+:root{
+  --primary-main: #045b9b;
+  --primary-light: #4f88cc;
+  --primary-dark: #00326c;
+
+  --secondary-main: #f7941d;
+  --secondary-light: #ffc553;
+  --secondary-dark: #be6600;
+
+}
 .main-visual-section {
   position: relative;
   margin-top: 64px;
@@ -46,7 +63,9 @@
 }
 .form-container .form-control{
   margin-bottom: 32px;
+  border: 2px solid var(--secondary-light)
 }
+
 .custom-control .custom-control-label{
   line-height: 1.2;
   cursor: pointer;
@@ -57,11 +76,9 @@
 .custom-checkbox .custom-control-label::after{
   cursor: pointer;
 }
-.custom-control-input{
-}
 .custom-control-input:checked~.custom-control-label::before{
-  border-color: #004a80;
-  background-color: #004a80;
+  border-color: var(--secondary-light);
+  background-color: var(--secondary-light);
 }
 @media (max-width: 768px) {
   .main-visual-text-wrapper .main-visual-text {

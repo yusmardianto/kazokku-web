@@ -44,6 +44,8 @@ if (isset($_POST['submitted'])) {
 ?>
 
 <?php include './includes/header.php' ?>
+
+<!-- #1 -->
 <section>
   <div class="main-visual-section">
     <picture>
@@ -62,9 +64,20 @@ if (isset($_POST['submitted'])) {
   </div>
 </section>
 
-<section>
 
-  <!-- #ELEMENT OF HALF RADIUS GRADIENT GLOW -->
+
+<div class="position-relative"> 
+  <div class="position-absolute mt-n5" style="top: 0; left: 0"> 
+    <picture>
+      <source srcset="/images/hubungi-kami/image-section-2-glow-pink-left.webp" type="image/webp" >
+      <img class="d-none d-sm-block d-sm-none d-md-block mt-n5" width="585" height="auto" src="/images/hubungi-kami/image-section-2-glow-pink-left.png" alt="image-section-2-glow-pink-left" />
+    </picture>   
+  </div>
+</div>
+
+<!-- #2 -->
+<section>
+  <!-- #ELEMENT OF HALF GLOW CIRCLE -->
   <div class="d-flex justify-content-center ">
     <div      
       class="w-sm-100 d-none d-sm-block d-sm-none d-md-block"
@@ -76,7 +89,7 @@ if (isset($_POST['submitted'])) {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         box-shadow:       
-          0 0 60px 30px var(--common-hubungi-kami-medium); /* outer cyan */
+          0 0 60px 30px var(--common-hubungi-kami-medium); 
       "
     ></div>   
   </div>    
@@ -85,7 +98,6 @@ if (isset($_POST['submitted'])) {
     <div class="container mt-n5">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-
           <picture>
             <source srcset="/images/hubungi-kami/image-section-2-dot-left.webp" type="image/webp">
             <img  width="32" height="32" src="/images/hubungi-kami/image-section-2-dot-left.png" alt="image-section-2-dot-left" loading='lazy' />
@@ -96,7 +108,8 @@ if (isset($_POST['submitted'])) {
             </h4>   
           <p class="font-weight-bold">Jika Anda ingin mendapatkan informasi lebih lanjut tentang layanan kami, seperti layanan Outsourcing IT Profesional atau WDI untuk kebutuhan IT / transformasi digital perusahaan Anda, silakan menghubungi dan bertanya apapun kepada kami dengan mengisi formulir di bawah ini.</p>
 
-          <div class="bg-secondary-main" style="height: 272px; width: 2px"></div>
+          <!-- #Element of line vertical -->
+          <div class="bg-secondary-main d-none d-sm-block d-sm-none d-md-block" style="height: 272px; width: 2px"></div>
           <div class="mt-n5">
             <picture>
               <source srcset="/images/hubungi-kami/image-section-2-man-and-woman.webp" type="image/webp">
@@ -116,7 +129,7 @@ if (isset($_POST['submitted'])) {
           <input type='hidden' name='submitted' id='submitted' value='1' />
           <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>' />
           <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
-            <div class="form-container" style="background: var(--gradient-hubungi-kami);">
+            <div class="form-container mt-sm-1" style="background: var(--gradient-hubungi-kami);">
               <div class="form-group">
                 <label class="font-weight-bold" for="company_name">Nama Perusahaan</label>
                 <input type="text" name="company_name" class="form-control" placeholder="Nama Perusahaan" required>
@@ -183,9 +196,17 @@ if (isset($_POST['submitted'])) {
                   </div>
                 </div>
               </div>
-              <div class="form-group">
-                <label for="message">Pesan Anda</label>
-                <textarea name="message" id="message" class="form-control" cols="30" rows="3" placeholder="Tuliskan Pesan Anda"></textarea>
+              <div class="d-flex flex-row">
+                <div class="form-group flex-grow-1">
+                  <label for="message">Pesan Anda</label>
+                  <textarea name="message" id="message" class="form-control" cols="30" rows="3" placeholder="Tuliskan Pesan Anda"></textarea>
+                </div>
+                <div class=" d-none d-sm-block d-sm-none d-md-block mt-n5" style="margin-right: -7rem;">
+                  <picture>
+                    <source srcset="/images/hubungi-kami/image-section-2-circle-mozaik-right.webp" type="image/webp">
+                    <img class="w-sm-100 h-sm-auto" width="100%" height="128" src="/images/hubungi-kami/image-section-2-circle-mozaik-right.png" alt="image-section-2-circle-mozaik-right" loading='lazy' />
+                  </picture>
+                </div>
               </div>
               <?php if($_SERVER['SERVER_NAME'] == 'kazokku.com' || $_SERVER['SERVER_NAME'] == 'www.kazokku.com'):  ?>
                 <div class="g-recaptcha" data-sitekey="6LdqJpwbAAAAACvlWvCx4VKEE6GIOeEfIiq2pzgj"></div>
