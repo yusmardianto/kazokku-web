@@ -114,4 +114,8 @@
       if(window.location.pathname == '/kontak-kami.php'){
         $('#header').addClass('bg-transparent')
       }
+
+      if(window.location.pathname == '/tentang-kami.php'){                
+        $('#header').addClass('bg-blue-light')
+      }
     </script>
