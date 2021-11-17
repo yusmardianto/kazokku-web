@@ -109,7 +109,6 @@
   
 
 <!-- #3 -->  
-
 <div class="" style=" background-color: rgb(255,242,223);background-image: radial-gradient(circle, rgba(255,242,223,1) 0%, rgba(255,255,255,1) 100%);"> 
   <section class="container">  
     <div class="row  ">
@@ -158,8 +157,6 @@
     </div>
   </section>  
 </div>
-
-
 
 <!-- #4 -->  
 <div class="position-relative d-none d-sm-block d-sm-none d-md-block"> 
