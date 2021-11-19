@@ -851,11 +851,13 @@
                 <h3 class="font-weight-normal">
                   Kazokku
                 </h3>  
-                <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4" >
-                    <h6 class="m-0">
-                      Detail
-                    </h6>
-                  </button>                          
+                <a href='/layanan-tenaga-ahli-it.php' class="text-decoration-none">
+                  <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4" >
+                      <h6 class="m-0">
+                        Detail
+                      </h6>
+                    </button>                          
+                </a>
             </figcaption>
           </figure> 
       </div>
@@ -871,11 +873,13 @@
                 <h3 class="font-weight-normal">
                   Web Developer Indonesia
                 </h3>  
-                <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4" >
-                    <h6 class="m-0">
-                      Detail
-                    </h6>
-                  </button>                          
+                <a href='https://webdev-id.com/' class="text-decoration-none" target="_blank">
+                  <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4" >
+                      <h6 class="m-0">
+                        Detail
+                      </h6>
+                    </button>                          
+                </a>
             </figcaption>
           </figure> 
       </div>
