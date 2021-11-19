@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="327px" height="594px" viewBox="0 0 327 594" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>E046E782-0435-4B3B-8AAB-B66CCC3045CA@1x</title>
+    <defs>
+        <filter x="-42.9%" y="-42.9%" width="185.7%" height="185.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Comfortable-Themes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Kazokku-Comfortable-Theme---Home" transform="translate(-1039.000000, -687.000000)" fill="#C5E0EE">
+            <circle id="Oval" filter="url(#filter-1)" cx="1336" cy="984" r="175"></circle>
+        </g>
+    </g>
+</svg>

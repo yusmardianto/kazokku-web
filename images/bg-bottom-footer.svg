@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1906px" height="816px" viewBox="0 0 1906 816" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>FE7FE5F3-E2AB-4899-AB25-9F28A7B8B22A@1x</title>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#F3E7E9" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-65.2%" y="-38.7%" width="230.4%" height="177.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-34.8%" y="-34.8%" width="169.6%" height="169.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Comfortable-Themes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Outsourcing-IT-Profesional---alt" transform="translate(302.000000, -6879.000000)">
+            <g id="Group-157" transform="translate(-97.000000, 7044.000000)">
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="97" y="0" width="1366" height="460"></rect>
+                <ellipse id="Oval" fill="#FEC555" opacity="0.200000003" filter="url(#filter-2)" transform="translate(226.000000, 237.000000) rotate(60.000000) translate(-226.000000, -237.000000) " cx="226" cy="237" rx="115" ry="194"></ellipse>
+                <circle id="Oval" fill="#C5E0EE" opacity="0.5" filter="url(#filter-3)" cx="1335.5" cy="285.5" r="215.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

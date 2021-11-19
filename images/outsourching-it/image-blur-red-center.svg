@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="799px" height="801px" viewBox="0 0 799 801" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7E785F81-1E4F-453B-A330-2B652E56EA6C@2x</title>
+    <defs>
+        <filter x="-27.2%" y="-27.0%" width="154.3%" height="154.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Comfortable-Themes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.200000003">
+        <g id="Outsourcing-IT-Profesional---alt" transform="translate(-285.000000, -3760.000000)" fill="#FFCC4E">
+            <g id="Group-156" transform="translate(-225.661290, 504.342921)">
+                <ellipse id="Oval" filter="url(#filter-1)" transform="translate(910.416352, 3657.180090) rotate(-45.000000) translate(-910.416352, -3657.180090) " cx="910.416352" cy="3657.18009" rx="276" ry="278"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
