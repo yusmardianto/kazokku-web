@@ -29,7 +29,7 @@
         <div class="d-flex h-100">
           <div class="justify-content-center align-self-center">
             <h4 class="text-secondary-main mt-sm-1">
-              Tentang KazokKu
+              Tentang Kazokku
             </h4>
             <p>
               KAZOKKU merupakan bagian dari grup <span class="logique-text">LOGIQUE</span>, yaitu salah satu pengembang sistem web terbaik di Jakarta, dipimpin oleh Takashi Yoshitsugu yang berasal dari Jepang. Secara operasional KAZOKKU mengedepankan prinsip-prinsip Jepang yang disiplin, logis, dan adil yang membuat kami mampu memberikan hasil yang memuaskan bagi para klien.
