@@ -41,7 +41,7 @@
         </ul>
         <ul class="social-media-list">
           <li class="social-media-item">
-            <a href="#" class="social-media-link">
+            <a href="https://www.instagram.com/logiquedigital" class="social-media-link">
               <picture>
                 <source srcset="/images/instagram.svg" type="image/svg+xml">
                 <img src="/images/instagram.png" class="img-socmed" alt="instagram">

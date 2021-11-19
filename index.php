@@ -35,12 +35,7 @@
           <picture>
               <source media="(min-width: 1024px)" srcset="/images/home/image-section-1-orange-man.PNG">              
               <img class="w-sm-100 mt-sm-4" src="/images/home/image-section-1-orange-man.PNG" alt="section-1" loading="lazy" >
-          </picture>  
-          <!-- <picture>
-              <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-1.svg">
-              <source media="(max-width: 640px)" srcset="/images/home/image-1-section-1.svg">
-              <img class="w-sm-100 mt-sm-4 " src="/images/home/image-section-1.png" alt="section-1"  loading="lazy" >
-          </picture>  -->
+          </picture>      
       </div>                 
     </div>
   </div>
@@ -95,11 +90,13 @@
             <p>
               Telah dipercaya banyak Perusahaan dan Profesional dibidang teknologi informasi dalam menyediakan karyawan maupun lapangan pekerjaan terkait Web Developer, Web Designer, Penulis Konten, Ahli SEO dan Pemasaran Online, serta Keamanan Digital, menghubungkan yang terbaik di Indonesia dengan para klien.
             </p>
-            <button type="button" class="btn btn-secondary btn-lg  pl-4 pr-4" >
-              <h6 class="m-0">
-                Detail
-              </h6>
-            </button>  
+            <a href='https://logique.co.id' class="text-decoration-none" target="_blank">
+              <button type="button" class="btn btn-secondary btn-lg  pl-4 pr-4" >
+                <h6 class="m-0">
+                  Detail
+                </h6>
+              </button>  
+            </a>
         </div>
       </div>
     </section>   
@@ -124,12 +121,14 @@
           </p>
           <p>
             Dengan adanya layanan Haken, kebutuhan klien akan profesional yang kuat dibidangnya dan mampu mengikuti kebutuhan transformasi digital yang dinamis dapat terpenuhi dengan baik.
-          </p>
-          <button type="button" class="btn btn-secondary btn-lg  pl-4 pr-4" >
-            <h6 class="m-0">
-              Detail
-            </h6>
-          </button> 
+          </p>          
+          <a href='/layanan-tenaga-ahli-it.php' class="text-decoration-none">
+            <button type="button" class="btn btn-secondary btn-lg  pl-4 pr-4" >
+              <h6 class="m-0">
+                Detail
+              </h6>
+            </button> 
+          </a>
         </div>
         <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4 text-center">
           <div
@@ -196,11 +195,14 @@
         <p>
             Selain itu, WDI juga berperan sebagai penghubung antara perusahaan Web Developer dengan para pekerja profesional dibidang digital seperti Web Developer, Web Designer, Ahli SEO dan Pemasaran Online, serta Penulis Konten yang sedang membutuhkan pekerjaan.        
         </p>   
-        <button type="button" class="btn btn-secondary btn-lg  pl-5 pr-5" >
-          <h6 class="m-0">
-            Detail
-          </h6>
-        </button>                 
+        <a href='https://webdev-id.com/' class="text-decoration-none" target="_blank">
+          <button type="button" class="btn btn-secondary btn-lg  pl-5 pr-5" >
+            <h6 class="m-0">
+              Detail
+            </h6>
+          </button>                 
+        </a>
+        
       </div>      
   </div>
 </section>
