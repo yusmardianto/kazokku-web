@@ -851,11 +851,13 @@
                 <h3 class="font-weight-normal">
                   Kazokku
                 </h3>  
-                <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4" >
-                    <h6 class="m-0">
-                      Detail
-                    </h6>
-                  </button>                          
+                <a href='/layanan-tenaga-ahli-it.php' class="text-decoration-none">
+                  <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4" >
+                      <h6 class="m-0">
+                        Detail
+                      </h6>
+                    </button>                          
+                </a>
             </figcaption>
           </figure> 
       </div>
@@ -871,11 +873,13 @@
                 <h3 class="font-weight-normal">
                   Web Developer Indonesia
                 </h3>  
-                <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4" >
-                    <h6 class="m-0">
-                      Detail
-                    </h6>
-                  </button>                          
+                <a href='https://webdev-id.com/' class="text-decoration-none" target="_blank">
+                  <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4" >
+                      <h6 class="m-0">
+                        Detail
+                      </h6>
+                    </button>                          
+                </a>
             </figcaption>
           </figure> 
       </div>
@@ -1000,7 +1004,7 @@
     <div class="modal-content bg-blue-dark">
       <div class="modal-header">
         <h3 class="modal-title" id="modal6Label">
-          Kinerja yang maksimal
+          Penerapan teknologi terbaru dengan cepat
         </h3>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
@@ -1008,7 +1012,7 @@
       </div>
       <div class="modal-body">
         <p>
-          Tenaga atau agen outsourcing IT kami merupakan tenaga profesional yang datang dengan pengetahuan, keahlian, dan pengalaman khusus yang sesuai dengan kebutuhan perusahaan. Tenaga kerja IT juga akan bekerja secara maksimal untuk menjalankan tugas atau task yang sudah ditentukan. Hal ini tentu menjadi keuntungan besar bagi perusahaan klien yang mempekerjakan dan memanfaatkan keterampilan mereka.
+          Perkembangan teknologi informasi dan digital yang sangat pesat memaksa setiap perusahaan untuk dapat selalu mengikuti dan menyesuaikan diri agar tetap kompetitif. Melalui tenaga atau agen outsourcing yang kami miliki, kami dapat memastikan bahwa perusahaan Anda akan selalu terupdate dengan setiap perkembangan ternologi yang terjadi. Tidak hanya itu, kami pun dapat memastikan bahwa penerapan teknologi yang diperlukan dapat dilakukan dengan cepat dan efisien.
         </p>
       </div>    
     </div>
