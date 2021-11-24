@@ -1,6 +1,6 @@
 <?php $css = 'layanan-haken' ?>
-<?php $title = 'Layanan Tenaga Ahli IT Profesional | Outsourcing | Kazokku' ?>
-<?php $description = 'Kazokku menyediakan layanan tenaga ahli IT profesional dengan sistem outsourcing sehingga membantu Anda dalam menyelesaikan berbagai permasalahan bisnis Anda.' ?>
+<?php $title = 'Perusahaan Outsourcing Tenaga Ahli IT Profesional | Kazokku' ?>
+<?php $description = 'Kazokku menyediakan layanan outsourcing tenaga ahli IT profesional untuk mempermudah proses rekrutmen dan menyelesaikan setiap proyek digital perusahaan Anda.' ?>
 <?php $canonical = 'https://www.kazokku.com/layanan-tenaga-ahli-it.php' ?>
 <?php include './includes/header.php' ?>
 

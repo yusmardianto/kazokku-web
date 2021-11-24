@@ -1,6 +1,6 @@
 <?php $css = 'kontak-kami' ?>
-<?php $title = 'Kontak Kami | Perusahaan Outsource Tenaga Ahli IT Profesional' ?>
-<?php $description = 'Cari tenaga ahli IT profesional untuk menyelesaikan permasalahan pada website bisnis atau usaha Anda, kontak Kazokku sekarang juga!' ?>
+<?php $title = 'Kontak Kami | Perusahaan Outsourcing IT Profesional | Kazokku' ?>
+<?php $description = 'Cari tenaga ahli IT profesional guna menyelesaikan setiap permasalahan dan proyek IT pada bisnis atau usaha Anda? Hubungi Kami sekarang juga | Kazokku.' ?>
 <?php $canonical = 'https://www.kazokku.com/kontak-kami.php' ?>
 
 <?php
