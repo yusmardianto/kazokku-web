@@ -1,6 +1,6 @@
 <?php $css = 'tentang-kami' ?>
-<?php $title = 'Perusahaan Pengembang Sistem Web | Kazokku' ?>
-<?php $description = 'Kazokku merupakan perusahaan pengembang sistem web yang membuka layanan IT profesional dengan sistem kerja outsourcing sehingga menguntungkan perusahaan Anda.' ?>
+<?php $title = 'Tentang Kami | Solusi Tenaga IT Profesional | Kazokku' ?>
+<?php $description = 'Kazokku merupakan perusahaan layanan outsourcing IT profesional di Jakarta, Bekasi, Depok, Bogor, Tangerang & kota lain di Indonesia. Solusi Tenaga IT Profesional | Kazokku.' ?>
 <?php $canonical = 'https://www.kazokku.com/tentang-kami.php' ?>
 <?php include './includes/header.php' ?>
 

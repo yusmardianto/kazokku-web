@@ -1,6 +1,6 @@
 <?php $css = 'home' ?>
-<?php $title = 'Layanan IT Profesional | Outsourcing | Kazokku' ?>
-<?php $description = 'Menyediakan layanan IT Profesional mulai dari web developer, web designer, digital marketing, hingga keamanan digital, serta layanan outsource karyawan bagi perusahaan yang membutuhkan tenaga IT profesional.' ?>
+<?php $title = 'Layanan IT Profesional & Outsourcing Jakarta - Indonesia | Kazokku' ?>
+<?php $description = 'Kazokku menyediakan layanan IT Profesional & Outsourcing di Jakarta - Indonesia. Temukan tenaga IT Profesional & Karyawan Outsourcing terbaik untuk perusahaan Anda. ' ?>
 <?php $canonical = 'https://www.kazokku.com/' ?>
 <?php include './includes/header.php' ?>
 

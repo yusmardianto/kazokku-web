@@ -12,9 +12,7 @@
     if($current_page == $url){
         echo 'active'; 
     }
-  } 
-  
-
+  }   
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,9 +26,10 @@
     />
     <meta name="title" content="<?= $title ?>"/>
     <meta name="description" content="<?= $description ?>"/>
-    <meta name="author" content="Kazokku Indonesia" />
-    <meta name="canonical" content="<?= $canonical ?>" />
+    <meta name="author" content="Kazokku Indonesia" />    
+
     <title><?= $title ?></title>
+    <link rel="canonical" href="<?= $canonical ?>" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
