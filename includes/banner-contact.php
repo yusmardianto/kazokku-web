@@ -29,7 +29,7 @@
               <h5 class="ml-5 font-weight-normal">
                 Untuk berkonsultasi dengan Konsultan Rekrutmen kami.
               </h5>
-              <a href='/kontak-kami.php' class="text-decoration-none">
+              <a href='https://web.whatsapp.com/send?phone=62811870321' class="text-decoration-none">              
                 <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4 ml-5 mt-2 mt-sm-1" >
                   <h5 class="m-0">
                     Hubungi Kami
