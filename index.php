@@ -23,7 +23,7 @@
       <h1>
         Mitra Terpercaya Untuk <br />
         Layanan Profesional dan <br />
-        Outsourching IT
+        Outsourcing IT
       </h1>  
       <picture>
         <source srcset="/images/home/image-2-section-1.png" type="image/png" >

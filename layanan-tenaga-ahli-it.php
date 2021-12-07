@@ -482,7 +482,7 @@
 
       <div class="row">
         <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">
-          <a href="#" style="text-decoration: none;">
+          <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalItUxDesigner" >
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
                     <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-1.webp">
@@ -499,7 +499,7 @@
             
         </div>
         <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">
-          <a href="#" style="text-decoration: none;">
+          <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalItBeDeveloper">
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
                     <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-2.webp">
@@ -512,17 +512,10 @@
                     </h5>                
                 </figcaption>
               </figure>
-            </a> 
-              <!-- <div class="dropdown">
-                <span class="nav-link cursor-pointer pl-1 pr-1" data-toggle="dropdown"  id="userMenuMobile"  >
-                    <img loading="lazy" alt="icon_user" width="auto" height="18" src="{{ assetsUrl('img/icons/Group.svg') }}" />
-                </span>                
-                <div class="dropdown-menu" aria-labelledby="userMenuMobile" style="z-index: 10000">
-                </div>
-              </div> -->
+            </a>      
         </div>
         <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">
-        <a href="#" style="text-decoration: none;">
+        <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalItFeDeveloper" >
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
                     <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-3.webp">
@@ -542,7 +535,7 @@
       <!-- #9-B -->
       <div class="row">
         <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">
-          <a href="#" style="text-decoration: none;">
+          <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalMobileDeveloper" >
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
                     <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-4.webp">
@@ -559,7 +552,7 @@
             
         </div>
         <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">
-          <a href="#" style="text-decoration: none;">
+          <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalQaTester" >
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
                     <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-5.webp">
@@ -575,7 +568,7 @@
             </a> 
         </div>
         <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">
-          <a href="#" style="text-decoration: none;">
+          <a href="" style="text-decoration: none;"  data-toggle="modal" data-target="#modalProfesionalItSecurity">
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
                     <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-6.webp">
@@ -595,7 +588,7 @@
       <!-- #9-C -->
       <div class="row">
         <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">
-          <a href="#" style="text-decoration: none;">
+          <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalItDevOps" >
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
                     <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-7.webp">
@@ -612,7 +605,7 @@
             
         </div>
         <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">
-          <a href="#" style="text-decoration: none;">
+          <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalItBa">
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
                     <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-8.webp">
@@ -628,7 +621,7 @@
             </a> 
         </div>
         <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">
-          <a href="#" style="text-decoration: none;">
+          <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalItProjectManager" >
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
                     <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-9.webp">
@@ -702,8 +695,17 @@
           </div>
         </div>       
                  
-      <p class='text-center mt-3'>
+      <p class='text-center mt-3 content'  data-content='1'>
         Pencarian IT professional dengan melakukan seperangkat tes, & interview untuk mengetahui & memahami kecocokan dari kandidat terbaik yang sesuai dengan kebutuhan Anda 
+      </p>  
+      <p class='text-center mt-3 content'  data-content='2'>
+        Pencarian IT Profesional dengan berdiskusi dan Konsultasi melibatkan tim internal dan klien untuk mendapatkan talent yang tepat
+      </p> 
+      <p class='text-center mt-3 content'  data-content='3'>
+        Upaya pemetaan bakat yang nantinya akan sangat membantu menentukan posisi yang tepat dalam perusahaan
+      </p>  
+      <p class='text-center mt-3 content'  data-content='4'>
+        Setelah melewati semua tahapan, talent siap ditempatkan di Perusahaan klien
       </p>  
 
     </div>
@@ -1127,6 +1129,207 @@
   </div>
 </div>
 
+
+<!-- MODALS OF PROFESIONAL IT KAMI -->
+
+<!-- 1. UI-UX-DESIGNER -->
+<div class="modal fade" id="modalProfesionalItUxDesigner" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title">
+          UI/UX Designer
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Kami memiliki UI/UX Designer Profesional yang berpengalaman dan memiliki kemampuan terbaik di bidangnya. Mampu mengembangkan UI/UX untuk website dan aplikasi dengan maksimal sehingga memiliki tampilan yang menarik dan nyaman dengan fungsi-fungsi yang mudah digunakan oleh setiap User.
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- 2. BACKEND DEVELOPER -->
+<div class="modal fade" id="modalProfesionalItBeDeveloper" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title">
+          Backend Developer
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Backend Developer Profesional kami dibekali dengan kemampuan terbaik dalam mengelola server dan database website serta aplikasi perusahaan Anda. Bertanggung jawab bukan hanya dalam hal pengelolaan server, aplikasi, dan database namun juga mampu memecahkan setiap permasalahan yang ada sehingga server website dapat berjalan dengan aman dan optimal.
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- 3. FRONTEND DEVELOPER -->
+<div class="modal fade" id="modalProfesionalItFeDeveloper" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title">
+          Frontend Developer
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Frontend Developer Profesional kami memiliki kemampuan yang tidak perlu diragukan dalam hal perencanaan dan pengembangan berbagai jenis website dan aplikasi web secara responsif, interaktif, dan juga user friendly. Berbekal skill yang tinggi dan pengalaman yang luas, Frontend Developer kami siap membantu perusahaan Anda mengembangkan berbagai jenis website dan aplikasi yang dibutuhkan
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- 4. MOBILE DEVELOPER -->
+<div class="modal fade" id="modalProfesionalMobileDeveloper" tabindex="-1" >
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title">
+          Mobile Developer
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Mobile Developer Profesional kami memiliki kemampuan yang tidak perlu diragukan karena telah terbiasa dan terlatih membangun produk berupa aplikasi berbasis mobile. Dengan skill dan pengalaman yang luas, Mobile Developer kami siap membantu perusahaan Anda untuk mengembangkan berbagai jenis website dan aplikasi yang dibutuhkan.
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 5. QA/TESTER -->
+<div class="modal fade" id="modalProfesionalQaTester" tabindex="-1" >
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title">
+          QA/Tester
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Dengan QA/ Tester Profesional kami yang sudah terlatih dan memiliki pengalaman luas dalam pelaksanaan pengujian terhadap software, pembuatan alur pengujian, serta pembuatan laporan dari hasil pengujian tersebut maka QA/ Tester Profesional kami siap membantu perusahaan Anda untuk memastikan website dan aplikasi sudah sesuai kebutuhan
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- 6. IT SECURITY -->
+<div class="modal fade" id="modalProfesionalItSecurity" tabindex="-1" >
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title">
+          IT Security
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          IT Security Profesional kami memiliki kemampuan terbaik yang tidak perlu diragukan karena telah terlatih dan terbiasa menjaga dan memastikan keamanan informasi yang terdapat pada komputer atau jaringan. IT Security Profesional kami siap membantu menjaga keamanan informasi aplikasi dan website perusahaan anda
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- 7. Devops -->
+<div class="modal fade" id="modalProfesionalItDevOps" tabindex="-1" >
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title">
+          Dev Ops
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          DevOps Profesional kami mempunyai pengalaman luas dalam pengawasan code releases dan deployments website atau aplikasi dan sudah terlatih untuk bekerjasama dengan software developer, system operators, dan staff IT production. DevOps Profesional kami siap memastikan seluruh anggota tim IT bekerjasama dan memastikan website atau aplikasi sudah sesuai kebutuhan
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+
+<!-- 8. BA -->
+<div class="modal fade" id="modalProfesionalItBa" tabindex="-1"  >
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title">
+          Business Analyst
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Business Analyst Profesional kami mempunyai kemampuan dan pengalaman luas dalam hal menganalisa sistem yang terkait bisnis. Business Analyst Profesional kami siap menjembatani kesenjangan antara teknologi dan bisnis dengan menggunakan sistem analisis di perusahaan anda
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- 9. Project Manager -->
+<div class="modal fade" id="modalProfesionalItProjectManager" tabindex="-1"  >
+  <div class="modal-dialog">
+    <div class="modal-content bg-blue-dark">
+      <div class="modal-header">
+        <h3 class="modal-title">
+          Project Manager
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Project Manager Profesional kami dibekali kemampuan dan pengalaman terbaik dalam hal koordinasi, implementasi, pelaksanaan, pengendalian dan penyelesaian proyek digital. Project Manager Profesional kami siap berkomitmen untuk memastikan pelaksanaan proyek digital sesuai dengan strategi dan tujuan perusahaan anda
+        </p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
 <script>
   $('document').ready(function(){    
 
@@ -1135,7 +1338,10 @@
       const id = $(this).data('id');      
       if(!$(this).hasClass('active-content')){
         $("#tab ul li").removeClass('active-content');
+        $("#tab ul li").removeClass('font-weight-bold');
+
         $(this).addClass('active-content');
+        $(this).addClass('font-weight-bold');
         
         $('.content').hide();
         $(`[data-content=${id}]`).show();
