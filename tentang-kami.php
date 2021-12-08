@@ -193,7 +193,7 @@
             </picture> 
             <figcaption class="ml-4 mt-n7 text-left">
                 <h3 class="font-weight-normal">
-                  Kazokku
+                  Layanan Outsourcing IT
                 </h3>  
                 <a href='/layanan-tenaga-ahli-it.php' class="text-decoration-none">
                   <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4" >

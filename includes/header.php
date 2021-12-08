@@ -43,7 +43,11 @@
     <link rel="preload" as="style" href="/css/<?= $css; ?>.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" rel="preload" as="style" onload="this.rel='stylesheet'">
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="preload" as="style" onload="this.rel='stylesheet'"> -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="preload" as="style" onload="this.rel='stylesheet'">
     <link href="/css/main.css" rel="stylesheet" />
     <link href="/css/custom.css" rel="stylesheet" />
     <link href="/css/<?= $css; ?>.css" rel="stylesheet" />
