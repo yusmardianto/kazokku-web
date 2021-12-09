@@ -169,6 +169,11 @@ legend {
 .text-secondary-main{
     color: var(--secondary-main);
 }
+
+.text-md-20{
+    font-size: 20px;
+}
+
 .rounded-xl{
     border-radius : .7rem!important;
 }
@@ -190,6 +195,10 @@ legend {
 
 .cursor-pointer{
     cursor: pointer;
+}
+
+.leading-normal{
+    line-height: 1.5;
 }
 
 

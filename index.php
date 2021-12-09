@@ -81,10 +81,10 @@
                 <img class="mt-sm-1 mr-5" width="112" height="27" src="/images/home/image-2-section-1.svg" alt="complementary" />
               </picture>  
             </div>
-            <h4 class="text-secondary-main mt-2">
+            <h4 class="text-secondary-main mt-2 text-md-20">
                 WHO WE ARE
             </h4>        
-            <h3 class="mt-3 mb-3">
+            <h3 class="mt-2 mb-3 leading-normal">
               Kazokku merupakan bagian dari Grup <span class="text-secondary-main logique-text">LOGIQUE</span> dari Jepang yang dipimpin oleh Takashi Yoshitsugu.
             </h3>                                         
             <p>
