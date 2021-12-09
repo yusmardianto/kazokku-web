@@ -91,10 +91,9 @@
               Telah dipercaya banyak Perusahaan dan Profesional dibidang teknologi informasi dalam menyediakan karyawan maupun lapangan pekerjaan terkait Web Developer, Web Designer, Penulis Konten, Ahli SEO dan Pemasaran Online, serta Keamanan Digital, menghubungkan yang terbaik di Indonesia dengan para klien.
             </p>
             <a href='https://logique.co.id' class="text-decoration-none" target="_blank">
-              <button type="button" class="btn btn-secondary btn-lg  pl-4 pr-4" >
-                <h6 class="m-0">
+              <button type="button" class="btn btn-warning btn-secondary btn-lg  pl-4 pr-4 text-lg" >                
                   Detail
-                </h6>
+                  <img src="/images/right-arrow.png" height="17" width="17" alt="right-arrow" />
               </button>  
             </a>
         </div>
@@ -123,10 +122,9 @@
             Dengan adanya layanan Haken, kebutuhan klien akan profesional yang kuat dibidangnya dan mampu mengikuti kebutuhan transformasi digital yang dinamis dapat terpenuhi dengan baik.
           </p>          
           <a href='/layanan-tenaga-ahli-it.php' class="text-decoration-none">
-            <button type="button" class="btn btn-secondary btn-lg  pl-4 pr-4" >
-              <h6 class="m-0">
-                Detail
-              </h6>
+            <button type="button" class="btn btn-warning btn-secondary btn-lg  pl-4 pr-4 text-lg" >              
+              Detail
+              <img src="/images/right-arrow.png" height="17" width="17" alt="right-arrow" />              
             </button> 
           </a>
         </div>
@@ -196,10 +194,9 @@
             Selain itu, WDI juga berperan sebagai penghubung antara perusahaan Web Developer dengan para pekerja profesional dibidang digital seperti Web Developer, Web Designer, Ahli SEO dan Pemasaran Online, serta Penulis Konten yang sedang membutuhkan pekerjaan.        
         </p>   
         <a href='https://webdev-id.com/' class="text-decoration-none" target="_blank">
-          <button type="button" class="btn btn-secondary btn-lg  pl-5 pr-5" >
-            <h6 class="m-0">
+          <button type="button" class="btn btn-warning btn-secondary btn-lg  pl-4 pr-4 text-lg" >            
               Detail
-            </h6>
+              <img src="/images/right-arrow.png" height="17" width="17" alt="right-arrow" />                          
           </button>                 
         </a>
         
