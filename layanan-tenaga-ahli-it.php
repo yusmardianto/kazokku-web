@@ -840,7 +840,7 @@
 </section>
 
 <!-- #12 -->
-<section class="container mt-4">
+<!-- <section class="container mt-4">
   <div class="row">
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
       <div class=" mb-sm-3">
@@ -887,7 +887,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <?php include './includes/banner-contact.php' ?>
 <?php include './includes/footer.php' ?>

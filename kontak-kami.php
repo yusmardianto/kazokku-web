@@ -47,7 +47,7 @@ if (isset($_POST['submitted'])) {
 
 <!-- #1 -->
 <section>
-  <div class="main-visual-section">
+  <div class="main-visual-section mt-0">
     <picture>
       <source srcset="/images/hubungi-kami/image-section-1-main.webp" type="image/webp">
       <source srcset="/images/hubungi-kami/image-section-1-main.jpg" type="image/jpg">
