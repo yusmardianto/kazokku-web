@@ -33,8 +33,8 @@
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">     
       <div class="mt-n7">                       
           <picture>
-              <source media="(min-width: 1024px)" srcset="/images/home/image-section-1-orange-man.PNG">              
-              <img class="w-sm-100 mt-sm-4" src="/images/home/image-section-1-orange-man.PNG" alt="section-1" loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-1-right-superman.png">              
+              <img class="w-sm-100 mt-sm-4" src="/images/home/2022/img-section-1-right-superman.png" alt="img-section-1-right-superman" loading="lazy" >
           </picture>      
       </div>                 
     </div>
@@ -55,9 +55,8 @@
       <div class="row mt-5">
         <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">             
           <picture>
-            <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-2.webp">
-            <source media="(max-width: 640px)" srcset="/images/home/image-1-section-2.webp">
-            <img class="w-sm-100 " src="/images/home/image-1-section-2.png" alt="section-1"  loading="lazy" >
+            <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-2-mens.png">            
+            <img class="w-sm-100 " src="/images/home/2022/img-section-2-mens.png" alt="img-section-2-mens.png"  loading="lazy" >
           </picture>   
           <div class="d-flex flex-row justify-content-end">
             <picture>
@@ -90,11 +89,9 @@
             <p>
               Telah dipercaya banyak Perusahaan dan Profesional dibidang teknologi informasi dalam menyediakan karyawan maupun lapangan pekerjaan terkait Web Developer, Web Designer, Penulis Konten, Ahli SEO dan Pemasaran Online, serta Keamanan Digital, menghubungkan yang terbaik di Indonesia dengan para klien.
             </p>
-            <a href='https://logique.co.id' class="text-decoration-none" target="_blank">
-              <button type="button" class="btn btn-warning btn-secondary btn-lg  pl-4 pr-4 text-lg" >                
-                  Detail
-                  <img src="/images/right-arrow.png" height="17" width="17" alt="right-arrow" />
-              </button>  
+            <a href='https://logique.co.id' class="text-decoration-none text-dark text-xl" target="_blank">                              
+              Detail
+              <img src="/images/common/icon-black-right-arrow.png" height="8" width="16" alt="right-arrow" />              
             </a>
         </div>
       </div>
@@ -108,7 +105,7 @@
 <div class="" style=" background-color: rgb(255,242,223);background-image: radial-gradient(circle, rgba(255,242,223,1) 0%, rgba(255,255,255,1) 100%);"> 
   <section class="container">  
     <div class="row  ">
-      <div class="col-sm-12 col-md-8 col-md-8 col-lg-8 col-xl-8 ">                          
+      <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 ">                          
           <h4 class="text-secondary-main">
               HOW WE CAN HELP
           </h4>
@@ -121,26 +118,15 @@
           <p>
             Dengan adanya layanan Haken, kebutuhan klien akan profesional yang kuat dibidangnya dan mampu mengikuti kebutuhan transformasi digital yang dinamis dapat terpenuhi dengan baik.
           </p>          
-          <a href='/layanan-tenaga-ahli-it.php' class="text-decoration-none">
-            <button type="button" class="btn btn-warning btn-secondary btn-lg  pl-4 pr-4 text-lg" >              
-              Detail
-              <img src="/images/right-arrow.png" height="17" width="17" alt="right-arrow" />              
-            </button> 
+          <a href='/layanan-tenaga-ahli-it.php' class="text-decoration-none  text-dark text-xl">
+            Detail               
+            <img src="/images/common/icon-black-right-arrow.png" height="8" width="16" alt="right-arrow" />              
           </a>
         </div>
-        <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4 text-center">
-          <div
-            style="
-              background-image: url('/images/home/image-section-3-orange-circle.svg');
-              background-repeat: no-repeat;            
-              background-position: top right; 
-              height: 320;
-            "
-          >                                  
+        <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">                                       
               <picture>
-                <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-3.webp">
-                <source media="(max-width: 640px)" srcset="/images/home/image-1-section-3.webp">
-                <img height="485" width="230" class="w-sm-100 h-sm-auto  mt-n5" src="/images/home/image-1-section-3.png" alt="section-1"  loading="lazy" >
+                <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-3-main.png">                
+                <img height="100%" width="auto" class="w-sm-100 h-sm-auto  mt-n5" src="/images/home/2022/img-section-3-main.png" alt="img-section-3-main"  loading="lazy" >
               </picture>     
               <br /> 
               
@@ -148,8 +134,7 @@
                 <source media="(min-width: 1024px)" srcset="/images/home/image-dot-orange-section-3.png">
                 <source media="(max-width: 640px)" srcset="/images/home/image-dot-orange-section-3.png">
                 <img width="112" height="27" class=" mr-n4 mt-3" src="/images/home/image-dot-orange-section-3.svg" alt="dot-orange"  loading="lazy" >
-              </picture>                                     
-          </div>
+              </picture>                                               
       </div>
     </div>
   </section>  
@@ -174,9 +159,8 @@
               <img height="32" width="32" class=" mt-n5" src="/images/home/image-dot-blue-section-4.svg" alt="section-1"  loading="lazy" >
             </picture> 
             <picture>
-              <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-4.webp">
-              <source media="(max-width: 640px)" srcset="/images/home/image-1-section-4.webp">
-              <img class="w-sm-100 " src="/images/home/image-1-section-4.png" alt="section-1"  loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-4-main.png">              
+              <img class="w-sm-100 " src="/images/home/2022/img-section-4-main.png" alt="img-section-4-main.png"  loading="lazy" >
             </picture>                           
         </div>
       </div>
@@ -193,11 +177,9 @@
         <p>
             Selain itu, WDI juga berperan sebagai penghubung antara perusahaan Web Developer dengan para pekerja profesional dibidang digital seperti Web Developer, Web Designer, Ahli SEO dan Pemasaran Online, serta Penulis Konten yang sedang membutuhkan pekerjaan.        
         </p>   
-        <a href='https://webdev-id.com/' class="text-decoration-none" target="_blank">
-          <button type="button" class="btn btn-warning btn-secondary btn-lg  pl-4 pr-4 text-lg" >            
-              Detail
-              <img src="/images/right-arrow.png" height="17" width="17" alt="right-arrow" />                          
-          </button>                 
+        <a href='https://webdev-id.com/' class="text-decoration-none text-dark text-xl" target="_blank">                    
+          Detail              
+          <img src="/images/common/icon-black-right-arrow.png" height="8" width="16" alt="right-arrow" />                                     
         </a>
         
       </div>      
