@@ -205,6 +205,10 @@ legend {
     line-height: 1.5;
 }
 
+.h-89{
+    height: 89% !important;
+}
+
 
 /* mobile device - sm */
 @media (max-width: 640px) {

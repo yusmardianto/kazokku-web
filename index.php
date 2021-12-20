@@ -65,13 +65,7 @@
               <img width="40" height="12" class="w-sm-100 d-none d-sm-block d-sm-none d-md-block" src="/images/home/image-dot-orange-section-3.svg" alt="dot-orange"  loading="lazy" >
             </picture> 
           </div>
-          <div class="text-left mt-n7 ml-n5 d-none d-sm-block d-sm-none d-md-block">
-            <picture>
-              <source media="(min-width: 1024px)" srcset="/images/home/image-section-2-blue-mozaik.webp">
-              <source media="(max-width: 640px)" srcset="/images/home/image-section-2-blue-mozaik.webp">
-              <img width="152" height="152" class="w-sm-100 " src="/images/home/image-section-2-blue-mozaik.png" alt="mozaik"  loading="lazy" >
-            </picture> 
-          </div>
+          
         </div>
         <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
             <div class="d-flex flex-row justify-content-end">
@@ -106,7 +100,7 @@
   <section class="container">  
     <div class="row  ">
       <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 ">                          
-          <h4 class="text-secondary-main">
+          <h4 class="text-secondary-main text-md-20">
               HOW WE CAN HELP
           </h4>
           <h3 class="mt-3 mb-3">
@@ -151,20 +145,20 @@
 </div>
 <section class="container mt-5">
   <div class="row ">
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center text-sm-left">        
+    <div class="col-sm-12 col-md-5 col-md-5 col-lg-5 col-xl-5 text-center text-sm-left">        
           <div style=" background-color: rgb(255,242,223);background-image: radial-gradient(circle, #fff0f3 0%, rgba(255,255,255,1) 100%);">
-            <picture>
+            <!-- <picture>
               <source media="(min-width: 1024px)" srcset="/images/home/image-dot-blue-section-4.png">
               <source media="(max-width: 640px)" srcset="/images/home/image-dot-blue-section-4.png">
               <img height="32" width="32" class=" mt-n5" src="/images/home/image-dot-blue-section-4.svg" alt="section-1"  loading="lazy" >
-            </picture> 
+            </picture>  -->
             <picture>
               <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-4-main.png">              
               <img class="w-sm-100 " src="/images/home/2022/img-section-4-main.png" alt="img-section-4-main.png"  loading="lazy" >
             </picture>                           
         </div>
       </div>
-      <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+      <div class="col-sm-12 col-md-7 col-md-7 col-lg-7 col-xl-7">
         <h4 class="text-secondary-main mt-4">
             HOW WE CAN HELP
         </h4>
@@ -202,15 +196,15 @@
     </div>
   
     <div class="row mt-3">
-      <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 " >      
-        <fieldset id='home-card-portofolio-kami-1' class="card-info-with-fieldset h-100" style="background-color: rgb(244 209 215); ">
+      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4 " >      
+        <fieldset id='home-card-portofolio-kami-1' class="card-info-with-fieldset h-89" style="background-color: rgb(244 209 215); ">
             <legend class="card-info-with-fieldset" >
                 <span class="fs-6">
-                  <img height="48" width="48" src="/images/home/image-logo-sinarmas-land.png" alt="logo-sinarmas-land"  loading="lazy" >
+                  <img height="72" width="72" src="/images/home/2022/img-section-5-sinar-mas.png" alt="logo-sinarmas-land"  loading="lazy" >
                 </span>
             </legend>
             <div class="control-group">
-                <h5 class="mt-5">
+                <h5>
                   <b>Sinar Mas Land</b>
                 </h5>
                 <p>
@@ -222,17 +216,19 @@
             </div>
           </fieldset>  
       </div>    
-      <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 " >      
-        <fieldset id='home-card-portofolio-kami-2' class="card-info-with-fieldset h-100" style="background-color: rgb(244 209 215); ">
+      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4 " >      
+        <fieldset id='home-card-portofolio-kami-2' class="card-info-with-fieldset  h-89" style="background-color: rgb(244 209 215); ">
             <legend class="card-info-with-fieldset" >
                 <span class="fs-6">
-                  <div class="rounded" style='background-color: #008247; height: 48px; width: 48px;'>
-                    <img class="p-2 " style="object-position: 50% 50%; object-fit: cover;" height="100%" width="100%" src="/images/home/image-logo-limited-bank.png" alt="logo-limited-bank"  loading="lazy" >
-                  </div>
+                  <img height="72" width="72" src="/images/home/2022/img-section-5-microfinance.png" alt="logo-microfinance"  loading="lazy" >
+
+                  <!-- <div class="rounded" style='background-color: #008247; height: 48px; width: 48px;'>
+                    <img class="p-2 " style="object-position: 50% 50%; object-fit: cover;" height="100%" width="100%" src="/images/home/2022/img-section-5-microfinance.png" alt="logo-limited-bank"  loading="lazy" >
+                  </div> -->
                 </span>
             </legend>
             <div class="control-group">
-                <h5 class="mt-5">
+                <h5>
                   <b>Frenn Microfinance Bank Limited</b>
                 </h5>
                 <p>
@@ -244,6 +240,26 @@
             </div>
           </fieldset>  
       </div>
+      <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4 " >      
+        <fieldset id='home-card-portofolio-kami-1' class="card-info-with-fieldset h-89" style="background-color: rgb(244 209 215); ">
+            <legend class="card-info-with-fieldset" >
+                <span class="fs-6">
+                  <img height="72" width="72" src="/images/home/2022/img-section-5-sinar-mas.png" alt="logo-sinarmas-land"  loading="lazy" >
+                </span>
+            </legend>
+            <div class="control-group">
+                <h5>
+                  <b>Anabatic Solusi Digital</b>
+                </h5>
+                <p>
+                  Kami membantu Sinar Mas Land mengoptimalkan proses rekrutmen dengan menyediakan sistem dan aplikasi yang komprehensif untuk kandidat dan tim rekrutmen yang membuat semua proses berjalan otomatis secara digital.
+                </p>
+                <p>
+                  Kebutuhan Teknis : .net, SAP, Active Directory
+                </p>  
+            </div>
+          </fieldset>  
+      </div> 
     </div>
   </div>
 </section>
