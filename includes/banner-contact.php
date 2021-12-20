@@ -41,8 +41,8 @@
         </figure>  -->
         <a href='https://web.whatsapp.com/send?phone=62811870321' class="text-decoration-none">   
           <picture>
-                <source media="(min-width: 640)" srcset="/images/common/img-bg-banner-contactus-md.png">              
-                <img class="w-sm-100 cursor-pointer" width="100%" height="auto" src="/images/common/img-bg-banner-contactus-full.png" alt="main-image" loading="lazy" >
+              <source media="(max-width: 640px)" srcset="/images/common/img-bg-banner-contactus-full-mobile.png">              
+              <img class="w-sm-100 cursor-pointer" width="100%" height="auto" src="/images/common/img-bg-banner-contactus-full.png" alt="main-image" loading="lazy" >
             </picture> 
         </a>
     </div>

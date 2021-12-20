@@ -241,7 +241,7 @@
           </fieldset>  
       </div>
       <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4 " >      
-        <fieldset id='home-card-portofolio-kami-1' class="card-info-with-fieldset h-89" style="background-color: rgb(244 209 215); ">
+        <fieldset id='home-card-portofolio-kami-3' class="card-info-with-fieldset h-89" style="background-color: rgb(244 209 215); ">
             <legend class="card-info-with-fieldset" >
                 <span class="fs-6">
                   <img height="72" width="72" src="/images/home/2022/img-section-5-sinar-mas.png" alt="logo-sinarmas-land"  loading="lazy" >

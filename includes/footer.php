@@ -43,32 +43,32 @@
           <li class="social-media-item">
             <a href="#" class="social-media-link">
               <picture>
-                <source srcset="/images/instagram.svg" type="image/svg+xml">
-                <img src="/images/instagram.png" class="img-socmed" alt="instagram">
+                <source srcset="/images/common/icon-orange-ig.svg" type="image/svg+xml">
+                <img src="/images/common/icon-orange-ig.png" width="60" height="60" alt="instagram">
               </picture>
             </a>
           </li>
           <li class="social-media-item">
             <a href="#" class="social-media-link">
               <picture>
-                <source srcset="/images/linkedin.svg" type="image/svg+xml">
-                <img src="/images/linkedin.png" class="img-socmed img-linkedin" alt="linkedin">
+                <source srcset="/images/common/icon-orange-lk.svg" type="image/svg+xml">
+                <img src="/images/common/icon-orange-lk.png" width="60" height="60" alt="linkedin">
               </picture>
             </a>
           </li>
           <li class="social-media-item">
             <a href="#" class="social-media-link">
               <picture>
-                <source srcset="/images/facebook.svg" type="image/svg+xml">
-                <img src="/images/facebook.png" class="img-socmed" alt="facebook">
+                <source srcset="/images/common/icon-orange-fb.svg" type="image/svg+xml">
+                <img src="/images/common/icon-orange-fb.png" width="60" height="60" alt="facebook">
               </picture>
             </a>
           </li>
           <li class="social-media-item">
             <a href="#" class="social-media-link">
               <picture>
-                <source srcset="/images/mail.svg" type="image/svg+xml">
-                <img src="/images/mail.png" class="img-socmed" alt="mail">
+                <source srcset="/images/common/icon-orange-youtube.svg" type="image/svg+xml">
+                <img src="/images/common/icon-orange-youtube.png" width="60" height="60" alt="mail">
               </picture>
             </a>
           </li>
