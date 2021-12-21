@@ -15,9 +15,12 @@
     --secondary-dark: #be6600;
 
     
+    
     --common-blue-main: #d7f0ff;
     --common-blue-dark: #bad7e9;
     --common-blue-light: #c7e0ed; 
+
+    --common-blue-cyan: #e9f4fa;
     
     --common-hubungi-kami-low: #e4f6ff;
     --common-hubungi-kami-medium: #ddf3ff;
@@ -144,6 +147,10 @@ legend {
 
 .bg-orange-light{
     background-color: var(--common-orange-light) !important;
+}
+
+.bg-common-blue-cyan{
+    background-color: var(--common-blue-cyan) !important;
 }
 
 .mr-n17{

@@ -244,7 +244,7 @@
         <fieldset id='home-card-portofolio-kami-3' class="card-info-with-fieldset h-89" style="background-color: rgb(244 209 215); ">
             <legend class="card-info-with-fieldset" >
                 <span class="fs-6">
-                  <img height="72" width="72" src="/images/home/2022/img-section-5-sinar-mas.png" alt="logo-sinarmas-land"  loading="lazy" >
+                  <img height="72" width="72" src="/images/home/2022/img-section-5-anabatic.png" alt="logo-anabatic"  loading="lazy" >
                 </span>
             </legend>
             <div class="control-group">

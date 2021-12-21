@@ -78,7 +78,7 @@
   </head>
   <body>
     <nav id='header' class="navbar navbar-expand-lg bg-white">
-      <div class="container rounded-pill bg-blue-dark bg-sm-transparent pl-5 pr-5 pt-2 pb-2" >
+      <div class="container rounded-pill bg-common-blue-cyan bg-sm-transparent pl-5 pr-5 pt-2 pb-2" >
         <a class="navbar-brand" href="/">
           <picture>
             <source srcset="/images/logo-kazokku.svg" type="image/svg+xml">
@@ -89,7 +89,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-menu">
-          <ul class="navbar-nav mr-0 ml-auto">
+          <ul class="navbar-nav mr-0 ml-auto mb-n2">
             <li class="nav-item <?php active('') ?>">
               <a class="nav-link" href="/">
                 <h5>Home</h5>

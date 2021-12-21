@@ -67,13 +67,18 @@ p{
   position:relative;
   padding-left: 30px;
   padding-right: 30px;
-  transition: color .2s;
+  transition: color .2s; 
+  
 }
 .navbar .navbar-nav .nav-item .nav-link:hover{
-  color: #f7941d; 
+  color: #f7941d;  
+  /* background:url("../images/common/img-active-tab.png") no-repeat center center/cover; 
+  background-size: 69px 17px;
+  background-position-y: bottom; 
+  background-position-x: center;   */
 }
 
-.navbar .navbar-nav .nav-item.active .nav-link:before{
+/* .navbar .navbar-nav .nav-item.active .nav-link:before{
   content: "";
   position: absolute;
   bottom: 17%;
@@ -82,7 +87,16 @@ p{
   width: 30px;
   height: 3px;
   border-radius: 50px;
-  background-color: #f7941d;
+  background-color: #f7941d;    
+} */
+
+.navbar .navbar-nav .nav-item.active .nav-link{
+  
+  background:url("../images/common/img-active-tab.png") no-repeat center center/cover; 
+  background-size: 59px 11px;
+  background-position-y: bottom; 
+  background-position-x: center;  
+  transition: ease-in 2s;  
 }
 
 .navbar .navbar-toggler{
