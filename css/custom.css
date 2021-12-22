@@ -104,6 +104,13 @@ legend {
 	}
 }
 
+.custom-bg-section-1-right{
+    
+    background-image: url('../images/home/2022/img-section-1-right-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+}
+
 
 /* Ovverides bootstrap */
 .btn-secondary {    

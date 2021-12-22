@@ -31,7 +31,7 @@
       </picture>        
     </div>
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">     
-      <div class="mt-n7">                       
+      <div class="mt-n7 custom-bg-section-1-right">                       
           <picture>
               <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-1-right-superman.png">              
               <img class="w-sm-100 mt-sm-4" src="/images/home/2022/img-section-1-right-superman.png" alt="img-section-1-right-superman" loading="lazy" >
