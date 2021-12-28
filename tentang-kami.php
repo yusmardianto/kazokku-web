@@ -14,9 +14,9 @@
   <div class="row mt-n24 mt-sm-0">
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">             
       <picture>
-          <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section.webp">
-          <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section.webp">
-          <img class="w-sm-100" src="/images/outsourching-it/image-section.png" alt="main-image"  loading="lazy" >
+          <source media="(min-width: 1024px)" srcset="/images/tentang-kami/2022/img-section-1-left-bg.png">
+          <source media="(max-width: 640px)" srcset="/images/tentang-kami/2022/img-section-1-left-bg.png">
+          <img class="w-sm-100 mt-n5" src="/images/tentang-kami/2022/img-section-1-left-bg.png" alt="main-image"  loading="lazy" >
       </picture> 
       <div class="mr-n17 mt-n5 d-none d-sm-block d-sm-none d-md-block">
         <picture>
@@ -63,11 +63,11 @@
   <div class="d-flex flex-column" ></div>
   <section class="container">
     <div class="row">
-        <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">   
-          <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-4.png">
-              <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-4.png">
-              <img src="/images/outsourching-it/image-section-4.svg" alt="main-image" width="100%" height="auto" loading="lazy" >
+        <div class="col-sm-12 col-md-8 col-md-8 col-lg-8 col-xl-8 mx-auto">   
+          <picture>          
+              <source media="(min-width: 1024px)" srcset="/images/tentang-kami/2022/img-section-2-left-bg.png">
+              <source media="(max-width: 640px)" srcset="/images/tentang-kami/2022/img-section-2-left-bg.png">
+              <img src="/images/tentang-kami/2022/img-section-2-left-bg.png" alt="main-image" width="100%" height="auto" loading="lazy" >
           </picture>                
         </div>
       </div>
@@ -104,8 +104,8 @@
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
       <figure class="d-flex flex-row mt-3">
           <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/icon-1-section-11.png">              
-              <img width="60" height="60" src="/images/outsourching-it/icon-1-section-11.svg" alt="main-image" loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/tentang-kami/2022/icon-section-3-nib.png">              
+              <img width="60" height="60" src="/images/tentang-kami/2022/icon-section-3-nib.png" alt="main-image" loading="lazy" >
           </picture> 
           <figcaption class="ml-2 mt-1 text-left">
               <h6 class="font-weight-normal">
@@ -120,8 +120,8 @@
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
       <figure class="d-flex flex-row mt-3">
           <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/icon-2-section-11.png">              
-              <img width="60" height="60" src="/images/outsourching-it/icon-2-section-11.svg" alt="main-image" loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/tentang-kami/2022/icon-section-3-telephone.png">              
+              <img width="60" height="60" src="/images/tentang-kami/2022/icon-section-3-telephone.png" alt="main-image" loading="lazy" >
           </picture> 
           <figcaption class="ml-2 mt-1 text-left">
               <h6 class="font-weight-normal">
@@ -139,8 +139,8 @@
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
       <figure class="d-flex flex-row mt-3">
           <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/icon-3-section-11.png">              
-              <img width="60" height="60" src="/images/outsourching-it/icon-3-section-11.svg" alt="main-image" loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/tentang-kami/2022/icon-section-3-alamat.png">              
+              <img width="60" height="60" src="/images/tentang-kami/2022/icon-section-3-alamat.png" alt="main-image" loading="lazy" >
           </picture> 
           <figcaption class="ml-2 mt-1 text-left">
               <h6 class="font-weight-normal">
@@ -156,8 +156,8 @@
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
       <figure class="d-flex flex-row mt-3">
           <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/icon-4-section-11.png">              
-              <img width="60" height="60" src="/images/outsourching-it/icon-4-section-11.svg" alt="main-image" loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/tentang-kami/2022/icon-section-3-director.png">              
+              <img width="60" height="60" src="/images/tentang-kami/2022/icon-section-3-director.png" alt="main-image" loading="lazy" >
           </picture> 
           <figcaption class="ml-2 mt-1 text-left">
               <h6 class="font-weight-normal">
@@ -188,8 +188,8 @@
       <div class=" mb-sm-3">
         <figure class="mt-3 ">
             <picture>
-                <source media="(min-width: 640)" srcset="/images/outsourching-it/image-1-section-12.webp">              
-                <img class="w-sm-100" width="540" height="auto" src="/images/outsourching-it/image-1-section-12.jpg" alt="main-image" loading="lazy" >
+                <source media="(min-width: 640)" srcset="/images/tentang-kami/2022/img-section-3-left.png">              
+                <img class="w-sm-100" width="540" height="auto" src="/images/tentang-kami/2022/img-section-3-left.png" alt="main-image" loading="lazy" >
             </picture> 
             <figcaption class="ml-4 mt-n7 text-left">
                 <h3 class="font-weight-normal">
@@ -210,8 +210,8 @@
       <div class=" mb-sm-3">
         <figure class="mt-3">
             <picture>
-                <source media="(min-width: 640)" srcset="/images/outsourching-it/image-2-section-12.webp">              
-                <img class="w-sm-100" width="540" height="auto" src="/images/outsourching-it/image-2-section-12.jpg" alt="main-image" loading="lazy" >
+                <source media="(min-width: 640)" srcset="/images/tentang-kami/2022/img-section-3-right.png">              
+                <img class="w-sm-100" width="540" height="auto" src="/images/tentang-kami/2022/img-section-3-right.png" alt="main-image" loading="lazy" >
             </picture> 
             <figcaption class="ml-4 mt-n7 text-left">
                 <h3 class="font-weight-normal">

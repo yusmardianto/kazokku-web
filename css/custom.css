@@ -12,9 +12,7 @@
 
     --secondary-main: #f7941d;
     --secondary-light: #ffc553;
-    --secondary-dark: #be6600;
-
-    
+    --secondary-dark: #be6600;    
     
     --common-blue-main: #d7f0ff;
     --common-blue-dark: #bad7e9;
@@ -65,6 +63,7 @@ legend.card-info-with-fieldset {
     padding:0 10px;
     border-bottom:none;
 }
+
 legend {
     float: none;
 }
