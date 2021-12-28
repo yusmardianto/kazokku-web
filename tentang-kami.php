@@ -219,10 +219,10 @@
                 </h3>  
                 <a href='https://webdev-id.com/' class="text-decoration-none" target="_blank">
                   <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4" >
-                      <h6 class="m-0">
-                        Detail
-                      </h6>
-                    </button>                          
+                    <h6 class="m-0">
+                      Detail
+                    </h6>
+                  </button>                          
                 </a>
             </figcaption>
           </figure> 
@@ -245,50 +245,7 @@
       </div>
     </div>
   
-    <div class="row mt-3">
-      <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 " >      
-        <fieldset id='home-card-portofolio-kami-1' class="card-info-with-fieldset h-100" style="background-color: rgb(244 209 215); ">
-            <legend class="card-info-with-fieldset" >
-                <span class="fs-6">
-                  <img height="48" width="48" src="/images/home/image-logo-sinarmas-land.png" alt="logo-sinarmas-land"  loading="lazy" >
-                </span>
-            </legend>
-            <div class="control-group">
-                <h5 class="mt-5">
-                  <b>Sinar Mas Land</b>
-                </h5>
-                <p>
-                  Kami membantu Sinar Mas Land mengoptimalkan proses rekrutmen dengan menyediakan sistem dan aplikasi yang komprehensif untuk kandidat dan tim rekrutmen yang membuat semua proses berjalan otomatis secara digital.
-                </p>
-                <p>
-                  Kebutuhan Teknis : .net, SAP, Active Directory
-                </p>  
-            </div>
-          </fieldset>  
-      </div>    
-      <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 " >      
-        <fieldset id='home-card-portofolio-kami-2' class="card-info-with-fieldset h-100" style="background-color: rgb(244 209 215); ">
-            <legend class="card-info-with-fieldset" >
-                <span class="fs-6">
-                  <div class="rounded" style='background-color: #008247; height: 48px; width: 48px;'>
-                    <img class="p-2 " style="object-position: 50% 50%; object-fit: cover;" height="100%" width="100%" src="/images/home/image-logo-limited-bank.png" alt="logo-limited-bank"  loading="lazy" >
-                  </div>
-                </span>
-            </legend>
-            <div class="control-group">
-                <h5 class="mt-5">
-                  <b>Frenn Microfinance Bank Limited</b>
-                </h5>
-                <p>
-                  Kami menyediakan profesional yang memiliki kemampuan sangat baik dalam mengaplikasikan teknologi baru berbasis Go Lang dan mampu berkomunikasi dalam Bahasa Inggris dengan baik untuk berkolaborasi dengan tim internasional dari berbagai negara termasuk India.
-                </p>
-                <p>
-                  Kebutuhan Teknis : Go Lang, Microservices
-                </p> 
-            </div>
-          </fieldset>  
-      </div>
-    </div>
+    <?php include './includes/card-portofolio.php' ?>
   </div>
 </section>
 

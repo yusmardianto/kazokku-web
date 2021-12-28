@@ -194,8 +194,9 @@
           </h3> 
       </div>
     </div>
+    <?php include './includes/card-portofolio.php' ?>
   
-    <div class="row mt-3">
+    <!-- <div class="row mt-3">
       <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4 " >      
         <fieldset id='home-card-portofolio-kami-1' class="card-info-with-fieldset h-89" style="background-color: rgb(244 209 215); ">
             <legend class="card-info-with-fieldset" >
@@ -220,11 +221,7 @@
         <fieldset id='home-card-portofolio-kami-2' class="card-info-with-fieldset  h-89" style="background-color: rgb(244 209 215); ">
             <legend class="card-info-with-fieldset" >
                 <span class="fs-6">
-                  <img height="72" width="72" src="/images/home/2022/img-section-5-microfinance.png" alt="logo-microfinance"  loading="lazy" >
-
-                  <!-- <div class="rounded" style='background-color: #008247; height: 48px; width: 48px;'>
-                    <img class="p-2 " style="object-position: 50% 50%; object-fit: cover;" height="100%" width="100%" src="/images/home/2022/img-section-5-microfinance.png" alt="logo-limited-bank"  loading="lazy" >
-                  </div> -->
+                  <img height="72" width="72" src="/images/home/2022/img-section-5-microfinance.png" alt="logo-microfinance"  loading="lazy" >                
                 </span>
             </legend>
             <div class="control-group">
@@ -260,7 +257,9 @@
             </div>
           </fieldset>  
       </div> 
-    </div>
+    </div> -->
+
+
   </div>
 </section>
 
