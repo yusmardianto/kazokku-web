@@ -531,9 +531,9 @@
           <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalItUxDesigner" >
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-1.webp">
-                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-mini-card-1.webp">
-                    <img class="ml-0 mr-0 m-2 " width="60" height="60" src="/images/outsourching-it/image-mini-card-1.png" alt="main-image" loading="lazy" >
+                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-9-ui-ux.png">
+                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-9-ui-ux.png">
+                    <img class="ml-0 mr-0 m-2 " width="72" height="72" src="/images/outsourching-it/2022/img-section-9-ui-ux.svg" alt="main-image" loading="lazy" >
                 </picture> 
                 <figcaption class="pt-1 pl-4 pr-4 text-left">
                     <h5 class="pb-3 text-dark text-center">
@@ -548,9 +548,9 @@
           <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalItBeDeveloper">
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-2.webp">
-                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-mini-card-2.webp">
-                    <img class="ml-0 mr-0 m-2" width="60" height="60" src="/images/outsourching-it/image-mini-card-2.png" alt="main-image" loading="lazy" >
+                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-9-be.png">
+                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-9-be.png">
+                    <img class="ml-0 mr-0 m-2" width="64" height="64" src="/images/outsourching-it/2022/img-section-9-be.svg" alt="main-image" loading="lazy" >
                 </picture> 
                 <figcaption class="pt-1 pl-4 pr-4 text-left">
                     <h5 class="pb-3 text-dark text-center">
@@ -564,9 +564,9 @@
         <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalItFeDeveloper" >
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-3.webp">
-                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-mini-card-3.webp">
-                    <img class="ml-0 mr-0 m-2" width="60" height="60" src="/images/outsourching-it/image-mini-card-3.png" alt="main-image" loading="lazy" >
+                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-9-fe.png">
+                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-9-fe.png">
+                    <img class="ml-0 mr-0 m-2" width="66" height="66" src="/images/outsourching-it/2022/img-section-9-fe.svg" alt="main-image" loading="lazy" >
                 </picture> 
                 <figcaption class="pt-1 pl-4 pr-4 text-left">
                     <h5 class="pb-3 text-dark text-center">
@@ -584,9 +584,9 @@
           <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalMobileDeveloper" >
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-4.webp">
-                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-mini-card-4.webp">
-                    <img class="ml-0 mr-0 m-2" width="60" height="60" src="/images/outsourching-it/image-mini-card-4.png" alt="main-image" loading="lazy" >
+                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-9-mobile-dev.png">
+                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-9-mobile-dev.png">
+                    <img class="ml-0 mr-0 m-2" width="60" height="60" src="/images/outsourching-it/2022/img-section-9-mobile-dev.svg" alt="main-image" loading="lazy" >
                 </picture> 
                 <figcaption class="pt-1 pl-4 pr-4 text-left">
                     <h5 class="pb-3 text-dark text-center">
@@ -601,9 +601,9 @@
           <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalQaTester" >
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-5.webp">
-                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-mini-card-5.webp">
-                    <img class="ml-0 mr-0 m-2" width="60" height="60" src="/images/outsourching-it/image-mini-card-5.png" alt="main-image" loading="lazy" >
+                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-9-qa.png">
+                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-9-qa.png">
+                    <img class="ml-0 mr-0 m-2" width="69" height="69" src="/images/outsourching-it/2022/img-section-9-qa.svg" alt="main-image" loading="lazy" >
                 </picture> 
                 <figcaption class="pt-1 pl-4 pr-4 text-left">
                     <h5 class="pb-3 text-dark text-center">
@@ -617,9 +617,9 @@
           <a href="" style="text-decoration: none;"  data-toggle="modal" data-target="#modalProfesionalItSecurity">
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-6.webp">
-                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-mini-card-6.webp">
-                    <img class="ml-0 mr-0 m-2" width="60" height="60" src="/images/outsourching-it/image-mini-card-6.png" alt="main-image" loading="lazy" >
+                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-9-it-security.png">
+                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-9-it-security.png">
+                    <img class="ml-0 mr-0 m-2" width="60" height="60" src="/images/outsourching-it/2022/img-section-9-it-security.svg" alt="main-image" loading="lazy" >
                 </picture> 
                 <figcaption class="pt-1 pl-4 pr-4 text-left">
                     <h5 class="pb-3 text-dark text-center">
@@ -637,9 +637,9 @@
           <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalItDevOps" >
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-7.webp">
-                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-mini-card-7.webp">
-                    <img class="ml-0 mr-0 m-2" width="60" height="60" src="/images/outsourching-it/image-mini-card-7.png" alt="main-image" loading="lazy" >
+                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-9-devops.png">
+                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-9-devops.png">
+                    <img class="ml-0 mr-0 m-2" width="63" height="63" src="/images/outsourching-it/2022/img-section-9-devops.svg" alt="main-image" loading="lazy" >
                 </picture> 
                 <figcaption class="pt-1 pl-4 pr-4 text-left">
                     <h5 class="pb-3 text-dark text-center">
@@ -654,9 +654,9 @@
           <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalItBa">
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-8.webp">
-                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-mini-card-8.webp">
-                    <img class="ml-0 mr-0 m-2" width="60" height="60" src="/images/outsourching-it/image-mini-card-8.png" alt="main-image" loading="lazy" >
+                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-9-ba.png">
+                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-9-ba.png">
+                    <img class="ml-0 mr-0 m-2" width="69" height="69" src="/images/outsourching-it/2022/img-section-9-ba.svg" alt="main-image" loading="lazy" >
                 </picture> 
                 <figcaption class="pt-1 pl-4 pr-4 text-left">
                     <h5 class="pb-3 text-dark text-center">
@@ -670,9 +670,9 @@
           <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#modalProfesionalItProjectManager" >
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-mini-card-9.webp">
-                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-mini-card-9.webp">
-                    <img class="ml-0 mr-0 m-2" width="60" height="60" src="/images/outsourching-it/image-mini-card-9.png" alt="main-image" loading="lazy" >
+                    <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-9-pm.png">
+                    <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-9-pm.png">
+                    <img class="ml-0 mr-0 m-2" width="59" height="59" src="/images/outsourching-it/2022/img-section-9-pm.svg" alt="main-image" loading="lazy" >
                 </picture> 
                 <figcaption class="pt-1 pl-4 pr-4 text-left">
                     <h5 class="pb-3 text-dark text-center">
@@ -694,19 +694,19 @@
 
         <div
           style="
-            background-image: url('/images/outsourching-it/image-section-10.svg');
+            background-image: url('/images/outsourching-it/2022/img-section-10-main-bg.png');
             background-repeat: no-repeat;            
             background-position: center; 
-            height: 327px;
+            height: 337px;
           "
         >
           <!-- #1 PERENCANAAN -->
           <div class="text-center content active-content" data-content='1'>
             <br />            
             <picture>
-                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-10-perencanaan.png">
-                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-10-perencanaan.png">
-                <img class="ml-5" src="/images/outsourching-it/image-section-10-perencanaan.svg" alt="perencanaan" class="w-sm-100 h-sm-auto" width="306" height="265"  loading="lazy" >
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-10-perencanaan-v2.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-10-perencanaan-v2.png">
+                <img class="w-sm-100 h-sm-auto ml-5 mt-5" width="200" height="auto" src="/images/outsourching-it/2022/img-section-10-perencanaan-v2.png" alt="perencanaan"   loading="lazy" >
             </picture>    
           </div>
 
@@ -714,9 +714,9 @@
           <div class="text-center content" data-content='2'>
             <br />            
             <picture>
-                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-10-discuss-consultation.png">
-                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-10-discuss-consultation.png">
-                <img class="ml-3 mt-5" width="394" height="247" src="/images/outsourching-it/image-section-10-discuss-consultation.svg" alt="discuss" class="w-sm-100 h-sm-auto"   loading="lazy" >
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-10-discuss-consultation.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-10-discuss-consultation.png">
+                <img class="w-sm-100 h-sm-auto ml-5 mt-5"  width="174" height="auto" src="/images/outsourching-it/2022/img-section-10-discuss-consultation.png" alt="discuss"    loading="lazy" >
             </picture>    
           </div>
 
@@ -724,9 +724,9 @@
            <div class="text-center content" data-content='3'>
             <br />            
             <picture>
-                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-10-talent-mapping.png">
-                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-10-talent-mapping.png">
-                <img class="ml-3" width="327" height="314" src="/images/outsourching-it/image-section-10-talent-mapping.svg" alt="talent-mapping" class="w-sm-100 h-sm-auto"   loading="lazy" >
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-10-talent-mapping.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-10-talent-mapping.png">
+                <img class="ml-3 mt-5" width="221" height="auto" src="/images/outsourching-it/2022/img-section-10-talent-mapping.png" alt="talent-mapping" class="w-sm-100 h-sm-auto"   loading="lazy" >
             </picture>    
           </div>
 
@@ -734,9 +734,9 @@
            <div class="text-center content" data-content='4'>
             <br />            
             <picture>
-                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-10-placement.png">
-                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-10-placement.png">
-                <img class="ml-5 mt-4" width="327" height="285" src="/images/outsourching-it/image-section-10-placement.svg" alt="placement" class="w-sm-100 h-sm-auto"   loading="lazy" >
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-10-placement.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-10-placement.png">
+                <img class="w-sm-100 h-sm-auto ml-3 mt-5" width="221" height="auto" src="/images/outsourching-it/2022/img-section-10-placement.png" alt="placement"    loading="lazy" >
             </picture>    
           </div>
         </div>       
@@ -801,89 +801,7 @@
     <img height="132" width="132" src="/images/outsourching-it/image-complement-left-section-11.svg" alt="complementary"  />
   </picture>     
 </div>
-<section class="container">
-  <div class="row">
-    <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">
-      <h4 class="text-secondary-main">
-        OUR PROFILE
-      </h4>
-      <h2 class='mt-3'>
-        PT Karisma Zona Kreatifku (KAZOKKU)
-      </h2>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
-      <figure class="d-flex flex-row mt-3">
-          <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/icon-1-section-11.png">              
-              <img width="60" height="60" src="/images/outsourching-it/icon-1-section-11.svg" alt="main-image" loading="lazy" >
-          </picture> 
-          <figcaption class="ml-2 mt-1 text-left">
-              <h6 class="font-weight-normal">
-                NIB
-              </h6>  
-              <h5 class="font-weight-normal">
-                8120015211446
-              </h5>              
-          </figcaption>
-        </figure>  
-    </div>
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
-      <figure class="d-flex flex-row mt-3">
-          <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/icon-2-section-11.png">              
-              <img width="60" height="60" src="/images/outsourching-it/icon-2-section-11.svg" alt="main-image" loading="lazy" >
-          </picture> 
-          <figcaption class="ml-2 mt-1 text-left">
-              <h6 class="font-weight-normal">
-                Telepon / Email
-              </h6>  
-              <h5 class="font-weight-normal">
-                +62(21) 2270 8935 - 36 / info@kazokku.com
-              </h5>              
-          </figcaption>
-        </figure>  
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
-      <figure class="d-flex flex-row mt-3">
-          <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/icon-3-section-11.png">              
-              <img width="60" height="60" src="/images/outsourching-it/icon-3-section-11.svg" alt="main-image" loading="lazy" >
-          </picture> 
-          <figcaption class="ml-2 mt-1 text-left">
-              <h6 class="font-weight-normal">
-                Alamat
-              </h6>  
-              <h5 class="font-weight-normal">
-                Gedung AD Premier Lantai 19, Jalan Tb. Simatupang No. 5, Pasar Minggu, Jakarta 12550, INDONESIA
-              </h5>              
-          </figcaption>
-        </figure> 
-    </div>
-
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
-      <figure class="d-flex flex-row mt-3">
-          <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/icon-4-section-11.png">              
-              <img width="60" height="60" src="/images/outsourching-it/icon-4-section-11.svg" alt="main-image" loading="lazy" >
-          </picture> 
-          <figcaption class="ml-2 mt-1 text-left">
-              <h6 class="font-weight-normal">
-                Direktur
-              </h6>  
-              <h5 class="font-weight-normal">
-                Yohanes Paskal
-              </h5>              
-          </figcaption>
-        </figure> 
-    </div>
-  </div>
-</section>
+<?php include './includes/section-our-profile.php' ?>
 
 <?php include './includes/banner-contact.php' ?>
 <?php include './includes/footer.php' ?>
