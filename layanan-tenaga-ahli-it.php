@@ -14,9 +14,9 @@
     <div class="row mt-n24 mt-sm-0">
       <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">             
         <picture>
-            <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section.webp">
-            <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section.webp">
-            <img class="w-sm-100" src="/images/outsourching-it/image-section.png" alt="main-image"  loading="lazy" >
+            <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-1-left-main.png">
+            <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-1-left-main.png">
+            <img width="100%" height="auto" class="w-sm-100" src="/images/outsourching-it/2022/img-section-1-left-main.png" alt="main-image"  loading="lazy" >
         </picture> 
         <div class="mr-n17 mt-n5 d-none d-sm-block d-sm-none d-md-block">
           <picture>
@@ -33,7 +33,6 @@
             </h4>
             <p>
               KAZOKKU merupakan bagian dari grup <span class="logique-text">LOGIQUE</span>, yaitu salah satu pengembang sistem web terbaik di Jakarta, dipimpin oleh Takashi Yoshitsugu yang berasal dari Jepang. Secara operasional KAZOKKU mengedepankan prinsip-prinsip Jepang yang disiplin, logis, dan adil yang membuat kami mampu memberikan hasil yang memuaskan bagi para klien.
-
             </p>
           </div>
         </div>
@@ -81,9 +80,9 @@
           </div>
           <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
             <picture>
-                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-2.png">
-                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-2.png">
-                <img src="/images/outsourching-it/image-section-2.svg" alt="main-image" width="100%" height="auto" loading="lazy" >
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-2-right.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-2-right.png">
+                <img src="/images/outsourching-it/2022/img-section-2-right.png" alt="main-image" width="100%" height="auto" loading="lazy" >
             </picture>      
           </div>
         </div>
@@ -147,23 +146,26 @@
       <img class="d-none d-sm-block d-sm-none d-md-block mt-n7" src="/images/outsourching-it/image-complement-left-section-4.png" alt="complementary" />
     </picture>  
   </div>
+
   <section class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">   
+      <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 mx-auto">   
           <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-section-4.png">
-              <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-section-4.png">
-              <img src="/images/outsourching-it/image-section-4.svg" alt="main-image" width="100%" height="auto" loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/tentang-kami/2022/img-section-2-left-bg.png">
+              <source media="(max-width: 640px)" srcset="/images/tentang-kami/2022/img-section-2-left-bg-mobile.png">
+              <img src="/images/tentang-kami/2022/img-section-2-left-bg.png" alt="main-image" width="100%" height="auto" loading="lazy" >
           </picture>                
         </div>
       </div>
-  </section>   
+  </section>  
+
   <div class="d-flex flex-column justify-content-end">
     <picture>
       <source srcset="/images/outsourching-it/image-complement-right-section-4.webp" type="image/webp" >
       <img class="d-none d-sm-block d-sm-none d-md-block mt-n7" width="100%" height="auto" src="/images/outsourching-it/image-complement-right-section-4.png" alt="complementary" />
     </picture>  
   </div>
+
 </div>
 
   <!-- #5 -->
@@ -204,51 +206,63 @@
     <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xxl-4">                      
       <figure class=" rounded-xl text-center mt-3 mb-1 linear-gradient-blue border-blue-main h-100">
         <picture>
-            <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-1.png">
-            <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-1.png">
-            <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-1.svg" alt="main-image" loading="lazy" >
+            <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-6-biaya-fleksibel.png">
+            <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-6-biaya-fleksibel.png">
+            <img class="ml-0 mr-0 mt-5 w-sm-100" width="224" height="auto" src="/images/outsourching-it/2022/img-section-6-biaya-fleksibel.png" alt="main-image" loading="lazy" >
         </picture> 
         <figcaption class="pt-1 pl-4 pr-4 text-left">
             <h3 class="m-3 text-dark text-left">
               Proses rekrutmen dapat dijalankan dengan biaya yang fleksibel
-            </h3>
-            <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3"  data-toggle="modal" data-target="#modal1">
-              See Details
-            </button>
+            </h3>          
+            <button data-toggle="modal" data-target="#modal1" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                <h6 class="m-0 d-flex flex-row justify-content-between">
+                  <span>See Details </span>
+                  &nbsp;
+                  <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                </h6>
+              </button>  
         </figcaption>
       </figure>                                   
     </div>
       <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                  
         <figure class=" rounded-xl text-center mt-3 mb-1 linear-gradient-blue border-blue-main h-100">
           <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-2.png">
-              <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-2.png">
-              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-2.svg" alt="main-image" loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-6-biaya-terkendali.png">
+              <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-6-biaya-terkendali.png">
+              <img class="ml-0 mr-0 mt-5 w-sm-100" width="224" height="auto" src="/images/outsourching-it/2022/img-section-6-biaya-terkendali.png" alt="main-image" loading="lazy" >
           </picture> 
           <figcaption class="pt-1 pl-4 pr-4 text-left">
               <h3 class="m-3 text-dark text-left">
                 Biaya operasional tenaga kerja menjadi lebih terkendali
               </h3>
-              <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modal2">
-                See Details
-              </button>
+              <button type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" data-toggle="modal" data-target="#modal2">
+                <h6 class="m-0 d-flex flex-row justify-content-between">
+                  <span>See Details </span>
+                  &nbsp;
+                  <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                </h6>
+              </button>             
           </figcaption>
         </figure>                      
       </div>
       <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                  
           <figure class=" rounded-xl text-center mt-3 mb-1 linear-gradient-blue border-blue-main h-100">
             <picture>
-                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-3.png">
-                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-3.png">
-                <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-3.svg" alt="main-image" loading="lazy" >
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-6-fokus-bisnis.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-6-fokus-bisnis.png">
+                <img class="ml-0 mr-0 mt-5 w-sm-100" width="224" height="auto" src="/images/outsourching-it/2022/img-section-6-fokus-bisnis.png" alt="main-image" loading="lazy" >
             </picture> 
             <figcaption class="pt-1 pl-4 pr-4 text-left">
                 <h3 class="m-3 text-dark text-left">
                   Perusahaan dapat fokus pada kegiatan bisnis
                 </h3>
-                <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modal3">
-                  See Details
-                </button>
+                <button type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" data-toggle="modal" data-target="#modal3">
+                  <h6 class="m-0 d-flex flex-row justify-content-between">
+                    <span>See Details </span>
+                    &nbsp;
+                    <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                  </h6>
+                </button>               
             </figcaption>
           </figure>             
       </div>
@@ -262,63 +276,75 @@
     <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                   
       <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
         <picture>
-            <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-4.png">
-            <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-4.png">
-            <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-4.svg" alt="main-image" loading="lazy" >
+            <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-7-kelola-resiko-jadilebihbaik.png">
+            <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-7-kelola-resiko-jadilebihbaik.png">
+            <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/2022/img-section-7-kelola-resiko-jadilebihbaik.png" alt="main-image" loading="lazy" >
         </picture> 
         <figcaption class="pt-1 pl-4 pr-4 text-left">
             <h3 class="m-3 text-dark text-left">
             Risiko dikelola dengan  lebih baik
             </h3>
-            <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modal4" >
-              See Details
-            </button>
+            <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+              <h6 class="m-0 d-flex flex-row justify-content-between">
+                <span>See Details </span>
+                &nbsp;
+                <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+              </h6>
+            </button>             
         </figcaption>
       </figure>               
     </div>
       <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                  
         <figure class="rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
           <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-5.png">
-              <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-5.png">
-              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-5.svg" alt="main-image" loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-7-kinerja-maksimal.png">
+              <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-7-kinerja-maksimal.png">
+              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/2022/img-section-7-kinerja-maksimal.png" alt="main-image" loading="lazy" >
           </picture> 
           <figcaption class="pt-1 pl-4 pr-4 text-left">
               <h3 class="m-3 text-dark text-left">
                 Kinerja yang maksimal
               </h3>
-              <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modal5">
-                See Details
-              </button>
+              <button data-toggle="modal" data-target="#modal5" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                <h6 class="m-0 d-flex flex-row justify-content-between">
+                  <span>See Details </span>
+                  &nbsp;
+                  <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                </h6>
+              </button>  
           </figcaption>
         </figure>                   
       </div>
       <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                  
         <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
           <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-6.png">
-              <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-6.png">
-              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-6.svg" alt="main-image" loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-7-latest-tech.png">
+              <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-7-latest-tech.png">
+              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/2022/img-section-7-latest-tech.png" alt="main-image" loading="lazy" >
           </picture> 
           <figcaption class="pt-1 pl-4 pr-4 text-left">
               <h3 class="m-3 text-dark text-left">
                 Penerapan teknologi terbaru dengan cepat
               </h3>
-              <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modal6">
-                See Details
-              </button>
+              <button data-toggle="modal" data-target="#modal6" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                <h6 class="m-0 d-flex flex-row justify-content-between">
+                  <span>See Details </span>
+                  &nbsp;
+                  <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                </h6>
+              </button>              
           </figcaption>
         </figure>                  
       </div>
     </div>
 </section>
+
 <div class="d-flex justify-content-end">        
   <picture>
     <source srcset="/images/outsourching-it/icon-circle-section-7.png" type="image/webp" >
     <img width="58" height="74" src="/images/outsourching-it/icon-circle-section-7.svg" alt="complementary" />
   </picture>        
 </div>  
-
 
 <!-- #8 -->
 <section class="container">
@@ -356,51 +382,63 @@
     <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xxl-4">              
       <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
         <picture>
-            <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-7.png">
-            <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-7.png">
-            <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-7.svg" alt="main-image" loading="lazy" >
+            <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-8-magnet-kerjaan.png">
+            <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-8-magnet-kerjaan.png">
+            <img class="ml-0 mr-0 mt-5 w-sm-100" width="224" height="auto" src="/images/outsourching-it/2022/img-section-8-magnet-kerjaan.png" alt="main-image" loading="lazy" >
         </picture> 
         <figcaption class="pt-1 pl-4 pr-4 text-left">
             <h3 class="m-3 text-dark text-left">
               Mudah mendapatkan pekerjaan
             </h3>
-            <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modalEmployee1">
-              See Details
-            </button>
+            <button data-toggle="modal" data-target="#modalEmployee1" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+              <h6 class="m-0 d-flex flex-row justify-content-between">
+                <span>See Details </span>
+                &nbsp;
+                <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+              </h6>
+            </button>          
         </figcaption>
       </figure>          
     </div>
       <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                     
         <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
           <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-8.png">
-              <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-8.png">
-              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-8.svg" alt="main-image" loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-8-be-profesional.png">
+              <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-8-be-profesional.png">
+              <img class="ml-0 mr-0 mt-5 w-sm-100" width="224" height="auto" src="/images/outsourching-it/2022/img-section-8-be-profesional.png" alt="main-image" loading="lazy" >
           </picture> 
           <figcaption class="pt-1 pl-4 pr-4 text-left">
               <h3 class="m-3 text-dark text-left">
                 Dapat meningkatkan skill atau menjadi spesialis
               </h3>
-              <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modalEmployee2">
-                See Details
-              </button>
+              <button data-toggle="modal" data-target="#modalEmployee2" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                <h6 class="m-0 d-flex flex-row justify-content-between">
+                  <span>See Details </span>
+                  &nbsp;
+                  <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                </h6>
+              </button> 
           </figcaption>
         </figure>                                        
       </div>
       <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                  
         <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
           <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-9.png">
-              <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-9.png">
-              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-9.svg" alt="main-image" loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-8-more-experience.png">
+              <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-8-more-experience.png">
+              <img class="ml-0 mr-0 mt-5 w-sm-100" width="224" height="auto" src="/images/outsourching-it/2022/img-section-8-more-experience.png" alt="main-image" loading="lazy" >
           </picture> 
           <figcaption class="pt-1 pl-4 pr-4 text-left">
               <h3 class="m-3 text-dark text-left">
                 Mendapat banyak pengalaman dan relasi
               </h3>
-              <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modalEmployee3">
-                See Details
-              </button>
+              <button data-toggle="modal" data-target="#modalEmployee3" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                <h6 class="m-0 d-flex flex-row justify-content-between">
+                  <span>See Details </span>
+                  &nbsp;
+                  <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                </h6>
+              </button>         
           </figcaption>
         </figure>                           
       </div>
@@ -410,34 +448,42 @@
       <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xxl-4">                             
         <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100">
           <picture>
-              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-10.png">
-              <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-10.png">
-              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-10.svg" alt="main-image" loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-8-choose-dream.png">
+              <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-8-choose-dream.png">
+              <img class="ml-0 mr-0 mt-5" width="224" height="auto" src="/images/outsourching-it/2022/img-section-8-choose-dream.png" alt="main-image" loading="lazy" >
           </picture> 
           <figcaption class="pt-1 pl-4 pr-4 text-left">
               <h3 class="m-3 text-dark text-left">
                 Memilih perusahaan impian
               </h3>
-              <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modalEmployee4">
-                See Details
-              </button>
+              <button data-toggle="modal" data-target="#modalEmployee4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                <h6 class="m-0 d-flex flex-row justify-content-between">
+                  <span>See Details </span>
+                  &nbsp;
+                  <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                </h6>
+              </button>                
           </figcaption>
         </figure>                        
       </div>
       <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">                    
           <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-light h-100">
             <picture>
-                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/image-card-11.png">
-                <source media="(max-width: 640px)" srcset="/images/outsourching-it/image-card-11.png">
-                <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/image-card-11.svg" alt="main-image" loading="lazy" >
+                <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-8-wide-space.png">
+                <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-8-wide-space.png">
+                <img class="ml-0 mr-0 mt-5 w-sm-100" width="224" height="auto" src="/images/outsourching-it/2022/img-section-8-wide-space.png" alt="main-image" loading="lazy" >
             </picture> 
             <figcaption class="pt-1 pl-4 pr-4 text-left">
                 <h3 class="m-3 text-dark text-left">
                   Ruang untuk berkembang
                 </h3>
-                <button type="button" class="btn btn-secondary mb-3 ml-3 pl-3 pr-3" data-toggle="modal" data-target="#modalEmployee5">
-                  See Details
-                </button>
+                <button data-toggle="modal" data-target="#modalEmployee5" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                  <h6 class="m-0 d-flex flex-row justify-content-between">
+                    <span>See Details </span>
+                    &nbsp;
+                    <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                  </h6>
+                </button>           
             </figcaption>
           </figure>                
         </div>
@@ -838,56 +884,6 @@
     </div>
   </div>
 </section>
-
-<!-- #12 -->
-<!-- <section class="container mt-4">
-  <div class="row">
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
-      <div class=" mb-sm-3">
-        <figure class="mt-3 ">
-            <picture>
-                <source media="(min-width: 640)" srcset="/images/outsourching-it/image-1-section-12.webp">              
-                <img class="w-sm-100" width="540" height="auto" src="/images/outsourching-it/image-1-section-12.jpg" alt="main-image" loading="lazy" >
-            </picture> 
-            <figcaption class="ml-4 mt-n7 text-left">
-                <h3 class="font-weight-normal">
-                  Kazokku
-                </h3>  
-                <a href='/layanan-tenaga-ahli-it.php' class="text-decoration-none">
-                  <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4" >
-                      <h6 class="m-0">
-                        Detail
-                      </h6>
-                    </button>                          
-                </a>
-            </figcaption>
-          </figure> 
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
-      <div class=" mb-sm-3">
-        <figure class="mt-3">
-            <picture>
-                <source media="(min-width: 640)" srcset="/images/outsourching-it/image-2-section-12.webp">              
-                <img class="w-sm-100" width="540" height="auto" src="/images/outsourching-it/image-2-section-12.jpg" alt="main-image" loading="lazy" >
-            </picture> 
-            <figcaption class="ml-4 mt-n7 text-left">
-                <h3 class="font-weight-normal">
-                  Web Developer Indonesia
-                </h3>  
-                <a href='https://webdev-id.com/' class="text-decoration-none" target="_blank">
-                  <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4" >
-                      <h6 class="m-0">
-                        Detail
-                      </h6>
-                    </button>                          
-                </a>
-            </figcaption>
-          </figure> 
-      </div>
-    </div>
-  </div>
-</section> -->
 
 <?php include './includes/banner-contact.php' ?>
 <?php include './includes/footer.php' ?>

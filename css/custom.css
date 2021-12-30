@@ -110,6 +110,23 @@ legend {
     background-repeat: no-repeat;  
 }
 
+.custom-bg-button-orange{    
+    /* width: 100px; */
+    height: 32px;    
+    background: linear-gradient(180deg, #F59231 0%, #F7941D 100%);
+    box-shadow: -5px -5px 15px rgba(240, 23, 22, 0.25), 5px 5px 15px rgba(149, 9, 9, 0.25), inset 0px 5px 3px rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+
+}
+
+.custom-text-button-orange {
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;    
+    color: #FFFFFF;
+}
 
 /* Ovverides bootstrap */
 .btn-secondary {    
@@ -231,6 +248,18 @@ legend {
     height: 89% !important;
 }
 
+.mt-1-half{
+    margin-top: 0.35rem!important;
+}
+
+.transition-duration-500{
+    transition: 0.5s;
+}
+
+.w-100px{
+    
+    width: 100px
+}
 
 /* mobile device - sm */
 @media (max-width: 640px) {

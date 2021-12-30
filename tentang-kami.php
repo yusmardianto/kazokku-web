@@ -66,7 +66,7 @@
         <div class="col-sm-12 col-md-8 col-md-8 col-lg-8 col-xl-8 mx-auto">   
           <picture>          
               <source media="(min-width: 1024px)" srcset="/images/tentang-kami/2022/img-section-2-left-bg.png">
-              <source media="(max-width: 640px)" srcset="/images/tentang-kami/2022/img-section-2-left-bg.png">
+              <source media="(max-width: 640px)" srcset="/images/tentang-kami/2022/img-section-2-left-bg-mobile.png">
               <img src="/images/tentang-kami/2022/img-section-2-left-bg.png" alt="main-image" width="100%" height="auto" loading="lazy" >
           </picture>                
         </div>
@@ -196,11 +196,12 @@
                   Layanan Outsourcing IT
                 </h3>  
                 <a href='/layanan-tenaga-ahli-it.php' class="text-decoration-none">
-                  <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4" >
-                      <h6 class="m-0">
-                        Detail
-                      </h6>
-                    </button>                          
+                  <button type="button" class="btn pt-1 pb-1 pl-4 pr-4 custom-bg-button-orange text-white transition-duration-500" >
+                    <h6 class="m-0 d-flex flex-row justify-content-between">
+                      <span>Detail </span>
+                      &nbsp;<img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                    </h6>
+                  </button>                          
                 </a>
             </figcaption>
           </figure> 
@@ -218,7 +219,7 @@
                   Web Developer Indonesia
                 </h3>  
                 <a href='https://webdev-id.com/' class="text-decoration-none" target="_blank">
-                  <button type="button" class="btn btn-secondary pt-1 pb-1 pl-4 pr-4" >
+                  <button type="button" class="btn pt-1 pb-1 pl-4 pr-4 custom-bg-button-orange text-white" >
                     <h6 class="m-0">
                       Detail
                     </h6>
