@@ -46,12 +46,12 @@ if (isset($_POST['submitted'])) {
 <?php include './includes/header.php' ?>
 
 <!-- #1 -->
-<section>
+<!-- <section>
   <div class="main-visual-section mt-0">
     <picture>
-      <source srcset="/images/hubungi-kami/image-section-1-main.webp" type="image/webp">
-      <source srcset="/images/hubungi-kami/image-section-1-main.jpg" type="image/jpg">
-      <img class="w-sm-100" src="/images/hubungi-kami/image-section-1-main.png" class="image-section-1-main" alt="Main Visual" loading='lazy' />
+      <source srcset="/images/hubungi-kami/2022/img-section-1-main-bg.png" type="image/webp">
+      <source srcset="/images/hubungi-kami/2022/img-section-1-main-bg.png" type="image/jpg">
+      <img width="100%" height="auto" class="w-sm-100" src="/images/hubungi-kami/2022/img-section-1-main-bg.png" class="image-section-1-main" alt="Main Visual" loading='lazy' />
     </picture>
     <div class="main-visual-text-wrapper">
       <div class="text-center">
@@ -62,23 +62,33 @@ if (isset($_POST['submitted'])) {
       </div>      
     </div>
   </div>
-</section>
+</section> -->
 
+<!-- #1 -->
+<!-- <section>
+  <div class="main-visual-section mt-0">
+    <picture>
+      <source srcset="/images/hubungi-kami/2022/img-section-1-main-bg.png" type="image/webp">
+      <source srcset="/images/hubungi-kami/2022/img-section-1-main-bg.png" type="image/jpg">
+      <img width="100%" height="auto" class="w-sm-100" src="/images/hubungi-kami/2022/img-section-1-main-bg.png" class="image-section-1-main" alt="Main Visual" loading='lazy' />
+    </picture> 
+  </div>
+</section> -->
 
-
-<div class="position-relative"> 
+<!-- <div class="position-relative"> 
   <div class="position-absolute mt-n5" style="top: 0; left: 0"> 
     <picture>
       <source srcset="/images/hubungi-kami/image-section-2-glow-pink-left.webp" type="image/webp" >
       <img class="d-none d-sm-block d-sm-none d-md-block mt-n5" width="585" height="auto" src="/images/hubungi-kami/image-section-2-glow-pink-left.png" alt="image-section-2-glow-pink-left" />
     </picture>   
   </div>
-</div>
+</div> -->
 
 <!-- #2 -->
-<section>
+<section class="custom-bg-section-1-main-bg">  
+
   <!-- #ELEMENT OF HALF GLOW CIRCLE -->
-  <div class="d-flex justify-content-center ">
+  <!-- <div class="d-flex justify-content-center ">
     <div      
       class="w-sm-100 d-none d-sm-block d-sm-none d-md-block"
       style="        
@@ -92,28 +102,28 @@ if (isset($_POST['submitted'])) {
           0 0 60px 30px var(--common-hubungi-kami-medium); 
       "
     ></div>   
-  </div>    
+  </div>     -->
 
   <div class="hubungi-kami-section mt-n5">  
-    <div class="container mt-n5">
-      <div class="row">
+    <div class="container mt-5">
+      <div class="row mt-15">
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-          <picture>
+          <!-- <picture>
             <source srcset="/images/hubungi-kami/image-section-2-dot-left.webp" type="image/webp">
             <img  width="32" height="32" src="/images/hubungi-kami/image-section-2-dot-left.png" alt="image-section-2-dot-left" loading='lazy' />
-          </picture>
+          </picture> -->
 
           <h4 class="text-secondary-main mt-3">
-                HUBUNGI KAMI
-            </h4>   
+              HUBUNGI KAMI
+          </h4>   
           <p class="font-weight-bold">Jika Anda ingin mendapatkan informasi lebih lanjut tentang layanan kami, seperti layanan Outsourcing IT Profesional atau WDI untuk kebutuhan IT / transformasi digital perusahaan Anda, silakan menghubungi dan bertanya apapun kepada kami dengan mengisi formulir di bawah ini.</p>
 
           <!-- #Element of line vertical -->
           <div class="bg-secondary-main d-none d-sm-block d-sm-none d-md-block" style="height: 272px; width: 2px"></div>
           <div class="mt-n5">
             <picture>
-              <source srcset="/images/hubungi-kami/image-section-2-man-and-woman.webp" type="image/webp">
-              <img class="w-sm-100 h-sm-auto" width="470" height="338" src="/images/hubungi-kami/image-section-2-man-and-woman.png" alt="image-section-2-man-and-woman" loading='lazy' />
+              <source srcset="/images/hubungi-kami/2022/img-section-2-left-v2.png" type="image/webp">
+              <img class="w-sm-100 h-sm-auto" width="470" height="auto" src="/images/hubungi-kami/2022/img-section-2-left-v2.png" alt="image-section-2-man-and-woman" loading='lazy' />
             </picture>
           </div>
         </div>  
@@ -129,7 +139,7 @@ if (isset($_POST['submitted'])) {
           <input type='hidden' name='submitted' id='submitted' value='1' />
           <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>' />
           <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
-            <div class="form-container mt-sm-1" style="background: var(--gradient-hubungi-kami);">
+            <div class="form-container mt-sm-1" style="background: var(--gradient-hubungi-kami); opacity: 0.7;">
               <div class="form-group">
                 <label class="font-weight-bold" for="company_name">Nama Perusahaan</label>
                 <input type="text" name="company_name" class="form-control" placeholder="Nama Perusahaan" required>
@@ -213,8 +223,14 @@ if (isset($_POST['submitted'])) {
               <?php else: ?>
                 <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
               <?php endif ?>
-              <div class="text-left mt-3">
-                <button class="btn-orange-rounded w-full pr-5 pl-5">Hubungi Kami <img src="/images/right-arrow.png" class="img-arrow" alt="detail"></button>
+              <div class="text-left mt-3">                
+                <button data-toggle="modal" data-target="#modal6" type="button" class="btn pt-1 pb-1 pl-5 pr-5 custom-bg-button-orange text-white transition-duration-500" >
+                <h6 class="m-0 d-flex flex-row justify-content-between">
+                  <span>Hubungi Kami </span>
+                  &nbsp;
+                  <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                </h6>
+              </button>  
               </div>
             </div>
           </form>

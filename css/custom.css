@@ -119,6 +119,14 @@ legend {
 
 }
 
+.custom-bg-section-1-main-bg{
+    
+    background-image: url('../images/hubungi-kami/2022/img-section-1-main-bg.png');
+    /* background-size: 100% 100%; */
+    background-size: 100%;
+    background-repeat: no-repeat;  
+}
+
 .custom-text-button-orange {
     font-family: Abel;
     font-style: normal;
@@ -203,6 +211,10 @@ legend {
 }
 .ml-n6{
     margin-left: -6rem!important;
+}
+
+.mt-15{
+    margin-top: 9rem!important;
 }
 
 .text-secondary-main{
