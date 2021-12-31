@@ -299,7 +299,7 @@
           <picture>
               <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-7-kinerja-maksimal.png">
               <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-7-kinerja-maksimal.png">
-              <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/2022/img-section-7-kinerja-maksimal.png" alt="main-image" loading="lazy" >
+              <img class="ml-0 mr-0 mt-5" width="224" height="auto" src="/images/outsourching-it/2022/img-section-7-kinerja-maksimal.png" alt="main-image" loading="lazy" >
           </picture> 
           <figcaption class="pt-1 pl-4 pr-4 text-left">
               <h3 class="m-3 text-dark text-left">
@@ -706,7 +706,7 @@
             <picture>
                 <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-10-perencanaan-v2.png">
                 <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-10-perencanaan-v2.png">
-                <img class="w-sm-100 h-sm-auto ml-5 mt-5" width="200" height="auto" src="/images/outsourching-it/2022/img-section-10-perencanaan-v2.png" alt="perencanaan"   loading="lazy" >
+                <img class=" ml-5 mt-5" width="200" height="auto" src="/images/outsourching-it/2022/img-section-10-perencanaan-v2.png" alt="perencanaan"   loading="lazy" >
             </picture>    
           </div>
 
@@ -716,7 +716,7 @@
             <picture>
                 <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-10-discuss-consultation.png">
                 <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-10-discuss-consultation.png">
-                <img class="w-sm-100 h-sm-auto ml-5 mt-5"  width="174" height="auto" src="/images/outsourching-it/2022/img-section-10-discuss-consultation.png" alt="discuss"    loading="lazy" >
+                <img class=" ml-5 mt-5"  width="174" height="auto" src="/images/outsourching-it/2022/img-section-10-discuss-consultation.png" alt="discuss"    loading="lazy" >
             </picture>    
           </div>
 
@@ -726,7 +726,7 @@
             <picture>
                 <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-10-talent-mapping.png">
                 <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-10-talent-mapping.png">
-                <img class="ml-3 mt-5" width="221" height="auto" src="/images/outsourching-it/2022/img-section-10-talent-mapping.png" alt="talent-mapping" class="w-sm-100 h-sm-auto"   loading="lazy" >
+                <img class=" ml-3 mt-5"  width="221" height="auto" src="/images/outsourching-it/2022/img-section-10-talent-mapping.png" alt="talent-mapping"   loading="lazy" >
             </picture>    
           </div>
 
@@ -736,7 +736,7 @@
             <picture>
                 <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-10-placement.png">
                 <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-10-placement.png">
-                <img class="w-sm-100 h-sm-auto ml-3 mt-5" width="221" height="auto" src="/images/outsourching-it/2022/img-section-10-placement.png" alt="placement"    loading="lazy" >
+                <img class=" ml-3 mt-5" width="221" height="auto" src="/images/outsourching-it/2022/img-section-10-placement.png" alt="placement"    loading="lazy" >
             </picture>    
           </div>
         </div>       
