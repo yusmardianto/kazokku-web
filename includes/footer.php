@@ -80,7 +80,7 @@
   <div class="container text-left">
     <hr class="border-top border-dark" />
     <span>
-      © 2021 Karisma Zona Kreatifku. All Rights Reserved.
+      © 2022 Karisma Zona Kreatifku. All Rights Reserved.
     </span>  
                   
   </div>

@@ -130,8 +130,9 @@
                 </h3>  
                 <a href='https://webdev-id.com/' class="text-decoration-none" target="_blank">
                   <button type="button" class="btn pt-1 pb-1 pl-4 pr-4 custom-bg-button-orange text-white" >
-                    <h6 class="m-0">
-                      Detail
+                    <h6 class="m-0 d-flex flex-row justify-content-between">
+                      <span>Detail </span>
+                      &nbsp;<img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
                     </h6>
                   </button>                          
                 </a>
