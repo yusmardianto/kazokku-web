@@ -10,8 +10,12 @@
   font-display: swap;
 }
 
-*{
+/* *{
   font-family: 'Abel', sans-serif;
+} */
+
+*{
+  font-family: 'Rubik', sans-serif;
 }
 
 p{
@@ -45,7 +49,7 @@ p{
 }
 .navbar{
   padding: 1em;
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3); */
   background-color: white;
   z-index: 10;
   position: fixed;
@@ -63,22 +67,36 @@ p{
   position:relative;
   padding-left: 30px;
   padding-right: 30px;
-  transition: color .2s;
+  transition: color .2s; 
+  
 }
 .navbar .navbar-nav .nav-item .nav-link:hover{
-  color: #f7941d; 
+  color: #f7941d;  
+  /* background:url("../images/common/img-active-tab.png") no-repeat center center/cover; 
+  background-size: 69px 17px;
+  background-position-y: bottom; 
+  background-position-x: center;   */
 }
 
-.navbar .navbar-nav .nav-item.active .nav-link:before{
+/* .navbar .navbar-nav .nav-item.active .nav-link:before{
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: 17%;
   left: 50%;
   transform: translateX(-50%);
   width: 30px;
   height: 3px;
   border-radius: 50px;
-  background-color: #f7941d;
+  background-color: #f7941d;    
+} */
+
+.navbar .navbar-nav .nav-item.active .nav-link{
+  
+  background:url("../images/common/img-active-tab.png") no-repeat center center/cover; 
+  background-size: 59px 11px;
+  background-position-y: bottom; 
+  background-position-x: center;  
+  transition: ease-in 2s;  
 }
 
 .navbar .navbar-toggler{

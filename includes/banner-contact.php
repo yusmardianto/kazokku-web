@@ -13,10 +13,10 @@
 <section class="container mt-5 mb-5">
   <div class="row">
     <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">        
-      <figure class="mt-5">
+      <!-- <figure class="mt-5">
           <picture>
-              <source media="(min-width: 640)" srcset="/images/outsourching-it/image-1-section-13.webp">              
-              <img class="w-sm-100" width="1110" height="auto" src="/images/outsourching-it/image-1-section-13.jpg" alt="main-image" loading="lazy" >
+              <source media="(min-width: 640)" srcset="/images/common/img-bg-banner-contactus-md.png">              
+              <img class="w-sm-100" width="1110" height="auto" src="/images/common/img-bg-banner-contactus-md.png" alt="main-image" loading="lazy" >
           </picture> 
           <figcaption class="ml-4 text-left flex-row jusitify-content-between">
           <div class="row">            
@@ -38,7 +38,13 @@
               </a>
             </div>
           </figcaption>
-        </figure> 
+        </figure>  -->
+        <a href='https://web.whatsapp.com/send?phone=62811870321' class="text-decoration-none">   
+          <picture>
+              <source media="(max-width: 640px)" srcset="/images/common/img-bg-banner-contactus-full-mobile.png">              
+              <img class="w-sm-100 cursor-pointer" width="100%" height="auto" src="/images/common/img-bg-banner-contactus-full.png" alt="main-image" loading="lazy" >
+            </picture> 
+        </a>
     </div>
   </div>
 </section>

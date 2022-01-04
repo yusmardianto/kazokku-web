@@ -31,10 +31,10 @@
       </picture>        
     </div>
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">     
-      <div class="mt-n7">                       
+      <div class="mt-n7 custom-bg-section-1-right">                       
           <picture>
-              <source media="(min-width: 1024px)" srcset="/images/home/image-section-1-orange-man.PNG">              
-              <img class="w-sm-100 mt-sm-4" src="/images/home/image-section-1-orange-man.PNG" alt="section-1" loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-1-right-superman.png">              
+              <img class="w-sm-100 mt-sm-4" src="/images/home/2022/img-section-1-right-superman.png" alt="img-section-1-right-superman" loading="lazy" >
           </picture>      
       </div>                 
     </div>
@@ -52,12 +52,11 @@
 </div>
 <div class="" style=" background-color: rgb(255,242,223);background-image: radial-gradient(circle, rgba(255,242,223,1) 0%, rgba(255,255,255,1) 100%);"> 
     <section class="container ">  
-      <div class="row mt-5">
+      <div class="row mt-15">
         <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">             
           <picture>
-            <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-2.webp">
-            <source media="(max-width: 640px)" srcset="/images/home/image-1-section-2.webp">
-            <img class="w-sm-100 " src="/images/home/image-1-section-2.png" alt="section-1"  loading="lazy" >
+            <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-2-mens.png">            
+            <img class="w-sm-100 " src="/images/home/2022/img-section-2-mens.png" alt="img-section-2-mens.png"  loading="lazy" >
           </picture>   
           <div class="d-flex flex-row justify-content-end">
             <picture>
@@ -66,13 +65,7 @@
               <img width="40" height="12" class="w-sm-100 d-none d-sm-block d-sm-none d-md-block" src="/images/home/image-dot-orange-section-3.svg" alt="dot-orange"  loading="lazy" >
             </picture> 
           </div>
-          <div class="text-left mt-n7 ml-n5 d-none d-sm-block d-sm-none d-md-block">
-            <picture>
-              <source media="(min-width: 1024px)" srcset="/images/home/image-section-2-blue-mozaik.webp">
-              <source media="(max-width: 640px)" srcset="/images/home/image-section-2-blue-mozaik.webp">
-              <img width="152" height="152" class="w-sm-100 " src="/images/home/image-section-2-blue-mozaik.png" alt="mozaik"  loading="lazy" >
-            </picture> 
-          </div>
+          
         </div>
         <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
             <div class="d-flex flex-row justify-content-end">
@@ -81,21 +74,18 @@
                 <img class="mt-sm-1 mr-5" width="112" height="27" src="/images/home/image-2-section-1.svg" alt="complementary" />
               </picture>  
             </div>
-            <h4 class="text-secondary-main mt-2">
+            <h4 class="text-secondary-main mt-2 text-md-20">
                 WHO WE ARE
             </h4>        
-            <h3 class="mt-3 mb-3">
+            <h3 class="mt-2 mb-3 leading-normal">
               Kazokku merupakan bagian dari Grup <span class="text-secondary-main logique-text">LOGIQUE</span> dari Jepang yang dipimpin oleh Takashi Yoshitsugu.
             </h3>                                         
             <p>
               Telah dipercaya banyak Perusahaan dan Profesional dibidang teknologi informasi dalam menyediakan karyawan maupun lapangan pekerjaan terkait Web Developer, Web Designer, Penulis Konten, Ahli SEO dan Pemasaran Online, serta Keamanan Digital, menghubungkan yang terbaik di Indonesia dengan para klien.
             </p>
-            <a href='https://logique.co.id' class="text-decoration-none" target="_blank">
-              <button type="button" class="btn btn-secondary btn-lg  pl-4 pr-4" >
-                <h6 class="m-0">
-                  Detail
-                </h6>
-              </button>  
+            <a href='https://logique.co.id' class="text-decoration-none text-dark text-xl" target="_blank">                              
+              Detail
+              <img src="/images/common/icon-black-right-arrow.png" height="8" width="16" alt="right-arrow" />              
             </a>
         </div>
       </div>
@@ -109,8 +99,8 @@
 <div class="" style=" background-color: rgb(255,242,223);background-image: radial-gradient(circle, rgba(255,242,223,1) 0%, rgba(255,255,255,1) 100%);"> 
   <section class="container">  
     <div class="row  ">
-      <div class="col-sm-12 col-md-8 col-md-8 col-lg-8 col-xl-8 ">                          
-          <h4 class="text-secondary-main">
+      <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 ">                          
+          <h4 class="text-secondary-main text-md-20">
               HOW WE CAN HELP
           </h4>
           <h3 class="mt-3 mb-3">
@@ -122,27 +112,15 @@
           <p>
             Dengan adanya layanan Haken, kebutuhan klien akan profesional yang kuat dibidangnya dan mampu mengikuti kebutuhan transformasi digital yang dinamis dapat terpenuhi dengan baik.
           </p>          
-          <a href='/layanan-tenaga-ahli-it.php' class="text-decoration-none">
-            <button type="button" class="btn btn-secondary btn-lg  pl-4 pr-4" >
-              <h6 class="m-0">
-                Detail
-              </h6>
-            </button> 
+          <a href='/layanan-tenaga-ahli-it.php' class="text-decoration-none  text-dark text-xl">
+            Detail               
+            <img src="/images/common/icon-black-right-arrow.png" height="8" width="16" alt="right-arrow" />              
           </a>
         </div>
-        <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4 text-center">
-          <div
-            style="
-              background-image: url('/images/home/image-section-3-orange-circle.svg');
-              background-repeat: no-repeat;            
-              background-position: top right; 
-              height: 320;
-            "
-          >                                  
+        <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">                                       
               <picture>
-                <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-3.webp">
-                <source media="(max-width: 640px)" srcset="/images/home/image-1-section-3.webp">
-                <img height="485" width="230" class="w-sm-100 h-sm-auto  mt-n5" src="/images/home/image-1-section-3.png" alt="section-1"  loading="lazy" >
+                <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-3-main.png">                
+                <img height="100%" width="auto" class="w-sm-100 h-sm-auto  mt-n5" src="/images/home/2022/img-section-3-main.png" alt="img-section-3-main"  loading="lazy" >
               </picture>     
               <br /> 
               
@@ -150,8 +128,7 @@
                 <source media="(min-width: 1024px)" srcset="/images/home/image-dot-orange-section-3.png">
                 <source media="(max-width: 640px)" srcset="/images/home/image-dot-orange-section-3.png">
                 <img width="112" height="27" class=" mr-n4 mt-3" src="/images/home/image-dot-orange-section-3.svg" alt="dot-orange"  loading="lazy" >
-              </picture>                                     
-          </div>
+              </picture>                                               
       </div>
     </div>
   </section>  
@@ -168,21 +145,20 @@
 </div>
 <section class="container mt-5">
   <div class="row ">
-    <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center text-sm-left">        
+    <div class="col-sm-12 col-md-5 col-md-5 col-lg-5 col-xl-5 text-center text-sm-left">        
           <div style=" background-color: rgb(255,242,223);background-image: radial-gradient(circle, #fff0f3 0%, rgba(255,255,255,1) 100%);">
-            <picture>
+            <!-- <picture>
               <source media="(min-width: 1024px)" srcset="/images/home/image-dot-blue-section-4.png">
               <source media="(max-width: 640px)" srcset="/images/home/image-dot-blue-section-4.png">
               <img height="32" width="32" class=" mt-n5" src="/images/home/image-dot-blue-section-4.svg" alt="section-1"  loading="lazy" >
-            </picture> 
+            </picture>  -->
             <picture>
-              <source media="(min-width: 1024px)" srcset="/images/home/image-1-section-4.webp">
-              <source media="(max-width: 640px)" srcset="/images/home/image-1-section-4.webp">
-              <img class="w-sm-100 " src="/images/home/image-1-section-4.png" alt="section-1"  loading="lazy" >
+              <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-4-main.png">              
+              <img class="w-sm-100 " src="/images/home/2022/img-section-4-main.png" alt="img-section-4-main.png"  loading="lazy" >
             </picture>                           
         </div>
       </div>
-      <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
+      <div class="col-sm-12 col-md-7 col-md-7 col-lg-7 col-xl-7">
         <h4 class="text-secondary-main mt-4">
             HOW WE CAN HELP
         </h4>
@@ -195,12 +171,9 @@
         <p>
             Selain itu, WDI juga berperan sebagai penghubung antara perusahaan Web Developer dengan para pekerja profesional dibidang digital seperti Web Developer, Web Designer, Ahli SEO dan Pemasaran Online, serta Penulis Konten yang sedang membutuhkan pekerjaan.        
         </p>   
-        <a href='https://webdev-id.com/' class="text-decoration-none" target="_blank">
-          <button type="button" class="btn btn-secondary btn-lg  pl-5 pr-5" >
-            <h6 class="m-0">
-              Detail
-            </h6>
-          </button>                 
+        <a href='https://webdev-id.com/' class="text-decoration-none text-dark text-xl" target="_blank">                    
+          Detail              
+          <img src="/images/common/icon-black-right-arrow.png" height="8" width="16" alt="right-arrow" />                                     
         </a>
         
       </div>      
@@ -221,51 +194,9 @@
           </h3> 
       </div>
     </div>
-  
-    <div class="row mt-3">
-      <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 " >      
-        <fieldset id='home-card-portofolio-kami-1' class="card-info-with-fieldset h-100" style="background-color: rgb(244 209 215); ">
-            <legend class="card-info-with-fieldset" >
-                <span class="fs-6">
-                  <img height="48" width="48" src="/images/home/image-logo-sinarmas-land.png" alt="logo-sinarmas-land"  loading="lazy" >
-                </span>
-            </legend>
-            <div class="control-group">
-                <h5 class="mt-5">
-                  <b>Sinar Mas Land</b>
-                </h5>
-                <p>
-                  Kami membantu Sinar Mas Land mengoptimalkan proses rekrutmen dengan menyediakan sistem dan aplikasi yang komprehensif untuk kandidat dan tim rekrutmen yang membuat semua proses berjalan otomatis secara digital.
-                </p>
-                <p>
-                  Kebutuhan Teknis : .net, SAP, Active Directory
-                </p>  
-            </div>
-          </fieldset>  
-      </div>    
-      <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 " >      
-        <fieldset id='home-card-portofolio-kami-2' class="card-info-with-fieldset h-100" style="background-color: rgb(244 209 215); ">
-            <legend class="card-info-with-fieldset" >
-                <span class="fs-6">
-                  <div class="rounded" style='background-color: #008247; height: 48px; width: 48px;'>
-                    <img class="p-2 " style="object-position: 50% 50%; object-fit: cover;" height="100%" width="100%" src="/images/home/image-logo-limited-bank.png" alt="logo-limited-bank"  loading="lazy" >
-                  </div>
-                </span>
-            </legend>
-            <div class="control-group">
-                <h5 class="mt-5">
-                  <b>Frenn Microfinance Bank Limited</b>
-                </h5>
-                <p>
-                  Kami menyediakan profesional yang memiliki kemampuan sangat baik dalam mengaplikasikan teknologi baru berbasis Go Lang dan mampu berkomunikasi dalam Bahasa Inggris dengan baik untuk berkolaborasi dengan tim internasional dari berbagai negara termasuk India.
-                </p>
-                <p>
-                  Kebutuhan Teknis : Go Lang, Microservices
-                </p> 
-            </div>
-          </fieldset>  
-      </div>
-    </div>
+    
+    <?php include './includes/card-portofolio.php' ?>  
+
   </div>
 </section>
 

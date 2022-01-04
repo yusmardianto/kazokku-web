@@ -12,12 +12,13 @@
 
     --secondary-main: #f7941d;
     --secondary-light: #ffc553;
-    --secondary-dark: #be6600;
-
+    --secondary-dark: #be6600;    
     
     --common-blue-main: #d7f0ff;
     --common-blue-dark: #bad7e9;
     --common-blue-light: #c7e0ed; 
+
+    --common-blue-cyan: #e9f4fa;
     
     --common-hubungi-kami-low: #e4f6ff;
     --common-hubungi-kami-medium: #ddf3ff;
@@ -26,6 +27,8 @@
     
     --gradient-home-portofolio-kami : linear-gradient(-45deg, #ffbcbc, #f7f4f4,  #74beed, #c5e0ee) ;   
     --gradient-home-portofolio-kami-second : linear-gradient(-45deg,#fec555,#e6ffeb, #ffc967, #f7f4f4,  #bcffca ) ;  
+    --gradient-home-portofolio-kami-third : linear-gradient(-45deg,rgba(255, 246, 24, 0.86),#e6ffeb, rgba(255, 246, 24, 0.86), #f7f4f4,  #bcffca ) ;  
+    
     --gradient-hubungi-kami : linear-gradient(0deg,#ddf3ff,#e4f6ff, #e6f4fc, #d8f2ff) ;   
 
 }
@@ -60,6 +63,7 @@ legend.card-info-with-fieldset {
     padding:0 10px;
     border-bottom:none;
 }
+
 legend {
     float: none;
 }
@@ -79,6 +83,13 @@ legend {
 	/* height: 100vh; */
 }
 
+#home-card-portofolio-kami-3 {
+    background: var(--gradient-home-portofolio-kami-third);
+	background-size: 400% 400%;	
+	animation: gradient 11s ease infinite;
+	/* height: 100vh; */
+}
+
 
 @keyframes gradient {
 	0% {
@@ -92,6 +103,38 @@ legend {
 	}
 }
 
+.custom-bg-section-1-right{
+    
+    background-image: url('../images/home/2022/img-section-1-right-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+}
+
+.custom-bg-button-orange{    
+    /* width: 100px; */
+    height: 32px;    
+    background: linear-gradient(180deg, #F59231 0%, #F7941D 100%);
+    box-shadow: -5px -5px 15px rgba(240, 23, 22, 0.25), 5px 5px 15px rgba(149, 9, 9, 0.25), inset 0px 5px 3px rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+
+}
+
+.custom-bg-section-1-main-bg{
+    
+    background-image: url('../images/hubungi-kami/2022/img-section-1-main-bg.png');
+    /* background-size: 100% 100%; */
+    background-size: 100%;
+    background-repeat: no-repeat;  
+}
+
+.custom-text-button-orange {
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;    
+    color: #FFFFFF;
+}
 
 /* Ovverides bootstrap */
 .btn-secondary {    
@@ -137,6 +180,10 @@ legend {
     background-color: var(--common-orange-light) !important;
 }
 
+.bg-common-blue-cyan{
+    background-color: var(--common-blue-cyan) !important;
+}
+
 .mr-n17{
     margin-right: -17rem !important;
 }
@@ -166,9 +213,22 @@ legend {
     margin-left: -6rem!important;
 }
 
+.mt-15{
+    margin-top: 9rem!important;
+}
+
 .text-secondary-main{
     color: var(--secondary-main);
 }
+
+.text-md-20{
+    font-size: 20px;
+}
+
+.text-xl{
+    font-size: x-large!important;
+}
+
 .rounded-xl{
     border-radius : .7rem!important;
 }
@@ -192,6 +252,26 @@ legend {
     cursor: pointer;
 }
 
+.leading-normal{
+    line-height: 1.5;
+}
+
+.h-89{
+    height: 89% !important;
+}
+
+.mt-1-half{
+    margin-top: 0.35rem!important;
+}
+
+.transition-duration-500{
+    transition: 0.5s;
+}
+
+.w-100px{
+    
+    width: 100px
+}
 
 /* mobile device - sm */
 @media (max-width: 640px) {
@@ -244,4 +324,6 @@ legend {
     .bg-sm-transparent{
         background-color: transparent !important;
     }
+
+   
 }
