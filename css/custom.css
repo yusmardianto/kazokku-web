@@ -136,6 +136,13 @@ legend {
     color: #FFFFFF;
 }
 
+.custom-footer-bg-gradient{
+    
+    background-image: url('../images/common/img-footer-bg-gradient.png');
+    background-size: 100% 100%;    
+    background-repeat: no-repeat;  
+}
+
 /* Ovverides bootstrap */
 .btn-secondary {    
     font-size: 13px;
@@ -323,6 +330,10 @@ legend {
 
     .bg-sm-transparent{
         background-color: transparent !important;
+    }
+
+    .custom-bg-section-1-right{
+        background-image: none;
     }
 
    

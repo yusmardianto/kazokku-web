@@ -1,4 +1,4 @@
-<footer>
+<footer class="custom-footer-bg-gradient">
   
   <div class="container">
     <div class="row">

@@ -4,16 +4,6 @@
 <?php $canonical = 'https://www.kazokku.com/' ?>
 <?php include './includes/header.php' ?>
 
-<style>
-  .dom-node-demo{
-
-    height: 72px;
-    width: 72px;
-    background-color: aliceblue;
-
-  }
-</style>
-
 <!-- #1 --> 
 <div class="position-relative "> 
   <div class="position-absolute" style="top: 30px; left: 0;">          
@@ -48,12 +38,12 @@
           </picture>      
       </div>   
 
-      <div class="text-right mt-n5">
+      <div class="text-right mt-n5 d-none d-sm-block d-sm-none d-md-block">
         <img class="mr-5" id="img-section-1-right-seat" src="/images/home/2022/img-section-1-right-seat.png"  loading='lazy' alt="img-section-1-right-seat" />
         <img id="img-section-1-right-small-start-end-medium" class="position-absolute" style="top:37%; right:5%;" src="/images/home/2022/img-section-1-right-small-start-end-medium.png"  loading='lazy' alt="img-section-1-right-small-start-end-medium" />                
       </div>
 
-      <div class="text-left">
+      <div class="text-left d-none d-sm-block d-sm-none d-md-block">
         <img id="img-section-1-right-small-start-end" class="position-absolute" style="top:64%; left:27%;"  src="/images/home/2022/img-section-1-right-small-start-end.png"  loading='lazy' alt="img-section-1-right-small-start-end" />
         <img id="img-section-1-lamp" class="position-absolute"  style="top:-17%; right:54%;" src="/images/home/2022/img-section-1-lamp.png"  loading='lazy' alt="img-section-1-lamp" />        
         <img id="img-section-1-right-start-large" class="position-absolute"  style="top:10%; left:24%;"  src="/images/home/2022/img-section-1-right-start-large.png"  loading='lazy' alt="img-section-1-right-start-large" />        
@@ -219,10 +209,6 @@
     </div>
     
     <?php include './includes/card-portofolio.php' ?>  
-
-  </div>
-
-  <div class="dom-node-demo">
 
   </div>
 </section>
