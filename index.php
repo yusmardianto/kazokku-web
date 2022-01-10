@@ -291,10 +291,9 @@
     easing: 'easeInOutSine',    
   }); 
 
-
   //*PLAY WITH SCROLL
   ScrollReveal().reveal('#img-section-2-mens',  { delay: 500 });
-  ScrollReveal().reveal('#img-section-3-main',  { delay: 400 });
-  ScrollReveal().reveal('#img-section-4-main',  { delay: 300 });
+  ScrollReveal().reveal('#img-section-3-main',  { delay: 500 });
+  ScrollReveal().reveal('#img-section-4-main',  { delay: 500 });
           
 </script>

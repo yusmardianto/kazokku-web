@@ -16,7 +16,7 @@
       <picture>
           <source media="(min-width: 1024px)" srcset="/images/tentang-kami/2022/img-section-1-left-bg.png">
           <source media="(max-width: 640px)" srcset="/images/tentang-kami/2022/img-section-1-left-bg.png">
-          <img class="w-sm-100 mt-n5" src="/images/tentang-kami/2022/img-section-1-left-bg.png" alt="main-image"  loading="lazy" >
+          <img id="img-section-1-left-bg" class="w-sm-100 mt-n5" src="/images/tentang-kami/2022/img-section-1-left-bg.png" alt="img-section-1-left-bg"  loading="lazy" >
       </picture> 
       <div class="mr-n17 mt-n5 d-none d-sm-block d-sm-none d-md-block">
         <picture>
@@ -67,7 +67,7 @@
           <picture>          
               <source media="(min-width: 1024px)" srcset="/images/tentang-kami/2022/img-section-2-left-bg.png">
               <source media="(max-width: 640px)" srcset="/images/tentang-kami/2022/img-section-2-left-bg-mobile.png">
-              <img src="/images/tentang-kami/2022/img-section-2-left-bg.png" alt="main-image" width="100%" height="auto" loading="lazy" >
+              <img id="img-section-2-left-bg" src="/images/tentang-kami/2022/img-section-2-left-bg.png" alt="img-section-2-left-bg" width="100%" height="auto" loading="lazy" >
           </picture>                
         </div>
       </div>
@@ -165,4 +165,12 @@
 <?php include './includes/footer.php' ?>
 <?php include './includes/footer-end.php' ?>
 
+<script>
+
+  //*PLAY WITH SCROLL
+  ScrollReveal().reveal('#img-section-1-left-bg',  { delay: 300 });
+  ScrollReveal().reveal('#img-section-2-left-bg',  { delay: 500 });  
+</script>
+
 <script src="https://www.google.com/recaptcha/api.js"></script>
+

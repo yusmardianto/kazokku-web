@@ -123,7 +123,7 @@ if (isset($_POST['submitted'])) {
           <div class="mt-n5">
             <picture>
               <source srcset="/images/hubungi-kami/2022/img-section-2-left-v2.png" type="image/webp">
-              <img class="w-sm-100 h-sm-auto" width="470" height="auto" src="/images/hubungi-kami/2022/img-section-2-left-v2.png" alt="image-section-2-man-and-woman" loading='lazy' />
+              <img id="img-section-2-left" class="w-sm-100 h-sm-auto" width="470" height="auto" src="/images/hubungi-kami/2022/img-section-2-left-v2.png" alt="img-section-2-left" loading='lazy' />
             </picture>
           </div>
         </div>  
@@ -285,7 +285,11 @@ if (isset($_POST['submitted'])) {
         return false;
       }
     })
-    console.log("<?= $_SERVER['HTTP_HOST'] ?>");
+    // console.log("<?= $_SERVER['HTTP_HOST'] ?>");
+
+    // *PLAY WITH SCROLL
+    ScrollReveal().reveal('#img-section-2-left',  { delay: 500 });
+    
   })
 </script>
 <?php include './includes/footer-end.php' ?>

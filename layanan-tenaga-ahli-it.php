@@ -16,7 +16,7 @@
         <picture>
             <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-1-left-main.png">
             <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-1-left-main.png">
-            <img width="100%" height="auto" class="w-sm-100" src="/images/outsourching-it/2022/img-section-1-left-main.png" alt="main-image"  loading="lazy" >
+            <img id="img-section-1-left-main" width="100%" height="auto" class="w-sm-100" src="/images/outsourching-it/2022/img-section-1-left-main.png" alt="img-section-1-left-main"  loading="lazy" >
         </picture> 
         <div class="mr-n17 mt-n5 d-none d-sm-block d-sm-none d-md-block">
           <picture>
@@ -82,7 +82,7 @@
             <picture>
                 <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-2-right.png">
                 <source media="(max-width: 640px)" srcset="/images/outsourching-it/2022/img-section-2-right.png">
-                <img src="/images/outsourching-it/2022/img-section-2-right.png" alt="main-image" width="100%" height="auto" loading="lazy" >
+                <img id="img-section-2-right" src="/images/outsourching-it/2022/img-section-2-right.png" alt="img-section-2-right" width="100%" height="auto" loading="lazy" >
             </picture>      
           </div>
         </div>
@@ -153,7 +153,7 @@
           <picture>
               <source media="(min-width: 1024px)" srcset="/images/tentang-kami/2022/img-section-2-left-bg.png">
               <source media="(max-width: 640px)" srcset="/images/tentang-kami/2022/img-section-2-left-bg-mobile.png">
-              <img src="/images/tentang-kami/2022/img-section-2-left-bg.png" alt="main-image" width="100%" height="auto" loading="lazy" >
+              <img id="img-section-2-left-bg" src="/images/tentang-kami/2022/img-section-2-left-bg.png" alt="img-section-2-left-bg" width="100%" height="auto" loading="lazy" >
           </picture>                
         </div>
       </div>
@@ -1262,5 +1262,11 @@
       }
     });
 
-  })
+  });
+
+  // *PLAY WITH SCROLL
+  ScrollReveal().reveal('#img-section-1-left-main',  { delay: 500 });
+  ScrollReveal().reveal('#img-section-2-right',  { delay: 500 });
+  ScrollReveal().reveal('#img-section-2-left-bg',  { delay: 500 });  
+  
 </script>
