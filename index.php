@@ -79,13 +79,13 @@
         <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">             
           <picture>
             <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-2-mens.png">            
-            <img class="w-sm-100 " src="/images/home/2022/img-section-2-mens.png" alt="img-section-2-mens.png"  loading="lazy" >
+            <img id="img-section-2-mens" class="w-sm-100 " src="/images/home/2022/img-section-2-mens.png" alt="img-section-2-mens.png"  loading="lazy" >
           </picture>   
           <div class="d-flex flex-row justify-content-end">
             <picture>
               <source media="(min-width: 1024px)" srcset="/images/home/image-dot-orange-section-3.png">
               <source media="(max-width: 640px)" srcset="/images/home/image-dot-orange-section-3.png">
-              <img width="40" height="12" class="w-sm-100 d-none d-sm-block d-sm-none d-md-block" src="/images/home/image-dot-orange-section-3.svg" alt="dot-orange"  loading="lazy" >
+              <img  width="40" height="12" class="w-sm-100 d-none d-sm-block d-sm-none d-md-block" src="/images/home/image-dot-orange-section-3.svg" alt="dot-orange"  loading="lazy" >
             </picture> 
           </div>
           
@@ -94,7 +94,7 @@
             <div class="d-flex flex-row justify-content-end">
               <picture>
                 <source srcset="/images/home/image-2-section-1.png" type="image/png" >
-                <img class="mt-sm-1 mr-5" width="112" height="27" src="/images/home/image-2-section-1.svg" alt="complementary" />
+                <img  class="mt-sm-1 mr-5" width="112" height="27" src="/images/home/image-2-section-1.svg" alt="complementary" />
               </picture>  
             </div>
             <h4 class="text-secondary-main mt-2 text-md-20">
@@ -143,7 +143,7 @@
         <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">                                       
               <picture>
                 <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-3-main.png">                
-                <img height="100%" width="auto" class="w-sm-100 h-sm-auto  mt-n5" src="/images/home/2022/img-section-3-main.png" alt="img-section-3-main"  loading="lazy" >
+                <img id="img-section-3-main" height="100%" width="auto" class="w-sm-100 h-sm-auto  mt-n5" src="/images/home/2022/img-section-3-main.png" alt="img-section-3-main"  loading="lazy" >
               </picture>     
               <br /> 
               
@@ -177,7 +177,7 @@
             </picture>  -->
             <picture>
               <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-4-main.png">              
-              <img class="w-sm-100 " src="/images/home/2022/img-section-4-main.png" alt="img-section-4-main.png"  loading="lazy" >
+              <img id="img-section-4-main" class="w-sm-100 " src="/images/home/2022/img-section-4-main.png" alt="img-section-4-main.png"  loading="lazy" >
             </picture>                           
         </div>
       </div>
@@ -243,8 +243,6 @@
     easing: 'easeInOutQuad(0.5, 1)',    
   });
   
-
-
   // *SECTION 1 RIGHT
   var imageSectionOneRightSuperman = document.getElementById('img-section-1-right-superman'); 
   anime({
@@ -294,8 +292,9 @@
   }); 
 
 
-  //SECTION 
-  
-  
-    
+  //*PLAY WITH SCROLL
+  ScrollReveal().reveal('#img-section-2-mens',  { delay: 500 });
+  ScrollReveal().reveal('#img-section-3-main',  { delay: 400 });
+  ScrollReveal().reveal('#img-section-4-main',  { delay: 300 });
+          
 </script>
