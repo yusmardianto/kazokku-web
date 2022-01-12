@@ -18,7 +18,7 @@
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 ">    
       <picture>
         <source srcset="/images/home/image-section-1-circle-outline.PNG" type="image/png" >
-        <img class="ml-n3 " width="20" height="20" src="/images/home/image-section-1-circle-outline.PNG" alt="complementary" />
+        <img id="image-section-1-circle-outline" class="ml-n3 " width="20" height="20" src="/images/home/image-section-1-circle-outline.PNG" alt="image-section-1-circle-outline" />
       </picture>                
       <h1>
         Mitra Terpercaya Untuk <br />
@@ -27,16 +27,29 @@
       </h1>  
       <picture>
         <source srcset="/images/home/image-2-section-1.png" type="image/png" >
-        <img class="mt-3" width="112" height="27" src="/images/home/image-2-section-1.png" alt="complementary" />
+        <img class="mt-3" width="112" height="27" src="/images/home/image-2-section-1.png" alt="image-2-section-1" />
       </picture>        
     </div>
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">     
       <div class="mt-n7 custom-bg-section-1-right">                       
           <picture>
               <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-1-right-superman.png">              
-              <img class="w-sm-100 mt-sm-4" src="/images/home/2022/img-section-1-right-superman.png" alt="img-section-1-right-superman" loading="lazy" >
+              <img id="img-section-1-right-superman" class="w-sm-100 mt-sm-4" src="/images/home/2022/img-section-1-right-superman.png" alt="img-section-1-right-superman" loading="lazy" >
           </picture>      
-      </div>                 
+      </div>   
+
+      <div class="text-right mt-n5 d-none d-sm-block d-sm-none d-md-block">
+        <img class="mr-5" id="img-section-1-right-seat" src="/images/home/2022/img-section-1-right-seat.png"  loading='lazy' alt="img-section-1-right-seat" />
+        <img id="img-section-1-right-small-start-end-medium" class="position-absolute" style="top:37%; right:5%;" src="/images/home/2022/img-section-1-right-small-start-end-medium.png"  loading='lazy' alt="img-section-1-right-small-start-end-medium" />                
+      </div>
+
+      <div class="text-left d-none d-sm-block d-sm-none d-md-block">
+        <img id="img-section-1-right-small-start-end" class="position-absolute" style="top:64%; left:27%;"  src="/images/home/2022/img-section-1-right-small-start-end.png"  loading='lazy' alt="img-section-1-right-small-start-end" />
+        <img id="img-section-1-lamp" class="position-absolute"  style="top:-17%; right:54%;" src="/images/home/2022/img-section-1-lamp.png"  loading='lazy' alt="img-section-1-lamp" />        
+        <img id="img-section-1-right-start-large" class="position-absolute"  style="top:10%; left:24%;"  src="/images/home/2022/img-section-1-right-start-large.png"  loading='lazy' alt="img-section-1-right-start-large" />        
+        <img id="img-section-1-book" class="position-absolute" style="top:50%; left:-3%;" src="/images/home/2022/img-section-1-book.png"  loading='lazy' alt="img-section-1-book" />        
+      </div>
+      
     </div>
   </div>
 </section>  
@@ -56,13 +69,13 @@
         <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">             
           <picture>
             <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-2-mens.png">            
-            <img class="w-sm-100 " src="/images/home/2022/img-section-2-mens.png" alt="img-section-2-mens.png"  loading="lazy" >
+            <img id="img-section-2-mens" class="w-sm-100 " src="/images/home/2022/img-section-2-mens.png" alt="img-section-2-mens.png"  loading="lazy" >
           </picture>   
           <div class="d-flex flex-row justify-content-end">
             <picture>
               <source media="(min-width: 1024px)" srcset="/images/home/image-dot-orange-section-3.png">
               <source media="(max-width: 640px)" srcset="/images/home/image-dot-orange-section-3.png">
-              <img width="40" height="12" class="w-sm-100 d-none d-sm-block d-sm-none d-md-block" src="/images/home/image-dot-orange-section-3.svg" alt="dot-orange"  loading="lazy" >
+              <img  width="40" height="12" class="w-sm-100 d-none d-sm-block d-sm-none d-md-block" src="/images/home/image-dot-orange-section-3.svg" alt="dot-orange"  loading="lazy" >
             </picture> 
           </div>
           
@@ -71,7 +84,7 @@
             <div class="d-flex flex-row justify-content-end">
               <picture>
                 <source srcset="/images/home/image-2-section-1.png" type="image/png" >
-                <img class="mt-sm-1 mr-5" width="112" height="27" src="/images/home/image-2-section-1.svg" alt="complementary" />
+                <img  class="mt-sm-1 mr-5" width="112" height="27" src="/images/home/image-2-section-1.svg" alt="complementary" />
               </picture>  
             </div>
             <h4 class="text-secondary-main mt-2 text-md-20">
@@ -120,7 +133,7 @@
         <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">                                       
               <picture>
                 <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-3-main.png">                
-                <img height="100%" width="auto" class="w-sm-100 h-sm-auto  mt-n5" src="/images/home/2022/img-section-3-main.png" alt="img-section-3-main"  loading="lazy" >
+                <img id="img-section-3-main" height="100%" width="auto" class="w-sm-100 h-sm-auto  mt-n5" src="/images/home/2022/img-section-3-main.png" alt="img-section-3-main"  loading="lazy" >
               </picture>     
               <br /> 
               
@@ -154,7 +167,7 @@
             </picture>  -->
             <picture>
               <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-4-main.png">              
-              <img class="w-sm-100 " src="/images/home/2022/img-section-4-main.png" alt="img-section-4-main.png"  loading="lazy" >
+              <img id="img-section-4-main" class="w-sm-100 " src="/images/home/2022/img-section-4-main.png" alt="img-section-4-main.png"  loading="lazy" >
             </picture>                           
         </div>
       </div>
@@ -203,3 +216,70 @@
 <?php include './includes/banner-contact.php' ?>
 <?php include './includes/footer.php' ?>
 <?php include './includes/footer-end.php' ?>
+
+<script>  
+
+  // *SECTION 1 LEFT
+  var imageSectionOneCicleOutline = document.getElementById('image-section-1-circle-outline'); 
+  anime({
+    targets: imageSectionOneCicleOutline,
+    translateX: 300,
+    loop: 2,
+    direction: 'alternate',
+    easing: 'easeInOutQuad(0.5, 1)',    
+  });
+  
+  // *SECTION 1 RIGHT
+  var imageSectionOneRightSuperman = document.getElementById('img-section-1-right-superman'); 
+  anime({
+    targets: imageSectionOneRightSuperman,
+    translateY: 25,
+    loop: true,
+    direction: 'alternate',
+    easing: 'easeInOutSine',    
+  });
+
+  var imgSectionOneRightSeat = document.getElementById('img-section-1-right-seat'); 
+  anime({
+    targets: imgSectionOneRightSeat,
+    translateY: 74,
+    loop: true,
+    direction: 'alternate',
+    easing: 'easeInOutSine',    
+  });
+
+  var imgSectionOneRightSmallStartEndMedium = document.getElementById('img-section-1-right-small-start-end-medium'); 
+  var imgSectionOneRightSmallStartEnd = document.getElementById('img-section-1-right-small-start-end'); 
+  anime({
+    targets: [imgSectionOneRightSmallStartEndMedium, imgSectionOneRightSmallStartEnd],
+    translateY: 11,
+    loop: true,
+    direction: 'alternate',
+    easing: 'easeInOutSine',    
+  });    
+  
+  var imgSectionOneLamp = document.getElementById('img-section-1-lamp'); 
+  var imgSectionOneBook = document.getElementById('img-section-1-book'); 
+  anime({
+    targets: [imgSectionOneLamp,imgSectionOneBook],
+    translateY: 7,
+    loop: true,
+    direction: 'alternate',
+    easing: 'easeInOutSine',    
+  });  
+
+  var imgSectionOneRightStartLarge = document.getElementById('img-section-1-right-start-large'); 
+  anime({
+    targets: imgSectionOneRightStartLarge,
+    translateY: 5,
+    loop: true,
+    direction: 'alternate',
+    easing: 'easeInOutSine',    
+  }); 
+
+  //*PLAY WITH SCROLL
+  ScrollReveal().reveal('#img-section-2-mens',  { delay: 500 });
+  ScrollReveal().reveal('#img-section-3-main',  { delay: 500 });
+  ScrollReveal().reveal('#img-section-4-main',  { delay: 500 });
+          
+</script>
