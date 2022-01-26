@@ -33,7 +33,7 @@
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">     
       <div class="mt-n7 custom-bg-section-1-right">                       
           <picture>
-              <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-1-right-superman.png">              
+              <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-1-right-superman.webp" type="image/webp">              
               <img id="img-section-1-right-superman" class="w-sm-100 mt-sm-4" src="/images/home/2022/img-section-1-right-superman.png" alt="img-section-1-right-superman" loading="lazy" >
           </picture>      
       </div>   
@@ -58,7 +58,7 @@
 <div class="position-relative d-none d-sm-block d-sm-none d-md-block"> 
   <div class="position-absolute" style="top: 0; right: 0"> 
     <picture>
-        <source srcset="/images/home/image-section-2-blue-gradient-radial.png" type="image/png" >
+        <source srcset="/images/home/image-section-2-blue-gradient-radial.webp" type="image/webp" >
         <img width="350" height="550" src="/images/home/image-section-2-blue-gradient-radial.svg" alt="complementary" />
     </picture>  
   </div>
@@ -68,7 +68,7 @@
       <div class="row mt-15">
         <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">             
           <picture>
-            <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-2-mens.png">            
+            <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-2-mens.webp" type="image/webp" >            
             <img id="img-section-2-mens" class="w-sm-100 " src="/images/home/2022/img-section-2-mens.png" alt="img-section-2-mens.png"  loading="lazy" >
           </picture>   
           <div class="d-flex flex-row justify-content-end">
@@ -132,7 +132,7 @@
         </div>
         <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">                                       
               <picture>
-                <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-3-main.png">                
+                <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-3-main.webp" type="image/webp">                
                 <img id="img-section-3-main" height="100%" width="auto" class="w-sm-100 h-sm-auto  mt-n5" src="/images/home/2022/img-section-3-main.png" alt="img-section-3-main"  loading="lazy" >
               </picture>     
               <br /> 
@@ -151,7 +151,7 @@
 <div class="position-relative d-none d-sm-block d-sm-none d-md-block"> 
   <div class="position-absolute" style="top: 0; right: 0"> 
     <picture>
-        <source srcset="/images/home/image-section-4-gradient-abstract.png" type="image/png" >
+        <source srcset="/images/home/image-section-4-gradient-abstract.webp" type="image/webp" >
         <img width="230" height="830" src="/images/home/image-section-4-gradient-abstract.svg" alt="complementary" />
     </picture>  
   </div>
@@ -166,7 +166,7 @@
               <img height="32" width="32" class=" mt-n5" src="/images/home/image-dot-blue-section-4.svg" alt="section-1"  loading="lazy" >
             </picture>  -->
             <picture>
-              <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-4-main.png">              
+              <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-4-main.webp" type="image/webp">              
               <img id="img-section-4-main" class="w-sm-100 " src="/images/home/2022/img-section-4-main.png" alt="img-section-4-main.png"  loading="lazy" >
             </picture>                           
         </div>
