@@ -57,10 +57,9 @@
                   <b>Anabatic Solusi Digital</b>
                 </h5>
                 <p>
-                  Kami membantu Sinar Mas Land mengoptimalkan proses rekrutmen dengan menyediakan sistem dan aplikasi yang komprehensif untuk kandidat dan tim rekrutmen yang membuat semua proses berjalan otomatis secara digital.
-                </p>
+                  Kami membantu kebutuhan akan profesional IT berbasis Java dan ReactJs dengan penempatan di beberapa proyek sekaligus dari Anabatic. Sesuai dengan kebutuhannya yang mendesak, kami mampu menyediakan profesional tersebut dalam waktu singkat.                </p>
                 <p>
-                  Kebutuhan Teknis : .net, SAP, Active Directory
+                  Kebutuhan Teknis: Java, ReactJs
                 </p>  
             </div>
           </fieldset>  
