@@ -135,10 +135,10 @@ if (isset($_POST['submitted'])) {
         ?>
   
         <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
-          <form action="<?php echo $formproc->GetSelfScript(); ?>" method="POST" id="form-contact">
-          <input type='hidden' name='submitted' id='submitted' value='1' />
-          <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>' />
-          <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
+          <form onsubmit='return validateForm()' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8' id="form-contact">
+            <input type='hidden' name='submitted' id='submitted' value='1' />
+            <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>' />
+            <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
             <div class="form-container mt-sm-1" style="background: var(--gradient-hubungi-kami); opacity: 0.7;">
               <div class="form-group">
                 <label class="font-weight-bold" for="company_name">Nama Perusahaan</label>
@@ -224,7 +224,7 @@ if (isset($_POST['submitted'])) {
                 <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
               <?php endif ?>
               <div class="text-left mt-3">                
-                <button data-toggle="modal" data-target="#modal6" type="button" class="btn pt-1 pb-1 pl-5 pr-5 custom-bg-button-orange text-white transition-duration-500" >
+                <button data-toggle="modal" type="submit" onclick="ga('send', 'event', 'Button-Kirim', 'Action-Click', 'Button-Kirim-Label');" class="btn pt-1 pb-1 pl-5 pr-5 custom-bg-button-orange text-white transition-duration-500" >
                 <h6 class="m-0 d-flex flex-row justify-content-between">
                   <span>Hubungi Kami </span>
                   &nbsp;
@@ -292,4 +292,7 @@ if (isset($_POST['submitted'])) {
     
   })
 </script>
+<?php 
+    $add_js = '<script src="/assets/js/contact.js"></script>';
+?>
 <?php include './includes/footer-end.php' ?>
