@@ -148,6 +148,10 @@ class FGContactForm
     {
         return $this->email;
     }
+    function GetPhone()
+    {
+        return $this->phone;
+    }
     function GetMessage()
     {
         return htmlentities($this->message,ENT_QUOTES,"UTF-8");
@@ -249,7 +253,7 @@ class FGContactForm
         $ret_str='';
         foreach($_POST as $key=>$value) {
             if (!$this->IsInternalVariable($key)) {
-                if (in_array($key, array('company_name', 'name', 'phone', 'email'))) {
+                if (in_array($key, array('company_name', 'name', 'phone', 'email', 'message'))) {
                     $value = htmlentities($value,ENT_QUOTES,"UTF-8");
                     $value = nl2br($value);
                     $key = ucfirst($key);
@@ -443,6 +447,7 @@ class FGContactForm
     /*Collects clean data from the $_POST array and keeps in internal variables.*/
     function CollectData()
     {
+        $this->company_name = $this->Sanitize($_POST['company_name']);
         $this->name = $this->Sanitize($_POST['name']);
         $this->email = $this->Sanitize($_POST['email']);
         $this->phone = $this->Sanitize($_POST['phone']);
