@@ -127,14 +127,12 @@ if (isset($_POST['submitted'])) {
             </picture>
           </div>
         </div>  
-
-        <?php 
-          if (isset($msg)) {
-            echo $msg;
-          }
-        ?>
-  
         <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+          <?php 
+            if (isset($msg)) {
+              echo $msg;
+            }
+          ?>
           <form onsubmit='return validateForm()' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8' id="form-contact">
             <input type='hidden' name='submitted' id='submitted' value='1' />
             <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>' />
