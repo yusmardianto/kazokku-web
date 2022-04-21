@@ -162,3 +162,30 @@
     font-size: 24px;
   }
 }
+
+.accordion {
+  background-color: rgb(255,242,223);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: rgb(255,242,223); 
+}
+
+.panel {
+  padding: 20px;
+  display: none;
+  overflow: hidden;
+}
+
+hr {
+  border: 1.5px solid #f7941d;
+  border-radius: 5px;
+}
