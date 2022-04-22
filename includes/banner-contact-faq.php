@@ -11,9 +11,9 @@
 
 <!-- #13 -->
 <section class="container mt-5 mb-5">
-  <div class="row">
-    <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">        
-      <!-- <figure class="mt-5">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">
+            <!-- <figure class="mt-5">
           <picture>
               <source media="(min-width: 640)" srcset="/images/common/img-bg-banner-contactus-md.png">              
               <img class="w-sm-100" width="1110" height="auto" src="/images/common/img-bg-banner-contactus-md.png" alt="main-image" loading="lazy" >
@@ -39,12 +39,13 @@
             </div>
           </figcaption>
         </figure>  -->
-        <a href='https://web.whatsapp.com/send?phone=62811870321' class="text-decoration-none">   
-          <picture>
-              <source media="(max-width: 100%)" srcset="assets/img/faq/Group330@3x.png">              
-              <img class="w-sm-100 cursor-pointer" width="100%" height="auto" src="assets/img/faq/Group330@3x.png" alt="main-image" loading="lazy" >
-            </picture> 
-        </a>
+            <a href='/kontak-kami.php' target="_blank" class="text-decoration-none">
+                <picture>
+                    <source media="(max-width: 100%)" srcset="assets/img/faq/Group330@3x.png">
+                    <img class="w-sm-100 cursor-pointer" width="100%" height="auto" src="assets/img/faq/Group330@3x.png"
+                        alt="main-image" loading="lazy">
+                </picture>
+            </a>
+        </div>
     </div>
-  </div>
 </section>
