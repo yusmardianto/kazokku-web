@@ -38,6 +38,9 @@
           <li class="footer-menu-item">
             <a href="/kontak-kami.php" class="footer-menu-link">Hubungi Kami</a>
           </li>
+          <li class="footer-menu-item">
+            <a href="/faq.php" class="footer-menu-link">FAQ</a>
+          </li>
         </ul>
         <ul class="social-media-list">
           <li class="social-media-item">
