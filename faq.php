@@ -97,7 +97,7 @@ if (isset($_POST['submitted'])) {
     <section class="container ">
         <div class="row mt-15">
             <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
-                <h4 class="text-secondary-main mt-2 text-md-20">
+                <h4 class="text-secondary-main mt-sm-1 text-uppercase">
                     Outsourcing IT FAQ
                 </h4>
                 <p>
@@ -359,7 +359,7 @@ if (isset($_POST['submitted'])) {
                 </div><br><br>
                 <div class="col-12 col-sm-12 col-md-12 ol-lg-12 col-xl-12">
                     <figure style="padding:30px" class="rounded-xl mt-3 mb-1 linear-gradient-blue border-blue-main">
-                        <h4 class="text-secondary-main mt-2 text-md-20">
+                        <h4 class="text-secondary-main mt-sm-1 text-uppercase">
                             Hubungi Kami
                         </h4>
                         <p>
@@ -414,7 +414,7 @@ if (isset($_POST['submitted'])) {
                                     </div>
                                 </div>
 
-                                <div class="d-flex flex-row ">
+                                <div class="d-flex flex-row " style="margin-top:5px">
                                     <div class="flex-grow-1">
                                         <label for="" class="fs-17px mb-0 font-weight-bold">Anda butuh bantuan Kazokku
                                             untuk:</label><br />
