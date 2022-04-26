@@ -792,6 +792,32 @@
       <img src="/images/outsourching-it/image-complement-right-section-10.png" alt="complementary" />
     </picture>        
   </div>
+</section><br><br>
+
+<section class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xxl-12">              
+      <figure class=" rounded-xl text-center mt-3 linear-gradient-blue border-blue-main h-100"  style="padding:20px">
+        <figcaption class="pt-1 pl-4 pr-4 text-left">
+            <h4 class="text-secondary-main mt-sm-1">
+              Outsourcing IT FAQ
+            </h4>
+            <p>
+              Apakah Anda sedang mempertimbangkan untuk menggunakan layanan Outsourcing IT?
+              Berikut daftar pertanyaan yang sering ditanyakan terkait layanan Outsourcing IT
+              Kami sudah menyediakan jawaban terkait pertanyaan-pertanyaan yang sering diajukan tersebut. Semoga dapat membantu Anda.
+            </p>
+            <a href="faq.php" target="_blank" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+              <h6 class="m-0 d-flex flex-row justify-content-between">
+                <span>See Details </span>
+                &nbsp;
+                <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+              </h6>
+            </a>          
+        </figcaption>
+      </figure>          
+    </div>
+  </div>
 </section>
 
 <!-- #11 -->
