@@ -804,8 +804,8 @@
             </h4>
             <p>
               Apakah Anda sedang mempertimbangkan untuk menggunakan layanan Outsourcing IT?
-              Berikut daftar pertanyaan yang sering ditanyakan terkait layanan Outsourcing IT
-              Kami sudah menyediakan jawaban terkait pertanyaan-pertanyaan yang sering diajukan tersebut. Semoga dapat membantu Anda.
+              Berikut daftar pertanyaan yang sering ditanyakan terkait layanan Outsourcing IT dan
+              kami sudah menyediakan jawaban terkait pertanyaan-pertanyaan yang sering diajukan tersebut. Semoga dapat membantu Anda.
             </p>
             <a href="faq.php" target="_blank" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
               <h6 class="m-0 d-flex flex-row justify-content-between">
