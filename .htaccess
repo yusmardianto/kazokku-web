@@ -10,3 +10,5 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+
+Redirect 301 layanan-tenaga-ahli-it.php /outsourcing-it.php
