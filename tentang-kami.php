@@ -10,7 +10,13 @@
 </picture>    
 
 <!-- #1 -->  
-<section class="container">  
+<section class="container">
+  <div class="row mt-sm-0">
+    <ul class="breadcrumb" style="background-color:transparent; margin-top:-450px">
+      <li class="breadcrumb-item" style="color:black"><a href="index.php">Home</a></li>
+      <li class="breadcrumb-item">Tentang Kami</li>
+    </ul>
+  </div>  
   <div class="row mt-n24 mt-sm-0">
     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">             
       <picture>
