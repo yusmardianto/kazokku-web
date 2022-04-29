@@ -33,7 +33,7 @@
             <a href="/tentang-kami.php" class="footer-menu-link">Tentang Kazok<span class="flip-character">k</span>u</a>
           </li>
           <li class="footer-menu-item">
-            <a href="/layanan-tenaga-ahli-it.php" class="footer-menu-link">OUTSOURCING IT</a>
+            <a href="/outsourcing-it.php" class="footer-menu-link">OUTSOURCING IT</a>
           </li>
           <li class="footer-menu-item">
             <a href="/kontak-kami.php" class="footer-menu-link">Hubungi Kami</a>
@@ -42,9 +42,12 @@
             <a href="/faq.php" class="footer-menu-link">FAQ</a>
           </li>
         </ul>
+        <ul class="footer-menu ">
+          <span  style="margin-right:85px" class="fs-17px font-weight-bold">Ikuti Kami</span>
+        </ul>
         <ul class="social-media-list">
           <li class="social-media-item">
-            <a href="#" class="social-media-link">
+            <a href="https://www.instagram.com/kazokku.indonesia/" class="social-media-link">
               <picture>
                 <source srcset="/images/common/icon-orange-ig.svg" type="image/svg+xml">
                 <img src="/images/common/icon-orange-ig.png" width="60" height="60" alt="instagram">
@@ -52,7 +55,7 @@
             </a>
           </li>
           <li class="social-media-item">
-            <a href="#" class="social-media-link">
+            <a href="https://www.linkedin.com/company/kazokku-indonesia/" class="social-media-link">
               <picture>
                 <source srcset="/images/common/icon-orange-lk.svg" type="image/svg+xml">
                 <img src="/images/common/icon-orange-lk.png" width="60" height="60" alt="linkedin">
@@ -60,7 +63,7 @@
             </a>
           </li>
           <li class="social-media-item">
-            <a href="#" class="social-media-link">
+            <a href="https://www.facebook.com/webdev.idn" class="social-media-link">
               <picture>
                 <source srcset="/images/common/icon-orange-fb.svg" type="image/svg+xml">
                 <img src="/images/common/icon-orange-fb.png" width="60" height="60" alt="facebook">
