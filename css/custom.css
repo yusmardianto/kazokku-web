@@ -27,7 +27,8 @@
     
     --gradient-home-portofolio-kami : linear-gradient(-45deg, #ffbcbc, #f7f4f4,  #74beed, #c5e0ee) ;   
     --gradient-home-portofolio-kami-second : linear-gradient(-45deg,#fec555,#e6ffeb, #ffc967, #f7f4f4,  #bcffca ) ;  
-    --gradient-home-portofolio-kami-third : linear-gradient(-45deg,rgba(255, 246, 24, 0.86),#e6ffeb, rgba(255, 246, 24, 0.86), #f7f4f4,  #bcffca ) ;  
+    --gradient-home-portofolio-kami-third : linear-gradient(-45deg,rgba(255, 246, 24, 0.86),#e6ffeb, rgba(255, 246, 24, 0.86), #f7f4f4,  #bcffca ) ; 
+    --gradient-home-portofolio-kami-fourth : linear-gradient(-45deg,rgba(255, 24, 24, 0.86),#e6ffeb, rgba(255, 24, 24, 0.86), #f7f4f4,  #c5e0ee ) ; 
     
     --gradient-hubungi-kami : linear-gradient(0deg,#ddf3ff,#e4f6ff, #e6f4fc, #d8f2ff) ;   
 
@@ -85,6 +86,13 @@ legend {
 
 #home-card-portofolio-kami-3 {
     background: var(--gradient-home-portofolio-kami-third);
+	background-size: 400% 400%;	
+	animation: gradient 11s ease infinite;
+	/* height: 100vh; */
+}
+
+#home-card-portofolio-kami-4{
+    background: var(--gradient-home-portofolio-kami-fourth);
 	background-size: 400% 400%;	
 	animation: gradient 11s ease infinite;
 	/* height: 100vh; */
