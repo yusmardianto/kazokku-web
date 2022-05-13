@@ -47,13 +47,9 @@
         </div>
         <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">
             <div class="mt-n7 custom-bg-section-1-right">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-1-right-superman.webp"
-                        type="image/webp">
-                    <img id="img-section-1-right-superman" class="w-sm-100 mt-sm-4"
-                        src="/images/home/2022/img-section-1-right-superman.png" alt="img-section-1-right-superman"
-                        loading="lazy">
-                </picture>
+                <img id="img-section-1-right-superman" class="w-sm-100 mt-sm-4"
+                    src="/assets/img/services/image8@2x.png" alt="img-section-1-right-superman"
+                    loading="lazy">
             </div>
 
             <div class="text-right mt-n5 d-none d-sm-block d-sm-none d-md-block">
@@ -68,8 +64,6 @@
                 <img id="img-section-1-right-small-start-end" class="position-absolute" style="top:64%; left:27%;"
                     src="/images/home/2022/img-section-1-right-small-start-end.png" loading='lazy'
                     alt="img-section-1-right-small-start-end" />
-                <img id="img-section-1-lamp" class="position-absolute" style="top:-17%; right:54%;"
-                    src="/images/home/2022/img-section-1-lamp.png" loading='lazy' alt="img-section-1-lamp" />
                 <img id="img-section-1-right-start-large" class="position-absolute" style="top:10%; left:24%;"
                     src="/images/home/2022/img-section-1-right-start-large.png" loading='lazy'
                     alt="img-section-1-right-start-large" />
@@ -223,10 +217,10 @@
         <div class="row mt-2">
             <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-2-mens.webp"
+                    <source media="(min-width: 1024px)" srcset="/assets/img/services/MaskGroup@2x.webp"
                         type="image/webp">
-                    <img id="img-section-2-mens" class="w-sm-100 " src="/images/home/2022/img-section-2-mens.png"
-                        alt="img-section-2-mens.png" loading="lazy">
+                        <img id="img-section-2-mens" class="w-sm-100 " src="/assets/img/services/MaskGroup@2x.png"
+                        width="550px" alt="img-section-2-mens.png" loading="lazy">
                 </picture>
                 <div class="d-flex flex-row justify-content-end">
                     <picture>
@@ -258,16 +252,8 @@
             </div>
         </div>
     </section>
-    <br />
-    <br />
-</div>
-
-
-<!-- #3 -->
-<div class=""
-    style=" background-color: rgb(255,242,223);background-image: radial-gradient(circle, rgba(255,242,223,1) 0%, rgba(255,255,255,1) 100%);">
-    <section class="container">
-        <div class="row  ">
+    <section class="container mt-5">
+        <div class="row">
             <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 ">
                 <h2 class="mt-3 mb-3">
                     Lokasi Layanan Outsourcing UI/ UX Designer KAZOKKU
@@ -282,10 +268,10 @@
             </div>
             <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="/images/home/2022/img-section-3-main.webp"
+                    <source media="(min-width: 1024px)" srcset="/assets/img/services/Group331@2x.webp"
                         type="image/webp">
-                    <img id="img-section-3-main" height="100%" width="auto" class="w-sm-100 h-sm-auto  mt-n5"
-                        src="/images/home/2022/img-section-3-main.png" alt="img-section-3-main" loading="lazy">
+                    <img id="Group331@2x" height="100%" width="auto" class="w-sm-100 h-sm-auto  mt-n5"
+                        src="/assets/img/services/Group331@2x.png" alt="Group331@2x" loading="lazy">
                 </picture>
                 <br />
 
