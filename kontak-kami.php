@@ -248,7 +248,19 @@ if (isset($_POST['submitted'])) {
   </div>
 </section>
 <?php include './includes/footer.php' ?>
+
 <script async="" defer="" src="https://www.google.com/recaptcha/api.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N473SL3W8D"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-N473SL3W8D');
+</script>
+
 <script>
   $(function(){
     var form = document.getElementById('form-contact');
