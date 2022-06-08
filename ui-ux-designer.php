@@ -320,11 +320,20 @@
   </div>
 </section>
 
-
 <br><br>
 
 <?php include './includes/footer.php' ?>
 <?php include './includes/footer-end.php' ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N473SL3W8D"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-N473SL3W8D');
+</script>
 
 <script>
 // *SECTION 1 LEFT

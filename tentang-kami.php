@@ -171,8 +171,17 @@
 <?php include './includes/footer.php' ?>
 <?php include './includes/footer-end.php' ?>
 
-<script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N473SL3W8D"></script>
 
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-N473SL3W8D');
+</script>
+
+<script>
   //*PLAY WITH SCROLL
   ScrollReveal().reveal('#img-section-1-left-bg',  { delay: 300 });
   ScrollReveal().reveal('#img-section-2-left-bg',  { delay: 500 });  
