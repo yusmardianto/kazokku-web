@@ -100,7 +100,7 @@
               <a class="nav-link" href="/tentang-kami.php"><h5>Tentang Kazok<span class="flip-character">k</span>u</h5></a>
             </li>
             <li class="nav-item <?php active('outsourcing-it') ?>">
-              <a class="nav-link" href="/outsourcing-it.php"><h5>OUTSOURCING IT</h5></a>
+              <a class="nav-link" href="/outsourcing-it"><h5>OUTSOURCING IT</h5></a>
             </li>
             <li class="nav-item  <?php active('hubungi-kami') ?>">
               <a class="nav-link" href="/kontak-kami.php"><h5>Hubungi Kami</h5></a>
