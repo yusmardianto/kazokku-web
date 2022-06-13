@@ -2,7 +2,7 @@
 <?php $title = 'Perusahaan Outsourcing Tenaga Ahli IT Profesional | Kazokku' ?>
 <?php $description = 'Kazokku menyediakan layanan outsourcing tenaga ahli IT profesional untuk mempermudah proses rekrutmen dan menyelesaikan setiap proyek digital perusahaan Anda.' ?>
 <?php $canonical = 'https://www.kazokku.com/outsourcing-it.php' ?>
-<?php include './includes/header.php' ?><br><br><br>
+<?php include '../includes/header.php' ?><br><br><br>
 
 <!-- #1 -->  
   <picture>
@@ -534,7 +534,7 @@
 
       <div class="row">
         <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">
-          <a href="ui-ux-designer.php" style="text-decoration: none;">
+          <a href="/outsourcing-it/ui-ux-designer/" style="text-decoration: none;">
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
                     <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-9-ui-ux.png">
@@ -833,11 +833,11 @@
     <img height="132" width="132" src="/images/outsourching-it/image-complement-left-section-11.svg" alt="complementary"  />
   </picture>     
 </div>
-<?php include './includes/section-our-profile.php' ?>
+<?php include '../includes/section-our-profile.php' ?>
 
-<?php include './includes/banner-contact.php' ?>
-<?php include './includes/footer.php' ?>
-<?php include './includes/footer-end.php' ?>
+<?php include '../includes/banner-contact.php' ?>
+<?php include '../includes/footer.php' ?>
+<?php include '../includes/footer-end.php' ?>
 
 <!-- MODALS OF Keuntungan Layanan Outsourcing IT bagi Perusahaan -->
 
