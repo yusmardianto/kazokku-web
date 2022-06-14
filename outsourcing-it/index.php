@@ -534,7 +534,7 @@
 
       <div class="row">
         <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4">
-          <a href="/outsourcing-it/ui-ux-designer/" style="text-decoration: none;">
+          <a href="/outsourcing-it/ui-ux-designer.php/" style="text-decoration: none;">
               <figure class=" rounded-xl text-center pt-3 linear-gradient-blue border-blue-white">
                 <picture>
                     <source media="(min-width: 1024px)" srcset="/images/outsourching-it/2022/img-section-9-ui-ux.png">
