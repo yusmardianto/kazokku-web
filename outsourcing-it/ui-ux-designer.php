@@ -2,7 +2,7 @@
 <?php $title = 'Perusahaan Outsourcing IT Jakarta - UI/UX Designer | KAZOKKU' ?>
 <?php $description = 'Sebagai perusahaan jasa Outsourcing IT profesional, Kazokku menyediakan UI/UX Designer yang siap ditempatkan di perusahaan Anda Jakarta, Bekasi, Tangerang, Bogor, Bandung, Cikarang, Bandung' ?>
 <?php $canonical = 'https://www.kazokku.com/outsourcing-it/ui-ux-designer.php' ?>
-<?php include '../../includes/header.php' ?>
+<?php include '../includes/header.php' ?>
 
 <!-- #1 -->
 <div class="position-relative ">
@@ -322,8 +322,8 @@
 
 <br><br>
 
-<?php include '../../includes/footer.php' ?>
-<?php include '../../includes/footer-end.php' ?>
+<?php include '../includes/footer.php' ?>
+<?php include '../includes/footer-end.php' ?>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N473SL3W8D"></script>
