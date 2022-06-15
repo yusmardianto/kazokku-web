@@ -12,3 +12,5 @@ RewriteRule . /index.php [L]
 # END WordPress
 
 Redirect 301 layanan-tenaga-ahli-it.php /outsourcing-it.php
+Redirect 301 outsourcing-it.php /outsourcing-it
+Redirect 301 ui-ux-designer.php /outsourcing-it/ui-ux-designer.php
