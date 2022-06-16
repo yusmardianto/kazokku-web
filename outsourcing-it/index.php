@@ -1,7 +1,7 @@
 <?php $css = 'layanan-haken' ?>
 <?php $title = 'Perusahaan Outsourcing Tenaga Ahli IT Profesional | Kazokku' ?>
 <?php $description = 'Kazokku menyediakan layanan outsourcing tenaga ahli IT profesional untuk mempermudah proses rekrutmen dan menyelesaikan setiap proyek digital perusahaan Anda.' ?>
-<?php $canonical = 'https://www.kazokku.com/outsourcing-it.php' ?>
+<?php $canonical = 'https://kazokku.com/outsourcing-it/' ?>
 <?php include '../includes/header.php' ?><br><br><br>
 
 <!-- #1 -->  
@@ -16,7 +16,12 @@
         <li class="breadcrumb-item" style="color:black"><a href="index.php">Home</a></li>
         <li class="breadcrumb-item">Outsourcing IT</li>
       </ul>
-    </div>    
+    </div>   
+    <div class="row mt-sm-5">
+      <ul class="breadcrumb" style="background-color:transparent; margin-top:-450px">
+        <h1>Outsourcing Tenaga Ahli IT Profesional Jakarta</h1>
+      </ul>
+    </div> 
     <div class="row mt-n24 mt-sm-0">
       <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-center">             
         <picture>
@@ -37,6 +42,9 @@
             <h4 class="text-secondary-main mt-sm-1">
               Tentang Kazokku
             </h4>
+            <p>
+              KAZOKKU adalah perusahaan konsultan yang bergerak dibidang IT sebagai penyedia tenaga alih daya / outsourcing di Jakarta dan kota-kota besar lain di Indonesia. Kami hadir guna memenuhi kebutuhan tenaga IT profesional dari berbagai spesialisasi dengan sistem yang sangat fleksibel dan menguntungkan bagi setiap perusahaan yang membutuhkan.
+            </p>
             <p>
               KAZOKKU merupakan bagian dari grup <span class="logique-text">LOGIQUE</span>, yaitu salah satu pengembang sistem web terbaik di Jakarta, dipimpin oleh Takashi Yoshitsugu yang berasal dari Jepang. Secara operasional KAZOKKU mengedepankan prinsip-prinsip Jepang yang disiplin, logis, dan adil yang membuat kami mampu memberikan hasil yang memuaskan bagi para klien.
             </p>
