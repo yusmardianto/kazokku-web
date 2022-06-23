@@ -1,7 +1,7 @@
 <?php $css = 'layanan-haken' ?>
 <?php $title = 'Perusahaan Outsourcing Tenaga Ahli IT Profesional | Kazokku' ?>
 <?php $description = 'Kazokku menyediakan layanan outsourcing tenaga ahli IT profesional untuk mempermudah proses rekrutmen dan menyelesaikan setiap proyek digital perusahaan Anda.' ?>
-<?php $canonical = 'https://www.kazokku.com/outsourcing-it.php' ?>
+<?php $canonical = 'https://kazokku.com/outsourcing-it/' ?>
 <?php include '../includes/header.php' ?><br><br><br>
 
 <!-- #1 -->  
@@ -16,7 +16,12 @@
         <li class="breadcrumb-item" style="color:black"><a href="index.php">Home</a></li>
         <li class="breadcrumb-item">Outsourcing IT</li>
       </ul>
-    </div>    
+    </div>   
+    <div class="row mt-sm-5">
+      <ul class="breadcrumb" style="background-color:transparent; margin-top:-450px">
+        <h1>Outsourcing Tenaga Ahli IT Profesional Jakarta</h1>
+      </ul>
+    </div> 
     <div class="row mt-n24 mt-sm-0">
       <div class="col-sm-12">
         <h1 class="text-center">Outsourcing Tenaga Ahli IT Profesional Jakarta</h1>
