@@ -17,11 +17,6 @@
         <li class="breadcrumb-item">Outsourcing IT</li>
       </ul>
     </div>   
-    <div class="row mt-sm-5">
-      <ul class="breadcrumb" style="background-color:transparent; margin-top:-450px">
-        <h1>Outsourcing Tenaga Ahli IT Profesional Jakarta</h1>
-      </ul>
-    </div> 
     <div class="row mt-n24 mt-sm-0">
       <div class="col-sm-12">
         <h1 class="text-center">Outsourcing Tenaga Ahli IT Profesional Jakarta</h1>
