@@ -42,9 +42,8 @@
             </h4>
             <p>
               KAZOKKU adalah perusahaan konsultan yang bergerak dibidang IT sebagai penyedia tenaga alih daya / outsourcing di Jakarta dan kota-kota besar lain di Indonesia. Kami hadir guna memenuhi kebutuhan tenaga IT profesional dari berbagai spesialisasi dengan sistem yang sangat fleksibel dan menguntungkan bagi setiap perusahaan yang membutuhkan.
-
-              KAZOKKU sendiri merupakan bagian dari grup <span class="logique-text">LOGIQUE</span>, yaitu salah satu pengembang sistem website terbaik di Jakarta, dipimpin oleh Takashi Yoshitsugu yang berasal dari Jepang. Secara operasional KAZOKKU mengedepankan prinsip-prinsip budaya kerja Jepang yang disiplin, logis, dan adil yang membuat kami mampu memberikan hasil yang memuaskan bagi para klien.
             </p>
+            <p>KAZOKKU sendiri merupakan bagian dari grup <span class="logique-text">LOGIQUE</span>, yaitu salah satu pengembang sistem website terbaik di Jakarta, dipimpin oleh Takashi Yoshitsugu yang berasal dari Jepang. Secara operasional KAZOKKU mengedepankan prinsip-prinsip budaya kerja Jepang yang disiplin, logis, dan adil yang membuat kami mampu memberikan hasil yang memuaskan bagi para klien.</p>
           </div>
         </div>
       </div>
