@@ -65,8 +65,8 @@ p{
   text-transform: uppercase;
   color: black;
   position:relative;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
   transition: color .2s; 
   
 }
