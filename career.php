@@ -336,16 +336,190 @@ if (isset($_POST['submitted'])) {
                     <div class="row">
                         <div class="col-md-4">                   
                             <figcaption>
-                                <h3 style="margin-top:50px">
-                                    PHP Developer
-                                </h3>
+                                <h4 style="margin-top:50px">
+                                    PHP DEVELOPER
+                                </h4><br><br>
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p>South Jakarta, Indonesia</p>
+                                    </div> 
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p>Full Time</p><br>
+                                    </div> 
+                                </div>
                                 <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
                                     <h6 class="m-0 d-flex flex-row justify-content-between">
                                         <span>See Details </span>
                                         &nbsp;
                                         <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
                                     </h6>
-                                </button>             
+                                </button><br><br>
+                                <hr>          
+                            </figcaption>              
+                        </div>
+                        <div class="col-md-4">                   
+                            <figcaption>
+                                <h4 style="margin-top:50px">
+                                    GOLANG DEVELOPER
+                                </h4><br><br>
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p>South Jakarta, Indonesia</p>
+                                    </div> 
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p>Full Time</p><br>
+                                    </div> 
+                                </div>
+                                <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                                    <h6 class="m-0 d-flex flex-row justify-content-between">
+                                        <span>See Details </span>
+                                        &nbsp;
+                                        <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                                    </h6>
+                                </button><br><br>
+                                <hr>          
+                            </figcaption>              
+                        </div>
+                        <div class="col-md-4">                   
+                            <figcaption>
+                                <h4 style="margin-top:50px">
+                                    BOOTCAMP PROGRAMMER
+                                </h4><br><br>
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p>South Jakarta, Indonesia</p>
+                                    </div> 
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p>Full Time</p><br>
+                                    </div> 
+                                </div>
+                                <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                                    <h6 class="m-0 d-flex flex-row justify-content-between">
+                                        <span>See Details </span>
+                                        &nbsp;
+                                        <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                                    </h6>
+                                </button><br><br>
+                                <hr>          
+                            </figcaption>              
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">                   
+                            <figcaption>
+                                <h4 style="margin-top:50px">
+                                    PROJECT MANAGER
+                                </h4><br><br>
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p>South Jakarta, Indonesia</p>
+                                    </div> 
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p>Full Time</p><br>
+                                    </div> 
+                                </div>
+                                <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                                    <h6 class="m-0 d-flex flex-row justify-content-between">
+                                        <span>See Details </span>
+                                        &nbsp;
+                                        <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                                    </h6>
+                                </button><br><br>
+                                <hr>          
+                            </figcaption>              
+                        </div>
+                        <div class="col-md-4">                   
+                            <figcaption>
+                                <h4 style="margin-top:50px">
+                                    UI / UX DESIGNER
+                                </h4><br><br>
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p>South Jakarta, Indonesia</p>
+                                    </div> 
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p>Full Time</p><br>
+                                    </div> 
+                                </div>
+                                <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                                    <h6 class="m-0 d-flex flex-row justify-content-between">
+                                        <span>See Details </span>
+                                        &nbsp;
+                                        <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                                    </h6>
+                                </button><br><br>
+                                <hr>          
+                            </figcaption>              
+                        </div>
+                        <div class="col-md-4">                   
+                            <figcaption>
+                                <h4 style="margin-top:50px">
+                                    .NET DEVELOPER
+                                </h4><br><br>
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p>South Jakarta, Indonesia</p>
+                                    </div> 
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p>Full Time</p><br>
+                                    </div> 
+                                </div>
+                                <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                                    <h6 class="m-0 d-flex flex-row justify-content-between">
+                                        <span>See Details </span>
+                                        &nbsp;
+                                        <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                                    </h6>
+                                </button><br><br>
+                                <hr>          
                             </figcaption>              
                         </div>
                     </div>
@@ -575,149 +749,8 @@ if (isset($_POST['submitted'])) {
                     </div>
                     <hr>
                 </div><br><br>
-                <div class="col-12 col-sm-12 col-md-12 ol-lg-12 col-xl-12">
-                    <figure style="padding:30px" class="rounded-xl mt-3 mb-1 linear-gradient-blue border-blue-main">
-                        <h4 class="text-secondary-main mt-sm-1 text-uppercase">
-                            Hubungi Kami
-                        </h4>
-                        <p>
-                            Jika anda ingin mendapatkan informasi lebih lanjut tentang layanan kami, seperti layanan
-                            Outsourcing
-                            IT Profesional atau WDI untuk kebutuhan IT / Transformasi digital perusahaan anda, silahkan
-                            menghubungi dan bertanya apapun kepada kami dengan mengisi formulir dibawah ini.
-                        </p><br>
-                        <?php 
-            if (isset($msg)) {
-              echo $msg;
-            }
-          ?>
-                        <form onsubmit='return validateForm()' action='<?php echo $formproc->GetSelfScript(); ?>'
-                            method='post' accept-charset='UTF-8' id="form-contact">
-                            <input type='hidden' name='submitted' id='submitted' value='1' />
-                            <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>'
-                                value='<?php echo $formproc->GetFormIDInputValue(); ?>' />
-                            <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
-                            <div class="form-container mt-sm-1">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label class="font-weight-bold" for="company_name">Nama Perusahaan</label>
-                                            <input type="text" name="company_name" class="form-control"
-                                                placeholder="Nama Perusahaan" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label class="font-weight-bold" for="name">Nama Anda</label>
-                                            <input type="text" name="name" class="form-control" placeholder="Nama Anda"
-                                                required>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label class="font-weight-bold" for="email">Alamat E-mail</label>
-                                            <input type="email" name="email" class="form-control"
-                                                placeholder="Alamat E-mail" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label class="font-weight-bold" for="email">No. Telephone</label>
-                                            <input type="number" name="phone" class="form-control"
-                                                placeholder="No. Telephone" required>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex flex-row " style="margin-top:5px">
-                                    <div class="flex-grow-1">
-                                        <label for="" class="fs-17px mb-0 font-weight-bold">Anda butuh bantuan Kazokku
-                                            untuk:</label><br />
-                                    </div>
-                                    <div class="justify-content-end text-secondary-main">
-                                        <small>*Anda boleh memilih lebih dari satu</small>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="mt-3 custom-control custom-checkbox">
-                                                <input type="checkbox" name="category[]" class="custom-control-input"
-                                                    id="category-1" value="Mengembangkan Website">
-                                                <label class="custom-control-label" for="category-1">Mengembangkan
-                                                    Website</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="mt-3 custom-control custom-checkbox">
-                                                <input type="checkbox" name="category[]" class="custom-control-input"
-                                                    id="category-2" value="Mengembangkan sistem web / maintenance">
-                                                <label class="custom-control-label" for="category-2">Mengembangkan
-                                                    sistem web /
-                                                    maintenance</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="mt-3 custom-control custom-checkbox">
-                                                <input type="checkbox" name="category[]" class="custom-control-input"
-                                                    id="category-3" value="Memasarkan Web / SEO">
-                                                <label class="custom-control-label" for="category-3">Memasarkan Web /
-                                                    SEO</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="mt-3 custom-control custom-checkbox">
-                                                <input type="checkbox" name="category[]" class="custom-control-input"
-                                                    id="category-4"
-                                                    value="Memasang atau mengoperasikan iklan di Internet">
-                                                <label class="custom-control-label" for="category-4">Memasang atau
-                                                    mengoperasikan
-                                                    iklan di Internet</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="mt-3 mt-lg-0 custom-control custom-checkbox">
-                                                <input type="checkbox" name="category[]" class="custom-control-input"
-                                                    id="category-5"
-                                                    value="Mendesain profil perusahaan atau hasil cetakan lainnya untuk pameran">
-                                                <label class="custom-control-label" for="category-5">Mendesain profil
-                                                    perusahaan
-                                                    atau hasil cetakan lainnya untuk pameran</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-row">
-                                    <div class="form-group flex-grow-1">
-                                        <label for="message">Pesan Anda</label>
-                                        <textarea name="message" id="message" class="form-control" cols="30" rows="3"
-                                            placeholder="Tuliskan Pesan Anda"></textarea>
-                                    </div>
-                                </div>
-                                <?php if($_SERVER['SERVER_NAME'] == 'kazokku.com' || $_SERVER['SERVER_NAME'] == 'www.kazokku.com'):  ?>
-                                <div class="g-recaptcha" data-sitekey="6LdqJpwbAAAAACvlWvCx4VKEE6GIOeEfIiq2pzgj"></div>
-                                <?php else: ?>
-                                <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
-                                <?php endif ?>
-                                <div class="text-left mt-3">
-                                    <button data-toggle="modal" type="submit"
-                                        onclick="ga('send', 'event', 'Button-Kirim', 'Action-Click', 'Button-Kirim-Label');"
-                                        class="btn pt-1 pb-1 pl-5 pr-5 custom-bg-button-orange text-white transition-duration-500">
-                                        <h6 class="m-0 d-flex flex-row justify-content-between">
-                                            <span>Hubungi Kami </span>
-                                            &nbsp;
-                                            <img class="mt-1-half" width="16" height="8"
-                                                src="/images/common/icon-white-right-arrow.png" loading="lazy" />
-                                        </h6>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </figure>
-                </div>
+            </div>
+        </div>
     </section>
 </div><br><br><br><br><br><br>
 <div class="position-relative d-none d-sm-block d-sm-none d-md-block">
