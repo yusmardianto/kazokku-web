@@ -123,8 +123,17 @@ if (isset($_POST['submitted'])) {
           <h4 class="text-secondary-main mt-3">
               JOB DESCRIPTION
           </h4> 
-          <p class="font-weight-bold">Jika Anda ingin mendapatkan informasi lebih lanjut tentang layanan kami, seperti layanan Outsourcing IT Profesional atau WDI untuk kebutuhan IT / transformasi digital perusahaan Anda, silakan menghubungi dan bertanya apapun kepada kami dengan mengisi formulir di bawah ini.</p>
-
+          <div class="ex3">
+            <ul>
+              <li>Understanding and implement requirement of businees users</li>
+              <li>Developing, analyzing and managing PHP Web Application and supporting tools</li>
+              <li>Testing application before handover to QA Team</li>
+              <li>Developing application from scratch or existing PHP Framerowk</li>
+              <li>Designing database if needed for development</li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
           <!-- #Element of line vertical -->
         </div>  
         <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
@@ -191,7 +200,17 @@ if (isset($_POST['submitted'])) {
             </div>
           </form>
         </div>
-      </div>  
+      </div><br><br>
+      <div class="row">
+        <h3 class="text-center">Screening Question</h3>
+        <form onsubmit='return validateForm()' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8' id="form-contact">
+          <input type='hidden' name='submitted' id='submitted' value='1' />
+          <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>' />
+          <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
+                  <h3 class="text-center">Screening Question</h3>
+
+        </form>
+      </div> 
       <div class="d-flex flex-row justify-content-end">
         <picture>
           <source srcset="/images/hubungi-kami/image-section-2-dot-right.webp" type="image/webp">
