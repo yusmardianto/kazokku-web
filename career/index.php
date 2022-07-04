@@ -5,12 +5,12 @@
 
 <div class=""
     style=" background-color: rgb(255,242,223);background-image: radial-gradient(circle, rgba(255,242,223,1) 0%, rgba(255,255,255,1) 100%);">
-    <?php include './includes/header.php' ?>
+    <?php include '../includes/header.php' ?>
 </div>
 
 <?php
 // error_reporting(0);
-require_once("./form/fgcontactform.php");
+require_once("../form/fgcontactform.php");
 
 $formproc = new FGContactForm();
 
@@ -48,7 +48,7 @@ if (isset($_POST['submitted'])) {
 
 ?>
 
-<br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <!-- #2 -->
 <div class="position-relative d-none d-sm-block d-sm-none d-md-block">
     <div class="position-absolute" style="top: 0; right: 0">
@@ -355,13 +355,15 @@ if (isset($_POST['submitted'])) {
                                         <p>Full Time</p><br>
                                     </div> 
                                 </div>
-                                <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
-                                    <h6 class="m-0 d-flex flex-row justify-content-between">
-                                        <span>See Details </span>
-                                        &nbsp;
-                                        <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
-                                    </h6>
-                                </button><br><br>
+                                <a href="/career/career-details.php"> 
+                                    <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                                        <h6 class="m-0 d-flex flex-row justify-content-between">
+                                            <span>See Details </span>
+                                            &nbsp;
+                                            <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                                        </h6>
+                                    </button>
+                                </a><br><br>
                                 <hr>          
                             </figcaption>              
                         </div>
@@ -762,7 +764,7 @@ if (isset($_POST['submitted'])) {
         </picture>
     </div>
 </div>
-<?php include './includes/footer.php' ?>
+<?php include '../includes/footer.php' ?>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N473SL3W8D"></script>
