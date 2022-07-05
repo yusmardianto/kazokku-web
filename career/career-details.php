@@ -1,4 +1,4 @@
-<?php $css = 'kontak-kami' ?>
+<?php $css = 'career' ?>
 <?php $title = 'Kontak Kami | Perusahaan Outsourcing IT Profesional | Kazokku' ?>
 <?php $description = 'Cari tenaga ahli IT profesional guna menyelesaikan setiap permasalahan dan proyek IT pada bisnis atau usaha Anda? Hubungi Kami sekarang juga | Kazokku.' ?>
 <?php $canonical = 'https://www.kazokku.com/kontak-kami.php' ?>
@@ -130,8 +130,21 @@ if (isset($_POST['submitted'])) {
               <li>Testing application before handover to QA Team</li>
               <li>Developing application from scratch or existing PHP Framerowk</li>
               <li>Designing database if needed for development</li>
-              <li></li>
-              <li></li>
+              <li>Understanding and implement requirement of businees users</li>
+              <li>Developing, analyzing and managing PHP Web Application and supporting tools</li>
+              <li>Testing application before handover to QA Team</li>
+              <li>Developing application from scratch or existing PHP Framerowk</li>
+              <li>Designing database if needed for development</li>
+              <li>Understanding and implement requirement of businees users</li>
+              <li>Developing, analyzing and managing PHP Web Application and supporting tools</li>
+              <li>Testing application before handover to QA Team</li>
+              <li>Developing application from scratch or existing PHP Framerowk</li>
+              <li>Designing database if needed for development</li>
+              <li>Understanding and implement requirement of businees users</li>
+              <li>Developing, analyzing and managing PHP Web Application and supporting tools</li>
+              <li>Testing application before handover to QA Team</li>
+              <li>Developing application from scratch or existing PHP Framerowk</li>
+              <li>Designing database if needed for development</li>
             </ul>
           </div>
           <!-- #Element of line vertical -->
@@ -165,23 +178,62 @@ if (isset($_POST['submitted'])) {
                   </div>
                 </div>
               </div>
-              <div class="form-group">
-                <label class="font-weight-bold" for="company_name">Posisi yang Dilamar</label>
-                <input type="text" name="company_name" class="form-control" placeholder="Nama Perusahaan" required>
-              </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label class="font-weight-bold" for="email">Resume / CV</label>        
-                    <textarea name="resume" id="resume" class="form-control" cols="30" rows="3"></textarea>
+                    <label class="font-weight-bold" for="company_name">Posisi yang Dilamar</label>
+                    <input type="text" name="company_name" class="form-control" placeholder="Nama Perusahaan" required>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label class="font-weight-bold" for="email">Alamat</label>        
-                    <textarea name="address" id="address" class="form-control" cols="30" rows="3" placeholder="Tuliskan Alamat Anda"></textarea>
+                    <label class="font-weight-bold" for="email">Resume / CV</label>        
+                    <input type="file" name="resume" id="resume" class="form-control" cols="30" rows="3"></input width="100px">
+                    <?php 
+                      if ($_SERVER['REQUEST_METHOD'] == 'POST') 
+                      {
+                        if (is_uploaded_file($_FILES['resume']['tmp_name'])) 
+                        { 
+                          //First, Validate the file name
+                          if(empty($_FILES['resume']['name']))
+                          {
+                            echo " File name is empty! ";
+                            exit;
+                          }
+
+                          $upload_file_name = $_FILES['resume']['name'];
+                          //Too long file name?
+                          if(strlen ($upload_file_name)>100)
+                          {
+                            echo " too long file name ";
+                            exit;
+                          }
+
+                          //replace any non-alpha-numeric cracters in th file name
+                          $upload_file_name = preg_replace("/[^A-Za-z0-9 \.\-_]/", '', $upload_file_name);
+
+                          //set a limit to the file upload size
+                          if ($_FILES['resume']['size'] > 1000000) 
+                          {
+                          echo " too big file ";
+                            exit;        
+                          }
+
+                          //Save the file
+                          $dest=__DIR__.'/uploads/'.$upload_file_name;
+                          if (move_uploaded_file($_FILES['resume']['tmp_name'], $dest)) 
+                          {
+                            echo 'File Has Been Uploaded !';
+                          }
+                        }
+                      }
+                    ?>                      
                   </div>
                 </div>
+              </div>
+              <div class="form-group">
+                <label class="font-weight-bold" for="email">Alamat</label>        
+                <textarea name="address" id="address" class="form-control" cols="30" rows="3" placeholder="Tuliskan Alamat Anda"></textarea>
               </div>
               <?php if($_SERVER['SERVER_NAME'] == 'kazokku.com' || $_SERVER['SERVER_NAME'] == 'www.kazokku.com'):  ?>
                 <div class="g-recaptcha" data-sitekey="6LdqJpwbAAAAACvlWvCx4VKEE6GIOeEfIiq2pzgj"></div>
@@ -200,17 +252,101 @@ if (isset($_POST['submitted'])) {
             </div>
           </form>
         </div>
-      </div><br><br>
-      <div class="row">
-        <h3 class="text-center">Screening Question</h3>
+      </div><br><br><br><br>
+        <h3 class="text-center">Screening Question</h3><br><br><br>
         <form onsubmit='return validateForm()' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8' id="form-contact">
           <input type='hidden' name='submitted' id='submitted' value='1' />
           <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>' />
           <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
-                  <h3 class="text-center">Screening Question</h3>
-
+          <div class="mt-sm-1">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="email">How long have you been working in related field ?</label>        
+                  <select class="form-control" name="cars" id="cars">
+                    <option value="0">- Select Years -</option>
+                    <option value="1">1 Years</option>
+                    <option value="2">2 Years</option>
+                    <option value="3">3 Years</option>
+                    <option value="4">4 Years</option>
+                    <option value="5">5 Years</option>
+                    <option value="6">6 Years</option>
+                    <option value="7">7 Years</option>
+                    <option value="8">8 Years</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="email">Where did you first hear about this vacancy ?</label>        
+                  <select class="form-control" name="cars" id="cars">
+                    <option value="0">- Select Years -</option>
+                    <option value="1">1 Years</option>
+                    <option value="2">2 Years</option>
+                    <option value="3">3 Years</option>
+                    <option value="4">4 Years</option>
+                    <option value="5">5 Years</option>
+                    <option value="6">6 Years</option>
+                    <option value="7">7 Years</option>
+                    <option value="8">8 Years</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="email">How long have you been working in related field ?</label>        
+                  <select class="form-control" name="cars" id="cars">
+                    <option value="0">- Select Years -</option>
+                    <option value="1">1 Years</option>
+                    <option value="2">2 Years</option>
+                    <option value="3">3 Years</option>
+                    <option value="4">4 Years</option>
+                    <option value="5">5 Years</option>
+                    <option value="6">6 Years</option>
+                    <option value="7">7 Years</option>
+                    <option value="8">8 Years</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="email">Where did you first hear about this vacancy ?</label>        
+                  <select class="form-control" name="cars" id="cars">
+                    <option value="0">- Select Years -</option>
+                    <option value="1">1 Years</option>
+                    <option value="2">2 Years</option>
+                    <option value="3">3 Years</option>
+                    <option value="4">4 Years</option>
+                    <option value="5">5 Years</option>
+                    <option value="6">6 Years</option>
+                    <option value="7">7 Years</option>
+                    <option value="8">8 Years</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="email">How long have you been working in related field ?</label>        
+                  <select class="form-control" name="cars" id="cars">
+                    <option value="0">- Select Years -</option>
+                    <option value="1">1 Years</option>
+                    <option value="2">2 Years</option>
+                    <option value="3">3 Years</option>
+                    <option value="4">4 Years</option>
+                    <option value="5">5 Years</option>
+                    <option value="6">6 Years</option>
+                    <option value="7">7 Years</option>
+                    <option value="8">8 Years</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
         </form>
-      </div> 
       <div class="d-flex flex-row justify-content-end">
         <picture>
           <source srcset="/images/hubungi-kami/image-section-2-dot-right.webp" type="image/webp">

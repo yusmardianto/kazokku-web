@@ -388,13 +388,15 @@ if (isset($_POST['submitted'])) {
                                         <p>Full Time</p><br>
                                     </div> 
                                 </div>
-                                <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
-                                    <h6 class="m-0 d-flex flex-row justify-content-between">
-                                        <span>See Details </span>
-                                        &nbsp;
-                                        <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
-                                    </h6>
-                                </button><br><br>
+                                <a href="/career/career-details.php"> 
+                                    <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                                        <h6 class="m-0 d-flex flex-row justify-content-between">
+                                            <span>See Details </span>
+                                            &nbsp;
+                                            <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                                        </h6>
+                                    </button>
+                                </a><br><br>
                                 <hr>          
                             </figcaption>              
                         </div>
@@ -419,13 +421,15 @@ if (isset($_POST['submitted'])) {
                                         <p>Full Time</p><br>
                                     </div> 
                                 </div>
-                                <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
-                                    <h6 class="m-0 d-flex flex-row justify-content-between">
-                                        <span>See Details </span>
-                                        &nbsp;
-                                        <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
-                                    </h6>
-                                </button><br><br>
+                                <a href="/career/career-details.php"> 
+                                    <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                                        <h6 class="m-0 d-flex flex-row justify-content-between">
+                                            <span>See Details </span>
+                                            &nbsp;
+                                            <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                                        </h6>
+                                    </button>
+                                </a><br><br>
                                 <hr>          
                             </figcaption>              
                         </div>
@@ -452,13 +456,15 @@ if (isset($_POST['submitted'])) {
                                         <p>Full Time</p><br>
                                     </div> 
                                 </div>
-                                <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
-                                    <h6 class="m-0 d-flex flex-row justify-content-between">
-                                        <span>See Details </span>
-                                        &nbsp;
-                                        <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
-                                    </h6>
-                                </button><br><br>
+                                <a href="/career/career-details.php"> 
+                                    <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                                        <h6 class="m-0 d-flex flex-row justify-content-between">
+                                            <span>See Details </span>
+                                            &nbsp;
+                                            <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                                        </h6>
+                                    </button>
+                                </a><br><br>
                                 <hr>          
                             </figcaption>              
                         </div>
@@ -483,13 +489,15 @@ if (isset($_POST['submitted'])) {
                                         <p>Full Time</p><br>
                                     </div> 
                                 </div>
-                                <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
-                                    <h6 class="m-0 d-flex flex-row justify-content-between">
-                                        <span>See Details </span>
-                                        &nbsp;
-                                        <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
-                                    </h6>
-                                </button><br><br>
+                                <a href="/career/career-details.php"> 
+                                    <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                                        <h6 class="m-0 d-flex flex-row justify-content-between">
+                                            <span>See Details </span>
+                                            &nbsp;
+                                            <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                                        </h6>
+                                    </button>
+                                </a><br><br>
                                 <hr>          
                             </figcaption>              
                         </div>
@@ -514,13 +522,15 @@ if (isset($_POST['submitted'])) {
                                         <p>Full Time</p><br>
                                     </div> 
                                 </div>
-                                <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
-                                    <h6 class="m-0 d-flex flex-row justify-content-between">
-                                        <span>See Details </span>
-                                        &nbsp;
-                                        <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
-                                    </h6>
-                                </button><br><br>
+                                <a href="/career/career-details.php"> 
+                                    <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                                        <h6 class="m-0 d-flex flex-row justify-content-between">
+                                            <span>See Details </span>
+                                            &nbsp;
+                                            <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                                        </h6>
+                                    </button>
+                                </a><br><br>
                                 <hr>          
                             </figcaption>              
                         </div>
