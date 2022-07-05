@@ -5,7 +5,7 @@
 
 <?php
 // error_reporting(0);
-require_once("../form/fgcontactform.php");
+require_once("../form/fgcareerdetailform.php");
 
 $formproc = new FGContactForm();
 
@@ -155,14 +155,14 @@ if (isset($_POST['submitted'])) {
               echo $msg;
             }
           ?>
-          <form onsubmit='return validateForm()' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8' id="form-contact">
+          <form onsubmit='return validateForm()' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8' id="form-contact" enctype="multipart/form-data">
             <input type='hidden' name='submitted' id='submitted' value='1' />
             <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>' />
             <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
             <div class="form-container mt-sm-1" style="background: var(--gradient-hubungi-kami); opacity: 0.7;">
               <div class="form-group">
-                <label class="font-weight-bold" for="company_name">Nama Lengkap</label>
-                <input type="text" name="company_name" class="form-control" placeholder="Nama Perusahaan" required>
+                <label class="font-weight-bold" for="nama_lengkap">Nama Lengkap</label>
+                <input type="text" name="nama_lengkap" class="form-control" placeholder="Nama Lengkap" required>
               </div>
               <div class="row">
                 <div class="col-md-6">
@@ -173,7 +173,7 @@ if (isset($_POST['submitted'])) {
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label class="font-weight-bold" for="email">No. Telephone</label>        
+                    <label class="font-weight-bold" for="phone">No. Telephone</label>        
                     <input type="number" name="phone" class="form-control" placeholder="No. Telephone" required>
                   </div>
                 </div>
@@ -414,6 +414,31 @@ if (isset($_POST['submitted'])) {
     ScrollReveal().reveal('#img-section-2-left',  { delay: 500 });
     
   })
+
+  function file_browse(e) {
+    var max =  1024 * 1024 * 5;
+    var ext = e.value.match(/\.([^\.]+)$/)[1];
+
+    if (e.files && e.files[0].size > max) {
+      alert("Sorry, Maximal file size pdf 5MB.");
+      e.value = null;
+    } else {
+      switch(ext)
+      {
+      case 'pdf':
+      break;
+      case 'jpg':
+      break;
+      case 'jpeg':
+      break;
+      case 'png':
+      break;
+      default:
+      alert('only pdf, jpg, jpeg, png file that be allowed');
+      e.value='';
+      }
+    }
+  }
 </script>
 <?php 
     $add_js = '<script src="/assets/js/contact.js"></script>';
