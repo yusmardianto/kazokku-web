@@ -42,9 +42,6 @@ class FGContactForm
       $this->errors = array();
       $this->form_random_key = 'HTgsjhartag';
       $this->conditional_field='';
-
-      $this->receipent = ['dimas-test@logique.com']; // set custom recipient here
-
     // Setting SMTP
     $this->smtpHost = 'smtp.postmarkapp.com';                       // Set the SMTP host, eq : smtp.gmail.com
     $this->smtpPort = 587;                      // Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
@@ -165,11 +162,7 @@ class FGContactForm
         $status = array(
             'message' => array(
                 'subject' => 'Message From Kazokku.com Website',
-                'header' => 'Submission from \'Hubungi Kami\' form:',
-            ),
-            'notification' => array(
-                'subject' => 'Notification Message From Kazokku.com Website',
-                'header' => 'Below are the data you\'ve sent through our website:',
+                'header' => 'Submission from \'Career\' form:',
             ),
         );
         foreach ($status as $key => $data) {
@@ -191,30 +184,14 @@ class FGContactForm
             }else{
               // default phpmailer : using localhost and localuser
             }
-
-            if ($key == 'message') {
-                if (is_array($this->receipent)) { // array (one or many emails)
-                    foreach ($this->receipent as $key => $the_receipent) {
-                        $this->mailer->addAddress($the_receipent);
-                    }
-                } else { // non array (only one email)
-                    $this->mailer->addAddress($this->receipent);
-                }
-                $this->mailer->addReplyTo($this->email);
-            } else {
-                // You can change below value as static if needed
-                $the_receipent = (is_array($this->receipent)) ? $this->receipent[0] : $this->receipent ;
-                $this->mailer->addAddress($this->email, $this->name);
-                $this->mailer->addReplyTo($the_receipent);
-                
-            }
             
             if(empty($this->fromName)){
               $this->mailer->FromName = empty($this->mailer->Username) ? $this->mailer->From : $this->mailer->Username;
             }else{
               $this->mailer->FromName = $this->fromName;
             }
-            $this->mailer->SetFrom($this->fromEmail, $this->mailer->FromName);
+            $this->mailer->addAddress($this->fromEmail, $this->mailer->FromName);
+            $this->mailer->SetFrom($this->email, $this->name);
 
             $this->mailer->Subject = $data['subject'];
             $message = $this->ComposeFormtoEmail($data['header']);
