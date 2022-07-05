@@ -95,11 +95,11 @@ if (isset($_POST['submitted'])) {
 <div class=""
     style=" background-color: rgb(255,242,223);background-image: radial-gradient(circle, rgba(255,242,223,1) 0%, rgba(255,255,255,1) 100%);">
     <section class="container ">
-        <div class="row mt-15">
+        <div class="row mt-8">
             <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
                 <h4 class="text-secondary-main mt-sm-1 text-uppercase">
-                    Outsourcing IT FAQ
-                </h4>
+                    Karir di Kazokku
+                </h4><br>
                 <p>
                     Apakah Anda sedang mempertimbangkan untuk menggunakan layanan Outsourcing IT? Berikut daftar
                     pertanyaan yang sering ditanyakan terkait layanan Outsourcing IT dan kami sudah menyediakan jawaban
@@ -121,7 +121,7 @@ if (isset($_POST['submitted'])) {
             </div>
             <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-xl-4 text-center">
                 <img id="img-section-2-mens" width=150% style="margin-top:-100px"
-                    src="/assets/img/faq/malepose_1@3x.png" alt="img-section-2-mens.png" loading="lazy">
+                    src="/images/career/header.png" alt="img-section-2-mens.png" loading="lazy">
             </div>
         </div>
         <div style="margin-top:-80px">
@@ -136,16 +136,8 @@ if (isset($_POST['submitted'])) {
             </div>
 
             <!-- #5 -->
-        <section>
+        <section><br><br><br><br><br>
             <div class="container mt-5 pb-5">
-                <div class="row ">
-                    <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">
-                        <h2 class="text-secondary-main mt-4">
-                            Manfaat Menggunakan Layanan<br>Outsourcing UI UX Designer Profesional
-                        </h2>
-                    </div>
-                </div>
-
                 <div class="row mt-3">
                     <div class="col-sm-12 col-md-6 col-md-6 col-lg-6 col-xl-6 ">
                         <fieldset id='home-card-portofolio-kami-1' class="card-info-with-fieldset h-89"
@@ -340,19 +332,19 @@ if (isset($_POST['submitted'])) {
                                     PHP DEVELOPER
                                 </h4><br><br>
                                 <div class="row">
-                                    <div class="col-md-4">
-
+                                    <div class="col-md-2">
+                                        <img src="/images/career/location.png" loading="lazy" />
                                     </div> 
                                     <div class="col-md-8">
-                                        <p>South Jakarta, Indonesia</p>
+                                        <p style="margin-top:6px">South Jakarta, Indonesia</p>
                                     </div> 
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-
+                                    <div class="col-md-2">
+                                        <img src="/images/career/job.png" loading="lazy" />
                                     </div> 
                                     <div class="col-md-8">
-                                        <p>Full Time</p><br>
+                                        <p style="margin-top:6px">Full Time</p><br>
                                     </div> 
                                 </div>
                                 <a href="/career/career-details.php"> 
@@ -373,19 +365,19 @@ if (isset($_POST['submitted'])) {
                                     GOLANG DEVELOPER
                                 </h4><br><br>
                                 <div class="row">
-                                    <div class="col-md-4">
-
+                                    <div class="col-md-2">
+                                        <img src="/images/career/location.png" loading="lazy" />
                                     </div> 
                                     <div class="col-md-8">
-                                        <p>South Jakarta, Indonesia</p>
+                                        <p style="margin-top:6px">South Jakarta, Indonesia</p>
                                     </div> 
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-
+                                    <div class="col-md-2">
+                                        <img src="/images/career/job.png" loading="lazy" />
                                     </div> 
                                     <div class="col-md-8">
-                                        <p>Full Time</p><br>
+                                        <p style="margin-top:6px">Full Time</p><br>
                                     </div> 
                                 </div>
                                 <a href="/career/career-details.php"> 
@@ -406,19 +398,19 @@ if (isset($_POST['submitted'])) {
                                     BOOTCAMP PROGRAMMER
                                 </h4><br><br>
                                 <div class="row">
-                                    <div class="col-md-4">
-
+                                    <div class="col-md-2">
+                                        <img src="/images/career/location.png" loading="lazy" />
                                     </div> 
                                     <div class="col-md-8">
-                                        <p>South Jakarta, Indonesia</p>
+                                        <p style="margin-top:6px">South Jakarta, Indonesia</p>
                                     </div> 
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-
+                                    <div class="col-md-2">
+                                        <img src="/images/career/job.png" loading="lazy" />
                                     </div> 
                                     <div class="col-md-8">
-                                        <p>Full Time</p><br>
+                                        <p style="margin-top:6px">Full Time</p><br>
                                     </div> 
                                 </div>
                                 <a href="/career/career-details.php"> 
@@ -441,19 +433,19 @@ if (isset($_POST['submitted'])) {
                                     PROJECT MANAGER
                                 </h4><br><br>
                                 <div class="row">
-                                    <div class="col-md-4">
-
+                                    <div class="col-md-2">
+                                        <img src="/images/career/location.png" loading="lazy" />
                                     </div> 
                                     <div class="col-md-8">
-                                        <p>South Jakarta, Indonesia</p>
+                                        <p style="margin-top:6px">South Jakarta, Indonesia</p>
                                     </div> 
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-
+                                    <div class="col-md-2">
+                                        <img src="/images/career/job.png" loading="lazy" />
                                     </div> 
                                     <div class="col-md-8">
-                                        <p>Full Time</p><br>
+                                        <p style="margin-top:6px">Full Time</p><br>
                                     </div> 
                                 </div>
                                 <a href="/career/career-details.php"> 
@@ -474,19 +466,19 @@ if (isset($_POST['submitted'])) {
                                     UI / UX DESIGNER
                                 </h4><br><br>
                                 <div class="row">
-                                    <div class="col-md-4">
-
+                                    <div class="col-md-2">
+                                        <img src="/images/career/location.png" loading="lazy" />
                                     </div> 
                                     <div class="col-md-8">
-                                        <p>South Jakarta, Indonesia</p>
+                                        <p style="margin-top:6px">South Jakarta, Indonesia</p>
                                     </div> 
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-
+                                    <div class="col-md-2">
+                                        <img src="/images/career/job.png" loading="lazy" />
                                     </div> 
                                     <div class="col-md-8">
-                                        <p>Full Time</p><br>
+                                        <p style="margin-top:6px">Full Time</p><br>
                                     </div> 
                                 </div>
                                 <a href="/career/career-details.php"> 
@@ -507,19 +499,19 @@ if (isset($_POST['submitted'])) {
                                     .NET DEVELOPER
                                 </h4><br><br>
                                 <div class="row">
-                                    <div class="col-md-4">
-
+                                    <div class="col-md-2">
+                                        <img src="/images/career/location.png" loading="lazy" />
                                     </div> 
                                     <div class="col-md-8">
-                                        <p>South Jakarta, Indonesia</p>
+                                        <p style="margin-top:6px">South Jakarta, Indonesia</p>
                                     </div> 
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-
+                                    <div class="col-md-2">
+                                        <img src="/images/career/job.png" loading="lazy" />
                                     </div> 
                                     <div class="col-md-8">
-                                        <p>Full Time</p><br>
+                                        <p style="margin-top:6px">Full Time</p><br>
                                     </div> 
                                 </div>
                                 <a href="/career/career-details.php"> 
