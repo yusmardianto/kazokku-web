@@ -105,8 +105,8 @@
             <li class="nav-item <?php active('blog') ?>">
               <a class="nav-link" href="https://kazokku.com/blog/"><h5>Blog</h5></a>
             </li>
-            <li class="nav-item  <?php active('career') ?>">
-              <a class="nav-link" href="/career"><h5>Career</h5></a>
+            <li class="nav-item  <?php active('karir') ?>">
+              <a class="nav-link" href="/karir"><h5>Karir</h5></a>
             </li>
             <li class="nav-item  <?php active('hubungi-kami') ?>">
               <a class="nav-link" href="/kontak-kami.php"><h5>Hubungi Kami</h5></a>

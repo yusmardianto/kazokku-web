@@ -189,16 +189,9 @@ if (isset($_POST['submitted'])) {
                         <img class="ml-0 mr-0 mt-5 w-sm-100" width="224" height="auto" src="/images/outsourching-it/2022/img-section-6-biaya-fleksibel.png" alt="main-image" loading="lazy" >
                     </picture> 
                     <figcaption class="pt-1 pl-4 pr-4 text-left">
-                        <h3 class="m-3 text-dark text-left">
-                        Proses rekrutmen dapat dijalankan dengan biaya yang fleksibel
-                        </h3>          
-                        <button data-toggle="modal" data-target="#modal1" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
-                            <h6 class="m-0 d-flex flex-row justify-content-between">
-                            <span>See Details </span>
-                            &nbsp;
-                            <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
-                            </h6>
-                        </button>  
+                        <h4 class="m-3 text-dark text-left">
+                        Proses rekrutmen fleksibel
+                        </h4>  
                     </figcaption>
                 </figure>                                   
                 </div>
@@ -210,16 +203,9 @@ if (isset($_POST['submitted'])) {
                         <img class="ml-0 mr-0 mt-5 w-sm-100" width="224" height="auto" src="/images/outsourching-it/2022/img-section-6-biaya-terkendali.png" alt="main-image" loading="lazy" >
                     </picture> 
                     <figcaption class="pt-1 pl-4 pr-4 text-left">
-                        <h3 class="m-3 text-dark text-left">
-                            Biaya operasional tenaga kerja menjadi lebih terkendali
-                        </h3>
-                        <button type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" data-toggle="modal" data-target="#modal2">
-                            <h6 class="m-0 d-flex flex-row justify-content-between">
-                            <span>See Details </span>
-                            &nbsp;
-                            <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
-                            </h6>
-                        </button>             
+                        <h4 class="m-3 text-dark text-left">
+                            Biaya operasional terkendali
+                        </h4>           
                     </figcaption>
                     </figure>                      
                 </div>
@@ -231,16 +217,9 @@ if (isset($_POST['submitted'])) {
                             <img class="ml-0 mr-0 mt-5 w-sm-100" width="224" height="auto" src="/images/outsourching-it/2022/img-section-6-fokus-bisnis.png" alt="main-image" loading="lazy" >
                         </picture> 
                         <figcaption class="pt-1 pl-4 pr-4 text-left">
-                            <h3 class="m-3 text-dark text-left">
-                            Perusahaan dapat fokus pada kegiatan bisnis
-                            </h3>
-                            <button type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" data-toggle="modal" data-target="#modal3">
-                            <h6 class="m-0 d-flex flex-row justify-content-between">
-                                <span>See Details </span>
-                                &nbsp;
-                                <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
-                            </h6>
-                            </button>               
+                            <h4 class="m-3 text-dark text-left">
+                                Fokus pada kegiatan bisnis
+                            </h4>             
                         </figcaption>
                     </figure>             
                 </div>
@@ -256,16 +235,9 @@ if (isset($_POST['submitted'])) {
                     <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/2022/img-section-7-kelola-resiko-jadilebihbaik.png" alt="main-image" loading="lazy" >
                 </picture> 
                 <figcaption class="pt-1 pl-4 pr-4 text-left">
-                    <h3 class="m-3 text-dark text-left">
-                    Risiko dikelola dengan  lebih baik
-                    </h3>
-                    <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
-                    <h6 class="m-0 d-flex flex-row justify-content-between">
-                        <span>See Details </span>
-                        &nbsp;
-                        <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
-                    </h6>
-                    </button>             
+                    <h4 class="m-3 text-dark text-left">
+                    Risiko dikelola dengan baik
+                    </h4>            
                 </figcaption>
             </figure>               
             </div>
@@ -277,16 +249,9 @@ if (isset($_POST['submitted'])) {
                     <img class="ml-0 mr-0 mt-5" width="224" height="auto" src="/images/outsourching-it/2022/img-section-7-kinerja-maksimal.png" alt="main-image" loading="lazy" >
                 </picture> 
                 <figcaption class="pt-1 pl-4 pr-4 text-left">
-                    <h3 class="m-3 text-dark text-left">
+                    <h4 class="m-3 text-dark text-left">
                         Kinerja yang maksimal
-                    </h3>
-                    <button data-toggle="modal" data-target="#modal5" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
-                        <h6 class="m-0 d-flex flex-row justify-content-between">
-                        <span>See Details </span>
-                        &nbsp;
-                        <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
-                        </h6>
-                    </button>  
+                    </h4>
                 </figcaption>
                 </figure>                   
             </div>
@@ -298,16 +263,9 @@ if (isset($_POST['submitted'])) {
                     <img class="ml-0 mr-0 mt-5" width="224" height="192" src="/images/outsourching-it/2022/img-section-7-latest-tech.png" alt="main-image" loading="lazy" >
                 </picture> 
                 <figcaption class="pt-1 pl-4 pr-4 text-left">
-                    <h3 class="m-3 text-dark text-left">
-                        Penerapan teknologi terbaru dengan cepat
-                    </h3>
-                    <button data-toggle="modal" data-target="#modal6" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
-                        <h6 class="m-0 d-flex flex-row justify-content-between">
-                        <span>See Details </span>
-                        &nbsp;
-                        <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
-                        </h6>
-                    </button>              
+                    <h4 class="m-3 text-dark text-left">
+                        Penerapan teknologi terbaru
+                    </h4>             
                 </figcaption>
                 </figure>                  
             </div>
@@ -347,7 +305,7 @@ if (isset($_POST['submitted'])) {
                                         <p style="margin-top:6px">Full Time</p><br>
                                     </div> 
                                 </div>
-                                <a href="/career/career-details.php"> 
+                                <a href="/karir/karir-detail.php"> 
                                     <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
                                         <h6 class="m-0 d-flex flex-row justify-content-between">
                                             <span>See Details </span>
@@ -380,7 +338,7 @@ if (isset($_POST['submitted'])) {
                                         <p style="margin-top:6px">Full Time</p><br>
                                     </div> 
                                 </div>
-                                <a href="/career/career-details.php"> 
+                                <a href="/karir/karir-detail.php"> 
                                     <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
                                         <h6 class="m-0 d-flex flex-row justify-content-between">
                                             <span>See Details </span>
@@ -413,7 +371,7 @@ if (isset($_POST['submitted'])) {
                                         <p style="margin-top:6px">Full Time</p><br>
                                     </div> 
                                 </div>
-                                <a href="/career/career-details.php"> 
+                                <a href="/karir/karir-detail.php"> 
                                     <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
                                         <h6 class="m-0 d-flex flex-row justify-content-between">
                                             <span>See Details </span>
@@ -448,7 +406,7 @@ if (isset($_POST['submitted'])) {
                                         <p style="margin-top:6px">Full Time</p><br>
                                     </div> 
                                 </div>
-                                <a href="/career/career-details.php"> 
+                                <a href="/karir/karir-detail.php"> 
                                     <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
                                         <h6 class="m-0 d-flex flex-row justify-content-between">
                                             <span>See Details </span>
@@ -481,7 +439,7 @@ if (isset($_POST['submitted'])) {
                                         <p style="margin-top:6px">Full Time</p><br>
                                     </div> 
                                 </div>
-                                <a href="/career/career-details.php"> 
+                                <a href="/karir/karir-detail.php"> 
                                     <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
                                         <h6 class="m-0 d-flex flex-row justify-content-between">
                                             <span>See Details </span>
@@ -514,7 +472,7 @@ if (isset($_POST['submitted'])) {
                                         <p style="margin-top:6px">Full Time</p><br>
                                     </div> 
                                 </div>
-                                <a href="/career/career-details.php"> 
+                                <a href="/karir/karir-detail.php"> 
                                     <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
                                         <h6 class="m-0 d-flex flex-row justify-content-between">
                                             <span>See Details </span>
@@ -529,10 +487,11 @@ if (isset($_POST['submitted'])) {
                     </div>
                 </section>
             </div>
-        </section>
+        </section><br><br>
 
         <!-- FAQ -->
         <div>
+            <h2 align="center"> IT FAQ </h2><br><br>
             <hr>
             <div>
                 <div>
