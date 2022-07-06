@@ -182,8 +182,27 @@ if (isset($_POST['submitted'])) {
                             </div>
                             <div class="form-group">
                                 <label class="font-weight-bold" for="company_name">Posisi yang Dilamar</label>
-                                <input type="text" name="company_name" class="form-control"
-                                    placeholder="Nama Perusahaan" required>
+                                <select name="languageSelect[]" id="languageSelect" class="form-control">
+                                    <option value="" style="color:grey">- Pilih Posisi -</option>
+                                    <option value="angular">Angular</option>
+                                    <option value="css">CSS</option>
+                                    <option value="design">Graphic Design</option>
+                                    <option value="ember">Ember</option>
+                                    <option value="html">HTML</option>
+                                    <option value="ia">Information Architecture</option>
+                                    <option value="javascript">Javascript</option>
+                                    <option value="mech">Mechanical Engineering</option>
+                                    <option value="meteor">Meteor</option>
+                                    <option value="node">NodeJS</option>
+                                    <option value="plumbing">Plumbing</option>
+                                    <option value="python">Python</option>
+                                    <option value="rails">Rails</option>
+                                    <option value="react">React</option>
+                                    <option value="repair">Kitchen Repair</option>
+                                    <option value="ruby">Ruby</option>
+                                    <option value="ui">UI Design</option>
+                                    <option value="ux">User Experience</option>
+                                </select>
                             </div>
                             <div class="form-group">
                                 <div class="d-flex flex-row ">
@@ -196,7 +215,7 @@ if (isset($_POST['submitted'])) {
                                 </div>
                                 <div id="drop_zone">
                                     <p><a type="button" id="btn_file_pick" style="color:blue">Upload File</a></p>
-                                    <p>or Drag and Drop Here</p>
+                                    <p style="color:grey">or Drag and Drop Here</p>
                                     <p id="file_info"></p>
                                     <input class="form-control" type="file" id="selectfile">
                                     <p id="message_info"></p>
@@ -332,10 +351,15 @@ if (isset($_POST['submitted'])) {
 <?php include '../includes/footer.php' ?>
 
 <script async="" defer="" src="https://www.google.com/recaptcha/api.js"></script>
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N473SL3W8D"></script>
 
+<script>
+    jQuery('#languageSelect').multiselect({
+    columns: 1,
+    placeholder: 'Select Languages',
+});
+</script>
 <script>
 var fileobj;
 $(document).ready(function() {
