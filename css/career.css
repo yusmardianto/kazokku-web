@@ -109,15 +109,17 @@
     border: 2px solid var(--secondary-light)
   }
   #drop_zone {
-    width: 100%;
+    height: 50px;
     padding : 60px 0;
     margin-bottom: 32px;
+    border-radius: 10px;
     border: 2px solid var(--secondary-light);
     background-color: white;
   }
   #drop_zone p {
     font-size: 18px;
     text-align: center;
+    margin-top: -45px;
   }
   #btn_upload, #selectfile {
     display: none;
