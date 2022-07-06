@@ -351,7 +351,7 @@ if (isset($_POST['submitted'])) {
     $(".multiple-select").select2({
         placeholder: "Pilih Posisi yang Dilamar",
         allowClear: true,
-        maximumSelectionLength: 2
+        maximumSelectionLength: 3
     });
 </script>
 
