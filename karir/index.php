@@ -284,7 +284,7 @@ if (isset($_POST['submitted'])) {
                 </div>
                 <section class="container mt-6">
                     <div class="row">
-                        <div class="col-md-4">                   
+                        <div id="jobs" class="col-md-4 openjob">                   
                             <figcaption>
                                 <h4 style="margin-top:50px">
                                     PHP DEVELOPER
@@ -317,7 +317,7 @@ if (isset($_POST['submitted'])) {
                                 <hr>          
                             </figcaption>              
                         </div>
-                        <div class="col-md-4">                   
+                        <div id="jobs" class="col-md-4 openjob">                   
                             <figcaption>
                                 <h4 style="margin-top:50px">
                                     GOLANG DEVELOPER
@@ -350,7 +350,7 @@ if (isset($_POST['submitted'])) {
                                 <hr>          
                             </figcaption>              
                         </div>
-                        <div class="col-md-4">                   
+                        <div id="jobs" class="col-md-4 openjob">                   
                             <figcaption>
                                 <h4 style="margin-top:50px">
                                     BOOTCAMP PROGRAMMER
@@ -385,7 +385,7 @@ if (isset($_POST['submitted'])) {
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4">                   
+                        <div id="jobs" class="col-md-4 openjob">                   
                             <figcaption>
                                 <h4 style="margin-top:50px">
                                     PROJECT MANAGER
@@ -418,7 +418,7 @@ if (isset($_POST['submitted'])) {
                                 <hr>          
                             </figcaption>              
                         </div>
-                        <div class="col-md-4">                   
+                        <div id="jobs" class="col-md-4 openjob">                   
                             <figcaption>
                                 <h4 style="margin-top:50px">
                                     UI / UX DESIGNER
@@ -451,7 +451,7 @@ if (isset($_POST['submitted'])) {
                                 <hr>          
                             </figcaption>              
                         </div>
-                        <div class="col-md-4">                   
+                        <div id="jobs" class="col-md-4 openjob">                   
                             <figcaption>
                                 <h4 style="margin-top:50px">
                                     .NET DEVELOPER
@@ -485,12 +485,13 @@ if (isset($_POST['submitted'])) {
                             </figcaption>              
                         </div>
                     </div>
+                    <a href="#" id="load">Load More</a>
                 </section>
             </div>
         </section><br><br>
 
         <!-- FAQ -->
-        <div>
+        <!-- <div>
             <h2 align="center"> IT FAQ </h2><br><br>
             <hr>
             <div>
@@ -713,7 +714,7 @@ if (isset($_POST['submitted'])) {
                     <hr>
                 </div><br><br>
             </div>
-        </div>
+        </div> -->
     </section>
 </div><br><br><br><br><br><br>
 <div class="position-relative d-none d-sm-block d-sm-none d-md-block">
@@ -729,6 +730,19 @@ if (isset($_POST['submitted'])) {
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N473SL3W8D"></script>
+
+<script>
+$(function(){
+    $("#jobs").slice(0, 3).show(); // select the first ten
+    $("#load").click(function(e){ // click event for load more
+        e.preventDefault();
+        $("#jobs:hidden").slice(0, 3).show(); // select next 10 hidden divs and show them
+        if($("#jobs:hidden").length == 0){ // check if any hidden divs still exist
+            alert("No more divs"); // alert if there are none left
+        }
+    });
+});
+</script>
 
 <script>
   window.dataLayer = window.dataLayer || [];
