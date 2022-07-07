@@ -275,16 +275,16 @@ if (isset($_POST['submitted'])) {
         
         <!-- Open Position -->
         <section>
-            <div  class="container mt-5 pb-5">
+            <div class="container mt-5 pb-5">
                 <div class="row ">
                 <div class="col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">
                     <H2 class="text-secondary-main mt-4">
                         OPEN POSITION
                     </H2>
                 </div>
-                <section class="container mt-6">
-                    <div class="row">
-                        <div id="jobs" class="col-md-4 openjob">                   
+                <div>
+                    <div class="row flex">
+                        <div class="col-md-4 content">                   
                             <figcaption>
                                 <h4 style="margin-top:50px">
                                     PHP DEVELOPER
@@ -317,7 +317,7 @@ if (isset($_POST['submitted'])) {
                                 <hr>          
                             </figcaption>              
                         </div>
-                        <div id="jobs" class="col-md-4 openjob">                   
+                        <div class="col-md-4 content">                   
                             <figcaption>
                                 <h4 style="margin-top:50px">
                                     GOLANG DEVELOPER
@@ -350,7 +350,7 @@ if (isset($_POST['submitted'])) {
                                 <hr>          
                             </figcaption>              
                         </div>
-                        <div id="jobs" class="col-md-4 openjob">                   
+                        <div class="col-md-4 content">                   
                             <figcaption>
                                 <h4 style="margin-top:50px">
                                     BOOTCAMP PROGRAMMER
@@ -383,9 +383,7 @@ if (isset($_POST['submitted'])) {
                                 <hr>          
                             </figcaption>              
                         </div>
-                    </div>
-                    <div class="row">
-                        <div id="jobs" class="col-md-4 openjob">                   
+                        <div class="col-md-4 content">                   
                             <figcaption>
                                 <h4 style="margin-top:50px">
                                     PROJECT MANAGER
@@ -418,7 +416,7 @@ if (isset($_POST['submitted'])) {
                                 <hr>          
                             </figcaption>              
                         </div>
-                        <div id="jobs" class="col-md-4 openjob">                   
+                        <div class="col-md-4 content">                   
                             <figcaption>
                                 <h4 style="margin-top:50px">
                                     UI / UX DESIGNER
@@ -451,7 +449,7 @@ if (isset($_POST['submitted'])) {
                                 <hr>          
                             </figcaption>              
                         </div>
-                        <div id="jobs" class="col-md-4 openjob">                   
+                        <div class="col-md-4 content">                   
                             <figcaption>
                                 <h4 style="margin-top:50px">
                                     .NET DEVELOPER
@@ -484,9 +482,108 @@ if (isset($_POST['submitted'])) {
                                 <hr>          
                             </figcaption>              
                         </div>
+                        <div class="col-md-4 content">                   
+                            <figcaption>
+                                <h4 style="margin-top:50px">
+                                    .NET DEVELOPER
+                                </h4><br><br>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="/images/career/location.png" loading="lazy" />
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p style="margin-top:6px">South Jakarta, Indonesia</p>
+                                    </div> 
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="/images/career/job.png" loading="lazy" />
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p style="margin-top:6px">Full Time</p><br>
+                                    </div> 
+                                </div>
+                                <a href="/karir/karir-detail.php"> 
+                                    <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                                        <h6 class="m-0 d-flex flex-row justify-content-between">
+                                            <span>See Details </span>
+                                            &nbsp;
+                                            <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                                        </h6>
+                                    </button>
+                                </a><br><br>
+                                <hr>          
+                            </figcaption>              
+                        </div>
+                        <div class="col-md-4 content">                   
+                            <figcaption>
+                                <h4 style="margin-top:50px">
+                                    .NET DEVELOPER
+                                </h4><br><br>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="/images/career/location.png" loading="lazy" />
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p style="margin-top:6px">South Jakarta, Indonesia</p>
+                                    </div> 
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="/images/career/job.png" loading="lazy" />
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p style="margin-top:6px">Full Time</p><br>
+                                    </div> 
+                                </div>
+                                <a href="/karir/karir-detail.php"> 
+                                    <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                                        <h6 class="m-0 d-flex flex-row justify-content-between">
+                                            <span>See Details </span>
+                                            &nbsp;
+                                            <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                                        </h6>
+                                    </button>
+                                </a><br><br>
+                                <hr>          
+                            </figcaption>              
+                        </div>
+                        <div class="col-md-4 content">                   
+                            <figcaption>
+                                <h4 style="margin-top:50px">
+                                    .NET DEVELOPER
+                                </h4><br><br>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="/images/career/location.png" loading="lazy" />
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p style="margin-top:6px">South Jakarta, Indonesia</p>
+                                    </div> 
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="/images/career/job.png" loading="lazy" />
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <p style="margin-top:6px">Full Time</p><br>
+                                    </div> 
+                                </div>
+                                <a href="/karir/karir-detail.php"> 
+                                    <button data-toggle="modal" data-target="#modal4" type="button" class="btn pt-1 pb-1 custom-bg-button-orange text-white transition-duration-500" >
+                                        <h6 class="m-0 d-flex flex-row justify-content-between">
+                                            <span>See Details </span>
+                                            &nbsp;
+                                            <img class="mt-1-half" width="16" height="8" src="/images/common/icon-white-right-arrow.png" loading="lazy" />
+                                        </h6>
+                                    </button>
+                                </a><br><br>
+                                <hr>          
+                            </figcaption>              
+                        </div>
+                        <a href="#" id="loadMore">Load More</a>
                     </div>
-                    <a href="#" id="load">Load More</a>
-                </section>
+                </div>
             </div>
         </section><br><br>
 
@@ -732,16 +829,17 @@ if (isset($_POST['submitted'])) {
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N473SL3W8D"></script>
 
 <script>
-$(function(){
-    $("#jobs").slice(0, 3).show(); // select the first ten
-    $("#load").click(function(e){ // click event for load more
-        e.preventDefault();
-        $("#jobs:hidden").slice(0, 3).show(); // select next 10 hidden divs and show them
-        if($("#jobs:hidden").length == 0){ // check if any hidden divs still exist
-            alert("No more divs"); // alert if there are none left
-        }
-    });
-});
+$(document).ready(function(){
+  $(".content").slice(0, 6).show();
+  $("#loadMore").on("click", function(e){
+    e.preventDefault();
+    $(".content:hidden").slice(0, 3).slideDown();
+    if($(".content:hidden").length == 0) {
+      $("#loadMore").text("No Content").addClass("noContent");
+    }
+  });
+  
+})
 </script>
 
 <script>

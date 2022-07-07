@@ -209,3 +209,36 @@ hr {
     border: 1.5px solid #f7941d;
     border-radius: 5px;
 }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    display: none;
+  }
+  #loadMore {
+    width: 200px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #f7941d;
+    transition: .3s;
+  }
+  #loadMore:hover {
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+    text-decoration: none;
+  }
+  .noContent {
+    color: #000 !important;
+    background-color: transparent !important;
+    pointer-events: none;
+  }
