@@ -242,3 +242,26 @@ hr {
     background-color: transparent !important;
     pointer-events: none;
   }
+
+
+.container-belajar {
+    background-color: aqua;
+    padding: 100px;
+    width: 100%;
+}
+
+.stylerow{
+    border-radius: 50px;
+    background-color: #f01716;
+    width: 100%;
+}
+.styledrow{
+    background-color: #008247;
+    width: 100%;
+}
+.textstyle{
+    padding: 100px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}

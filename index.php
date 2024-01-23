@@ -210,8 +210,24 @@
     
     <?php include './includes/card-portofolio.php' ?>  
 
+
+
   </div>
 </section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="container-belajar">
+  <div class="row">
+    <div class="col-md-6 styledrow">
+      <p>asdasd</p>
+    </div>
+    <div class="col-md-6 stylerow">
+      <p class="textstyle">asdasd</p>
+    </div>
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <?php include './includes/banner-contact.php' ?>
 <?php include './includes/footer.php' ?>
@@ -225,6 +241,146 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-N473SL3W8D');
+</script>
+
+<script>
+void print_occurrences(char *s);
+
+int main()
+{
+  char s[] = "abcdefghijklmnopabcdefabcab";
+  char temp;
+  int i, j;
+  int n = strlen(s);
+  print_occurrences(s);
+  
+  for (i = 0; i < n-1; i++) {
+      for (j = i+1; j < n; j++) {
+         if (s[i] > s[j]) {
+            temp = s[i];
+            s[i] = s[j];
+            s[j] = temp;
+         }
+      }
+   }
+   
+   printf("String after sorting  - %s \n", s);
+   return 0;
+}
+
+void print_occurrences(char *s)
+{
+
+  int length = strlen(s);
+  char unique[length];
+  int counted = 0;
+  
+  for (int i = 0; i < length; i++)
+  {
+    bool already_counted = false;
+    for (int j = 0; j < counted; j++)
+      if (s[i] == unique[j])
+        already_counted = true;
+
+    if (already_counted) continue;
+    int count = 0;
+    for (int j = 0; j < length; j++)
+      if (s[i] == s[j]) count++;
+    
+    printf("%c - %d\n", s[i], count);
+    
+    unique[counted] = s[i];
+    counted++;
+  }
+}
+
+</script>
+<script>
+  function matrix(m1, m2) {
+    var result = [];
+    for (var i = 0; i < m1.length; i++) {
+        result[i] = [];
+        for (var j = 0; j < m2[0].length; j++) {
+            var sum = 0;
+            for (var k = 0; k < m1[0].length; k++) {
+                sum += m1[i][k] * m2[k][j];
+            }
+            result[i][j] = sum;
+        }
+    }
+    return result;
+  }
+
+  var m1 = [[4,5],[6,7]]
+  var m2 = [[8,9],[10,8]]
+
+  var mResult = matrix(m1, m2)
+  console.table(mResult)
+</script>
+
+<?php
+	$totals = array();
+
+  $count = 0;
+  for ($x = 1 ; $x <= 6 ; $x++) {
+      for ($y = 1 ; $y <= 6 ; $y++) {
+          for ($z = 1 ; $z <= 6 ; $z++) {
+              $total = $x + $y + $z;
+              if (isset($totals[$total])) {
+                  $totals[$total]++;
+              } else {
+                  $totals[$total] = 1;
+              }
+              $count++;
+          }
+      }
+  }
+
+  foreach ($totals as $num => $freq) {
+      $probability = number_format(100*$freq/$count,2);
+      echo "$num: $freq ($probability %)\n";
+  }
+?>
+
+<script>
+  function Fibs(num) {
+    let fiboNums = [1,1]
+    let nextNums = fiboNums[fiboNums.length-2] + fiboNums[fiboNums.length-1]
+    
+    while (nextNums <= num){
+      fiboNums.push(nextNums);
+      nextNums = fiboNums[fiboNums.length-2] + fiboNums[fiboNums.length-1]
+    }
+    return fiboNums
+  }
+
+  console.log("Fibonacci :", Fibs(1000000));
+
+  function sumevenFibs(num) {
+    let fiboNums = [1,1]
+    let nextNums = fiboNums[fiboNums.length-2] + fiboNums[fiboNums.length-1]
+    
+    while (nextNums <= num){
+      fiboNums.push(nextNums);
+      nextNums = fiboNums[fiboNums.length-2] + fiboNums[fiboNums.length-1]
+    }
+    return fiboNums.filter(element => element % 2 == 0 ).reduce((a,b) => a+b)
+  }
+
+  console.log("Event :", sumevenFibs(3));
+
+  function sumoddFibs(num) {
+    let fiboNums = [1,1]
+    let nextNums = fiboNums[fiboNums.length-2] + fiboNums[fiboNums.length-1]
+    
+    while (nextNums <= num){
+      fiboNums.push(nextNums);
+      nextNums = fiboNums[fiboNums.length-2] + fiboNums[fiboNums.length-1]
+    }
+    return fiboNums.filter(element => element % 2 == 1 ).reduce((a,b) => a+b)
+  }
+
+  console.log("Odd :", sumoddFibs(3));
 </script>
 
 <script>  
